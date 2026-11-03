@@ -25,7 +25,7 @@ jobs:
           RCLONE_CONF: ${{ secrets.RCLONE_CONFIG }}
         run: |
           mkdir -p ~/.config/rclone
-          printf '%s' "$RCLONE_CONF" > ~/.config/rclone/rclone.conf
+          printf '%s' "$RCLONE_CONF" | sed 's/[«»“”„]/"/g; s/\xc2\xa0/ /g' > ~/.config/rclone/rclone.conf
 
       - name: Download & upload
         env:
