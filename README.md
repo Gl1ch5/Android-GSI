@@ -20,7 +20,7 @@
 <!-- GSI-LIST-EN:START -->
 | ROM | Android | Build | Size | Date | Download |
 |---|:---:|---|---:|---|:---:|
-| — | — | — | — | — | — |
+| **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bvN.img` | 2.4 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1KyeNeoioDQlNoRbQ3Mg0h13SS8UTRFE4) |
 <!-- GSI-LIST-EN:END -->
 
 The list updates automatically every day. Every file is a single ready-to-use `.img` — no archives, nothing to unpack.
@@ -55,7 +55,7 @@ fastboot reboot
 <!-- GSI-LIST-RU:START -->
 | Прошивка | Android | Сборка | Размер | Дата | Скачать |
 |---|:---:|---|---:|---|:---:|
-| — | — | — | — | — | — |
+| **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bvN.img` | 2.4 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1KyeNeoioDQlNoRbQ3Mg0h13SS8UTRFE4) |
 <!-- GSI-LIST-RU:END -->
 
 Список обновляется автоматически каждый день. Каждый файл — один готовый `.img`, без архивов, ничего распаковывать не нужно.
