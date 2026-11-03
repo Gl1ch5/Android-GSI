@@ -303,8 +303,8 @@ const T = {
   f_android:"Версия Android",f_system:"Система",all:"Все",empty:"Ничего не найдено",
   device:"Устройство",soc:"Процессор",size:"Размер",date:"Дата",download:"Скачать",copied:"Ссылка скопирована",
   generic:"Универсальная GSI",
-  q_title:"Очередь загрузки",q_lead:"Что сейчас скачивается и загружается на зеркало. Обновляется каждые 30 секунд.",
-  q_run:"Загружается",q_wait:"В очереди",q_ok:"Готово",q_fail:"Ошибка",q_empty:"Сейчас ничего не загружается. Новые прошивки проверяются каждый день.",q_err:"Не удалось получить очередь (лимит GitHub API). Попробуйте позже.",q_upd:"Обновлено",
+  q_title:"Очередь загрузки",q_lead:"Что сейчас скачивается и загружается на зеркало. Обновляется каждые 2 минуты.",
+  q_run:"Загружается",q_wait:"В очереди",q_ok:"Готово",q_fail:"Ошибка",q_empty:"Сейчас ничего не загружается. Новые прошивки проверяются каждый день.",q_err:"Не удалось получить очередь (лимит GitHub API). Попробуйте позже.",q_upd:"Обновлено",q_limit:"лимит GitHub API, следующее обновление после",
   r_title:"Запросить прошивку",r_lead:"Нашли GSI, которой здесь нет? Пришлите ссылку — после проверки она появится в каталоге.",
   r_url:"Прямая ссылка на файл",r_url_help:"GitHub, SourceForge, Google Drive или прямая ссылка. Форматы: .img, .img.xz, .img.gz, .zip, .7z",
   r_name:"Название",r_notes:"Комментарий (необязательно)",r_send:"Отправить запрос",
@@ -321,8 +321,8 @@ const T = {
   f_android:"Android version",f_system:"System",all:"All",empty:"Nothing found",
   device:"Device",soc:"Chipset",size:"Size",date:"Date",download:"Download",copied:"Link copied",
   generic:"Generic GSI",
-  q_title:"Download queue",q_lead:"What is being downloaded and uploaded to the mirror right now. Refreshes every 30 seconds.",
-  q_run:"Uploading",q_wait:"Queued",q_ok:"Done",q_fail:"Failed",q_empty:"Nothing is running right now. New builds are checked daily.",q_err:"Couldn't load the queue (GitHub API limit). Try again later.",q_upd:"Updated",
+  q_title:"Download queue",q_lead:"What is being downloaded and uploaded to the mirror right now. Refreshes every 2 minutes.",
+  q_run:"Uploading",q_wait:"Queued",q_ok:"Done",q_fail:"Failed",q_empty:"Nothing is running right now. New builds are checked daily.",q_err:"Couldn't load the queue (GitHub API limit). Try again later.",q_upd:"Updated",q_limit:"GitHub API limit, next refresh after",
   r_title:"Request a ROM",r_lead:"Found a GSI that isn't here? Send the link — once reviewed it will appear in the catalog.",
   r_url:"Direct link to the file",r_url_help:"GitHub, SourceForge, Google Drive or a direct link. Formats: .img, .img.xz, .img.gz, .zip, .7z",
   r_name:"Name",r_notes:"Comment (optional)",r_send:"Send request",
@@ -359,7 +359,7 @@ setTheme(store.get("theme"));
 function showTab(id){
   document.querySelectorAll("nav.tabs button").forEach(b => b.classList.toggle("on", b.dataset.tab === id));
   document.querySelectorAll("main > section").forEach(s => s.classList.toggle("hidden", s.id !== "tab-" + id));
-  if (id === "queue") loadQueue();
+  if (id === "queue") loadQueue(true);
   history.replaceState(null, "", "#" + id);
 }
 document.querySelectorAll("nav.tabs button").forEach(b => b.onclick = () => showTab(b.dataset.tab));
@@ -486,30 +486,55 @@ function snack(msg){ const s = document.getElementById("snack"); s.textContent =
 
 /* queue — live from GitHub Actions */
 let Q = null, qTimer;
-async function loadQueue(){
-  clearTimeout(qTimer);
-  try {
-    const wf = ["sync-gsi.yml", "build-mystic.yml"];
-    const runs = { workflow_runs: (await Promise.all(wf.map(w => fetch(`${API}/actions/workflows/${w}/runs?per_page=3`)
-      .then(r => { if (!r.ok) throw 0; return r.json(); })))).flatMap(x => x.workflow_runs) };
-    const active = runs.workflow_runs.filter(r => r.status !== "completed" || Date.now() - new Date(r.updated_at) < 3600e3);
-    const jobs = (await Promise.all(active.slice(0, 3).map(r =>
-      fetch(`${API}/actions/runs/${r.id}/jobs?per_page=100`).then(x => x.ok ? x.json() : {jobs: []})))).flatMap(j => j.jobs);
-    Q = jobs.filter(j => !["plan", "sync"].includes(j.name)).slice(0, 120);
-  } catch { Q = "err"; }
-  renderQueue();
-  qTimer = setTimeout(loadQueue, 30000);
+/* GitHub API без токена: 60 запросов/час на IP. Экономим:
+   — условные запросы с ETag (ответ 304 в лимит не засчитывается),
+   — 2 запроса на обновление, раз в 2 минуты и только пока вкладка видна,
+   — при лимите показываем последнюю сохранённую очередь. */
+const ETAGS = {};
+async function gh(url){
+  const c = ETAGS[url], h = c ? {"If-None-Match": c.etag} : {};
+  const r = await fetch(url, {headers: h});
+  if (r.status === 304 && c) return c.data;
+  if (!r.ok) { const e = new Error("api"); e.reset = +r.headers.get("x-ratelimit-reset"); throw e; }
+  const data = await r.json();
+  if (r.headers.get("etag")) ETAGS[url] = {etag: r.headers.get("etag"), data};
+  return data;
 }
+let qAt = 0, qReset = 0;
+async function loadQueue(force){
+  clearTimeout(qTimer);
+  const onQueue = !document.getElementById("tab-queue").classList.contains("hidden");
+  if (!document.hidden && (force || onQueue || !qAt)) {
+    try {
+      const runs = (await gh(`${API}/actions/runs?per_page=10`)).workflow_runs
+        .filter(r => /sync-gsi|build-mystic/.test(r.path));
+      const active = runs.filter(r => r.status !== "completed");
+      const pick = active.length ? active.slice(0, 2) : runs.slice(0, 1);
+      const jobs = (await Promise.all(pick.map(r => gh(`${API}/actions/runs/${r.id}/jobs?per_page=100`).catch(() => ({jobs: []}))))).flatMap(j => j.jobs);
+      Q = jobs.filter(j => !["plan", "sync"].includes(j.name)).slice(0, 150);
+      qAt = Date.now(); qReset = 0;
+      store.set("queue", JSON.stringify({at: qAt, q: Q}));
+    } catch (e) {
+      qReset = e.reset ? e.reset * 1000 : 0;
+      const saved = (() => { try { return JSON.parse(store.get("queue")); } catch { return null; } })();
+      if (saved && saved.q) { Q = saved.q; qAt = saved.at; } else if (!Array.isArray(Q)) Q = "err";
+    }
+    renderQueue();
+  }
+  qTimer = setTimeout(loadQueue, onQueue ? 120000 : 300000);
+}
+document.addEventListener("visibilitychange", () => { if (!document.hidden) loadQueue(); });
 function renderQueue(){
   const el = document.getElementById("queue"); if (!el) return;
   const badge = document.getElementById("qbadge");
   if (Q === null) { el.innerHTML = ""; return; }
-  if (Q === "err") { el.innerHTML = `<div class="note"><svg class="i"><use href="#i-err"/></svg>${t("q_err")}</div>`; return; }
+  if (Q === "err") { el.innerHTML = `<div class="note"><svg class="i"><use href="#i-err"/></svg>${t("q_err")}${qReset ? " " + t("q_limit") + " " + new Date(qReset).toLocaleTimeString() : ""}</div>`; return; }
   const order = {in_progress: 0, queued: 1, waiting: 1, pending: 1, completed: 2};
   const list = [...Q].sort((a, b) => order[a.status] - order[b.status]);
   const running = list.filter(j => j.status !== "completed").length;
   badge.textContent = running; badge.classList.toggle("hidden", !running);
-  document.getElementById("q-upd").textContent = `${t("q_upd")}: ${new Date().toLocaleTimeString()}`;
+  document.getElementById("q-upd").textContent = `${t("q_upd")}: ${new Date(qAt || Date.now()).toLocaleTimeString()}` +
+    (qReset ? ` · ${t("q_limit")} ${new Date(qReset).toLocaleTimeString()}` : "");
   if (!list.length) { el.innerHTML = `<div class="empty"><svg><use href="#i-empty"/></svg><div>${t("q_empty")}</div></div>`; return; }
   const CODES = {hyperos:"HyperOS",oneui:"One UI",originos:"OriginOS",coloros:"ColorOS",oxygenos:"OxygenOS",magicos:"MagicOS",pixel:"Pixel",realmeui:"realme UI",flyme:"Flyme",nothing:"Nothing OS",zuxos:"ZUXOS",zenui:"ZenUI"};
   const row = j => {
