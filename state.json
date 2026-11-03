@@ -675,5 +675,15 @@
     "size_mb": 5798,
     "link": "https://drive.google.com/open?id=1ClbHEZ7Dcq20F23eSEUfhcmkYKnXxUSo",
     "date": "2025-09-25"
+  },
+  "mystic-gsi-updates/OneUI/Oneui-gts9-16-X716BXXS5DYJ2-AB-20251124-MysticGSI.zip": {
+    "name": "One UI (gts9) · Mystic",
+    "tag": "OneUI",
+    "file": "Oneui-gts9-16-X716BXXS5DYJ2-AB-20251124-MysticGSI.img.xz",
+    "src_file": "Oneui-gts9-16-X716BXXS5DYJ2-AB-20251124-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 2877,
+    "link": "https://drive.google.com/open?id=1VHexDWQLXaTiIc9XOZvG8OBJs5GKxxVq",
+    "date": "2025-11-24"
   }
 }
