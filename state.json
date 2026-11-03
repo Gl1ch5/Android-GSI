@@ -545,5 +545,15 @@
     "size_mb": 3702,
     "link": "https://drive.google.com/open?id=1_b8ZQYY5Z_JV37wgpCwftYwCP4Mos-WT",
     "date": "2025-10-21"
+  },
+  "mystic-gsi-updates/Generic/Realmeui-RE6030L1-16-1760755079080-AB-20251022-MysticGSI.zip": {
+    "name": "realme UI (RE6030L1) · Mystic",
+    "tag": "Generic",
+    "file": "Realmeui-RE6030L1-16-1760755079080-AB-20251022-MysticGSI.img.xz",
+    "src_file": "Realmeui-RE6030L1-16-1760755079080-AB-20251022-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 5527,
+    "link": "https://drive.google.com/open?id=1gORFhQDorn94cSbQDIK-B7RAFHRjXQer",
+    "date": "2025-10-22"
   }
 }
