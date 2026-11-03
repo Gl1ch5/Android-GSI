@@ -35,6 +35,11 @@ jobs:
           mkdir -p ~/.config/rclone
           printf '%s' "$RCLONE_CONF" | sed 's/[«»“”„]/"/g; s/\xc2\xa0/ /g' > ~/.config/rclone/rclone.conf
 
+      - name: Git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+
       - name: Download & upload
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -146,9 +146,27 @@ def main():
                               "android": detect_android(f"{tag} {title} {aname}"),
                               "size_mb": round(size / 2**20), "link": link,
                               "date": date}
-                STATE.write_text(json.dumps(state, indent=2, ensure_ascii=False) + "\n")
+                render(state)
+                publish(f"Add {img.name}")
 
     render(state)
+
+
+def publish(msg):
+    """Сразу коммитит README/state.json, чтобы ссылка появилась, не дожидаясь конца."""
+    if not os.environ.get("GITHUB_ACTIONS"):
+        return
+    try:
+        subprocess.run(["git", "add", "README.md", "state.json"], cwd=ROOT, check=True)
+        if subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT).returncode == 0:
+            return
+        subprocess.run(["git", "commit", "-qm", msg], cwd=ROOT, check=True)
+        for _ in range(3):
+            subprocess.run(["git", "pull", "-q", "--rebase", "-X", "theirs"], cwd=ROOT)
+            if subprocess.run(["git", "push", "-q"], cwd=ROOT).returncode == 0:
+                return
+    except Exception as e:
+        print("publish failed:", e)
 
 
 def render(state):
