@@ -43,8 +43,9 @@
   {
    "file": "YAAP-16.2_GSI_treble_arm64-ab_MICROG-20260517.img.xz",
    "name": "YAAP",
-   "status": "queued",
-   "run": "41631300864"
+   "status": "in_progress",
+   "run": "41631300864",
+   "started": "2026-11-03T12:06:01+00:00"
   },
   {
    "file": "Zuxos-TB322FC-16-TB322FC_CN_OPEN_USER_Q00041.1_W_ZUXOS_1.5.10.063_ST_260111-AB-20260114-MysticGSI.zip",
@@ -368,6 +369,6 @@
    "finished": "2026-11-03T05:38:59Z"
   }
  ],
- "updated": "2026-11-03T12:05:52+00:00",
+ "updated": "2026-11-03T12:06:01+00:00",
  "run": "41631300864"
 }
