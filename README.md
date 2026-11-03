@@ -20,6 +20,7 @@
 <!-- GSI-LIST-EN:START -->
 | ROM | Android | Build | Size | Date | Download |
 |---|:---:|---|---:|---|:---:|
+| **Pixel 17 (MysticGSI)** | 17 | `Pixel-frankel-17-16271449-AB-20261103-MysticGSI.img` | 3.9 GB | 2026-11-03 | [⬇️ Download](https://drive.google.com/open?id=1V3HzCxgyifPeCM5eIQi_o6KxqiwoFEVR) |
 | **LineageOS 24 (eyzner)** | 17 | `lineage-24.0-20261029-UNOFFICIAL-arm64_bvN-erofs.img.xz` | 1.0 GB | 2026-10-29 | [⬇️ Download](https://drive.google.com/open?id=1vPVuCMaOQJ9Xz9o8NcKVSpskYFZMzpZw) |
 | **LineageOS 24 (eyzner)** | 17 | `lineage-24.0-20261029-UNOFFICIAL-arm64_bvN.img.xz` | 0.9 GB | 2026-10-29 | [⬇️ Download](https://drive.google.com/open?id=1kjUNOoR2IayKzmg_Zah67reRX3b1TdbY) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bvN.img` | 2.4 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1KyeNeoioDQlNoRbQ3Mg0h13SS8UTRFE4) |
@@ -64,6 +65,7 @@ fastboot reboot
 <!-- GSI-LIST-RU:START -->
 | Прошивка | Android | Сборка | Размер | Дата | Скачать |
 |---|:---:|---|---:|---|:---:|
+| **Pixel 17 (MysticGSI)** | 17 | `Pixel-frankel-17-16271449-AB-20261103-MysticGSI.img` | 3.9 GB | 2026-11-03 | [⬇️ Скачать](https://drive.google.com/open?id=1V3HzCxgyifPeCM5eIQi_o6KxqiwoFEVR) |
 | **LineageOS 24 (eyzner)** | 17 | `lineage-24.0-20261029-UNOFFICIAL-arm64_bvN-erofs.img.xz` | 1.0 GB | 2026-10-29 | [⬇️ Скачать](https://drive.google.com/open?id=1vPVuCMaOQJ9Xz9o8NcKVSpskYFZMzpZw) |
 | **LineageOS 24 (eyzner)** | 17 | `lineage-24.0-20261029-UNOFFICIAL-arm64_bvN.img.xz` | 0.9 GB | 2026-10-29 | [⬇️ Скачать](https://drive.google.com/open?id=1kjUNOoR2IayKzmg_Zah67reRX3b1TdbY) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bvN.img` | 2.4 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1KyeNeoioDQlNoRbQ3Mg0h13SS8UTRFE4) |

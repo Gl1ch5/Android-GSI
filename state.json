@@ -106,5 +106,14 @@
     "size_mb": 897,
     "link": "https://drive.google.com/open?id=1kjUNOoR2IayKzmg_Zah67reRX3b1TdbY",
     "date": "2026-10-29"
+  },
+  "mystic/pixel17-20261103-0423/Pixel-frankel-17-16271449-AB-20261103-MysticGSI.img": {
+    "name": "Pixel 17 (MysticGSI)",
+    "tag": "pixel17-20261103-0423",
+    "file": "Pixel-frankel-17-16271449-AB-20261103-MysticGSI.img",
+    "android": "17",
+    "size_mb": 3944,
+    "link": "https://drive.google.com/open?id=1V3HzCxgyifPeCM5eIQi_o6KxqiwoFEVR",
+    "date": "2026-11-03"
   }
 }

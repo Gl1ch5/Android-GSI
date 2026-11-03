@@ -162,8 +162,14 @@ def publish(msg):
         if subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT).returncode == 0:
             return
         subprocess.run(["git", "commit", "-qm", msg], cwd=ROOT, check=True)
-        for _ in range(3):
-            subprocess.run(["git", "pull", "-q", "--rebase", "-X", "theirs"], cwd=ROOT)
+        for _ in range(5):
+            mine = json.loads(STATE.read_text())
+            subprocess.run(["git", "fetch", "-q", "origin"], cwd=ROOT)
+            subprocess.run(["git", "reset", "-q", "--hard", "@{u}"], cwd=ROOT)
+            theirs = json.loads(STATE.read_text()) if STATE.exists() else {}
+            render({**theirs, **mine})  # объединяем записи, ничего не теряем
+            subprocess.run(["git", "add", "README.md", "state.json"], cwd=ROOT, check=True)
+            subprocess.run(["git", "commit", "-qm", msg], cwd=ROOT)
             if subprocess.run(["git", "push", "-q"], cwd=ROOT).returncode == 0:
                 return
     except Exception as e:

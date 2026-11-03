@@ -15,3 +15,4 @@ state[f"mystic/{tag}/{file}"] = {"name": name, "tag": tag, "file": file, "androi
                                  "size_mb": round(int(size) / 2**20), "link": link,
                                  "date": datetime.date.today().isoformat()}
 sync.render(state)
+sync.publish(f"Add {file}")
