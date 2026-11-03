@@ -405,5 +405,15 @@
     "size_mb": 2881,
     "link": "https://drive.google.com/open?id=1TWN_q7HGpQTsfzO4bxny9racUBxV47-a",
     "date": "2025-12-07"
+  },
+  "mystic-gsi-updates/Generic/Pixel-raven-CinnamonBun-14876943-AB-20260213-MysticGSI.zip": {
+    "name": "Pixel (raven) · Mystic",
+    "tag": "Generic",
+    "file": "Pixel-raven-CinnamonBun-14876943-AB-20260213-MysticGSI.img.xz",
+    "src_file": "Pixel-raven-CinnamonBun-14876943-AB-20260213-MysticGSI.zip",
+    "android": "17",
+    "size_mb": 2379,
+    "link": "https://drive.google.com/open?id=1GWkLFHxFZXZswFOHCR92L02XBmsKndvY",
+    "date": "2026-02-13"
   }
 }

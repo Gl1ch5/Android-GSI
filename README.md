@@ -38,6 +38,7 @@ Catalog with search, filters, live queue and ROM requests<br>
 | **ColorOS (OP60FFL1) · Mystic** | 17 | `Coloros-OP60FFL1-CinnamonBun-1773378796435-AB-20260325-MysticGSI.img.xz` | 5.0 GB | 2026-03-25 | [⬇️ Download](https://drive.google.com/open?id=1cVGyMF-lU7QJ0XakLClhYWmaiT_6th50) |
 | **ColorOS (OP64DDL1) · Mystic** | 16 | `Coloros-OP64DDL1-16-1769698117230-AB-20260315-MysticGSI.img.xz` | 3.5 GB | 2026-03-15 | [⬇️ Download](https://drive.google.com/open?id=1CNELqzW_oKkQOMsUU67srsJvGEMjS_fK) |
 | **Pixel (cheetah) · Mystic** | 17 | `Pixel-cheetah-CinnamonBun-14911996-AB-20260227-MysticGSI.img.xz` | 2.4 GB | 2026-02-27 | [⬇️ Download](https://drive.google.com/open?id=13KqKleyDn8y6drBwZ6rttUWfhjqhrYg_) |
+| **Pixel (raven) · Mystic** | 17 | `Pixel-raven-CinnamonBun-14876943-AB-20260213-MysticGSI.img.xz` | 2.3 GB | 2026-02-13 | [⬇️ Download](https://drive.google.com/open?id=1GWkLFHxFZXZswFOHCR92L02XBmsKndvY) |
 | **One UI (gts9wifi) · Mystic** | 16 | `Oneui-gts9wifi-16-X710ZCS5DZA1-AB-20260211-MysticGSI.img.xz` | 2.3 GB | 2026-02-11 | [⬇️ Download](https://drive.google.com/open?id=1MI5jZzpcDPPHAu6-00bvf8U6mpWIBuWV) |
 | **MagicOS (BKQ) · Mystic** | 16 | `Magicos-BKQ-AN00-16-eng.root-AB-20260125-MysticGSI.img.xz` | 5.3 GB | 2026-01-25 | [⬇️ Download](https://drive.google.com/open?id=1bil6N1UI3EkD5fG8occ1OYssyeKTYIKi) |
 | **HyperOS (nezha) · Mystic** | 16 | `Hyperos-nezha-16-OS3.0.5.0.WPACNDM-AB-20260118-MysticGSI.img.xz` | 3.0 GB | 2026-01-18 | [⬇️ Download](https://drive.google.com/open?id=17eFYqOKo398keWxyjhxP87BmaBrm_TSq) |
@@ -112,6 +113,7 @@ fastboot reboot
 | **ColorOS (OP60FFL1) · Mystic** | 17 | `Coloros-OP60FFL1-CinnamonBun-1773378796435-AB-20260325-MysticGSI.img.xz` | 5.0 GB | 2026-03-25 | [⬇️ Скачать](https://drive.google.com/open?id=1cVGyMF-lU7QJ0XakLClhYWmaiT_6th50) |
 | **ColorOS (OP64DDL1) · Mystic** | 16 | `Coloros-OP64DDL1-16-1769698117230-AB-20260315-MysticGSI.img.xz` | 3.5 GB | 2026-03-15 | [⬇️ Скачать](https://drive.google.com/open?id=1CNELqzW_oKkQOMsUU67srsJvGEMjS_fK) |
 | **Pixel (cheetah) · Mystic** | 17 | `Pixel-cheetah-CinnamonBun-14911996-AB-20260227-MysticGSI.img.xz` | 2.4 GB | 2026-02-27 | [⬇️ Скачать](https://drive.google.com/open?id=13KqKleyDn8y6drBwZ6rttUWfhjqhrYg_) |
+| **Pixel (raven) · Mystic** | 17 | `Pixel-raven-CinnamonBun-14876943-AB-20260213-MysticGSI.img.xz` | 2.3 GB | 2026-02-13 | [⬇️ Скачать](https://drive.google.com/open?id=1GWkLFHxFZXZswFOHCR92L02XBmsKndvY) |
 | **One UI (gts9wifi) · Mystic** | 16 | `Oneui-gts9wifi-16-X710ZCS5DZA1-AB-20260211-MysticGSI.img.xz` | 2.3 GB | 2026-02-11 | [⬇️ Скачать](https://drive.google.com/open?id=1MI5jZzpcDPPHAu6-00bvf8U6mpWIBuWV) |
 | **MagicOS (BKQ) · Mystic** | 16 | `Magicos-BKQ-AN00-16-eng.root-AB-20260125-MysticGSI.img.xz` | 5.3 GB | 2026-01-25 | [⬇️ Скачать](https://drive.google.com/open?id=1bil6N1UI3EkD5fG8occ1OYssyeKTYIKi) |
 | **HyperOS (nezha) · Mystic** | 16 | `Hyperos-nezha-16-OS3.0.5.0.WPACNDM-AB-20260118-MysticGSI.img.xz` | 3.0 GB | 2026-01-18 | [⬇️ Скачать](https://drive.google.com/open?id=17eFYqOKo398keWxyjhxP87BmaBrm_TSq) |
