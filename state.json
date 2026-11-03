@@ -185,5 +185,15 @@
     "size_mb": 5537,
     "link": "https://drive.google.com/open?id=1Akzm0c5AVtC9Yx76bz77dhAFGYJ40qfj",
     "date": "2026-03-26"
+  },
+  "mystic-gsi-updates/Generic/Flyme-meizu20Pro-16-1766690413-AB-20251227-MysticGSI.zip": {
+    "name": "Flyme (meizu20Pro) · Mystic",
+    "tag": "Generic",
+    "file": "Flyme-meizu20Pro-16-1766690413-AB-20251227-MysticGSI.img.xz",
+    "src_file": "Flyme-meizu20Pro-16-1766690413-AB-20251227-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 4628,
+    "link": "https://drive.google.com/open?id=1uEq8FvI-SMPudMJ0ZIJnjRNqtzJSnFHt",
+    "date": "2025-12-26"
   }
 }
