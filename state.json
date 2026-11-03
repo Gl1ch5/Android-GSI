@@ -1005,5 +1005,15 @@
     "size_mb": 1367,
     "link": "https://drive.google.com/open?id=1eFQo-saYX9peITvYGmpz-g58t6IxJ2nd",
     "date": "2026-06-11"
+  },
+  "Doze-off/Project-CiRCLE_gsi/2026-08-16/ProjectCiRCLE-1.2-GSI_treble_arm64-ab-MICROG-20260816.img.xz": {
+    "name": "Project CiRCLE",
+    "tag": "2026-08-16",
+    "file": "ProjectCiRCLE-1.2-GSI_treble_arm64-ab-MICROG-20260816.img.xz",
+    "src_file": "ProjectCiRCLE-1.2-GSI_treble_arm64-ab-MICROG-20260816.img.xz",
+    "android": "16",
+    "size_mb": 933,
+    "link": "https://drive.google.com/open?id=1Wyfu6m-GoW7AtUR54Dfd-GKbzTVxa07Y",
+    "date": "2026-08-16"
   }
 }
