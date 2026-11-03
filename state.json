@@ -605,5 +605,15 @@
     "size_mb": 5464,
     "link": "https://drive.google.com/open?id=1_VyJ0y6hHpTTnNQCP6nHezaNTW3h903p",
     "date": "2025-10-24"
+  },
+  "mystic-gsi-updates/ColorOS/Coloros-OP6542L1-16-1757960617399-AB-20251015-MysticGSI.zip": {
+    "name": "ColorOS (OP6542L1) · Mystic",
+    "tag": "ColorOS",
+    "file": "Coloros-OP6542L1-16-1757960617399-AB-20251015-MysticGSI.img.xz",
+    "src_file": "Coloros-OP6542L1-16-1757960617399-AB-20251015-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 4400,
+    "link": "https://drive.google.com/open?id=1DPuDKe3kddrKv96odZMw6YmIcjyguvnr",
+    "date": "2025-10-15"
   }
 }
