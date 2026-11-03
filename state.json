@@ -445,5 +445,15 @@
     "size_mb": 3646,
     "link": "https://drive.google.com/open?id=1BoywVmnmMO5Q5mo5NljWF92EYQwN17_y",
     "date": "2025-11-17"
+  },
+  "mystic-gsi-updates/HyperOS/Hyperos-pudding-16-OS3.0.50.2.W-AB-20260122-MysticGSI.zip": {
+    "name": "HyperOS (pudding) · Mystic",
+    "tag": "HyperOS",
+    "file": "Hyperos-pudding-16-OS3.0.50.2.W-AB-20260122-MysticGSI.img.xz",
+    "src_file": "Hyperos-pudding-16-OS3.0.50.2.W-AB-20260122-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 3171,
+    "link": "https://drive.google.com/open?id=1SlCawEQEJtNvPy4P72v-KqzpjnUxU5nO",
+    "date": "2026-01-22"
   }
 }
