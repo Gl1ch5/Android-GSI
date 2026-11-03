@@ -1045,5 +1045,15 @@
     "size_mb": 1076,
     "link": "https://drive.google.com/open?id=13fQXDDRXQ-U-OKd2PSrNAg0OplBMv8EQ",
     "date": "2026-07-12"
+  },
+  "mystic-gsi-updates/ColorOS/Coloros-RE5C94L1-16-1765293415996-AB-20260105-MysticGSI.zip": {
+    "name": "ColorOS (RE5C94L1) · Mystic",
+    "tag": "ColorOS",
+    "file": "Coloros-RE5C94L1-16-1765293415996-AB-20260105-MysticGSI.img.xz",
+    "src_file": "Coloros-RE5C94L1-16-1765293415996-AB-20260105-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 3726,
+    "link": "https://drive.google.com/open?id=1rwKOXDti1GpCOOpBGD8DDBMurk0pgfN6",
+    "date": "2026-01-05"
   }
 }

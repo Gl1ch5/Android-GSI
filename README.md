@@ -78,6 +78,7 @@ Catalog with search, filters, live queue and ROM requests<br>
 | **HyperOS (nezha) · Mystic** | 16 | `Hyperos-nezha-16-OS3.0.5.0.WPACNDM-AB-20260118-MysticGSI.img.xz` | 3.0 GB | 2026-01-18 | [⬇️ Download](https://drive.google.com/open?id=17eFYqOKo398keWxyjhxP87BmaBrm_TSq) |
 | **HyperOS (dijun) · Mystic** | 16 | `Hyperos-dijun-16-OS3.0.9.0.WODCNXM-AB-20260114-MysticGSI.img.xz` | 2.8 GB | 2026-01-14 | [⬇️ Download](https://drive.google.com/open?id=16P2r3miOmz1yWmMCNpYWqFkqVBrxep9i) |
 | **Nothing OS (Asteroids) · Mystic** | 16 | `Nothing-Asteroids-16-2511181551-AB-20260111-MysticGSI.img.xz` | 1.7 GB | 2026-01-12 | [⬇️ Download](https://drive.google.com/open?id=1B1vhqjkGGsvEoqjG8suFFpC5OShh-hk-) |
+| **ColorOS (RE5C94L1) · Mystic** | 16 | `Coloros-RE5C94L1-16-1765293415996-AB-20260105-MysticGSI.img.xz` | 3.6 GB | 2026-01-05 | [⬇️ Download](https://drive.google.com/open?id=1rwKOXDti1GpCOOpBGD8DDBMurk0pgfN6) |
 | **OxygenOS (OP595DL1) · Mystic** | 16 | `Oxygenos-OP595DL1-16-1763388908922-AB-20260104-MysticGSI.img.xz` | 4.1 GB | 2026-01-04 | [⬇️ Download](https://drive.google.com/open?id=1y3nsfx2jyiqNViR3jeHi9VjQVNiJpjn-) |
 | **Flyme (meizu20Pro) · Mystic** | 16 | `Flyme-meizu20Pro-16-1766690413-AB-20251227-MysticGSI.img.xz` | 4.5 GB | 2025-12-26 | [⬇️ Download](https://drive.google.com/open?id=1uEq8FvI-SMPudMJ0ZIJnjRNqtzJSnFHt) |
 | **OxygenOS (OP556FL1) · Mystic** | 16 | `Oxygenos-OP556FL1-16-1765350064807-AB-20251227-MysticGSI.img.xz` | 4.0 GB | 2025-12-26 | [⬇️ Download](https://drive.google.com/open?id=1PEAtRvPXSvM1CpkfIi4Yi2n7nXkyfDDp) |
@@ -216,6 +217,7 @@ fastboot reboot
 | **HyperOS (nezha) · Mystic** | 16 | `Hyperos-nezha-16-OS3.0.5.0.WPACNDM-AB-20260118-MysticGSI.img.xz` | 3.0 GB | 2026-01-18 | [⬇️ Скачать](https://drive.google.com/open?id=17eFYqOKo398keWxyjhxP87BmaBrm_TSq) |
 | **HyperOS (dijun) · Mystic** | 16 | `Hyperos-dijun-16-OS3.0.9.0.WODCNXM-AB-20260114-MysticGSI.img.xz` | 2.8 GB | 2026-01-14 | [⬇️ Скачать](https://drive.google.com/open?id=16P2r3miOmz1yWmMCNpYWqFkqVBrxep9i) |
 | **Nothing OS (Asteroids) · Mystic** | 16 | `Nothing-Asteroids-16-2511181551-AB-20260111-MysticGSI.img.xz` | 1.7 GB | 2026-01-12 | [⬇️ Скачать](https://drive.google.com/open?id=1B1vhqjkGGsvEoqjG8suFFpC5OShh-hk-) |
+| **ColorOS (RE5C94L1) · Mystic** | 16 | `Coloros-RE5C94L1-16-1765293415996-AB-20260105-MysticGSI.img.xz` | 3.6 GB | 2026-01-05 | [⬇️ Скачать](https://drive.google.com/open?id=1rwKOXDti1GpCOOpBGD8DDBMurk0pgfN6) |
 | **OxygenOS (OP595DL1) · Mystic** | 16 | `Oxygenos-OP595DL1-16-1763388908922-AB-20260104-MysticGSI.img.xz` | 4.1 GB | 2026-01-04 | [⬇️ Скачать](https://drive.google.com/open?id=1y3nsfx2jyiqNViR3jeHi9VjQVNiJpjn-) |
 | **Flyme (meizu20Pro) · Mystic** | 16 | `Flyme-meizu20Pro-16-1766690413-AB-20251227-MysticGSI.img.xz` | 4.5 GB | 2025-12-26 | [⬇️ Скачать](https://drive.google.com/open?id=1uEq8FvI-SMPudMJ0ZIJnjRNqtzJSnFHt) |
 | **OxygenOS (OP556FL1) · Mystic** | 16 | `Oxygenos-OP556FL1-16-1765350064807-AB-20251227-MysticGSI.img.xz` | 4.0 GB | 2025-12-26 | [⬇️ Скачать](https://drive.google.com/open?id=1PEAtRvPXSvM1CpkfIi4Yi2n7nXkyfDDp) |
