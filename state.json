@@ -745,5 +745,15 @@
     "size_mb": 1376,
     "link": "https://drive.google.com/open?id=1JlQsDV8ZC7tXpLko9opsxPpv-UCz04hj",
     "date": "2026-06-28"
+  },
+  "Doze-off/EvoX_treble/2026-09-20/EvoX-11.11-GSI_treble_arm64-ab-GAPPS-20260920.img.xz": {
+    "name": "Evolution X",
+    "tag": "2026-09-20",
+    "file": "EvoX-11.11-GSI_treble_arm64-ab-GAPPS-20260920.img.xz",
+    "src_file": "EvoX-11.11-GSI_treble_arm64-ab-GAPPS-20260920.img.xz",
+    "android": "16",
+    "size_mb": 1467,
+    "link": "https://drive.google.com/open?id=1YHaiKOg9iol__P1mdF4uJmvq0XDafJAu",
+    "date": "2026-09-21"
   }
 }

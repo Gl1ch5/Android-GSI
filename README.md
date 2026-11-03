@@ -30,6 +30,7 @@ Catalog with search, filters, live queue and ROM requests<br>
 | **LineageOS 24 (eyzner)** | 17 | `lineage-24.0-20261029-UNOFFICIAL-arm64_bvN-erofs.img.xz` | 1.0 GB | 2026-10-29 | [⬇️ Download](https://drive.google.com/open?id=1vPVuCMaOQJ9Xz9o8NcKVSpskYFZMzpZw) |
 | **LineageOS 24 (eyzner)** | 17 | `lineage-24.0-20261029-UNOFFICIAL-arm64_bvN.img.xz` | 0.9 GB | 2026-10-29 | [⬇️ Download](https://drive.google.com/open?id=1kjUNOoR2IayKzmg_Zah67reRX3b1TdbY) |
 | **AxionOS** | 16 | `Axion-2.9-GSI_treble_arm64-ab-GAPPS-20261017.img.xz` | 1.2 GB | 2026-10-17 | [⬇️ Download](https://drive.google.com/open?id=1p0rMDoekZY6aENFh8BiQp3aVi3inaWgM) |
+| **Evolution X** | 16 | `EvoX-11.11-GSI_treble_arm64-ab-GAPPS-20260920.img.xz` | 1.4 GB | 2026-09-21 | [⬇️ Download](https://drive.google.com/open?id=1YHaiKOg9iol__P1mdF4uJmvq0XDafJAu) |
 | **Matrixx** | 16 | `Matrixx-12.5-GSI_treble_arm64-ab-GAPPS-20260710.img.xz` | 1.7 GB | 2026-07-10 | [⬇️ Download](https://drive.google.com/open?id=1ekrKa25DMYpd9honD3bqPhzYjd-stiKA) |
 | **PixelOS** | 16 | `PixelOS-16.2-GSI_treble_arm64-ab-20260628.img.xz` | 1.3 GB | 2026-06-28 | [⬇️ Download](https://drive.google.com/open?id=1JlQsDV8ZC7tXpLko9opsxPpv-UCz04hj) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bvN.img` | 2.4 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1KyeNeoioDQlNoRbQ3Mg0h13SS8UTRFE4) |
@@ -138,6 +139,7 @@ fastboot reboot
 | **LineageOS 24 (eyzner)** | 17 | `lineage-24.0-20261029-UNOFFICIAL-arm64_bvN-erofs.img.xz` | 1.0 GB | 2026-10-29 | [⬇️ Скачать](https://drive.google.com/open?id=1vPVuCMaOQJ9Xz9o8NcKVSpskYFZMzpZw) |
 | **LineageOS 24 (eyzner)** | 17 | `lineage-24.0-20261029-UNOFFICIAL-arm64_bvN.img.xz` | 0.9 GB | 2026-10-29 | [⬇️ Скачать](https://drive.google.com/open?id=1kjUNOoR2IayKzmg_Zah67reRX3b1TdbY) |
 | **AxionOS** | 16 | `Axion-2.9-GSI_treble_arm64-ab-GAPPS-20261017.img.xz` | 1.2 GB | 2026-10-17 | [⬇️ Скачать](https://drive.google.com/open?id=1p0rMDoekZY6aENFh8BiQp3aVi3inaWgM) |
+| **Evolution X** | 16 | `EvoX-11.11-GSI_treble_arm64-ab-GAPPS-20260920.img.xz` | 1.4 GB | 2026-09-21 | [⬇️ Скачать](https://drive.google.com/open?id=1YHaiKOg9iol__P1mdF4uJmvq0XDafJAu) |
 | **Matrixx** | 16 | `Matrixx-12.5-GSI_treble_arm64-ab-GAPPS-20260710.img.xz` | 1.7 GB | 2026-07-10 | [⬇️ Скачать](https://drive.google.com/open?id=1ekrKa25DMYpd9honD3bqPhzYjd-stiKA) |
 | **PixelOS** | 16 | `PixelOS-16.2-GSI_treble_arm64-ab-20260628.img.xz` | 1.3 GB | 2026-06-28 | [⬇️ Скачать](https://drive.google.com/open?id=1JlQsDV8ZC7tXpLko9opsxPpv-UCz04hj) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bvN.img` | 2.4 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1KyeNeoioDQlNoRbQ3Mg0h13SS8UTRFE4) |
