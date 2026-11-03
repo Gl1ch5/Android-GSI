@@ -104,7 +104,7 @@ nav.tabs .badge{background:var(--primary);color:var(--on-primary);border-radius:
 .empty svg{width:96px;height:96px;margin-bottom:12px}
 
 /* queue */
-.qlist{background:var(--surface-2);border-radius:20px;overflow:hidden}
+.qlist{background:var(--surface-1);border:1px solid var(--outline-variant);border-radius:20px;overflow:hidden}
 .qhead{font-size:13px;font-weight:500;color:var(--on-surface-variant);margin:18px 4px 8px;display:flex;justify-content:space-between}
 .qitem{display:flex;align-items:center;gap:14px;padding:12px 16px;min-height:72px}
 .qitem+.qitem{border-top:1px solid var(--outline-variant)}
@@ -145,6 +145,24 @@ pre{background:var(--surface-3);border-radius:12px;padding:14px;overflow-x:auto;
 /* snackbar */
 #snack{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(120px);background:var(--on-surface);color:var(--surface);padding:14px 20px;border-radius:8px;font-size:14px;transition:transform .25s,visibility .25s;visibility:hidden;z-index:50;max-width:calc(100% - 32px)}
 #snack.show{transform:translateX(-50%) translateY(0);visibility:visible}
+/* ---------- desktop ---------- */
+@media (min-width:1000px){
+  .wrap{max-width:1360px;padding:0 32px}
+  header.bar .wrap{display:grid;grid-template-columns:auto 1fr auto auto;align-items:center;column-gap:16px;border-bottom:1px solid var(--outline-variant)}
+  header.bar .row{display:contents}
+  .logo{grid-column:1;grid-row:1}
+  nav.tabs{grid-column:2;grid-row:1;border:0;justify-content:center;height:64px;align-items:stretch}
+  nav.tabs button{padding:0 18px;border-bottom-width:3px;border-radius:0}
+  .seg{grid-column:3;grid-row:1}#theme{grid-column:4;grid-row:1}
+  .hero{margin-top:28px;padding:36px 40px}
+  .layout{display:grid;grid-template-columns:280px 1fr;gap:32px;align-items:start;margin-top:24px}
+  .side{position:sticky;top:88px;background:var(--surface-1);border:1px solid var(--outline-variant);border-radius:24px;padding:16px 18px 20px}
+  .side .search{margin:0 0 6px;height:48px;background:var(--surface-3)}
+  .side .chips{gap:6px}
+  .grid{margin-top:0;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+  #tab-queue .panel{max-width:960px;border:0;background:none;padding:12px 0}
+  #tab-request .panel,#tab-howto .panel{margin-top:32px}
+}
 footer{text-align:center;color:var(--on-surface-variant);font-size:13px;padding:24px 16px 40px}
 .hidden{display:none!important}
 @media (max-width:600px){.status .st{display:none}.status{padding:0 6px;height:32px;width:32px;justify-content:center;border-radius:16px}.status svg,.status .spinner{width:18px;height:18px}#tab-queue .panel,#tab-request .panel,#tab-howto .panel{border:0;background:none;padding:8px 0;margin-top:8px}.bar .row{height:56px}.logo{font-size:18px}.logo svg{width:34px;height:34px}nav.tabs button{padding:12px 10px 10px;font-size:13px}nav.tabs button svg{width:20px;height:20px}.hero h1{font-size:26px}.hero p{font-size:14px}.hero .stat b{font-size:24px}.card{padding:14px}.specs{font-size:13.5px}.hero{padding:22px}.hero .stats{margin-left:0;gap:20px}.grid{grid-template-columns:1fr}.panel{padding:18px;border-radius:20px}.seg button{padding:0 9px}}
@@ -210,14 +228,19 @@ footer{text-align:center;color:var(--on-surface-variant);font-size:13px;padding:
       </div>
     </div>
 
-    <label class="search"><svg class="i"><use href="#i-search"/></svg><input id="q" type="search" autocomplete="off"></label>
-    <div class="label" data-t="f_android"></div>
-    <div class="chips" id="f-android"></div>
-    <div class="label" data-t="f_system"></div>
-    <div class="chips" id="f-brand"></div>
-
-    <div class="grid" id="grid"></div>
-    <div class="empty hidden" id="empty"><svg><use href="#i-empty"/></svg><div data-t="empty"></div></div>
+    <div class="layout">
+      <aside class="side">
+        <label class="search"><svg class="i"><use href="#i-search"/></svg><input id="q" type="search" autocomplete="off"></label>
+        <div class="label" data-t="f_android"></div>
+        <div class="chips" id="f-android"></div>
+        <div class="label" data-t="f_system"></div>
+        <div class="chips" id="f-brand"></div>
+      </aside>
+      <div class="content">
+        <div class="grid" id="grid"></div>
+        <div class="empty hidden" id="empty"><svg><use href="#i-empty"/></svg><div data-t="empty"></div></div>
+      </div>
+    </div>
   </section>
 
   <!-- Queue -->
@@ -276,7 +299,7 @@ const API = `https://api.github.com/repos/${CFG.owner}/${CFG.repo}`;
 const T = {
  ru:{tab_roms:"Прошивки",tab_queue:"Очередь",tab_request:"Запросить",tab_howto:"Как установить",
   hero_title:"Свежие GSI-прошивки",hero_text:"HyperOS, One UI, OxygenOS, Pixel, LineageOS, crDroid и десятки других — в одном месте, на быстром Google Диске. Список обновляется автоматически.",
-  stat_roms:"прошивок",stat_brands:"систем",stat_size:"всего",search:"Поиск: HyperOS, Pixel, Snapdragon…",
+  stat_roms:"прошивок",stat_brands:"систем",stat_size:"всего",search:"Поиск прошивок…",
   f_android:"Версия Android",f_system:"Система",all:"Все",empty:"Ничего не найдено",
   device:"Устройство",soc:"Процессор",size:"Размер",date:"Дата",download:"Скачать",copied:"Ссылка скопирована",
   generic:"Универсальная GSI",
@@ -294,7 +317,7 @@ const T = {
   footer:"Автоматическое зеркало GSI"},
  en:{tab_roms:"ROMs",tab_queue:"Queue",tab_request:"Request",tab_howto:"How to install",
   hero_title:"Fresh GSI builds",hero_text:"HyperOS, One UI, OxygenOS, Pixel, LineageOS, crDroid and dozens more — in one place, on a fast Google Drive mirror. Updated automatically.",
-  stat_roms:"ROMs",stat_brands:"systems",stat_size:"total",search:"Search: HyperOS, Pixel, Snapdragon…",
+  stat_roms:"ROMs",stat_brands:"systems",stat_size:"total",search:"Search ROMs…",
   f_android:"Android version",f_system:"System",all:"All",empty:"Nothing found",
   device:"Device",soc:"Chipset",size:"Size",date:"Date",download:"Download",copied:"Link copied",
   generic:"Generic GSI",
@@ -378,7 +401,7 @@ const gb = mb => mb >= 1024 ? (mb/1024).toFixed(1) + " GB" : mb + " MB";
 async function load(){
   try {
     const [s, d] = await Promise.all([
-      fetch(RAW + "/state.json", {cache: "no-store"}).then(r => r.json()),
+      fetch(RAW + "/state.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.json()),
       fetch("devices.json").then(r => r.json()).catch(() => ({}))
     ]);
     DEV = d;
@@ -501,6 +524,7 @@ document.getElementById("req").onsubmit = e => {
 document.getElementById("repo-link").href = `https://github.com/${CFG.owner}/${CFG.repo}`;
 applyLang();
 load();
+setInterval(() => { if (!document.hidden) load(); }, 60000);  // новые прошивки появляются без перезагрузки
 const start = location.hash.slice(1);
 if (["roms", "queue", "request", "howto"].includes(start)) showTab(start);
 else loadQueue();
