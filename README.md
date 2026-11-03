@@ -22,6 +22,7 @@
 |---|:---:|---|---:|---|:---:|
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bvN.img` | 2.4 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1KyeNeoioDQlNoRbQ3Mg0h13SS8UTRFE4) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bvN-vndklite.img.gz` | 1.1 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1HEntlfen63Ie7T8N8zA3BwKiLWov-Bdz) |
+| **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bgN-vndklite-signed.img.gz` | 1.3 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1SA6ZRxgUdysQENEy7yo0cei21KuEItAV) |
 | **ponces AOSP** | 16 | `aosp-arm64-ab-gapps-16.0-20250625.img.xz` | 1.4 GB | 2025-06-25 | [⬇️ Download](https://drive.google.com/open?id=1_y2vA2w1mKXPMBsEwweGhH5MMr0LL6pR) |
 | **ponces AOSP** | 16 | `aosp-arm64-ab-vanilla-16.0-20250625.img.xz` | 0.8 GB | 2025-06-25 | [⬇️ Download](https://drive.google.com/open?id=1mmkvghxgB5Zclt66W3L5hN1kEHfLJpZj) |
 | **ponces AOSP** | 13 | `aosp-arm64-ab-gapps-15.0-20250513.img.xz` | 1.4 GB | 2025-05-13 | [⬇️ Download](https://drive.google.com/open?id=1_d2pKToblPZTC1_rr-AIQKJBLAy1rX0B) |
@@ -64,6 +65,7 @@ fastboot reboot
 |---|:---:|---|---:|---|:---:|
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bvN.img` | 2.4 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1KyeNeoioDQlNoRbQ3Mg0h13SS8UTRFE4) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bvN-vndklite.img.gz` | 1.1 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1HEntlfen63Ie7T8N8zA3BwKiLWov-Bdz) |
+| **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bgN-vndklite-signed.img.gz` | 1.3 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1SA6ZRxgUdysQENEy7yo0cei21KuEItAV) |
 | **ponces AOSP** | 16 | `aosp-arm64-ab-gapps-16.0-20250625.img.xz` | 1.4 GB | 2025-06-25 | [⬇️ Скачать](https://drive.google.com/open?id=1_y2vA2w1mKXPMBsEwweGhH5MMr0LL6pR) |
 | **ponces AOSP** | 16 | `aosp-arm64-ab-vanilla-16.0-20250625.img.xz` | 0.8 GB | 2025-06-25 | [⬇️ Скачать](https://drive.google.com/open?id=1mmkvghxgB5Zclt66W3L5hN1kEHfLJpZj) |
 | **ponces AOSP** | 13 | `aosp-arm64-ab-gapps-15.0-20250513.img.xz` | 1.4 GB | 2025-05-13 | [⬇️ Скачать](https://drive.google.com/open?id=1_d2pKToblPZTC1_rr-AIQKJBLAy1rX0B) |
