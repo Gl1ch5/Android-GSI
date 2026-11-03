@@ -172,7 +172,22 @@ def process(it):
         print(f"+ telegram {ch}/{mid}", flush=True)
         tg_fetch.download(ch, int(mid), local)
     else:
-        run("curl", "-fL", "--retry", "3", "-o", str(local), it["url"])
+        url = it["url"]
+        m = re.match(r"https://sourceforge\.net/projects/([^/]+)/files/(.+?)(/download)?$", url)
+        if m:  # прямое зеркало SourceForge вместо страницы «ваша загрузка начнётся…»
+            url = f"https://downloads.sourceforge.net/project/{m.group(1)}/{m.group(2)}"
+        for attempt in range(4):
+            run("curl", "-fL", "--retry", "5", "--retry-all-errors", "-A", "Wget/1.21.4",
+                "-o", str(local), url)
+            with open(local, "rb") as fh:
+                head = fh.read(512).lower()
+            if b"<html" not in head and b"<!doctype" not in head:
+                break
+            print(f"получили HTML вместо файла, попытка {attempt + 2}", flush=True)
+            local.unlink()
+            __import__("time").sleep(20 * (attempt + 1))
+        else:
+            raise RuntimeError("сервер отдаёт HTML вместо файла")
     img = to_img(local)
     dest = f"{REMOTE}/{it['sid'].replace('/', '_')}/{it['tag'].replace('/', '_')}"
     run("rclone", "copy", str(img), dest)

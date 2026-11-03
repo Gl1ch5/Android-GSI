@@ -141,7 +141,7 @@ pre{background:var(--surface-3);border-radius:12px;padding:14px;overflow-x:auto;
 #snack.show{transform:translateX(-50%) translateY(0);visibility:visible}
 footer{text-align:center;color:var(--on-surface-variant);font-size:13px;padding:24px 16px 40px}
 .hidden{display:none!important}
-@media (max-width:600px){.hero{padding:22px}.hero .stats{margin-left:0;gap:20px}.grid{grid-template-columns:1fr}.panel{padding:18px;border-radius:20px}.seg button{padding:0 9px}}
+@media (max-width:600px){.bar .row{height:56px}.logo{font-size:18px}.logo svg{width:34px;height:34px}nav.tabs button{padding:12px 10px 10px;font-size:13px}nav.tabs button svg{width:20px;height:20px}.hero h1{font-size:26px}.hero p{font-size:14px}.hero .stat b{font-size:24px}.card{padding:14px}.specs{font-size:13.5px}.hero{padding:22px}.hero .stats{margin-left:0;gap:20px}.grid{grid-template-columns:1fr}.panel{padding:18px;border-radius:20px}.seg button{padding:0 9px}}
 </style>
 </head>
 <body>
@@ -436,11 +436,13 @@ let Q = null, qTimer;
 async function loadQueue(){
   clearTimeout(qTimer);
   try {
-    const runs = await fetch(`${API}/actions/runs?per_page=5`).then(r => { if (!r.ok) throw 0; return r.json(); });
+    const wf = ["sync-gsi.yml", "build-mystic.yml"];
+    const runs = { workflow_runs: (await Promise.all(wf.map(w => fetch(`${API}/actions/workflows/${w}/runs?per_page=3`)
+      .then(r => { if (!r.ok) throw 0; return r.json(); })))).flatMap(x => x.workflow_runs) };
     const active = runs.workflow_runs.filter(r => r.status !== "completed" || Date.now() - new Date(r.updated_at) < 3600e3);
     const jobs = (await Promise.all(active.slice(0, 3).map(r =>
       fetch(`${API}/actions/runs/${r.id}/jobs?per_page=100`).then(x => x.ok ? x.json() : {jobs: []})))).flatMap(j => j.jobs);
-    Q = jobs.filter(j => j.name !== "plan" && j.name !== "build" && j.name !== "sync");
+    Q = jobs.filter(j => !["plan", "sync"].includes(j.name)).slice(0, 120);
   } catch { Q = "err"; }
   renderQueue();
   qTimer = setTimeout(loadQueue, 30000);
