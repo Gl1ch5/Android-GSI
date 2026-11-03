@@ -82,8 +82,9 @@
   {
    "file": "Coloros-OP60EDL1-16-1763036366485-AB-20251123-MysticGSI.zip",
    "name": "ColorOS (OP60EDL1) · Mystic",
-   "status": "queued",
-   "run": "41631300864"
+   "status": "in_progress",
+   "run": "41631300864",
+   "started": "2026-11-03T12:05:46+00:00"
   },
   {
    "file": "Coloros-OP60FFL1-16-1760951010663-AB-20251027-MysticGSI.zip",
@@ -365,6 +366,6 @@
    "finished": "2026-11-03T05:38:59Z"
   }
  ],
- "updated": "2026-11-03T12:05:31+00:00",
+ "updated": "2026-11-03T12:05:46+00:00",
  "run": "41631300864"
 }
