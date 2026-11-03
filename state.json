@@ -1,4 +1,22 @@
 {
+  "andyyan-gsi/lineage-21-pre-qpr2-td/lineage-21.0-20260614-UNOFFICIAL-arm64_bvN.img.gz": {
+    "name": "LineageOS GSI (AndyYan)",
+    "tag": "lineage-21-pre-qpr2-td",
+    "file": "lineage-21.0-20260614-UNOFFICIAL-arm64_bvN.img",
+    "android": "14",
+    "size_mb": 2430,
+    "link": "https://drive.google.com/open?id=1KyeNeoioDQlNoRbQ3Mg0h13SS8UTRFE4",
+    "date": "2026-06-19"
+  },
+  "TrebleDroid/treble_experimentations/ci-20250415/system-td-arm64-ab-vanilla.img.xz": {
+    "name": "TrebleDroid AOSP (phh)",
+    "tag": "ci-20250415",
+    "file": "system-td-arm64-ab-vanilla.img.xz",
+    "android": "?",
+    "size_mb": 718,
+    "link": "https://drive.google.com/open?id=1QTNeSPVGdGHuR1NAas5NV3vLiBHVv3Me",
+    "date": "2025-04-15"
+  },
   "ponces/treble_aosp/v2025.06.25/aosp-arm64-ab-gapps-16.0-20250625.img.xz": {
     "name": "ponces AOSP",
     "tag": "v2025.06.25",
@@ -6,6 +24,15 @@
     "android": "16",
     "size_mb": 1460,
     "link": "https://drive.google.com/open?id=1_y2vA2w1mKXPMBsEwweGhH5MMr0LL6pR",
+    "date": "2025-06-25"
+  },
+  "ponces/treble_aosp/v2025.06.25/aosp-arm64-ab-vanilla-16.0-20250625.img.xz": {
+    "name": "ponces AOSP",
+    "tag": "v2025.06.25",
+    "file": "aosp-arm64-ab-vanilla-16.0-20250625.img.xz",
+    "android": "16",
+    "size_mb": 842,
+    "link": "https://drive.google.com/open?id=1mmkvghxgB5Zclt66W3L5hN1kEHfLJpZj",
     "date": "2025-06-25"
   },
   "ponces/treble_aosp/v2025.05.13/aosp-arm64-ab-gapps-15.0-20250513.img.xz": {
@@ -16,6 +43,24 @@
     "size_mb": 1420,
     "link": "https://drive.google.com/open?id=1_d2pKToblPZTC1_rr-AIQKJBLAy1rX0B",
     "date": "2025-05-13"
+  },
+  "ponces/treble_aosp/v2025.05.13/aosp-arm64-ab-vanilla-15.0-20250513.img.xz": {
+    "name": "ponces AOSP",
+    "tag": "v2025.05.13",
+    "file": "aosp-arm64-ab-vanilla-15.0-20250513.img.xz",
+    "android": "15",
+    "size_mb": 819,
+    "link": "https://drive.google.com/open?id=1r2XBMyohLMvVmXjM-xRbB1EHGVj2QFI9",
+    "date": "2025-05-13"
+  },
+  "andyyan-gsi/lineage-21-pre-qpr2-td/lineage-21.0-20260614-UNOFFICIAL-arm64_bvN-vndklite.img.gz": {
+    "name": "LineageOS GSI (AndyYan)",
+    "tag": "lineage-21-pre-qpr2-td",
+    "file": "lineage-21.0-20260614-UNOFFICIAL-arm64_bvN-vndklite.img.gz",
+    "android": "14",
+    "size_mb": 1087,
+    "link": "https://drive.google.com/open?id=1HEntlfen63Ie7T8N8zA3BwKiLWov-Bdz",
+    "date": "2026-06-19"
   },
   "andyyan-gsi/lineage-21-pre-qpr2-td/lineage-21.0-20260614-UNOFFICIAL-arm64_bgN-vndklite-signed.img.gz": {
     "name": "LineageOS GSI (AndyYan)",
@@ -49,8 +94,17 @@
     "tag": "pixel17-20261103-0423",
     "file": "Pixel-frankel-17-16271449-AB-20261103-MysticGSI.img",
     "android": "17",
-    "size_mb": 3944,
-    "link": "https://drive.google.com/open?id=1V3HzCxgyifPeCM5eIQi_o6KxqiwoFEVR",
-    "date": "2026-11-03"
+    "size_mb": 1052,
+    "link": "https://drive.google.com/open?id=1vPVuCMaOQJ9Xz9o8NcKVSpskYFZMzpZw",
+    "date": "2026-10-29"
+  },
+  "eyzner/LineageOS-GSI/lineage-24.0-20261029/lineage-24.0-20261029-UNOFFICIAL-arm64_bvN.img.xz": {
+    "name": "LineageOS 24 (eyzner)",
+    "tag": "lineage-24.0-20261029",
+    "file": "lineage-24.0-20261029-UNOFFICIAL-arm64_bvN.img.xz",
+    "android": "17",
+    "size_mb": 897,
+    "link": "https://drive.google.com/open?id=1kjUNOoR2IayKzmg_Zah67reRX3b1TdbY",
+    "date": "2026-10-29"
   }
 }

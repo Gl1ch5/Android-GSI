@@ -20,13 +20,18 @@
 <!-- GSI-LIST-EN:START -->
 | ROM | Android | Build | Size | Date | Download |
 |---|:---:|---|---:|---|:---:|
-| **MysticGSI pixel** | 17 | `Pixel-frankel-17-16271449-AB-20261103-MysticGSI.img` | 3.9 GB | 2026-11-03 | [⬇️ Download](https://drive.google.com/open?id=1V3HzCxgyifPeCM5eIQi_o6KxqiwoFEVR) |
+| **LineageOS 24 (eyzner)** | 17 | `lineage-24.0-20261029-UNOFFICIAL-arm64_bvN-erofs.img.xz` | 1.0 GB | 2026-10-29 | [⬇️ Download](https://drive.google.com/open?id=1vPVuCMaOQJ9Xz9o8NcKVSpskYFZMzpZw) |
+| **LineageOS 24 (eyzner)** | 17 | `lineage-24.0-20261029-UNOFFICIAL-arm64_bvN.img.xz` | 0.9 GB | 2026-10-29 | [⬇️ Download](https://drive.google.com/open?id=1kjUNOoR2IayKzmg_Zah67reRX3b1TdbY) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bvN.img` | 2.4 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1KyeNeoioDQlNoRbQ3Mg0h13SS8UTRFE4) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bvN-vndklite.img.gz` | 1.1 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1HEntlfen63Ie7T8N8zA3BwKiLWov-Bdz) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bgN-vndklite-signed.img.gz` | 1.3 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1SA6ZRxgUdysQENEy7yo0cei21KuEItAV) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bgN-signed.img.gz` | 1.3 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1XIZpt4vr4UU95vMa9U4rkEyE9_OUMHoR) |
+| **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260613-UNOFFICIAL-gsi_arm64_vN.img.gz` | 1.3 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1gCjtpLJrTL2WOyKQOwmBcabeBubgVgy6) |
 | **ponces AOSP** | 16 | `aosp-arm64-ab-gapps-16.0-20250625.img.xz` | 1.4 GB | 2025-06-25 | [⬇️ Download](https://drive.google.com/open?id=1_y2vA2w1mKXPMBsEwweGhH5MMr0LL6pR) |
+| **ponces AOSP** | 16 | `aosp-arm64-ab-vanilla-16.0-20250625.img.xz` | 0.8 GB | 2025-06-25 | [⬇️ Download](https://drive.google.com/open?id=1mmkvghxgB5Zclt66W3L5hN1kEHfLJpZj) |
 | **ponces AOSP** | 15 | `aosp-arm64-ab-gapps-15.0-20250513.img.xz` | 1.4 GB | 2025-05-13 | [⬇️ Download](https://drive.google.com/open?id=1_d2pKToblPZTC1_rr-AIQKJBLAy1rX0B) |
+| **ponces AOSP** | 15 | `aosp-arm64-ab-vanilla-15.0-20250513.img.xz` | 0.8 GB | 2025-05-13 | [⬇️ Download](https://drive.google.com/open?id=1r2XBMyohLMvVmXjM-xRbB1EHGVj2QFI9) |
+| **TrebleDroid AOSP (phh)** | ? | `system-td-arm64-ab-vanilla.img.xz` | 0.7 GB | 2025-04-15 | [⬇️ Download](https://drive.google.com/open?id=1QTNeSPVGdGHuR1NAas5NV3vLiBHVv3Me) |
 <!-- GSI-LIST-EN:END -->
 
 The list updates automatically every day. Files are compressed `.img.xz` / `.img.gz` — DSU Sideloader opens them directly, nothing to unpack.
@@ -62,13 +67,18 @@ fastboot reboot
 <!-- GSI-LIST-RU:START -->
 | Прошивка | Android | Сборка | Размер | Дата | Скачать |
 |---|:---:|---|---:|---|:---:|
-| **MysticGSI pixel** | 17 | `Pixel-frankel-17-16271449-AB-20261103-MysticGSI.img` | 3.9 GB | 2026-11-03 | [⬇️ Скачать](https://drive.google.com/open?id=1V3HzCxgyifPeCM5eIQi_o6KxqiwoFEVR) |
+| **LineageOS 24 (eyzner)** | 17 | `lineage-24.0-20261029-UNOFFICIAL-arm64_bvN-erofs.img.xz` | 1.0 GB | 2026-10-29 | [⬇️ Скачать](https://drive.google.com/open?id=1vPVuCMaOQJ9Xz9o8NcKVSpskYFZMzpZw) |
+| **LineageOS 24 (eyzner)** | 17 | `lineage-24.0-20261029-UNOFFICIAL-arm64_bvN.img.xz` | 0.9 GB | 2026-10-29 | [⬇️ Скачать](https://drive.google.com/open?id=1kjUNOoR2IayKzmg_Zah67reRX3b1TdbY) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bvN.img` | 2.4 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1KyeNeoioDQlNoRbQ3Mg0h13SS8UTRFE4) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bvN-vndklite.img.gz` | 1.1 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1HEntlfen63Ie7T8N8zA3BwKiLWov-Bdz) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bgN-vndklite-signed.img.gz` | 1.3 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1SA6ZRxgUdysQENEy7yo0cei21KuEItAV) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bgN-signed.img.gz` | 1.3 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1XIZpt4vr4UU95vMa9U4rkEyE9_OUMHoR) |
+| **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260613-UNOFFICIAL-gsi_arm64_vN.img.gz` | 1.3 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1gCjtpLJrTL2WOyKQOwmBcabeBubgVgy6) |
 | **ponces AOSP** | 16 | `aosp-arm64-ab-gapps-16.0-20250625.img.xz` | 1.4 GB | 2025-06-25 | [⬇️ Скачать](https://drive.google.com/open?id=1_y2vA2w1mKXPMBsEwweGhH5MMr0LL6pR) |
+| **ponces AOSP** | 16 | `aosp-arm64-ab-vanilla-16.0-20250625.img.xz` | 0.8 GB | 2025-06-25 | [⬇️ Скачать](https://drive.google.com/open?id=1mmkvghxgB5Zclt66W3L5hN1kEHfLJpZj) |
 | **ponces AOSP** | 15 | `aosp-arm64-ab-gapps-15.0-20250513.img.xz` | 1.4 GB | 2025-05-13 | [⬇️ Скачать](https://drive.google.com/open?id=1_d2pKToblPZTC1_rr-AIQKJBLAy1rX0B) |
+| **ponces AOSP** | 15 | `aosp-arm64-ab-vanilla-15.0-20250513.img.xz` | 0.8 GB | 2025-05-13 | [⬇️ Скачать](https://drive.google.com/open?id=1r2XBMyohLMvVmXjM-xRbB1EHGVj2QFI9) |
+| **TrebleDroid AOSP (phh)** | ? | `system-td-arm64-ab-vanilla.img.xz` | 0.7 GB | 2025-04-15 | [⬇️ Скачать](https://drive.google.com/open?id=1QTNeSPVGdGHuR1NAas5NV3vLiBHVv3Me) |
 <!-- GSI-LIST-RU:END -->
 
 Список обновляется автоматически каждый день. Файлы в формате `.img.xz` / `.img.gz` — DSU Sideloader открывает их сам, ничего распаковывать не нужно.
