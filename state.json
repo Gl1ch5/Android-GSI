@@ -735,5 +735,15 @@
     "size_mb": 1760,
     "link": "https://drive.google.com/open?id=1ekrKa25DMYpd9honD3bqPhzYjd-stiKA",
     "date": "2026-07-10"
+  },
+  "Doze-off/PixelOS_GSI_treble/2026-06-28/PixelOS-16.2-GSI_treble_arm64-ab-20260628.img.xz": {
+    "name": "PixelOS",
+    "tag": "2026-06-28",
+    "file": "PixelOS-16.2-GSI_treble_arm64-ab-20260628.img.xz",
+    "src_file": "PixelOS-16.2-GSI_treble_arm64-ab-20260628.img.xz",
+    "android": "16",
+    "size_mb": 1376,
+    "link": "https://drive.google.com/open?id=1JlQsDV8ZC7tXpLko9opsxPpv-UCz04hj",
+    "date": "2026-06-28"
   }
 }
