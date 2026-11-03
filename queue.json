@@ -107,9 +107,10 @@
   {
    "file": "Oxygenos-OP5D55L1-16-1744797430944-AB-20250915-MysticGSI.zip",
    "name": "OxygenOS (OP5D55L1) · Mystic",
-   "status": "in_progress",
+   "status": "failure",
    "run": "41631300864",
-   "started": "2026-11-03T12:05:52+00:00"
+   "started": "2026-11-03T12:05:52+00:00",
+   "finished": "2026-11-03T12:06:33+00:00"
   },
   {
    "file": "Pixel-raven-17-15063635-AB-20260327-MysticGSI.zip",
@@ -372,6 +373,6 @@
    "finished": "2026-11-03T05:38:59Z"
   }
  ],
- "updated": "2026-11-03T12:06:25+00:00",
+ "updated": "2026-11-03T12:06:33+00:00",
  "run": "41631300864"
 }
