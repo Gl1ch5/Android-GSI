@@ -875,5 +875,15 @@
     "size_mb": 1817,
     "link": "https://drive.google.com/open?id=16f3RLR2e2-wbm1dC-YkH8W1qlbS7t70z",
     "date": "2026-07-10"
+  },
+  "Doze-off/crdroid_gsi_treble/2026-09-22/crDroid-12.12-GSI_treble_arm64-ab-GAPPS-20260922.img.xz": {
+    "name": "crDroid",
+    "tag": "2026-09-22",
+    "file": "crDroid-12.12-GSI_treble_arm64-ab-GAPPS-20260922.img.xz",
+    "src_file": "crDroid-12.12-GSI_treble_arm64-ab-GAPPS-20260922.img.xz",
+    "android": "16",
+    "size_mb": 1113,
+    "link": "https://drive.google.com/open?id=1ApXftzrphQYlIcVIEsiGn2DiaiWtCgjt",
+    "date": "2026-09-22"
   }
 }
