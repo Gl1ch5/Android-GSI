@@ -500,7 +500,7 @@ async function gh(url){
   if (r.headers.get("etag")) ETAGS[url] = {etag: r.headers.get("etag"), data};
   return data;
 }
-let qAt = 0, qReset = 0;
+let qAt = 0, qReset = 0, qStaleTried = false;
 async function loadQueue(force){
   clearTimeout(qTimer);
   const onQueue = !document.getElementById("tab-queue").classList.contains("hidden");
@@ -513,6 +513,7 @@ async function loadQueue(force){
       Q = q.items.map(i => ({name: i.file, status: (map[i.status] || map.queued)[0], conclusion: (map[i.status] || [])[1], started_at: i.started}));
       qAt = Date.parse(q.updated) || Date.now(); qReset = 0;
       store.set("queue", JSON.stringify({at: qAt, q: Q}));
+      if (Date.now() - qAt > 15 * 60e3 && !qStaleTried) { qStaleTried = true; throw 0; }  // файл устарел — пробуем API
     } catch {
       // запасной путь — GitHub API (ограничен 60 запросами в час)
       try {
