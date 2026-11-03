@@ -10,6 +10,18 @@
         "url": "https://sourceforge.net/projects/mystic-gsi-updates/files/OneUI/Oneui-gts9wifi-16-X710ZCS5DZA1-AB-20260211-MysticGSI.zip/download"
       },
       {
+        "tag": "HyperOS",
+        "date": "2025-12-05",
+        "file": "Hyperos-dada-16-OS3.0.5.0.WOCCNXM-AB-20251205-MysticGSI.zip",
+        "url": "https://sourceforge.net/projects/mystic-gsi-updates/files/HyperOS/Hyperos-dada-16-OS3.0.5.0.WOCCNXM-AB-20251205-MysticGSI.zip/download"
+      },
+      {
+        "tag": "Generic",
+        "date": "2025-10-17",
+        "file": "Originos-k6993v1_64-16-compiler250923020245-AB-20251017-MysticGSI.zip",
+        "url": "https://sourceforge.net/projects/mystic-gsi-updates/files/Generic/Originos-k6993v1_64-16-compiler250923020245-AB-20251017-MysticGSI.zip/download"
+      },
+      {
         "tag": "Generic",
         "date": "2026-03-25",
         "file": "Coloros-OP5E11L1-CinnamonBun-1773378663794-AB-20260325-MysticGSI.zip",
