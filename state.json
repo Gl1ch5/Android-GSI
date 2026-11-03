@@ -725,5 +725,15 @@
     "size_mb": 1232,
     "link": "https://drive.google.com/open?id=1p0rMDoekZY6aENFh8BiQp3aVi3inaWgM",
     "date": "2026-10-17"
+  },
+  "Doze-off/Matrixx_treble/2026-07-10/Matrixx-12.5-GSI_treble_arm64-ab-GAPPS-20260710.img.xz": {
+    "name": "Matrixx",
+    "tag": "2026-07-10",
+    "file": "Matrixx-12.5-GSI_treble_arm64-ab-GAPPS-20260710.img.xz",
+    "src_file": "Matrixx-12.5-GSI_treble_arm64-ab-GAPPS-20260710.img.xz",
+    "android": "16",
+    "size_mb": 1760,
+    "link": "https://drive.google.com/open?id=1ekrKa25DMYpd9honD3bqPhzYjd-stiKA",
+    "date": "2026-07-10"
   }
 }
