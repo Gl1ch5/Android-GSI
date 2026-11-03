@@ -70,6 +70,7 @@ Catalog with search, filters, live queue and ROM requests<br>
 | **Pixel (bluejay) · Mystic** | 16 | `Pixel-bluejay-16-14330257-AB-20251113-MysticGSI.img.xz` | 1.6 GB | 2025-11-13 | [⬇️ Download](https://drive.google.com/open?id=14XkUabowIR8axgFlFNQ-iy12od9w1e1Y) |
 | **ColorOS (OP5D06L1) · Mystic** | 16 | `Coloros-OP5D06L1-16-1760327042399-AB-20251029-MysticGSI.img.xz` | 3.5 GB | 2025-10-29 | [⬇️ Download](https://drive.google.com/open?id=1Zw7oryk8iSY9jqNcU3Ran0kulr-9bN9d) |
 | **OriginOS (k6993v1_64) · Mystic** | 16 | `Originos-k6993v1_64-16-compiler250923020245-AB-20251017-MysticGSI.img.xz` | 4.5 GB | 2025-10-17 | [⬇️ Download](https://drive.google.com/open?id=1nosBYGm84OUXa1U6I4zN7p_bMg_NM7AF) |
+| **Pixel (cheetah) · Mystic** | 16 | `Pixel-cheetah-16-14089870-AB-20251002-MysticGSI.img.xz` | 1.7 GB | 2025-10-02 | [⬇️ Download](https://drive.google.com/open?id=10kRQCyVCRnrGIo79g2Mpm5jWkJuijqwb) |
 | **ponces AOSP** | 16 | `aosp-arm64-ab-gapps-16.0-20250625.img.xz` | 1.4 GB | 2025-06-25 | [⬇️ Download](https://drive.google.com/open?id=1_y2vA2w1mKXPMBsEwweGhH5MMr0LL6pR) |
 | **ponces AOSP** | 15 | `aosp-arm64-ab-gapps-15.0-20250513.img.xz` | 1.4 GB | 2025-05-13 | [⬇️ Download](https://drive.google.com/open?id=1_d2pKToblPZTC1_rr-AIQKJBLAy1rX0B) |
 <!-- GSI-LIST-EN:END -->
@@ -152,6 +153,7 @@ fastboot reboot
 | **Pixel (bluejay) · Mystic** | 16 | `Pixel-bluejay-16-14330257-AB-20251113-MysticGSI.img.xz` | 1.6 GB | 2025-11-13 | [⬇️ Скачать](https://drive.google.com/open?id=14XkUabowIR8axgFlFNQ-iy12od9w1e1Y) |
 | **ColorOS (OP5D06L1) · Mystic** | 16 | `Coloros-OP5D06L1-16-1760327042399-AB-20251029-MysticGSI.img.xz` | 3.5 GB | 2025-10-29 | [⬇️ Скачать](https://drive.google.com/open?id=1Zw7oryk8iSY9jqNcU3Ran0kulr-9bN9d) |
 | **OriginOS (k6993v1_64) · Mystic** | 16 | `Originos-k6993v1_64-16-compiler250923020245-AB-20251017-MysticGSI.img.xz` | 4.5 GB | 2025-10-17 | [⬇️ Скачать](https://drive.google.com/open?id=1nosBYGm84OUXa1U6I4zN7p_bMg_NM7AF) |
+| **Pixel (cheetah) · Mystic** | 16 | `Pixel-cheetah-16-14089870-AB-20251002-MysticGSI.img.xz` | 1.7 GB | 2025-10-02 | [⬇️ Скачать](https://drive.google.com/open?id=10kRQCyVCRnrGIo79g2Mpm5jWkJuijqwb) |
 | **ponces AOSP** | 16 | `aosp-arm64-ab-gapps-16.0-20250625.img.xz` | 1.4 GB | 2025-06-25 | [⬇️ Скачать](https://drive.google.com/open?id=1_y2vA2w1mKXPMBsEwweGhH5MMr0LL6pR) |
 | **ponces AOSP** | 15 | `aosp-arm64-ab-gapps-15.0-20250513.img.xz` | 1.4 GB | 2025-05-13 | [⬇️ Скачать](https://drive.google.com/open?id=1_d2pKToblPZTC1_rr-AIQKJBLAy1rX0B) |
 <!-- GSI-LIST-RU:END -->

@@ -485,5 +485,15 @@
     "size_mb": 3626,
     "link": "https://drive.google.com/open?id=1Zw7oryk8iSY9jqNcU3Ran0kulr-9bN9d",
     "date": "2025-10-29"
+  },
+  "mystic-gsi-updates/Pixel/Pixel-cheetah-16-14089870-AB-20251002-MysticGSI.zip": {
+    "name": "Pixel (cheetah) · Mystic",
+    "tag": "Pixel",
+    "file": "Pixel-cheetah-16-14089870-AB-20251002-MysticGSI.img.xz",
+    "src_file": "Pixel-cheetah-16-14089870-AB-20251002-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 1703,
+    "link": "https://drive.google.com/open?id=10kRQCyVCRnrGIo79g2Mpm5jWkJuijqwb",
+    "date": "2025-10-02"
   }
 }
