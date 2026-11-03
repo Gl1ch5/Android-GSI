@@ -175,5 +175,15 @@
     "size_mb": 2822,
     "link": "https://drive.google.com/open?id=16P2r3miOmz1yWmMCNpYWqFkqVBrxep9i",
     "date": "2026-01-14"
+  },
+  "mystic-gsi-updates/Generic/Realmeui-RE6030L1-CinnamonBun-1773651170858-AB-20260326-MysticGSI.zip": {
+    "name": "realme UI (RE6030L1) · Mystic",
+    "tag": "Generic",
+    "file": "Realmeui-RE6030L1-CinnamonBun-1773651170858-AB-20260326-MysticGSI.img.xz",
+    "src_file": "Realmeui-RE6030L1-CinnamonBun-1773651170858-AB-20260326-MysticGSI.zip",
+    "android": "17",
+    "size_mb": 5537,
+    "link": "https://drive.google.com/open?id=1Akzm0c5AVtC9Yx76bz77dhAFGYJ40qfj",
+    "date": "2026-03-26"
   }
 }
