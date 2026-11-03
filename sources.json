@@ -1,5 +1,22 @@
 [
   {
+    "name": "Google GSI + Google apps (official)",
+    "type": "url",
+    "files": [
+      {
+        "tag": "android17-qpr2-CP41.260831.007.A3",
+        "date": "2026-10-01",
+        "file": "gsi_gms_arm64-exp-CP41.260831.007.A3-16450490-9087c172.zip",
+        "url": "https://dl.google.com/developers/android/cinnamonbun/images/gsi/gsi_gms_arm64-exp-CP41.260831.007.A3-16450490-9087c172.zip"
+      }
+    ]
+  },
+  {
+    "name": "LineageOS 24 (eyzner)",
+    "repo": "eyzner/LineageOS-GSI",
+    "asset_regex": "arm64.*\\.(img|img\\.xz|img\\.gz|zip|7z)$"
+  },
+  {
     "name": "TrebleDroid AOSP (phh)",
     "repo": "TrebleDroid/treble_experimentations",
     "asset_regex": "arm64-ab-(vanilla|gapps|floss).*\\.img\\.xz$"
