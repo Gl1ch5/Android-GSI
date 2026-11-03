@@ -365,5 +365,15 @@
     "size_mb": 3619,
     "link": "https://drive.google.com/open?id=1V7oeXHFqOMZgjb7eRmUVJngwYqpb1bva",
     "date": "2025-12-14"
+  },
+  "mystic-gsi-updates/Pixel/Pixel-raven-16-14401865-AB-20251202-MysticGSI.zip": {
+    "name": "Pixel (raven) · Mystic",
+    "tag": "Pixel",
+    "file": "Pixel-raven-16-14401865-AB-20251202-MysticGSI.img.xz",
+    "src_file": "Pixel-raven-16-14401865-AB-20251202-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 1618,
+    "link": "https://drive.google.com/open?id=1OboDIgUKYzam1htmzWhinWnfuxrUzxZz",
+    "date": "2025-12-02"
   }
 }
