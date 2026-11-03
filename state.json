@@ -34,5 +34,23 @@
     "size_mb": 1366,
     "link": "https://drive.google.com/open?id=1XIZpt4vr4UU95vMa9U4rkEyE9_OUMHoR",
     "date": "2026-06-19"
+  },
+  "andyyan-gsi/lineage-21-pre-qpr2-light/lineage-21.0-20260613-UNOFFICIAL-gsi_arm64_vN.img.gz": {
+    "name": "LineageOS GSI (AndyYan)",
+    "tag": "lineage-21-pre-qpr2-light",
+    "file": "lineage-21.0-20260613-UNOFFICIAL-gsi_arm64_vN.img.gz",
+    "android": "14",
+    "size_mb": 1287,
+    "link": "https://drive.google.com/open?id=1gCjtpLJrTL2WOyKQOwmBcabeBubgVgy6",
+    "date": "2026-06-19"
+  },
+  "eyzner/LineageOS-GSI/lineage-24.0-20261029/lineage-24.0-20261029-UNOFFICIAL-arm64_bvN-erofs.img.xz": {
+    "name": "LineageOS 24 (eyzner)",
+    "tag": "lineage-24.0-20261029",
+    "file": "lineage-24.0-20261029-UNOFFICIAL-arm64_bvN-erofs.img.xz",
+    "android": "17",
+    "size_mb": 1052,
+    "link": "https://drive.google.com/open?id=1vPVuCMaOQJ9Xz9o8NcKVSpskYFZMzpZw",
+    "date": "2026-10-29"
   }
 }
