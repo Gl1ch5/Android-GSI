@@ -21,6 +21,7 @@
 | ROM | Android | Build | Size | Date | Download |
 |---|:---:|---|---:|---|:---:|
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bvN.img` | 2.4 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1KyeNeoioDQlNoRbQ3Mg0h13SS8UTRFE4) |
+| **TrebleDroid AOSP (phh)** | 15 | `system-td-arm64-ab-vanilla.img.xz` | 0.7 GB | 2025-04-15 | [⬇️ Download](https://drive.google.com/open?id=1QTNeSPVGdGHuR1NAas5NV3vLiBHVv3Me) |
 <!-- GSI-LIST-EN:END -->
 
 The list updates automatically every day. Files are compressed `.img.xz` / `.img.gz` — DSU Sideloader opens them directly, nothing to unpack.
@@ -57,6 +58,7 @@ fastboot reboot
 | Прошивка | Android | Сборка | Размер | Дата | Скачать |
 |---|:---:|---|---:|---|:---:|
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bvN.img` | 2.4 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1KyeNeoioDQlNoRbQ3Mg0h13SS8UTRFE4) |
+| **TrebleDroid AOSP (phh)** | 15 | `system-td-arm64-ab-vanilla.img.xz` | 0.7 GB | 2025-04-15 | [⬇️ Скачать](https://drive.google.com/open?id=1QTNeSPVGdGHuR1NAas5NV3vLiBHVv3Me) |
 <!-- GSI-LIST-RU:END -->
 
 Список обновляется автоматически каждый день. Файлы в формате `.img.xz` / `.img.gz` — DSU Sideloader открывает их сам, ничего распаковывать не нужно.
