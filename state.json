@@ -465,5 +465,15 @@
     "size_mb": 3440,
     "link": "https://drive.google.com/open?id=1mIm-kd-V7-KPY9P5_BRnezq4zLg8I3gi",
     "date": "2025-12-02"
+  },
+  "mystic-gsi-updates/Generic/Hyperos-houji-16-OS3.0.2.0.WNCMIXM-AB-20251122-MysticGSI.zip": {
+    "name": "HyperOS (houji) · Mystic",
+    "tag": "Generic",
+    "file": "Hyperos-houji-16-OS3.0.2.0.WNCMIXM-AB-20251122-MysticGSI.img.xz",
+    "src_file": "Hyperos-houji-16-OS3.0.2.0.WNCMIXM-AB-20251122-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 3380,
+    "link": "https://drive.google.com/open?id=1osMtuHJ424PqW-slWtNhWrGmDKHZSd7y",
+    "date": "2025-11-22"
   }
 }
