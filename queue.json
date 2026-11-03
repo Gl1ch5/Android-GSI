@@ -1,13 +1,6 @@
 {
  "items": [
   {
-   "file": "Infinity-X-3.12-GSI_treble_arm64-ab-MICROG-Official-20260920.img.xz",
-   "name": "Infinity X",
-   "status": "in_progress",
-   "run": "41631300864",
-   "started": "2026-11-03T12:06:06+00:00"
-  },
-  {
    "file": "YAAP-16.2_GSI_treble_arm64-ab_MICROG-20260517.img.xz",
    "name": "YAAP",
    "status": "in_progress",
@@ -27,6 +20,14 @@
    "status": "in_progress",
    "run": "41631300864",
    "started": "2026-11-03T12:05:51+00:00"
+  },
+  {
+   "file": "Infinity-X-3.12-GSI_treble_arm64-ab-MICROG-Official-20260920.img.xz",
+   "name": "Infinity X",
+   "status": "success",
+   "run": "41631300864",
+   "started": "2026-11-03T12:06:06+00:00",
+   "finished": "2026-11-03T12:14:50+00:00"
   },
   {
    "file": "MistOS-4.8-GSI_treble_arm64-ab-MICROG-Official-20260907.img.xz",
@@ -313,15 +314,8 @@
    "status": "success",
    "started": "2026-11-03T05:34:01Z",
    "finished": "2026-11-03T05:55:00Z"
-  },
-  {
-   "file": "Coloros-RE5C94L1-16-1765293415996-AB-20260105-MysticGSI.zip",
-   "name": "",
-   "status": "failure",
-   "started": "2026-11-03T05:15:55Z",
-   "finished": "2026-11-03T05:54:56Z"
   }
  ],
- "updated": "2026-11-03T12:14:47+00:00",
+ "updated": "2026-11-03T12:14:50+00:00",
  "run": "41631300864"
 }
