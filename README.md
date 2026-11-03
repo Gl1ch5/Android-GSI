@@ -1,67 +1,90 @@
-# Android GSI → Google Drive
+<div align="center">
 
-Автоматическое зеркало GSI-прошивок (Generic System Image) на Google Drive.
-GitHub Actions раз в сутки проверяет свежие релизы из [`sources.json`](sources.json),
-распаковывает их в **чистый `.img`** (без архивов — сразу для DSU Sideloader или fastboot), загружает на Google Drive и обновляет таблицу ниже.
+# 📱 Android GSI Mirror
 
-## Актуальные сборки
+**Fresh Generic System Images — unpacked, ready to flash, on a fast mirror.**
+**Свежие GSI-прошивки — распакованные, готовые к установке, на быстром зеркале.**
 
-<!-- GSI-LIST:START -->
-_Пока пусто — запустите workflow **Sync GSI to Google Drive**._
-<!-- GSI-LIST:END -->
+[🇬🇧 English](#-english) &nbsp;•&nbsp; [🇷🇺 Русский](#-русский)
 
-## Настройка (один раз)
+![Auto-updated](https://img.shields.io/badge/updated-daily-brightgreen) ![Format](https://img.shields.io/badge/format-.img-blue) ![Arch](https://img.shields.io/badge/arch-arm64-orange)
 
-1. На своём ПК установите [rclone](https://rclone.org/downloads/) и выполните `rclone config`:
-   новый remote с именем `gdrive`, тип `drive`, scope `drive`, авторизуйтесь в браузере.
-2. Скопируйте содержимое файла конфига (`rclone config file` покажет путь).
-3. В репозитории: **Settings → Secrets and variables → Actions → New repository secret**,
-   имя `RCLONE_CONFIG`, значение — содержимое конфига.
-4. (Необязательно) переменная `RCLONE_REMOTE`, по умолчанию `gdrive:GSI`.
-5. **Actions → Sync GSI to Google Drive → Run workflow.**
+</div>
 
-Ссылки создаются через `rclone link` (доступ «всем, у кого есть ссылка»).
+---
 
-## Добавить другую сборку
+## 🇬🇧 English
 
-В `sources.json` поддерживаются три типа:
+### ⬇️ Downloads
 
-```jsonc
-// GitHub Releases
-{"name": "...", "repo": "owner/repo", "asset_regex": "arm64.*\\.img\\.xz$"}
-// SourceForge (имя проекта из адреса sourceforge.net/projects/<project>)
-{"name": "...", "type": "sourceforge", "project": "andyyan-gsi", "asset_regex": "arm64.*\\.img\\.gz$"}
-// Прямые ссылки (любые: порты, файлы с форумов и т.п.)
-{"name": "Мои ссылки", "type": "url", "files": [
-  {"tag": "hyperos-port-v1", "file": "system.img.xz", "url": "https://..."}
-]}
+<!-- GSI-LIST-EN:START -->
+| ROM | Android | Build | Size | Date | Download |
+|---|:---:|---|---:|---|:---:|
+| — | — | — | — | — | — |
+<!-- GSI-LIST-EN:END -->
+
+The list updates automatically every day. Every file is a single ready-to-use `.img` — no archives, nothing to unpack.
+
+### 🧪 Try without risk — DSU Sideloader
+
+Boot a GSI **alongside** your current system. Reboot — and you're back, all data intact.
+
+1. Unlock the bootloader *(this wipes the phone once)*.
+2. Install [DSU Sideloader](https://github.com/VegaBobo/DSU-Sideloader).
+3. Pick the downloaded `.img`, set userdata to 16 GB, start the install.
+4. Reboot into the GSI from the *Dynamic System* notification.
+
+### ⚡ Permanent install — fastboot
+
+```sh
+adb reboot fastboot
+fastboot erase system
+fastboot flash system system.img
+fastboot -w
+fastboot reboot
 ```
 
-## Telegram-каналы
+> ⚠️ Keep a copy of your stock firmware. Camera, VoLTE or fingerprint may not work on every device. Flash at your own risk.
 
-```json
-{"name": "Mystic GSI", "type": "telegram", "channel": "имя_канала_без_@", "asset_regex": "\\.(img|xz|gz|zip|7z)$"}
+---
+
+## 🇷🇺 Русский
+
+### ⬇️ Скачать
+
+<!-- GSI-LIST-RU:START -->
+| Прошивка | Android | Сборка | Размер | Дата | Скачать |
+|---|:---:|---|---:|---|:---:|
+| — | — | — | — | — | — |
+<!-- GSI-LIST-RU:END -->
+
+Список обновляется автоматически каждый день. Каждый файл — один готовый `.img`, без архивов, ничего распаковывать не нужно.
+
+### 🧪 Попробовать без риска — DSU Sideloader
+
+GSI запускается **рядом** с вашей системой. Перезагрузились — и вы снова в своей прошивке, данные на месте.
+
+1. Разблокируйте загрузчик *(один раз сотрёт телефон)*.
+2. Установите [DSU Sideloader](https://github.com/VegaBobo/DSU-Sideloader).
+3. Выберите скачанный `.img`, размер userdata — 16 ГБ, запустите установку.
+4. Перезагрузитесь в GSI через уведомление *Dynamic System*.
+
+### ⚡ Установить насовсем — fastboot
+
+```sh
+adb reboot fastboot
+fastboot erase system
+fastboot flash system system.img
+fastboot -w
+fastboot reboot
 ```
 
-Один раз настроить:
-1. На https://my.telegram.org → **API development tools** создайте приложение, получите `api_id` и `api_hash`.
-2. На ПК: `pip install telethon` и `python scripts/tg_login.py` — войдите и получите строку сессии.
-3. Добавьте секреты `TG_API_ID`, `TG_API_HASH`, `TG_SESSION`.
-   ⚠️ `TG_SESSION` = полный доступ к аккаунту. Лучше завести отдельный аккаунт и подписать его на нужные каналы.
+> ⚠️ Сохраните стоковую прошивку. Камера, VoLTE или отпечаток могут работать не на всех устройствах. Всё на свой риск.
 
-Архивы `.xz/.gz/.zip/.7z` автоматически распаковываются в один `.img`.
+---
 
-## ⚠️ OnePlus 15R
+<div align="center">
 
-- Нужен **разблокированный загрузчик** (сотрёт все данные).
-- GSI прошивается в раздел `system` через **fastbootd**:
-  ```
-  adb reboot fastboot
-  fastboot erase system
-  fastboot flash system system.img
-  fastboot -w
-  fastboot reboot
-  ```
-- Перед прошивкой отключите проверку vbmeta:
-  `fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img` (vbmeta из стоковой прошивки).
-- Сохраните стоковую прошивку для отката. Всё на свой риск.
+<sub>Maintainer docs / Для владельца: <a href="docs/SETUP.md">docs/SETUP.md</a></sub>
+
+</div>

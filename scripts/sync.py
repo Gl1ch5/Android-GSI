@@ -10,7 +10,6 @@ REMOTE = os.environ.get("RCLONE_REMOTE", "gdrive:GSI")
 TOKEN = os.environ.get("GITHUB_TOKEN")
 WORK = pathlib.Path(os.environ.get("WORK_DIR", "/tmp/gsi"))
 RELEASES_BACK = int(os.environ.get("RELEASES_BACK", "1"))  # сколько последних релизов брать
-START, END = "<!-- GSI-LIST:START -->", "<!-- GSI-LIST:END -->"
 
 
 def gh(url):
@@ -154,14 +153,19 @@ def main():
 
 def render(state):
     STATE.write_text(json.dumps(state, indent=2, ensure_ascii=False) + "\n")
-    rows = ["| Сборка | Android | Версия | Файл (.img) | Размер | Дата | Google Drive |",
-            "|---|---|---|---|---|---|---|"]
-    for v in sorted(state.values(), key=lambda v: v["date"], reverse=True):
-        rows.append(f"| {v['name']} | {v.get('android','?')} | `{v['tag']}` | `{v['file']}` | "
-                    f"{v['size_mb']} MB | {v['date']} | [Скачать]({v['link']}) |")
+    items = sorted(state.values(), key=lambda v: v["date"], reverse=True)
     text = README.read_text()
-    text = re.sub(re.escape(START) + ".*?" + re.escape(END),
-                  lambda _: START + "\n" + "\n".join(rows) + "\n" + END, text, flags=re.S)
+    for lang, hdr, dl in (("EN", "| ROM | Android | Build | Size | Date | Download |", "Download"),
+                          ("RU", "| Прошивка | Android | Сборка | Размер | Дата | Скачать |", "Скачать")):
+        rows = [hdr, "|---|:---:|---|---:|---|:---:|"]
+        for v in items:
+            rows.append(f"| **{v['name']}** | {v.get('android', '?')} | `{v['file']}` | "
+                        f"{v['size_mb'] / 1024:.1f} GB | {v['date']} | [⬇️ {dl}]({v['link']}) |")
+        if len(rows) == 2:
+            rows.append("| — | — | — | — | — | — |")
+        st, en = f"<!-- GSI-LIST-{lang}:START -->", f"<!-- GSI-LIST-{lang}:END -->"
+        text = re.sub(re.escape(st) + ".*?" + re.escape(en),
+                      lambda _: st + "\n" + "\n".join(rows) + "\n" + en, text, flags=re.S)
     README.write_text(text)
 
 
