@@ -89,6 +89,7 @@ Catalog with search, filters, live queue and ROM requests<br>
 | **HyperOS (pandora) · Mystic** | 16 | `Hyperos-pandora-16-OS3.0.7.0.WBLCNXM-AB-20250926-MysticGSI.img.xz` | 3.7 GB | 2025-09-26 | [⬇️ Download](https://drive.google.com/open?id=1RYfEWe_zvpk_kub-zSU5EZ-JweTCWsch) |
 | **HyperOS (piano) · Mystic** | 16 | `Hyperos-piano-16-OS3.0.4.0.WPYCNXM-AB-20250925-MysticGSI.img.xz` | 5.9 GB | 2025-09-25 | [⬇️ Download](https://drive.google.com/open?id=1DEHQKeAytfC236a5h4VIh_UI0FYRtrwC) |
 | **HyperOS (yupei) · Mystic** | 16 | `Hyperos-yupei-16-OS3.0.4.0.WPZCNXM-AB-20250925-MysticGSI.img.xz` | 5.7 GB | 2025-09-25 | [⬇️ Download](https://drive.google.com/open?id=1ClbHEZ7Dcq20F23eSEUfhcmkYKnXxUSo) |
+| **OriginOS (k6993v1_64) · Mystic** | 16 | `Originos-k6993v1_64-16-compiler250921224452-AB-20250923-MysticGSI.img.xz` | 5.8 GB | 2025-09-23 | [⬇️ Download](https://drive.google.com/open?id=1iiaMol9Us77LSh8L3QarC-GyMNLqQ1H_) |
 | **HyperOS (haotian) · Mystic** | 16 | `Hyperos-haotian-16-OS3.0.0.25.WOBCNXM-AB-20250918-MysticGSI.img.xz` | 3.5 GB | 2025-09-18 | [⬇️ Download](https://drive.google.com/open?id=1tOEkdDzu415Xk1u24KZv49ussMQO_8Qx) |
 | **Pixel (bluejay) · Mystic** | 16 | `Pixel-bluejay-16-13873947-AB-20250914-MysticGSI.img.xz` | 1.5 GB | 2025-09-14 | [⬇️ Download](https://drive.google.com/open?id=1XQRGY-AnAt7DVWhx6Oa49hCAQW5gjvpW) |
 | **ponces AOSP** | 16 | `aosp-arm64-ab-gapps-16.0-20250625.img.xz` | 1.4 GB | 2025-06-25 | [⬇️ Download](https://drive.google.com/open?id=1_y2vA2w1mKXPMBsEwweGhH5MMr0LL6pR) |
@@ -192,6 +193,7 @@ fastboot reboot
 | **HyperOS (pandora) · Mystic** | 16 | `Hyperos-pandora-16-OS3.0.7.0.WBLCNXM-AB-20250926-MysticGSI.img.xz` | 3.7 GB | 2025-09-26 | [⬇️ Скачать](https://drive.google.com/open?id=1RYfEWe_zvpk_kub-zSU5EZ-JweTCWsch) |
 | **HyperOS (piano) · Mystic** | 16 | `Hyperos-piano-16-OS3.0.4.0.WPYCNXM-AB-20250925-MysticGSI.img.xz` | 5.9 GB | 2025-09-25 | [⬇️ Скачать](https://drive.google.com/open?id=1DEHQKeAytfC236a5h4VIh_UI0FYRtrwC) |
 | **HyperOS (yupei) · Mystic** | 16 | `Hyperos-yupei-16-OS3.0.4.0.WPZCNXM-AB-20250925-MysticGSI.img.xz` | 5.7 GB | 2025-09-25 | [⬇️ Скачать](https://drive.google.com/open?id=1ClbHEZ7Dcq20F23eSEUfhcmkYKnXxUSo) |
+| **OriginOS (k6993v1_64) · Mystic** | 16 | `Originos-k6993v1_64-16-compiler250921224452-AB-20250923-MysticGSI.img.xz` | 5.8 GB | 2025-09-23 | [⬇️ Скачать](https://drive.google.com/open?id=1iiaMol9Us77LSh8L3QarC-GyMNLqQ1H_) |
 | **HyperOS (haotian) · Mystic** | 16 | `Hyperos-haotian-16-OS3.0.0.25.WOBCNXM-AB-20250918-MysticGSI.img.xz` | 3.5 GB | 2025-09-18 | [⬇️ Скачать](https://drive.google.com/open?id=1tOEkdDzu415Xk1u24KZv49ussMQO_8Qx) |
 | **Pixel (bluejay) · Mystic** | 16 | `Pixel-bluejay-16-13873947-AB-20250914-MysticGSI.img.xz` | 1.5 GB | 2025-09-14 | [⬇️ Скачать](https://drive.google.com/open?id=1XQRGY-AnAt7DVWhx6Oa49hCAQW5gjvpW) |
 | **ponces AOSP** | 16 | `aosp-arm64-ab-gapps-16.0-20250625.img.xz` | 1.4 GB | 2025-06-25 | [⬇️ Скачать](https://drive.google.com/open?id=1_y2vA2w1mKXPMBsEwweGhH5MMr0LL6pR) |
