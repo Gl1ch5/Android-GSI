@@ -555,5 +555,15 @@
     "size_mb": 5527,
     "link": "https://drive.google.com/open?id=1gORFhQDorn94cSbQDIK-B7RAFHRjXQer",
     "date": "2025-10-22"
+  },
+  "mystic-gsi-updates/Generic/Hyperos-pudding-16-OS3.0.7.0.WPCCNXM-AB-20250926-MysticGSI.zip": {
+    "name": "HyperOS (pudding) · Mystic",
+    "tag": "Generic",
+    "file": "Hyperos-pudding-16-OS3.0.7.0.WPCCNXM-AB-20250926-MysticGSI.img.xz",
+    "src_file": "Hyperos-pudding-16-OS3.0.7.0.WPCCNXM-AB-20250926-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 3537,
+    "link": "https://drive.google.com/open?id=15g4ujQwOAp9NwRSJQ3vY0vSnOJLv5s4V",
+    "date": "2025-09-26"
   }
 }
