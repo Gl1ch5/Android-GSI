@@ -34,6 +34,7 @@ Catalog with search, filters, live queue and ROM requests<br>
 | **crDroid** | 16 | `crDroid-12.12-GSI_treble_arm64-ab-MICROG-20260922.img.xz` | 1.0 GB | 2026-09-22 | [⬇️ Download](https://drive.google.com/open?id=1kiht9beOFvRMq4jM4vbeElnYxVYP7LUR) |
 | **Evolution X** | 16 | `EvoX-11.11-GSI_treble_arm64-ab-GAPPS-20260920.img.xz` | 1.4 GB | 2026-09-21 | [⬇️ Download](https://drive.google.com/open?id=1YHaiKOg9iol__P1mdF4uJmvq0XDafJAu) |
 | **DerpFest** | 16 | `Derpfest-16.2-GSI_treble_arm64-ab-GAPPS-Official-20260719.img.xz` | 1.6 GB | 2026-07-19 | [⬇️ Download](https://drive.google.com/open?id=16kk1fVMVOGdViCzJpRdscjhLdWBOw-9M) |
+| **DerpFest** | 16 | `Derpfest-16.2-GSI_treble_arm64-ab-GAPPS-EROFS-Official-20260719.img.xz` | 1.9 GB | 2026-07-19 | [⬇️ Download](https://drive.google.com/open?id=1UtSveOqfuA1Cmgxu2_UoSz8zWf9XyzlU) |
 | **Matrixx** | 16 | `Matrixx-12.5-GSI_treble_arm64-ab-GAPPS-20260710.img.xz` | 1.7 GB | 2026-07-10 | [⬇️ Download](https://drive.google.com/open?id=1ekrKa25DMYpd9honD3bqPhzYjd-stiKA) |
 | **PixelOS** | 16 | `PixelOS-16.2-GSI_treble_arm64-ab-20260628.img.xz` | 1.3 GB | 2026-06-28 | [⬇️ Download](https://drive.google.com/open?id=1JlQsDV8ZC7tXpLko9opsxPpv-UCz04hj) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bvN.img` | 2.4 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1KyeNeoioDQlNoRbQ3Mg0h13SS8UTRFE4) |
@@ -146,6 +147,7 @@ fastboot reboot
 | **crDroid** | 16 | `crDroid-12.12-GSI_treble_arm64-ab-MICROG-20260922.img.xz` | 1.0 GB | 2026-09-22 | [⬇️ Скачать](https://drive.google.com/open?id=1kiht9beOFvRMq4jM4vbeElnYxVYP7LUR) |
 | **Evolution X** | 16 | `EvoX-11.11-GSI_treble_arm64-ab-GAPPS-20260920.img.xz` | 1.4 GB | 2026-09-21 | [⬇️ Скачать](https://drive.google.com/open?id=1YHaiKOg9iol__P1mdF4uJmvq0XDafJAu) |
 | **DerpFest** | 16 | `Derpfest-16.2-GSI_treble_arm64-ab-GAPPS-Official-20260719.img.xz` | 1.6 GB | 2026-07-19 | [⬇️ Скачать](https://drive.google.com/open?id=16kk1fVMVOGdViCzJpRdscjhLdWBOw-9M) |
+| **DerpFest** | 16 | `Derpfest-16.2-GSI_treble_arm64-ab-GAPPS-EROFS-Official-20260719.img.xz` | 1.9 GB | 2026-07-19 | [⬇️ Скачать](https://drive.google.com/open?id=1UtSveOqfuA1Cmgxu2_UoSz8zWf9XyzlU) |
 | **Matrixx** | 16 | `Matrixx-12.5-GSI_treble_arm64-ab-GAPPS-20260710.img.xz` | 1.7 GB | 2026-07-10 | [⬇️ Скачать](https://drive.google.com/open?id=1ekrKa25DMYpd9honD3bqPhzYjd-stiKA) |
 | **PixelOS** | 16 | `PixelOS-16.2-GSI_treble_arm64-ab-20260628.img.xz` | 1.3 GB | 2026-06-28 | [⬇️ Скачать](https://drive.google.com/open?id=1JlQsDV8ZC7tXpLko9opsxPpv-UCz04hj) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bvN.img` | 2.4 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1KyeNeoioDQlNoRbQ3Mg0h13SS8UTRFE4) |
