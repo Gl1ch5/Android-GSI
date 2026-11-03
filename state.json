@@ -655,5 +655,15 @@
     "size_mb": 5467,
     "link": "https://drive.google.com/open?id=1VorllCRbdHhIcp9_-MTy13DOCxfuRlWk",
     "date": "2025-10-17"
+  },
+  "mystic-gsi-updates/Generic/Hyperos-piano-16-OS3.0.4.0.WPYCNXM-AB-20250925-MysticGSI.zip": {
+    "name": "HyperOS (piano) · Mystic",
+    "tag": "Generic",
+    "file": "Hyperos-piano-16-OS3.0.4.0.WPYCNXM-AB-20250925-MysticGSI.img.xz",
+    "src_file": "Hyperos-piano-16-OS3.0.4.0.WPYCNXM-AB-20250925-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 6049,
+    "link": "https://drive.google.com/open?id=1DEHQKeAytfC236a5h4VIh_UI0FYRtrwC",
+    "date": "2025-09-25"
   }
 }
