@@ -1,13 +1,6 @@
 {
  "items": [
   {
-   "file": "Magicos-WKL-AN10-17-eng.root-AB-20260919-MysticGSI_rebuild.7z",
-   "name": "MagicOS (WKL) · Mystic",
-   "status": "in_progress",
-   "run": "41631300864",
-   "started": "2026-11-03T12:05:22+00:00"
-  },
-  {
    "file": "Aluminium-quartz-CL2B.260330.037_MysticGSI.img.zip",
    "name": "Aluminium (quartz) · Mystic",
    "status": "in_progress",
@@ -48,6 +41,14 @@
    "status": "in_progress",
    "run": "41631300864",
    "started": "2026-11-03T12:05:51+00:00"
+  },
+  {
+   "file": "Magicos-WKL-AN10-17-eng.root-AB-20260919-MysticGSI_rebuild.7z",
+   "name": "MagicOS (WKL) · Mystic",
+   "status": "failure",
+   "run": "41631300864",
+   "started": "2026-11-03T12:05:22+00:00",
+   "finished": "2026-11-03T12:13:33+00:00"
   },
   {
    "file": "Pixel-arrow-16-15861848-AB-20260719-MysticGSI.zip",
@@ -331,15 +332,8 @@
    "status": "success",
    "started": "2026-11-03T05:16:44Z",
    "finished": "2026-11-03T05:51:50Z"
-  },
-  {
-   "file": "Flyme-meizu20Pro-16-1766690413-AB-20251227-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:15:55Z",
-   "finished": "2026-11-03T05:47:49Z"
   }
  ],
- "updated": "2026-11-03T12:13:29+00:00",
+ "updated": "2026-11-03T12:13:33+00:00",
  "run": "41631300864"
 }
