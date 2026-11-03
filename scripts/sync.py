@@ -65,7 +65,7 @@ def releases_for(src):
     if kind == "github":
         rels = gh(f"https://api.github.com/repos/{src['repo']}/releases?per_page={RELEASES_BACK}")
         return [(r["tag_name"], (r.get("published_at") or "")[:10],
-                 [(aname, aurl, a["size"]) for a in r["assets"]],
+                 [(a["name"], a["browser_download_url"], a["size"]) for a in r["assets"]],
                  r.get("name") or "") for r in rels[:RELEASES_BACK]]
     if kind == "sourceforge":
         import xml.etree.ElementTree as ET
@@ -119,7 +119,7 @@ def main():
                     continue
                 key = f"{sid}/{tag}/{aname}"
                 if key in state:
-                    print(f"[{src['name']}] {a['name']} уже загружен"); continue
+                    print(f"[{src['name']}] {aname} уже загружен"); continue
                 try:
                     local = WORK / aname
                     if aurl.startswith("tg://"):
@@ -136,7 +136,7 @@ def main():
                     size = img.stat().st_size
                     img.unlink()
                 except Exception as e:
-                    print(f"[{src['name']}] {a['name']}: {e}")
+                    print(f"[{src['name']}] {aname}: {e}")
                     for f in WORK.iterdir():
                         shutil.rmtree(f, ignore_errors=True) if f.is_dir() else f.unlink()
                     continue
