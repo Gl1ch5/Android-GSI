@@ -705,5 +705,15 @@
     "size_mb": 5988,
     "link": "https://drive.google.com/open?id=1iiaMol9Us77LSh8L3QarC-GyMNLqQ1H_",
     "date": "2025-09-23"
+  },
+  "cawilliamson/treble_restlessos/17.0.0-202611021750/RestlessOS-arm64-ab-17.0.0-202611021750.img.xz": {
+    "name": "RestlessOS (A17)",
+    "tag": "17.0.0-202611021750",
+    "file": "RestlessOS-arm64-ab-17.0.0-202611021750.img.xz",
+    "src_file": "RestlessOS-arm64-ab-17.0.0-202611021750.img.xz",
+    "android": "17",
+    "size_mb": 899,
+    "link": "https://drive.google.com/open?id=1r2S3xgX7Z3qEG1L2-nxRDFT01MUOAB40",
+    "date": "2026-11-02"
   }
 }
