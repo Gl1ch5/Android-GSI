@@ -1035,5 +1035,15 @@
     "size_mb": 1054,
     "link": "https://drive.google.com/open?id=1IEuqWDyIE6JGxFMihmhAunfaG2Dj1jgK",
     "date": "2026-08-12"
+  },
+  "Doze-off/voltage_a16_treble/2026-07-11-hotfix/Voltage-5.11-GSI_treble_arm64-ab-EROFS-20260711-hotfix.img.xz": {
+    "name": "VoltageOS",
+    "tag": "2026-07-11-hotfix",
+    "file": "Voltage-5.11-GSI_treble_arm64-ab-EROFS-20260711-hotfix.img.xz",
+    "src_file": "Voltage-5.11-GSI_treble_arm64-ab-EROFS-20260711-hotfix.img.xz",
+    "android": "16",
+    "size_mb": 1076,
+    "link": "https://drive.google.com/open?id=13fQXDDRXQ-U-OKd2PSrNAg0OplBMv8EQ",
+    "date": "2026-07-12"
   }
 }
