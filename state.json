@@ -415,5 +415,15 @@
     "size_mb": 2379,
     "link": "https://drive.google.com/open?id=1GWkLFHxFZXZswFOHCR92L02XBmsKndvY",
     "date": "2026-02-13"
+  },
+  "Мои ссылки (порты и др.)/HyperOS/Hyperos-dada-16-OS3.0.5.0.WOCCNXM-AB-20251205-MysticGSI.zip": {
+    "name": "HyperOS (dada) · Mystic",
+    "tag": "HyperOS",
+    "file": "Hyperos-dada-16-OS3.0.5.0.WOCCNXM-AB-20251205-MysticGSI.img.xz",
+    "src_file": "Hyperos-dada-16-OS3.0.5.0.WOCCNXM-AB-20251205-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 3008,
+    "link": "https://drive.google.com/open?id=1rhmRbhDsunOtp24r2Rfq9k-nCsrbjsei",
+    "date": "2025-12-05"
   }
 }

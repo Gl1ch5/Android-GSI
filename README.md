@@ -59,6 +59,7 @@ Catalog with search, filters, live queue and ROM requests<br>
 | **Pixel (cheetah) · Mystic** | 17 | `Pixel-cheetah-CANARY-14396972-AB-20251205-MysticGSI.img.xz` | 1.6 GB | 2025-12-05 | [⬇️ Download](https://drive.google.com/open?id=1tsc_EmU89gu-k3n9EHirwLD-0-Ym2XNJ) |
 | **Pixel (komodo) · Mystic** | 16 | `Pixel-komodo-16-14483051-AB-20251205-MysticGSI.img.xz` | 1.5 GB | 2025-12-05 | [⬇️ Download](https://drive.google.com/open?id=1v3ydrqKCD3nxZUG5VI1RY8xICXhUipQZ) |
 | **Pixel (tokay) · Mystic** | 16 | `Pixel-tokay-16-14402117-AB-20251205-MysticGSI.img.xz` | 1.5 GB | 2025-12-05 | [⬇️ Download](https://drive.google.com/open?id=14wZSRtwAanVskzXTPAeZBLrhQX8FxFL-) |
+| **HyperOS (dada) · Mystic** | 16 | `Hyperos-dada-16-OS3.0.5.0.WOCCNXM-AB-20251205-MysticGSI.img.xz` | 2.9 GB | 2025-12-05 | [⬇️ Download](https://drive.google.com/open?id=1rhmRbhDsunOtp24r2Rfq9k-nCsrbjsei) |
 | **Pixel (raven) · Mystic** | 16 | `Pixel-raven-16-14401865-AB-20251202-MysticGSI.img.xz` | 1.6 GB | 2025-12-02 | [⬇️ Download](https://drive.google.com/open?id=1OboDIgUKYzam1htmzWhinWnfuxrUzxZz) |
 | **One UI (pa3q) · Mystic** | 16 | `Oneui-pa3q-16-S938BXXU7ZYKR-AB-20251201-MysticGSI.img.xz` | 4.2 GB | 2025-12-01 | [⬇️ Download](https://drive.google.com/open?id=1W26C-kVPUPbyqlvSkmFnBxxKkdsWi6rt) |
 | **Pixel (bluejay) · Mystic** | 16 | `Pixel-bluejay-16-14330257-AB-20251113-MysticGSI.img.xz` | 1.6 GB | 2025-11-13 | [⬇️ Download](https://drive.google.com/open?id=14XkUabowIR8axgFlFNQ-iy12od9w1e1Y) |
@@ -134,6 +135,7 @@ fastboot reboot
 | **Pixel (cheetah) · Mystic** | 17 | `Pixel-cheetah-CANARY-14396972-AB-20251205-MysticGSI.img.xz` | 1.6 GB | 2025-12-05 | [⬇️ Скачать](https://drive.google.com/open?id=1tsc_EmU89gu-k3n9EHirwLD-0-Ym2XNJ) |
 | **Pixel (komodo) · Mystic** | 16 | `Pixel-komodo-16-14483051-AB-20251205-MysticGSI.img.xz` | 1.5 GB | 2025-12-05 | [⬇️ Скачать](https://drive.google.com/open?id=1v3ydrqKCD3nxZUG5VI1RY8xICXhUipQZ) |
 | **Pixel (tokay) · Mystic** | 16 | `Pixel-tokay-16-14402117-AB-20251205-MysticGSI.img.xz` | 1.5 GB | 2025-12-05 | [⬇️ Скачать](https://drive.google.com/open?id=14wZSRtwAanVskzXTPAeZBLrhQX8FxFL-) |
+| **HyperOS (dada) · Mystic** | 16 | `Hyperos-dada-16-OS3.0.5.0.WOCCNXM-AB-20251205-MysticGSI.img.xz` | 2.9 GB | 2025-12-05 | [⬇️ Скачать](https://drive.google.com/open?id=1rhmRbhDsunOtp24r2Rfq9k-nCsrbjsei) |
 | **Pixel (raven) · Mystic** | 16 | `Pixel-raven-16-14401865-AB-20251202-MysticGSI.img.xz` | 1.6 GB | 2025-12-02 | [⬇️ Скачать](https://drive.google.com/open?id=1OboDIgUKYzam1htmzWhinWnfuxrUzxZz) |
 | **One UI (pa3q) · Mystic** | 16 | `Oneui-pa3q-16-S938BXXU7ZYKR-AB-20251201-MysticGSI.img.xz` | 4.2 GB | 2025-12-01 | [⬇️ Скачать](https://drive.google.com/open?id=1W26C-kVPUPbyqlvSkmFnBxxKkdsWi6rt) |
 | **Pixel (bluejay) · Mystic** | 16 | `Pixel-bluejay-16-14330257-AB-20251113-MysticGSI.img.xz` | 1.6 GB | 2025-11-13 | [⬇️ Скачать](https://drive.google.com/open?id=14XkUabowIR8axgFlFNQ-iy12od9w1e1Y) |
