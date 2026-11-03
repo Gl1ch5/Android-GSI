@@ -1055,5 +1055,17 @@
     "size_mb": 3726,
     "link": "https://drive.google.com/open?id=1rwKOXDti1GpCOOpBGD8DDBMurk0pgfN6",
     "date": "2026-01-05"
+  },
+  "Doze-off/Mist-OS_gsi/2026-09-07/MistOS-4.8-GSI_treble_arm64-ab-MICROG-Official-20260907.img.xz": {
+    "name": "MistOS",
+    "tag": "2026-09-07",
+    "file": "MistOS-4.8-GSI_treble_arm64-ab-MICROG-Official-20260907.img.gz",
+    "src_file": "MistOS-4.8-GSI_treble_arm64-ab-MICROG-Official-20260907.img.xz",
+    "android": "16",
+    "size_mb": 1687,
+    "link": "https://drive.google.com/open?id=1K21YVHRNZy9pfRw08SDrrHaB5YwX2EDh",
+    "raw_link": "https://drive.google.com/open?id=1hTVta7w8bK7vs9-h9AzRvyS_rU4-qHgh",
+    "raw_mb": 3318,
+    "date": "2026-09-08"
   }
 }
