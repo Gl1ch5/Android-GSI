@@ -995,5 +995,15 @@
     "size_mb": 1215,
     "link": "https://drive.google.com/open?id=1v6rF_RXHEAsMSODxOcG1HYzObSNrzZj8",
     "date": "2026-08-16"
+  },
+  "Doze-off/Clover_treble/2026-06-11/Clover-3.11-GSI_treble_arm64-ab-GAPPS-20260611.img.xz": {
+    "name": "Clover",
+    "tag": "2026-06-11",
+    "file": "Clover-3.11-GSI_treble_arm64-ab-GAPPS-20260611.img.xz",
+    "src_file": "Clover-3.11-GSI_treble_arm64-ab-GAPPS-20260611.img.xz",
+    "android": "16",
+    "size_mb": 1367,
+    "link": "https://drive.google.com/open?id=1eFQo-saYX9peITvYGmpz-g58t6IxJ2nd",
+    "date": "2026-06-11"
   }
 }

@@ -57,6 +57,7 @@ Catalog with search, filters, live queue and ROM requests<br>
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bgN-vndklite-signed.img.gz` | 1.3 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1SA6ZRxgUdysQENEy7yo0cei21KuEItAV) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bgN-signed.img.gz` | 1.3 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1XIZpt4vr4UU95vMa9U4rkEyE9_OUMHoR) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260613-UNOFFICIAL-gsi_arm64_vN.img.gz` | 1.3 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1gCjtpLJrTL2WOyKQOwmBcabeBubgVgy6) |
+| **Clover** | 16 | `Clover-3.11-GSI_treble_arm64-ab-GAPPS-20260611.img.xz` | 1.3 GB | 2026-06-11 | [⬇️ Download](https://drive.google.com/open?id=1eFQo-saYX9peITvYGmpz-g58t6IxJ2nd) |
 | **LineageOS (Doze-off)** | 16 | `LineageOS-23.2_GSI_treble_arm64-ab-GAPPS-20260603.img.xz` | 1.0 GB | 2026-06-03 | [⬇️ Download](https://drive.google.com/open?id=11LOxqM_G7do0j5gwo8-wikq_HX-uz20i) |
 | **LineageOS (Doze-off)** | 16 | `LineageOS-23.2_GSI_treble_arm64-ab-MICROG-20260603.img.xz` | 0.9 GB | 2026-06-03 | [⬇️ Download](https://drive.google.com/open?id=1h1AtbWPfpzry8yun73lLCo67aKIQYYGT) |
 | **GenesisOS** | 16 | `Genesis-5.0_GSI_treble_arm64-ab-GAPPS-GL-20260529.img.xz` | 1.2 GB | 2026-05-29 | [⬇️ Download](https://drive.google.com/open?id=1nRovOqlr_ZrTtVg2VO9NQygPUaw41mAJ) |
@@ -190,6 +191,7 @@ fastboot reboot
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bgN-vndklite-signed.img.gz` | 1.3 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1SA6ZRxgUdysQENEy7yo0cei21KuEItAV) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bgN-signed.img.gz` | 1.3 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1XIZpt4vr4UU95vMa9U4rkEyE9_OUMHoR) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260613-UNOFFICIAL-gsi_arm64_vN.img.gz` | 1.3 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1gCjtpLJrTL2WOyKQOwmBcabeBubgVgy6) |
+| **Clover** | 16 | `Clover-3.11-GSI_treble_arm64-ab-GAPPS-20260611.img.xz` | 1.3 GB | 2026-06-11 | [⬇️ Скачать](https://drive.google.com/open?id=1eFQo-saYX9peITvYGmpz-g58t6IxJ2nd) |
 | **LineageOS (Doze-off)** | 16 | `LineageOS-23.2_GSI_treble_arm64-ab-GAPPS-20260603.img.xz` | 1.0 GB | 2026-06-03 | [⬇️ Скачать](https://drive.google.com/open?id=11LOxqM_G7do0j5gwo8-wikq_HX-uz20i) |
 | **LineageOS (Doze-off)** | 16 | `LineageOS-23.2_GSI_treble_arm64-ab-MICROG-20260603.img.xz` | 0.9 GB | 2026-06-03 | [⬇️ Скачать](https://drive.google.com/open?id=1h1AtbWPfpzry8yun73lLCo67aKIQYYGT) |
 | **GenesisOS** | 16 | `Genesis-5.0_GSI_treble_arm64-ab-GAPPS-GL-20260529.img.xz` | 1.2 GB | 2026-05-29 | [⬇️ Скачать](https://drive.google.com/open?id=1nRovOqlr_ZrTtVg2VO9NQygPUaw41mAJ) |
