@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Скачивает свежие GSI из GitHub Releases, распаковывает в чистый .img,
+"""Скачивает свежие GSI из GitHub Releases, приводит к .img.xz (DSU Sideloader открывает сам),
 грузит на Google Drive (rclone) и обновляет таблицу в README."""
 import json, os, re, shutil, subprocess, urllib.request, pathlib
 
@@ -30,23 +30,21 @@ def run(*cmd):
 
 
 def to_img(path: pathlib.Path) -> pathlib.Path:
-    """Превращает архив в один .img файл."""
+    """Приводит файл к виду, который DSU Sideloader открывает напрямую (.img / .img.xz / .img.gz)."""
     n = path.name
     if n.endswith(".img"):
         return path
-    if n.endswith(".img.xz"):
-        run("xz", "-d", "-T0", str(path)); return path.with_suffix("")
-    if n.endswith(".img.gz"):
-        run("gzip", "-d", str(path)); return path.with_suffix("")
+    if n.endswith((".img.xz", ".img.gz")):
+        return path  # DSU Sideloader открывает их сам — оставляем сжатыми
     if n.endswith((".zip", ".7z")):
         out = WORK / "extract"
         shutil.rmtree(out, ignore_errors=True); out.mkdir()
         run("7z", "x", "-y", f"-o{out}", str(path)); path.unlink()
         for p in sorted(out.rglob("*"), key=lambda p: p.stat().st_size if p.is_file() else 0, reverse=True):
-            if p.is_file() and p.suffix in (".xz", ".gz"):
-                p = to_img(p)
-            if p.is_file() and p.suffix == ".img":
-                final = WORK / (path.name.rsplit(".", 1)[0] + ".img")
+            if p.is_file() and p.name.endswith((".img", ".img.xz", ".img.gz")):
+                if p.suffix == ".img":
+                    run("xz", "-T0", "-6", str(p)); p = p.with_name(p.name + ".xz")
+                final = WORK / (path.name.rsplit(".", 1)[0] + "".join(p.suffixes[-2:]))
                 p.rename(final); shutil.rmtree(out, ignore_errors=True)
                 return final
         raise RuntimeError("в архиве нет .img")
