@@ -1,13 +1,6 @@
 {
  "items": [
   {
-   "file": "Pixel-raven-17-16091614-AB-20260920-MysticGSI.zip",
-   "name": "Pixel (raven) · Mystic",
-   "status": "in_progress",
-   "run": "41631300864",
-   "started": "2026-11-03T12:05:14+00:00"
-  },
-  {
    "file": "Magicos-WKL-AN10-17-eng.root-AB-20260919-MysticGSI_rebuild.7z",
    "name": "MagicOS (WKL) · Mystic",
    "status": "in_progress",
@@ -62,6 +55,14 @@
    "status": "in_progress",
    "run": "41631300864",
    "started": "2026-11-03T12:05:51+00:00"
+  },
+  {
+   "file": "Pixel-raven-17-16091614-AB-20260920-MysticGSI.zip",
+   "name": "Pixel (raven) · Mystic",
+   "status": "failure",
+   "run": "41631300864",
+   "started": "2026-11-03T12:05:14+00:00",
+   "finished": "2026-11-03T12:13:25+00:00"
   },
   {
    "file": "Coloros-OP60EDL1-16-1763036366485-AB-20251123-MysticGSI.zip",
@@ -343,15 +344,8 @@
    "status": "success",
    "started": "2026-11-03T05:15:55Z",
    "finished": "2026-11-03T05:46:49Z"
-  },
-  {
-   "file": "Hyperos-dijun-16-OS3.0.9.0.WODCNXM-AB-20260114-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:15:55Z",
-   "finished": "2026-11-03T05:42:44Z"
   }
  ],
- "updated": "2026-11-03T12:12:56+00:00",
+ "updated": "2026-11-03T12:13:25+00:00",
  "run": "41631300864"
 }
