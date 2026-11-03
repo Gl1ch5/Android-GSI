@@ -335,5 +335,15 @@
     "size_mb": 1661,
     "link": "https://drive.google.com/open?id=1tsc_EmU89gu-k3n9EHirwLD-0-Ym2XNJ",
     "date": "2025-12-05"
+  },
+  "mystic-gsi-updates/Pixel/Pixel-komodo-16-14483051-AB-20251205-MysticGSI.zip": {
+    "name": "Pixel (komodo) · Mystic",
+    "tag": "Pixel",
+    "file": "Pixel-komodo-16-14483051-AB-20251205-MysticGSI.img.xz",
+    "src_file": "Pixel-komodo-16-14483051-AB-20251205-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 1584,
+    "link": "https://drive.google.com/open?id=1v3ydrqKCD3nxZUG5VI1RY8xICXhUipQZ",
+    "date": "2025-12-05"
   }
 }
