@@ -39,6 +39,7 @@ Catalog with search, filters, live queue and ROM requests<br>
 | **One UI (gts9wifi) · Mystic** | 16 | `Oneui-gts9wifi-16-X710ZCS5DZA1-AB-20260211-MysticGSI.img.xz` | 2.3 GB | 2026-02-11 | [⬇️ Download](https://drive.google.com/open?id=1MI5jZzpcDPPHAu6-00bvf8U6mpWIBuWV) |
 | **HyperOS (dijun) · Mystic** | 16 | `Hyperos-dijun-16-OS3.0.9.0.WODCNXM-AB-20260114-MysticGSI.img.xz` | 2.8 GB | 2026-01-14 | [⬇️ Download](https://drive.google.com/open?id=16P2r3miOmz1yWmMCNpYWqFkqVBrxep9i) |
 | **Flyme (meizu20Pro) · Mystic** | 16 | `Flyme-meizu20Pro-16-1766690413-AB-20251227-MysticGSI.img.xz` | 4.5 GB | 2025-12-26 | [⬇️ Download](https://drive.google.com/open?id=1uEq8FvI-SMPudMJ0ZIJnjRNqtzJSnFHt) |
+| **OxygenOS (OP556FL1) · Mystic** | 16 | `Oxygenos-OP556FL1-16-1765350064807-AB-20251227-MysticGSI.img.xz` | 4.0 GB | 2025-12-26 | [⬇️ Download](https://drive.google.com/open?id=1PEAtRvPXSvM1CpkfIi4Yi2n7nXkyfDDp) |
 | **Pixel (tangorpro) · Mystic** | 17 | `Pixel-tangorpro-CANARY-14518957-AB-20251220-MysticGSI.img.xz` | 1.7 GB | 2025-12-19 | [⬇️ Download](https://drive.google.com/open?id=1rFF7YjypkeOSBZxtgN3ca0p-CNCp3CCA) |
 | **One UI (a15x) · Mystic** | 16 | `Oneui-a15x-16-A156BXXS7DYJ1-AB-20251218-MysticGSI.img.xz` | 2.1 GB | 2025-12-18 | [⬇️ Download](https://drive.google.com/open?id=1JRQN0XtR4mudeHg8mOC1lqf5qnSjods4) |
 | **ponces AOSP** | 16 | `aosp-arm64-ab-gapps-16.0-20250625.img.xz` | 1.4 GB | 2025-06-25 | [⬇️ Download](https://drive.google.com/open?id=1_y2vA2w1mKXPMBsEwweGhH5MMr0LL6pR) |
@@ -92,6 +93,7 @@ fastboot reboot
 | **One UI (gts9wifi) · Mystic** | 16 | `Oneui-gts9wifi-16-X710ZCS5DZA1-AB-20260211-MysticGSI.img.xz` | 2.3 GB | 2026-02-11 | [⬇️ Скачать](https://drive.google.com/open?id=1MI5jZzpcDPPHAu6-00bvf8U6mpWIBuWV) |
 | **HyperOS (dijun) · Mystic** | 16 | `Hyperos-dijun-16-OS3.0.9.0.WODCNXM-AB-20260114-MysticGSI.img.xz` | 2.8 GB | 2026-01-14 | [⬇️ Скачать](https://drive.google.com/open?id=16P2r3miOmz1yWmMCNpYWqFkqVBrxep9i) |
 | **Flyme (meizu20Pro) · Mystic** | 16 | `Flyme-meizu20Pro-16-1766690413-AB-20251227-MysticGSI.img.xz` | 4.5 GB | 2025-12-26 | [⬇️ Скачать](https://drive.google.com/open?id=1uEq8FvI-SMPudMJ0ZIJnjRNqtzJSnFHt) |
+| **OxygenOS (OP556FL1) · Mystic** | 16 | `Oxygenos-OP556FL1-16-1765350064807-AB-20251227-MysticGSI.img.xz` | 4.0 GB | 2025-12-26 | [⬇️ Скачать](https://drive.google.com/open?id=1PEAtRvPXSvM1CpkfIi4Yi2n7nXkyfDDp) |
 | **Pixel (tangorpro) · Mystic** | 17 | `Pixel-tangorpro-CANARY-14518957-AB-20251220-MysticGSI.img.xz` | 1.7 GB | 2025-12-19 | [⬇️ Скачать](https://drive.google.com/open?id=1rFF7YjypkeOSBZxtgN3ca0p-CNCp3CCA) |
 | **One UI (a15x) · Mystic** | 16 | `Oneui-a15x-16-A156BXXS7DYJ1-AB-20251218-MysticGSI.img.xz` | 2.1 GB | 2025-12-18 | [⬇️ Скачать](https://drive.google.com/open?id=1JRQN0XtR4mudeHg8mOC1lqf5qnSjods4) |
 | **ponces AOSP** | 16 | `aosp-arm64-ab-gapps-16.0-20250625.img.xz` | 1.4 GB | 2025-06-25 | [⬇️ Скачать](https://drive.google.com/open?id=1_y2vA2w1mKXPMBsEwweGhH5MMr0LL6pR) |

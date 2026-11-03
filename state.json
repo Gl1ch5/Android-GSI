@@ -195,5 +195,15 @@
     "size_mb": 4628,
     "link": "https://drive.google.com/open?id=1uEq8FvI-SMPudMJ0ZIJnjRNqtzJSnFHt",
     "date": "2025-12-26"
+  },
+  "mystic-gsi-updates/Oxygen/Oxygenos-OP556FL1-16-1765350064807-AB-20251227-MysticGSI.zip": {
+    "name": "OxygenOS (OP556FL1) · Mystic",
+    "tag": "Oxygen",
+    "file": "Oxygenos-OP556FL1-16-1765350064807-AB-20251227-MysticGSI.img.xz",
+    "src_file": "Oxygenos-OP556FL1-16-1765350064807-AB-20251227-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 4058,
+    "link": "https://drive.google.com/open?id=1PEAtRvPXSvM1CpkfIi4Yi2n7nXkyfDDp",
+    "date": "2025-12-26"
   }
 }
