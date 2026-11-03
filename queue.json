@@ -73,9 +73,10 @@
   {
    "file": "Hyperos-popsicle-16-OS3.0.7.0.WPBCNXM-AB-20250926-MysticGSI.zip",
    "name": "HyperOS (popsicle) · Mystic",
-   "status": "in_progress",
+   "status": "failure",
    "run": "41631300864",
-   "started": "2026-11-03T12:05:31+00:00"
+   "started": "2026-11-03T12:05:31+00:00",
+   "finished": "2026-11-03T12:09:00+00:00"
   },
   {
    "file": "Pixel-cheetah-16-14401865-AB-20251220-MysticGSI.zip",
@@ -355,15 +356,8 @@
    "status": "success",
    "started": "2026-11-03T05:20:41Z",
    "finished": "2026-11-03T05:41:38Z"
-  },
-  {
-   "file": "Coloros-OP64DDL1-16-1769698117230-AB-20260315-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:15:55Z",
-   "finished": "2026-11-03T05:40:54Z"
   }
  ],
- "updated": "2026-11-03T12:07:49+00:00",
+ "updated": "2026-11-03T12:09:00+00:00",
  "run": "41631300864"
 }
