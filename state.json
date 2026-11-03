@@ -525,5 +525,15 @@
     "size_mb": 4814,
     "link": "https://drive.google.com/open?id=1ZSqB6XgaedA08Sm8xyAXlDDPHuEu9m8L",
     "date": "2025-10-30"
+  },
+  "mystic-gsi-updates/Generic/Hyperos-annibale-16-OS3.0.9.0.WPKCNXM-AB-20251023-MysticGSI.zip": {
+    "name": "HyperOS (annibale) · Mystic",
+    "tag": "Generic",
+    "file": "Hyperos-annibale-16-OS3.0.9.0.WPKCNXM-AB-20251023-MysticGSI.img.xz",
+    "src_file": "Hyperos-annibale-16-OS3.0.9.0.WPKCNXM-AB-20251023-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 4539,
+    "link": "https://drive.google.com/open?id=1uOPqfiw28owxgXxtenRVX5zBuP4W66wV",
+    "date": "2025-10-23"
   }
 }
