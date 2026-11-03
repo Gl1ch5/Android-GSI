@@ -57,6 +57,7 @@ Catalog with search, filters, live queue and ROM requests<br>
 | **LineageOS (Doze-off)** | 16 | `LineageOS-23.2_GSI_treble_arm64-ab-GAPPS-20260603.img.xz` | 1.0 GB | 2026-06-03 | [⬇️ Download](https://drive.google.com/open?id=11LOxqM_G7do0j5gwo8-wikq_HX-uz20i) |
 | **LineageOS (Doze-off)** | 16 | `LineageOS-23.2_GSI_treble_arm64-ab-MICROG-20260603.img.xz` | 0.9 GB | 2026-06-03 | [⬇️ Download](https://drive.google.com/open?id=1h1AtbWPfpzry8yun73lLCo67aKIQYYGT) |
 | **GenesisOS** | 16 | `Genesis-5.0_GSI_treble_arm64-ab-GAPPS-GL-20260529.img.xz` | 1.2 GB | 2026-05-29 | [⬇️ Download](https://drive.google.com/open?id=1nRovOqlr_ZrTtVg2VO9NQygPUaw41mAJ) |
+| **GenesisOS** | 16 | `Genesis-5.0_GSI_treble_arm64-ab-GAPPS-PL-20260529.img.xz` | 1.3 GB | 2026-05-29 | [⬇️ Download](https://drive.google.com/open?id=1HB01TWaQHCQM2aMADcQ2op2MZeVio1Nn) |
 | **YAAP** | 16 | `YAAP-16.2_GSI_treble_arm64-ab_GAPPS-20260517.img.xz` | 1.1 GB | 2026-05-18 | [⬇️ Download](https://drive.google.com/open?id=1J1ppgo8nDrS82aceU9l1p86tU5Al4K7w) |
 | **realme UI (RE6030L1) · Mystic** | 17 | `Realmeui-RE6030L1-CinnamonBun-1773651170858-AB-20260326-MysticGSI.img.xz` | 5.4 GB | 2026-03-26 | [⬇️ Download](https://drive.google.com/open?id=1Akzm0c5AVtC9Yx76bz77dhAFGYJ40qfj) |
 | **ColorOS (OP5E11L1) · Mystic** | 17 | `Coloros-OP5E11L1-CinnamonBun-1773378663794-AB-20260325-MysticGSI.img.xz` | 4.9 GB | 2026-03-25 | [⬇️ Download](https://drive.google.com/open?id=1IsAV69gUlmwZNhE2IPCAJvnq6fLqeAYt) |
@@ -186,6 +187,7 @@ fastboot reboot
 | **LineageOS (Doze-off)** | 16 | `LineageOS-23.2_GSI_treble_arm64-ab-GAPPS-20260603.img.xz` | 1.0 GB | 2026-06-03 | [⬇️ Скачать](https://drive.google.com/open?id=11LOxqM_G7do0j5gwo8-wikq_HX-uz20i) |
 | **LineageOS (Doze-off)** | 16 | `LineageOS-23.2_GSI_treble_arm64-ab-MICROG-20260603.img.xz` | 0.9 GB | 2026-06-03 | [⬇️ Скачать](https://drive.google.com/open?id=1h1AtbWPfpzry8yun73lLCo67aKIQYYGT) |
 | **GenesisOS** | 16 | `Genesis-5.0_GSI_treble_arm64-ab-GAPPS-GL-20260529.img.xz` | 1.2 GB | 2026-05-29 | [⬇️ Скачать](https://drive.google.com/open?id=1nRovOqlr_ZrTtVg2VO9NQygPUaw41mAJ) |
+| **GenesisOS** | 16 | `Genesis-5.0_GSI_treble_arm64-ab-GAPPS-PL-20260529.img.xz` | 1.3 GB | 2026-05-29 | [⬇️ Скачать](https://drive.google.com/open?id=1HB01TWaQHCQM2aMADcQ2op2MZeVio1Nn) |
 | **YAAP** | 16 | `YAAP-16.2_GSI_treble_arm64-ab_GAPPS-20260517.img.xz` | 1.1 GB | 2026-05-18 | [⬇️ Скачать](https://drive.google.com/open?id=1J1ppgo8nDrS82aceU9l1p86tU5Al4K7w) |
 | **realme UI (RE6030L1) · Mystic** | 17 | `Realmeui-RE6030L1-CinnamonBun-1773651170858-AB-20260326-MysticGSI.img.xz` | 5.4 GB | 2026-03-26 | [⬇️ Скачать](https://drive.google.com/open?id=1Akzm0c5AVtC9Yx76bz77dhAFGYJ40qfj) |
 | **ColorOS (OP5E11L1) · Mystic** | 17 | `Coloros-OP5E11L1-CinnamonBun-1773378663794-AB-20260325-MysticGSI.img.xz` | 4.9 GB | 2026-03-25 | [⬇️ Скачать](https://drive.google.com/open?id=1IsAV69gUlmwZNhE2IPCAJvnq6fLqeAYt) |
