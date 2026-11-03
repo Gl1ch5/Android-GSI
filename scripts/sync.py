@@ -92,6 +92,12 @@ def releases_for(src):
             out.setdefault(folder, (folder, d.strftime("%Y-%m-%d"), [], ""))
             out[folder][2].append((path.rsplit("/", 1)[1], link, 0))
         return list(out.values())[:max(RELEASES_BACK, 3)]
+    if kind == "telegram":
+        import tg_fetch
+        files = tg_fetch.list_files(src["channel"], src.get("asset_regex", r"\.(img|xz|gz|zip|7z)$"),
+                                    src.get("scan_messages", 200))
+        return [(f"tg{mid}", date, [(name, f"tg://{src['channel']}/{mid}", size)], "")
+                for mid, name, size, date in files[:max(RELEASES_BACK, 3)]]
     if kind == "url":  # прямые ссылки, добавленные вручную
         return [(f["tag"], f.get("date", ""), [(f["file"], f["url"], 0)], "") for f in src["files"]]
     raise ValueError(f"неизвестный type: {kind}")
@@ -119,7 +125,13 @@ def main():
                     print(f"[{src['name']}] {a['name']} уже загружен"); continue
                 try:
                     local = WORK / aname
-                    run("curl", "-fL", "--retry", "3", "-o", str(local), aurl)
+                    if aurl.startswith("tg://"):
+                        import tg_fetch
+                        ch, mid = aurl[5:].rsplit("/", 1)
+                        print(f"+ telegram {ch}/{mid}", flush=True)
+                        tg_fetch.download(ch, int(mid), local)
+                    else:
+                        run("curl", "-fL", "--retry", "3", "-o", str(local), aurl)
                     img = to_img(local)
                     dest = f"{REMOTE}/{sid.replace('/', '_')}/{tag.replace('/', '_')}"
                     run("rclone", "copy", str(img), dest)

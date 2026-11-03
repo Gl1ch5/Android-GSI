@@ -37,6 +37,18 @@ _Пока пусто — запустите workflow **Sync GSI to Google Drive*
 ]}
 ```
 
+## Telegram-каналы
+
+```json
+{"name": "Mystic GSI", "type": "telegram", "channel": "имя_канала_без_@", "asset_regex": "\\.(img|xz|gz|zip|7z)$"}
+```
+
+Один раз настроить:
+1. На https://my.telegram.org → **API development tools** создайте приложение, получите `api_id` и `api_hash`.
+2. На ПК: `pip install telethon` и `python scripts/tg_login.py` — войдите и получите строку сессии.
+3. Добавьте секреты `TG_API_ID`, `TG_API_HASH`, `TG_SESSION`.
+   ⚠️ `TG_SESSION` = полный доступ к аккаунту. Лучше завести отдельный аккаунт и подписать его на нужные каналы.
+
 Архивы `.xz/.gz/.zip/.7z` автоматически распаковываются в один `.img`.
 
 ## ⚠️ OnePlus 15R

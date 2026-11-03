@@ -25,6 +25,7 @@ jobs:
         run: |
           curl -fsSL https://rclone.org/install.sh | sudo bash
           sudo apt-get install -y p7zip-full xz-utils
+          pip install --quiet telethon cryptg
           sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc  # больше места на диске
 
       - name: Configure rclone
@@ -38,6 +39,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RCLONE_REMOTE: ${{ vars.RCLONE_REMOTE || 'gdrive:GSI' }}
+          TG_API_ID: ${{ secrets.TG_API_ID }}
+          TG_API_HASH: ${{ secrets.TG_API_HASH }}
+          TG_SESSION: ${{ secrets.TG_SESSION }}
           RELEASES_BACK: ${{ inputs.releases_back || '1' }}
         run: python3 scripts/sync.py
 
