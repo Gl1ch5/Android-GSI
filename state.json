@@ -715,5 +715,15 @@
     "size_mb": 899,
     "link": "https://drive.google.com/open?id=1r2S3xgX7Z3qEG1L2-nxRDFT01MUOAB40",
     "date": "2026-11-02"
+  },
+  "Doze-off/axion_aosp/2026-10-17/Axion-2.9-GSI_treble_arm64-ab-GAPPS-20261017.img.xz": {
+    "name": "AxionOS",
+    "tag": "2026-10-17",
+    "file": "Axion-2.9-GSI_treble_arm64-ab-GAPPS-20261017.img.xz",
+    "src_file": "Axion-2.9-GSI_treble_arm64-ab-GAPPS-20261017.img.xz",
+    "android": "16",
+    "size_mb": 1232,
+    "link": "https://drive.google.com/open?id=1p0rMDoekZY6aENFh8BiQp3aVi3inaWgM",
+    "date": "2026-10-17"
   }
 }
