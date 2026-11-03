@@ -775,5 +775,15 @@
     "size_mb": 1013,
     "link": "https://drive.google.com/open?id=1kiht9beOFvRMq4jM4vbeElnYxVYP7LUR",
     "date": "2026-09-22"
+  },
+  "Doze-off/Derpfest_treble/2026-07-19/Derpfest-16.2-GSI_treble_arm64-ab-GAPPS-Official-20260719.img.xz": {
+    "name": "DerpFest",
+    "tag": "2026-07-19",
+    "file": "Derpfest-16.2-GSI_treble_arm64-ab-GAPPS-Official-20260719.img.xz",
+    "src_file": "Derpfest-16.2-GSI_treble_arm64-ab-GAPPS-Official-20260719.img.xz",
+    "android": "16",
+    "size_mb": 1624,
+    "link": "https://drive.google.com/open?id=16kk1fVMVOGdViCzJpRdscjhLdWBOw-9M",
+    "date": "2026-07-19"
   }
 }
