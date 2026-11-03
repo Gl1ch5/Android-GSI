@@ -89,10 +89,10 @@
     "link": "https://drive.google.com/open?id=1gCjtpLJrTL2WOyKQOwmBcabeBubgVgy6",
     "date": "2026-06-19"
   },
-  "mystic/pixel17-20261103-0423/Pixel-frankel-17-16271449-AB-20261103-MysticGSI.img": {
-    "name": "MysticGSI pixel",
-    "tag": "pixel17-20261103-0423",
-    "file": "Pixel-frankel-17-16271449-AB-20261103-MysticGSI.img",
+  "eyzner/LineageOS-GSI/lineage-24.0-20261029/lineage-24.0-20261029-UNOFFICIAL-arm64_bvN-erofs.img.xz": {
+    "name": "LineageOS 24 (eyzner)",
+    "tag": "lineage-24.0-20261029",
+    "file": "lineage-24.0-20261029-UNOFFICIAL-arm64_bvN-erofs.img.xz",
     "android": "17",
     "size_mb": 1052,
     "link": "https://drive.google.com/open?id=1vPVuCMaOQJ9Xz9o8NcKVSpskYFZMzpZw",
