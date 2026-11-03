@@ -43,6 +43,7 @@ Catalog with search, filters, live queue and ROM requests<br>
 | **OxygenOS (OP556FL1) · Mystic** | 16 | `Oxygenos-OP556FL1-16-1765350064807-AB-20251227-MysticGSI.img.xz` | 4.0 GB | 2025-12-26 | [⬇️ Download](https://drive.google.com/open?id=1PEAtRvPXSvM1CpkfIi4Yi2n7nXkyfDDp) |
 | **Pixel (tangorpro) · Mystic** | 17 | `Pixel-tangorpro-CANARY-14518957-AB-20251220-MysticGSI.img.xz` | 1.7 GB | 2025-12-19 | [⬇️ Download](https://drive.google.com/open?id=1rFF7YjypkeOSBZxtgN3ca0p-CNCp3CCA) |
 | **One UI (a15x) · Mystic** | 16 | `Oneui-a15x-16-A156BXXS7DYJ1-AB-20251218-MysticGSI.img.xz` | 2.1 GB | 2025-12-18 | [⬇️ Download](https://drive.google.com/open?id=1JRQN0XtR4mudeHg8mOC1lqf5qnSjods4) |
+| **Pixel (stallion) · Mystic** | 16 | `Pixel-stallion-16-14508591-AB-20251216-MysticGSI.img.xz` | 1.6 GB | 2025-12-16 | [⬇️ Download](https://drive.google.com/open?id=1WImZHM6DH3O8r-O_leXG4F59HP4W-CGd) |
 | **ponces AOSP** | 16 | `aosp-arm64-ab-gapps-16.0-20250625.img.xz` | 1.4 GB | 2025-06-25 | [⬇️ Download](https://drive.google.com/open?id=1_y2vA2w1mKXPMBsEwweGhH5MMr0LL6pR) |
 | **ponces AOSP** | 15 | `aosp-arm64-ab-gapps-15.0-20250513.img.xz` | 1.4 GB | 2025-05-13 | [⬇️ Download](https://drive.google.com/open?id=1_d2pKToblPZTC1_rr-AIQKJBLAy1rX0B) |
 <!-- GSI-LIST-EN:END -->
@@ -98,6 +99,7 @@ fastboot reboot
 | **OxygenOS (OP556FL1) · Mystic** | 16 | `Oxygenos-OP556FL1-16-1765350064807-AB-20251227-MysticGSI.img.xz` | 4.0 GB | 2025-12-26 | [⬇️ Скачать](https://drive.google.com/open?id=1PEAtRvPXSvM1CpkfIi4Yi2n7nXkyfDDp) |
 | **Pixel (tangorpro) · Mystic** | 17 | `Pixel-tangorpro-CANARY-14518957-AB-20251220-MysticGSI.img.xz` | 1.7 GB | 2025-12-19 | [⬇️ Скачать](https://drive.google.com/open?id=1rFF7YjypkeOSBZxtgN3ca0p-CNCp3CCA) |
 | **One UI (a15x) · Mystic** | 16 | `Oneui-a15x-16-A156BXXS7DYJ1-AB-20251218-MysticGSI.img.xz` | 2.1 GB | 2025-12-18 | [⬇️ Скачать](https://drive.google.com/open?id=1JRQN0XtR4mudeHg8mOC1lqf5qnSjods4) |
+| **Pixel (stallion) · Mystic** | 16 | `Pixel-stallion-16-14508591-AB-20251216-MysticGSI.img.xz` | 1.6 GB | 2025-12-16 | [⬇️ Скачать](https://drive.google.com/open?id=1WImZHM6DH3O8r-O_leXG4F59HP4W-CGd) |
 | **ponces AOSP** | 16 | `aosp-arm64-ab-gapps-16.0-20250625.img.xz` | 1.4 GB | 2025-06-25 | [⬇️ Скачать](https://drive.google.com/open?id=1_y2vA2w1mKXPMBsEwweGhH5MMr0LL6pR) |
 | **ponces AOSP** | 15 | `aosp-arm64-ab-gapps-15.0-20250513.img.xz` | 1.4 GB | 2025-05-13 | [⬇️ Скачать](https://drive.google.com/open?id=1_d2pKToblPZTC1_rr-AIQKJBLAy1rX0B) |
 <!-- GSI-LIST-RU:END -->

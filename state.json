@@ -215,5 +215,15 @@
     "size_mb": 3075,
     "link": "https://drive.google.com/open?id=17eFYqOKo398keWxyjhxP87BmaBrm_TSq",
     "date": "2026-01-18"
+  },
+  "mystic-gsi-updates/Pixel/Pixel-stallion-16-14508591-AB-20251216-MysticGSI.zip": {
+    "name": "Pixel (stallion) · Mystic",
+    "tag": "Pixel",
+    "file": "Pixel-stallion-16-14508591-AB-20251216-MysticGSI.img.xz",
+    "src_file": "Pixel-stallion-16-14508591-AB-20251216-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 1676,
+    "link": "https://drive.google.com/open?id=1WImZHM6DH3O8r-O_leXG4F59HP4W-CGd",
+    "date": "2025-12-16"
   }
 }
