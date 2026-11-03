@@ -845,5 +845,15 @@
     "size_mb": 1177,
     "link": "https://drive.google.com/open?id=1CoPymjxo7umWRw_GE7BXKDsP9sH_fau1",
     "date": "2026-09-21"
+  },
+  "Doze-off/lineage_treble/2026-06-03/LineageOS-23.2_GSI_treble_arm64-ab-MICROG-20260603.img.xz": {
+    "name": "LineageOS (Doze-off)",
+    "tag": "2026-06-03",
+    "file": "LineageOS-23.2_GSI_treble_arm64-ab-MICROG-20260603.img.xz",
+    "src_file": "LineageOS-23.2_GSI_treble_arm64-ab-MICROG-20260603.img.xz",
+    "android": "16",
+    "size_mb": 890,
+    "link": "https://drive.google.com/open?id=1h1AtbWPfpzry8yun73lLCo67aKIQYYGT",
+    "date": "2026-06-03"
   }
 }
