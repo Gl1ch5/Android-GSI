@@ -665,5 +665,15 @@
     "size_mb": 6049,
     "link": "https://drive.google.com/open?id=1DEHQKeAytfC236a5h4VIh_UI0FYRtrwC",
     "date": "2025-09-25"
+  },
+  "mystic-gsi-updates/Generic/Hyperos-yupei-16-OS3.0.4.0.WPZCNXM-AB-20250925-MysticGSI.zip": {
+    "name": "HyperOS (yupei) · Mystic",
+    "tag": "Generic",
+    "file": "Hyperos-yupei-16-OS3.0.4.0.WPZCNXM-AB-20250925-MysticGSI.img.xz",
+    "src_file": "Hyperos-yupei-16-OS3.0.4.0.WPZCNXM-AB-20250925-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 5798,
+    "link": "https://drive.google.com/open?id=1ClbHEZ7Dcq20F23eSEUfhcmkYKnXxUSo",
+    "date": "2025-09-25"
   }
 }
