@@ -1,148 +1,106 @@
 {
  "items": [
   {
-   "file": "Oneui-gts9-16-X716BXXS5DYJ2-AB-20251124-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T05:56:53Z"
-  },
-  {
-   "file": "Oxygenos-OP5D55L1-16-1761160957356-AB-20251030-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T06:05:46Z"
-  },
-  {
-   "file": "Coloros-OP5D06L1-16-1760327042399-AB-20251029-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T06:06:35Z"
-  },
-  {
-   "file": "Realmeui-RE5C4FL1-16-1760953953092-AB-20251024-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T06:10:49Z"
-  },
-  {
-   "file": "Hyperos-annibale-16-OS3.0.9.0.WPKCNXM-AB-20251023-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T06:11:40Z"
-  },
-  {
-   "file": "Hyperos-myron-16-OS3.0.11.0.WPMCNXM-AB-20251023-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T06:12:39Z"
-  },
-  {
-   "file": "Realmeui-RE6030L1-16-1760755079080-AB-20251022-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T06:16:43Z"
-  },
-  {
-   "file": "Realmeui-RE6400L1-16-1760800214076-AB-20251022-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T06:16:46Z"
-  },
-  {
-   "file": "Coloros-OP5E17L1-16-1760720393897-AB-20251021-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T06:17:34Z"
-  },
-  {
-   "file": "Coloros-OP5E11L1-16-1760720130533-AB-20251021-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T06:20:37Z"
-  },
-  {
-   "file": "Realmeui-RE6018L1-16-1760189042803-AB-20251020-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T06:24:00Z"
-  },
-  {
-   "file": "Magicos-PPG-AN00-16-eng.root-AB-20251017-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T06:25:00Z"
-  },
-  {
-   "file": "Coloros-OP60F5L1-16-1760244118112-AB-20251017-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T06:29:53Z"
-  },
-  {
-   "file": "Coloros-OP6542L1-16-1757960617399-AB-20251015-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T06:30:59Z"
-  },
-  {
-   "file": "Coloros-OP5D0DL1-16-1760212044539-AB-20251015-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T06:32:46Z"
-  },
-  {
-   "file": "Pixel-cheetah-16-14089870-AB-20251002-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T06:36:05Z"
-  },
-  {
-   "file": "Hyperos-pandora-16-OS3.0.7.0.WBLCNXM-AB-20250926-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T06:40:32Z"
-  },
-  {
-   "file": "Hyperos-yupei-16-OS3.0.4.0.WPZCNXM-AB-20250925-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T06:51:43Z"
-  },
-  {
-   "file": "Hyperos-piano-16-OS3.0.4.0.WPYCNXM-AB-20250925-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T06:44:49Z"
-  },
-  {
-   "file": "Hyperos-pudding-16-OS3.0.7.0.WPCCNXM-AB-20250926-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T06:41:46Z"
-  },
-  {
-   "file": "Originos-k6993v1_64-16-compiler250921224452-AB-20250923-MysticGSI.zip",
-   "name": "",
+   "file": "Pixel-raven-17-16091614-AB-20260920-MysticGSI.zip",
+   "name": "Pixel (raven) · Mystic",
    "status": "queued",
-   "started": "2026-11-03T05:15:54Z"
+   "run": "41631300864"
   },
   {
-   "file": "Hyperos-haotian-16-OS3.0.0.25.WOBCNXM-AB-20250918-MysticGSI.zip",
-   "name": "",
+   "file": "Magicos-WKL-AN10-17-eng.root-AB-20260919-MysticGSI_rebuild.7z",
+   "name": "MagicOS (WKL) · Mystic",
    "status": "queued",
-   "started": "2026-11-03T05:15:54Z"
+   "run": "41631300864"
+  },
+  {
+   "file": "Aluminium-quartz-CL2B.260330.037_MysticGSI.img.zip",
+   "name": "Aluminium (quartz) · Mystic",
+   "status": "queued",
+   "run": "41631300864"
+  },
+  {
+   "file": "Pixel-arrow-16-15861848-AB-20260719-MysticGSI.zip",
+   "name": "Pixel (arrow) · Mystic",
+   "status": "queued",
+   "run": "41631300864"
+  },
+  {
+   "file": "Infinity-X-3.12-GSI_treble_arm64-ab-MICROG-Official-20260920.img.xz",
+   "name": "Infinity X",
+   "status": "queued",
+   "run": "41631300864"
+  },
+  {
+   "file": "MistOS-4.8-GSI_treble_arm64-ab-MICROG-Official-20260907.img.xz",
+   "name": "MistOS",
+   "status": "queued",
+   "run": "41631300864"
+  },
+  {
+   "file": "YAAP-16.2_GSI_treble_arm64-ab_MICROG-20260517.img.xz",
+   "name": "YAAP",
+   "status": "queued",
+   "run": "41631300864"
+  },
+  {
+   "file": "Pixel-raven-17-15063635-AB-20260327-MysticGSI.zip",
+   "name": "Pixel (raven) · Mystic",
+   "status": "queued",
+   "run": "41631300864"
+  },
+  {
+   "file": "Zuxos-TB322FC-16-TB322FC_CN_OPEN_USER_Q00041.1_W_ZUXOS_1.5.10.063_ST_260111-AB-20260114-MysticGSI.zip",
+   "name": "Zuxos (TB322FC) · Mystic",
+   "status": "queued",
+   "run": "41631300864"
+  },
+  {
+   "file": "Coloros-OP615EL1-16-1765357695451-AB-20251228-MysticGSI.zip",
+   "name": "ColorOS (OP615EL1) · Mystic",
+   "status": "queued",
+   "run": "41631300864"
+  },
+  {
+   "file": "Pixel-cheetah-16-14401865-AB-20251221-MysticGSI.zip",
+   "name": "Pixel (cheetah) · Mystic",
+   "status": "queued",
+   "run": "41631300864"
+  },
+  {
+   "file": "Pixel-cheetah-16-14401865-AB-20251220-MysticGSI.zip",
+   "name": "Pixel (cheetah) · Mystic",
+   "status": "queued",
+   "run": "41631300864"
+  },
+  {
+   "file": "Hyperos-fuxi-16-OS3.0.2.0.WMCCNXM-AB-20251210-MysticGSI.zip",
+   "name": "HyperOS (fuxi) · Mystic",
+   "status": "queued",
+   "run": "41631300864"
+  },
+  {
+   "file": "Coloros-OP60EDL1-16-1763036366485-AB-20251123-MysticGSI.zip",
+   "name": "ColorOS (OP60EDL1) · Mystic",
+   "status": "queued",
+   "run": "41631300864"
+  },
+  {
+   "file": "Coloros-OP60FFL1-16-1760951010663-AB-20251027-MysticGSI.zip",
+   "name": "ColorOS (OP60FFL1) · Mystic",
+   "status": "queued",
+   "run": "41631300864"
+  },
+  {
+   "file": "Hyperos-popsicle-16-OS3.0.7.0.WPBCNXM-AB-20250926-MysticGSI.zip",
+   "name": "HyperOS (popsicle) · Mystic",
+   "status": "queued",
+   "run": "41631300864"
   },
   {
    "file": "Oxygenos-OP5D55L1-16-1744797430944-AB-20250915-MysticGSI.zip",
-   "name": "",
+   "name": "OxygenOS (OP5D55L1) · Mystic",
    "status": "queued",
-   "started": "2026-11-03T05:15:54Z"
-  },
-  {
-   "file": "Pixel-bluejay-16-13873947-AB-20250914-MysticGSI.zip",
-   "name": "",
-   "status": "queued",
-   "started": "2026-11-03T05:15:54Z"
+   "run": "41631300864"
   },
   {
    "file": "Hyperos-houji-16-OS3.0.2.0.WNCMIXM-AB-20251122-MysticGSI.zip",
@@ -166,13 +124,6 @@
    "finished": "2026-11-03T06:41:34Z"
   },
   {
-   "file": "Hyperos-popsicle-16-OS3.0.7.0.WPBCNXM-AB-20250926-MysticGSI.zip",
-   "name": "",
-   "status": "failure",
-   "started": "2026-11-03T06:36:37Z",
-   "finished": "2026-11-03T06:40:29Z"
-  },
-  {
    "file": "Coloros-OP61B3L1-16-1763048533957-AB-20251117-MysticGSI.zip",
    "name": "",
    "status": "success",
@@ -185,13 +136,6 @@
    "status": "success",
    "started": "2026-11-03T05:58:36Z",
    "finished": "2026-11-03T06:35:58Z"
-  },
-  {
-   "file": "Coloros-OP60FFL1-16-1760951010663-AB-20251027-MysticGSI.zip",
-   "name": "",
-   "status": "failure",
-   "started": "2026-11-03T06:06:48Z",
-   "finished": "2026-11-03T06:32:45Z"
   },
   {
    "file": "Hyperos-dada-16-OS3.0.5.0.WOCCNXM-AB-20251205-MysticGSI.zip",
@@ -285,13 +229,6 @@
    "finished": "2026-11-03T06:06:33Z"
   },
   {
-   "file": "Coloros-OP60EDL1-16-1763036366485-AB-20251123-MysticGSI.zip",
-   "name": "",
-   "status": "failure",
-   "started": "2026-11-03T05:58:34Z",
-   "finished": "2026-11-03T06:05:44Z"
-  },
-  {
    "file": "Coloros-OP60FFL1-CinnamonBun-1773378796435-AB-20260325-MysticGSI.zip",
    "name": "",
    "status": "success",
@@ -383,13 +320,6 @@
    "finished": "2026-11-03T05:46:49Z"
   },
   {
-   "file": "Hyperos-fuxi-16-OS3.0.2.0.WMCCNXM-AB-20251210-MysticGSI.zip",
-   "name": "",
-   "status": "failure",
-   "started": "2026-11-03T05:41:39Z",
-   "finished": "2026-11-03T05:44:03Z"
-  },
-  {
    "file": "Hyperos-dijun-16-OS3.0.9.0.WODCNXM-AB-20260114-MysticGSI.zip",
    "name": "",
    "status": "success",
@@ -425,5 +355,6 @@
    "finished": "2026-11-03T05:38:59Z"
   }
  ],
- "updated": "2026-11-03T06:53:23+00:00"
+ "updated": "2026-11-03T12:04:03+00:00",
+ "run": "41631300864"
 }
