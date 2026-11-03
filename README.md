@@ -2,13 +2,13 @@
 
 # 📱 Android GSI Mirror
 
-**Fresh Generic System Images — compact, ready for DSU, on a fast mirror.**
+**Fresh Generic System Images — compact, ready for DSU, on a fast mirror.**<br>
 **Свежие GSI-прошивки — компактные, готовые для DSU, на быстром зеркале.**
 
-### [🌐 Открыть сайт / Open website →](https://gl1ch5.github.io/Android-GSI/)
+### [🌐 Open website / Открыть сайт →](https://gl1ch5.github.io/Android-GSI/)
 
+Catalog with search, filters, live queue and ROM requests<br>
 Каталог с поиском, фильтрами, очередью загрузки и запросом прошивок
-Catalog with search, filters, live queue and ROM requests
 
 [🇬🇧 English](#-english) &nbsp;•&nbsp; [🇷🇺 Русский](#-русский)
 
