@@ -145,5 +145,15 @@
     "size_mb": 2188,
     "link": "https://drive.google.com/open?id=1JRQN0XtR4mudeHg8mOC1lqf5qnSjods4",
     "date": "2025-12-18"
+  },
+  "mystic-gsi-updates/ColorOS/Coloros-OP64DDL1-16-1769698117230-AB-20260315-MysticGSI.zip": {
+    "name": "ColorOS (OP64DDL1) · Mystic",
+    "tag": "ColorOS",
+    "file": "Coloros-OP64DDL1-16-1769698117230-AB-20260315-MysticGSI.img.xz",
+    "src_file": "Coloros-OP64DDL1-16-1769698117230-AB-20260315-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 3556,
+    "link": "https://drive.google.com/open?id=1CNELqzW_oKkQOMsUU67srsJvGEMjS_fK",
+    "date": "2026-03-15"
   }
 }

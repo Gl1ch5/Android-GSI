@@ -33,6 +33,7 @@ Catalog with search, filters, live queue and ROM requests<br>
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bgN-vndklite-signed.img.gz` | 1.3 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1SA6ZRxgUdysQENEy7yo0cei21KuEItAV) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bgN-signed.img.gz` | 1.3 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1XIZpt4vr4UU95vMa9U4rkEyE9_OUMHoR) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260613-UNOFFICIAL-gsi_arm64_vN.img.gz` | 1.3 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1gCjtpLJrTL2WOyKQOwmBcabeBubgVgy6) |
+| **ColorOS (OP64DDL1) · Mystic** | 16 | `Coloros-OP64DDL1-16-1769698117230-AB-20260315-MysticGSI.img.xz` | 3.5 GB | 2026-03-15 | [⬇️ Download](https://drive.google.com/open?id=1CNELqzW_oKkQOMsUU67srsJvGEMjS_fK) |
 | **Pixel (cheetah) · Mystic** | 17 | `Pixel-cheetah-CinnamonBun-14911996-AB-20260227-MysticGSI.img.xz` | 2.4 GB | 2026-02-27 | [⬇️ Download](https://drive.google.com/open?id=13KqKleyDn8y6drBwZ6rttUWfhjqhrYg_) |
 | **One UI (gts9wifi) · Mystic** | 16 | `Oneui-gts9wifi-16-X710ZCS5DZA1-AB-20260211-MysticGSI.img.xz` | 2.3 GB | 2026-02-11 | [⬇️ Download](https://drive.google.com/open?id=1MI5jZzpcDPPHAu6-00bvf8U6mpWIBuWV) |
 | **One UI (a15x) · Mystic** | 16 | `Oneui-a15x-16-A156BXXS7DYJ1-AB-20251218-MysticGSI.img.xz` | 2.1 GB | 2025-12-18 | [⬇️ Download](https://drive.google.com/open?id=1JRQN0XtR4mudeHg8mOC1lqf5qnSjods4) |
@@ -81,6 +82,7 @@ fastboot reboot
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bgN-vndklite-signed.img.gz` | 1.3 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1SA6ZRxgUdysQENEy7yo0cei21KuEItAV) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bgN-signed.img.gz` | 1.3 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1XIZpt4vr4UU95vMa9U4rkEyE9_OUMHoR) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260613-UNOFFICIAL-gsi_arm64_vN.img.gz` | 1.3 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1gCjtpLJrTL2WOyKQOwmBcabeBubgVgy6) |
+| **ColorOS (OP64DDL1) · Mystic** | 16 | `Coloros-OP64DDL1-16-1769698117230-AB-20260315-MysticGSI.img.xz` | 3.5 GB | 2026-03-15 | [⬇️ Скачать](https://drive.google.com/open?id=1CNELqzW_oKkQOMsUU67srsJvGEMjS_fK) |
 | **Pixel (cheetah) · Mystic** | 17 | `Pixel-cheetah-CinnamonBun-14911996-AB-20260227-MysticGSI.img.xz` | 2.4 GB | 2026-02-27 | [⬇️ Скачать](https://drive.google.com/open?id=13KqKleyDn8y6drBwZ6rttUWfhjqhrYg_) |
 | **One UI (gts9wifi) · Mystic** | 16 | `Oneui-gts9wifi-16-X710ZCS5DZA1-AB-20260211-MysticGSI.img.xz` | 2.3 GB | 2026-02-11 | [⬇️ Скачать](https://drive.google.com/open?id=1MI5jZzpcDPPHAu6-00bvf8U6mpWIBuWV) |
 | **One UI (a15x) · Mystic** | 16 | `Oneui-a15x-16-A156BXXS7DYJ1-AB-20251218-MysticGSI.img.xz` | 2.1 GB | 2025-12-18 | [⬇️ Скачать](https://drive.google.com/open?id=1JRQN0XtR4mudeHg8mOC1lqf5qnSjods4) |
