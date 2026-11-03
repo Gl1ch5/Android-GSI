@@ -535,5 +535,15 @@
     "size_mb": 4539,
     "link": "https://drive.google.com/open?id=1uOPqfiw28owxgXxtenRVX5zBuP4W66wV",
     "date": "2025-10-23"
+  },
+  "mystic-gsi-updates/ColorOS/Coloros-OP5E17L1-16-1760720393897-AB-20251021-MysticGSI.zip": {
+    "name": "ColorOS (OP5E17L1) · Mystic",
+    "tag": "ColorOS",
+    "file": "Coloros-OP5E17L1-16-1760720393897-AB-20251021-MysticGSI.img.xz",
+    "src_file": "Coloros-OP5E17L1-16-1760720393897-AB-20251021-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 3702,
+    "link": "https://drive.google.com/open?id=1_b8ZQYY5Z_JV37wgpCwftYwCP4Mos-WT",
+    "date": "2025-10-21"
   }
 }
