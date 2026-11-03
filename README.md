@@ -20,7 +20,7 @@
 <!-- GSI-LIST-EN:START -->
 | ROM | Android | Build | Size | Date | Download |
 |---|:---:|---|---:|---|:---:|
-| **LineageOS 24 (eyzner)** | 17 | `lineage-24.0-20261029-UNOFFICIAL-arm64_bvN-erofs.img.xz` | 1.0 GB | 2026-10-29 | [⬇️ Download](https://drive.google.com/open?id=1vPVuCMaOQJ9Xz9o8NcKVSpskYFZMzpZw) |
+| **MysticGSI pixel** | 17 | `Pixel-frankel-17-16271449-AB-20261103-MysticGSI.img` | 3.9 GB | 2026-11-03 | [⬇️ Download](https://drive.google.com/open?id=1V3HzCxgyifPeCM5eIQi_o6KxqiwoFEVR) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bvN.img` | 2.4 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1KyeNeoioDQlNoRbQ3Mg0h13SS8UTRFE4) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bvN-vndklite.img.gz` | 1.1 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1HEntlfen63Ie7T8N8zA3BwKiLWov-Bdz) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bgN-vndklite-signed.img.gz` | 1.3 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1SA6ZRxgUdysQENEy7yo0cei21KuEItAV) |
@@ -62,7 +62,7 @@ fastboot reboot
 <!-- GSI-LIST-RU:START -->
 | Прошивка | Android | Сборка | Размер | Дата | Скачать |
 |---|:---:|---|---:|---|:---:|
-| **LineageOS 24 (eyzner)** | 17 | `lineage-24.0-20261029-UNOFFICIAL-arm64_bvN-erofs.img.xz` | 1.0 GB | 2026-10-29 | [⬇️ Скачать](https://drive.google.com/open?id=1vPVuCMaOQJ9Xz9o8NcKVSpskYFZMzpZw) |
+| **MysticGSI pixel** | 17 | `Pixel-frankel-17-16271449-AB-20261103-MysticGSI.img` | 3.9 GB | 2026-11-03 | [⬇️ Скачать](https://drive.google.com/open?id=1V3HzCxgyifPeCM5eIQi_o6KxqiwoFEVR) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bvN.img` | 2.4 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1KyeNeoioDQlNoRbQ3Mg0h13SS8UTRFE4) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bvN-vndklite.img.gz` | 1.1 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1HEntlfen63Ie7T8N8zA3BwKiLWov-Bdz) |
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bgN-vndklite-signed.img.gz` | 1.3 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1SA6ZRxgUdysQENEy7yo0cei21KuEItAV) |
