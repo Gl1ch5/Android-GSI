@@ -865,5 +865,15 @@
     "size_mb": 1233,
     "link": "https://drive.google.com/open?id=12OD-CQ7huuN6FUt4EduG4wMgnPL7KAhg",
     "date": "2026-09-21"
+  },
+  "Doze-off/Alphadroid_gsi/2026-07-10/AlphaDroid-4.6_GSI_treble_arm64-ab-GAPPS-20260710.img.xz": {
+    "name": "AlphaDroid",
+    "tag": "2026-07-10",
+    "file": "AlphaDroid-4.6_GSI_treble_arm64-ab-GAPPS-20260710.img.xz",
+    "src_file": "AlphaDroid-4.6_GSI_treble_arm64-ab-GAPPS-20260710.img.xz",
+    "android": "16",
+    "size_mb": 1817,
+    "link": "https://drive.google.com/open?id=16f3RLR2e2-wbm1dC-YkH8W1qlbS7t70z",
+    "date": "2026-07-10"
   }
 }
