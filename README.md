@@ -2,7 +2,7 @@
 
 Автоматическое зеркало GSI-прошивок (Generic System Image) на Google Drive.
 GitHub Actions раз в сутки проверяет свежие релизы из [`sources.json`](sources.json),
-загружает новые образы на Google Drive и обновляет таблицу ниже.
+распаковывает их в **чистый `.img`** (без архивов — сразу для DSU Sideloader или fastboot), загружает на Google Drive и обновляет таблицу ниже.
 
 ## Актуальные сборки
 
@@ -40,5 +40,4 @@ _Пока пусто — запустите workflow **Sync GSI to Google Drive*
   ```
 - Перед прошивкой отключите проверку vbmeta:
   `fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img` (vbmeta из стоковой прошивки).
-- Распакуйте `.img.xz` перед прошивкой (`xz -d file.img.xz`).
 - Сохраните стоковую прошивку для отката. Всё на свой риск.
