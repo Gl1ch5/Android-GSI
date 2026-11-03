@@ -1,0 +1,12 @@
+[
+  {
+    "name": "TrebleDroid AOSP (phh)",
+    "repo": "TrebleDroid/treble_experimentations",
+    "asset_regex": "arm64-ab-vanilla.*\\.img\\.xz$"
+  },
+  {
+    "name": "ponces AOSP",
+    "repo": "ponces/treble_aosp",
+    "asset_regex": "arm64-ab-vanilla.*\\.img\\.xz$"
+  }
+]
