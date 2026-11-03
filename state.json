@@ -975,5 +975,15 @@
     "size_mb": 1219,
     "link": "https://drive.google.com/open?id=1aotwL4_R5hq80GRNiV1SD6N6RytvH3aH",
     "date": "2026-08-17"
+  },
+  "Doze-off/voltage_a16_treble/2026-07-11-hotfix/Voltage-5.11-GSI_treble_arm64-ab-EXT4-20260711-hotfix.img.xz": {
+    "name": "VoltageOS",
+    "tag": "2026-07-11-hotfix",
+    "file": "Voltage-5.11-GSI_treble_arm64-ab-EXT4-20260711-hotfix.img.xz",
+    "src_file": "Voltage-5.11-GSI_treble_arm64-ab-EXT4-20260711-hotfix.img.xz",
+    "android": "16",
+    "size_mb": 855,
+    "link": "https://drive.google.com/open?id=1cayPmHsrauf-5t3NH7NTyFlNGHcY9D7Z",
+    "date": "2026-07-12"
   }
 }
