@@ -120,6 +120,12 @@ def releases_for(src):
                                     src.get("scan_messages", 200))
         return [(f"tg{mid}", date, [(name, f"tg://{src['channel']}/{mid}", size)], "")
                 for mid, name, size, date in files[:max(RELEASES_BACK, 3)]]
+    if kind == "tgproxy":  # свой Telegram HTTP API
+        import tgproxy
+        files = tgproxy.list_files(src["channel"], src.get("asset_regex", r"\.(img|xz|gz|zip|7z)$"),
+                                   src.get("scan_messages", 200))
+        return [(f"tg{mid}", date, [(name, f"tgproxy://{src['channel']}/{mid}", size)], "")
+                for mid, name, size, date in files]
     if kind == "url":  # прямые ссылки, добавленные вручную
         return [(f["tag"], f.get("date", ""), [(f["file"], f["url"], 0)], f.get("title", "")) for f in src["files"]]
     raise ValueError(f"неизвестный type: {kind}")
@@ -155,7 +161,12 @@ def process(it):
     """Скачивает один файл, грузит на Диск, добавляет ссылку в README."""
     WORK.mkdir(parents=True, exist_ok=True)
     local = WORK / it["file"]
-    if it["url"].startswith("tg://"):
+    if it["url"].startswith("tgproxy://"):
+        import tgproxy
+        ch, mid = it["url"][10:].rsplit("/", 1)
+        print(f"+ tgproxy {ch}/{mid}", flush=True)
+        tgproxy.download(ch, int(mid), local)
+    elif it["url"].startswith("tg://"):
         import tg_fetch
         ch, mid = it["url"][5:].rsplit("/", 1)
         print(f"+ telegram {ch}/{mid}", flush=True)

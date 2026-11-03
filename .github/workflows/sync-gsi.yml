@@ -36,6 +36,8 @@ jobs:
       - id: plan
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TG_PROXY_TOKEN: ${{ secrets.TG_PROXY_TOKEN }}
+          TG_DEBUG: '1'
           MAX_JOBS: '200'
         run: python3 scripts/sync.py --plan
 
@@ -75,6 +77,7 @@ jobs:
           TG_API_ID: ${{ secrets.TG_API_ID }}
           TG_API_HASH: ${{ secrets.TG_API_HASH }}
           TG_SESSION: ${{ secrets.TG_SESSION }}
+          TG_PROXY_TOKEN: ${{ secrets.TG_PROXY_TOKEN }}
         run: |
           [ -n "$TG_SESSION" ] && pip install --quiet telethon cryptg || true
           python3 scripts/sync.py --item

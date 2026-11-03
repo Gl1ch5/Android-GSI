@@ -31,6 +31,13 @@
     "per_file": true
   },
   {
+    "name": "Mystic Storage (Telegram)",
+    "type": "tgproxy",
+    "channel": "mysticstorage",
+    "per_file": true,
+    "asset_regex": "MysticGSI.*\\.(zip|img|xz|7z)$|\\.(img\\.xz|img\\.gz|img)$"
+  },
+  {
     "name": "RestlessOS (A17)",
     "repo": "cawilliamson/treble_restlessos",
     "releases": 1,

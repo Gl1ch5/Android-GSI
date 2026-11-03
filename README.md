@@ -5,6 +5,11 @@
 **Fresh Generic System Images — compact, ready for DSU, on a fast mirror.**
 **Свежие GSI-прошивки — компактные, готовые для DSU, на быстром зеркале.**
 
+### [🌐 Открыть сайт / Open website →](https://gl1ch5.github.io/Android-GSI/)
+
+Каталог с поиском, фильтрами, очередью загрузки и запросом прошивок
+Catalog with search, filters, live queue and ROM requests
+
 [🇬🇧 English](#-english) &nbsp;•&nbsp; [🇷🇺 Русский](#-русский)
 
 ![Auto-updated](https://img.shields.io/badge/updated-daily-brightgreen) ![Format](https://img.shields.io/badge/format-.img.xz-blue) ![Arch](https://img.shields.io/badge/arch-arm64-orange)
