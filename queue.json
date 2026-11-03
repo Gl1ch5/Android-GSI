@@ -30,8 +30,9 @@
   {
    "file": "Infinity-X-3.12-GSI_treble_arm64-ab-MICROG-Official-20260920.img.xz",
    "name": "Infinity X",
-   "status": "queued",
-   "run": "41631300864"
+   "status": "in_progress",
+   "run": "41631300864",
+   "started": "2026-11-03T12:06:06+00:00"
   },
   {
    "file": "MistOS-4.8-GSI_treble_arm64-ab-MICROG-Official-20260907.img.xz",
@@ -369,6 +370,6 @@
    "finished": "2026-11-03T05:38:59Z"
   }
  ],
- "updated": "2026-11-03T12:06:01+00:00",
+ "updated": "2026-11-03T12:06:06+00:00",
  "run": "41631300864"
 }
