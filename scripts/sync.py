@@ -21,7 +21,11 @@ def gh(url):
 
 def run(*cmd):
     print("+", " ".join(cmd), flush=True)
-    return subprocess.run(cmd, check=True, capture_output=True, text=True).stdout.strip()
+    r = subprocess.run(cmd, capture_output=True, text=True)
+    if r.returncode:
+        print(r.stdout, r.stderr, sep="\n", flush=True)
+        raise SystemExit(f"Команда упала: {cmd[0]} (код {r.returncode})")
+    return r.stdout.strip()
 
 
 def main():
