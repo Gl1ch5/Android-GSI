@@ -915,5 +915,15 @@
     "size_mb": 1590,
     "link": "https://drive.google.com/open?id=14tYlcOZWRA54FUM5SAFDcDSzr3s6QKSr",
     "date": "2026-09-21"
+  },
+  "Doze-off/WitAqua_treble/2026-09-20/WitAqua-3.2-GSI_treble_arm64-ab_MICROG-Official-20260920.img.xz": {
+    "name": "WitAqua",
+    "tag": "2026-09-20",
+    "file": "WitAqua-3.2-GSI_treble_arm64-ab_MICROG-Official-20260920.img.xz",
+    "src_file": "WitAqua-3.2-GSI_treble_arm64-ab_MICROG-Official-20260920.img.xz",
+    "android": "16",
+    "size_mb": 920,
+    "link": "https://drive.google.com/open?id=1Hhb6LwS6AziGJ9HixNH3ELwmdIGFEmAk",
+    "date": "2026-09-21"
   }
 }
