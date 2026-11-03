@@ -149,6 +149,10 @@ def main():
                               "date": date}
                 STATE.write_text(json.dumps(state, indent=2, ensure_ascii=False) + "\n")
 
+    render(state)
+
+
+def render(state):
     STATE.write_text(json.dumps(state, indent=2, ensure_ascii=False) + "\n")
     rows = ["| Сборка | Android | Версия | Файл (.img) | Размер | Дата | Google Drive |",
             "|---|---|---|---|---|---|---|"]
