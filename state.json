@@ -835,5 +835,15 @@
     "size_mb": 1213,
     "link": "https://drive.google.com/open?id=1-jxwyOSCkfppUXc55kpzV0QHkF66lcF-",
     "date": "2026-09-20"
+  },
+  "Doze-off/EvoX_treble/2026-09-20/EvoX-11.11-GSI_treble_arm64-ab-MICROG-20260920.img.xz": {
+    "name": "Evolution X",
+    "tag": "2026-09-20",
+    "file": "EvoX-11.11-GSI_treble_arm64-ab-MICROG-20260920.img.xz",
+    "src_file": "EvoX-11.11-GSI_treble_arm64-ab-MICROG-20260920.img.xz",
+    "android": "16",
+    "size_mb": 1177,
+    "link": "https://drive.google.com/open?id=1CoPymjxo7umWRw_GE7BXKDsP9sH_fau1",
+    "date": "2026-09-21"
   }
 }

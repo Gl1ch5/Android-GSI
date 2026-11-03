@@ -33,6 +33,7 @@ Catalog with search, filters, live queue and ROM requests<br>
 | **AxionOS** | 16 | `Axion-2.9-GSI_treble_arm64-ab-MICROG-20261017.img.xz` | 1.1 GB | 2026-10-17 | [⬇️ Download](https://drive.google.com/open?id=1MxcVpH8UgSHw7qy1H1IZJ3bG8qQtiEgo) |
 | **crDroid** | 16 | `crDroid-12.12-GSI_treble_arm64-ab-MICROG-20260922.img.xz` | 1.0 GB | 2026-09-22 | [⬇️ Download](https://drive.google.com/open?id=1kiht9beOFvRMq4jM4vbeElnYxVYP7LUR) |
 | **Evolution X** | 16 | `EvoX-11.11-GSI_treble_arm64-ab-GAPPS-20260920.img.xz` | 1.4 GB | 2026-09-21 | [⬇️ Download](https://drive.google.com/open?id=1YHaiKOg9iol__P1mdF4uJmvq0XDafJAu) |
+| **Evolution X** | 16 | `EvoX-11.11-GSI_treble_arm64-ab-MICROG-20260920.img.xz` | 1.1 GB | 2026-09-21 | [⬇️ Download](https://drive.google.com/open?id=1CoPymjxo7umWRw_GE7BXKDsP9sH_fau1) |
 | **Infinity X** | 16 | `Infinity-X-3.12-GSI_treble_arm64-ab-GAPPS-Official-20260920.img.xz` | 1.2 GB | 2026-09-20 | [⬇️ Download](https://drive.google.com/open?id=1-jxwyOSCkfppUXc55kpzV0QHkF66lcF-) |
 | **MistOS** | 16 | `MistOS-4.8-GSI_treble_arm64-ab-GAPPS-Official-20260907.img.xz` | 1.7 GB | 2026-09-08 | [⬇️ Download](https://drive.google.com/open?id=1fPEwEN4xI-jn8_CPtjybuWp59iRIzORu) |
 | **DerpFest** | 16 | `Derpfest-16.2-GSI_treble_arm64-ab-GAPPS-Official-20260719.img.xz` | 1.6 GB | 2026-07-19 | [⬇️ Download](https://drive.google.com/open?id=16kk1fVMVOGdViCzJpRdscjhLdWBOw-9M) |
@@ -150,6 +151,7 @@ fastboot reboot
 | **AxionOS** | 16 | `Axion-2.9-GSI_treble_arm64-ab-MICROG-20261017.img.xz` | 1.1 GB | 2026-10-17 | [⬇️ Скачать](https://drive.google.com/open?id=1MxcVpH8UgSHw7qy1H1IZJ3bG8qQtiEgo) |
 | **crDroid** | 16 | `crDroid-12.12-GSI_treble_arm64-ab-MICROG-20260922.img.xz` | 1.0 GB | 2026-09-22 | [⬇️ Скачать](https://drive.google.com/open?id=1kiht9beOFvRMq4jM4vbeElnYxVYP7LUR) |
 | **Evolution X** | 16 | `EvoX-11.11-GSI_treble_arm64-ab-GAPPS-20260920.img.xz` | 1.4 GB | 2026-09-21 | [⬇️ Скачать](https://drive.google.com/open?id=1YHaiKOg9iol__P1mdF4uJmvq0XDafJAu) |
+| **Evolution X** | 16 | `EvoX-11.11-GSI_treble_arm64-ab-MICROG-20260920.img.xz` | 1.1 GB | 2026-09-21 | [⬇️ Скачать](https://drive.google.com/open?id=1CoPymjxo7umWRw_GE7BXKDsP9sH_fau1) |
 | **Infinity X** | 16 | `Infinity-X-3.12-GSI_treble_arm64-ab-GAPPS-Official-20260920.img.xz` | 1.2 GB | 2026-09-20 | [⬇️ Скачать](https://drive.google.com/open?id=1-jxwyOSCkfppUXc55kpzV0QHkF66lcF-) |
 | **MistOS** | 16 | `MistOS-4.8-GSI_treble_arm64-ab-GAPPS-Official-20260907.img.xz` | 1.7 GB | 2026-09-08 | [⬇️ Скачать](https://drive.google.com/open?id=1fPEwEN4xI-jn8_CPtjybuWp59iRIzORu) |
 | **DerpFest** | 16 | `Derpfest-16.2-GSI_treble_arm64-ab-GAPPS-Official-20260719.img.xz` | 1.6 GB | 2026-07-19 | [⬇️ Скачать](https://drive.google.com/open?id=16kk1fVMVOGdViCzJpRdscjhLdWBOw-9M) |
