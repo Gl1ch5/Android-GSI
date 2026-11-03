@@ -64,13 +64,6 @@
    "started": "2026-11-03T12:05:27+00:00"
   },
   {
-   "file": "Hyperos-fuxi-16-OS3.0.2.0.WMCCNXM-AB-20251210-MysticGSI.zip",
-   "name": "HyperOS (fuxi) · Mystic",
-   "status": "in_progress",
-   "run": "41631300864",
-   "started": "2026-11-03T12:07:30+00:00"
-  },
-  {
    "file": "Coloros-OP60EDL1-16-1763036366485-AB-20251123-MysticGSI.zip",
    "name": "ColorOS (OP60EDL1) · Mystic",
    "status": "in_progress",
@@ -90,6 +83,14 @@
    "status": "in_progress",
    "run": "41631300864",
    "started": "2026-11-03T12:05:31+00:00"
+  },
+  {
+   "file": "Hyperos-fuxi-16-OS3.0.2.0.WMCCNXM-AB-20251210-MysticGSI.zip",
+   "name": "HyperOS (fuxi) · Mystic",
+   "status": "failure",
+   "run": "41631300864",
+   "started": "2026-11-03T12:07:30+00:00",
+   "finished": "2026-11-03T12:07:36+00:00"
   },
   {
    "file": "Pixel-cheetah-16-14401865-AB-20251221-MysticGSI.zip",
@@ -367,15 +368,8 @@
    "status": "failure",
    "started": "2026-11-03T05:15:55Z",
    "finished": "2026-11-03T05:40:31Z"
-  },
-  {
-   "file": "Oneui-a15x-16-A156BXXS7DYJ1-AB-20251218-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:21:02Z",
-   "finished": "2026-11-03T05:38:59Z"
   }
  ],
- "updated": "2026-11-03T12:07:30+00:00",
+ "updated": "2026-11-03T12:07:36+00:00",
  "run": "41631300864"
 }
