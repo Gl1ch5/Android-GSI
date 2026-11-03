@@ -4,12 +4,19 @@
     "type": "url",
     "files": [
       {
+        "tag": "OneUI",
+        "date": "2026-02-11",
+        "file": "Oneui-gts9wifi-16-X710ZCS5DZA1-AB-20260211-MysticGSI.zip",
+        "url": "https://sourceforge.net/projects/mystic-gsi-updates/files/OneUI/Oneui-gts9wifi-16-X710ZCS5DZA1-AB-20260211-MysticGSI.zip/download"
+      },
+      {
         "tag": "Generic",
         "date": "2026-03-25",
         "file": "Coloros-OP5E11L1-CinnamonBun-1773378663794-AB-20260325-MysticGSI.zip",
         "url": "https://sourceforge.net/projects/mystic-gsi-updates/files/Generic/Coloros-OP5E11L1-CinnamonBun-1773378663794-AB-20260325-MysticGSI.zip/download"
       }
-    ]
+    ],
+    "per_file": true
   },
   {
     "name": "Mystic GSI",
