@@ -905,5 +905,15 @@
     "size_mb": 1199,
     "link": "https://drive.google.com/open?id=1nRovOqlr_ZrTtVg2VO9NQygPUaw41mAJ",
     "date": "2026-05-29"
+  },
+  "Doze-off/Lunaris-AOSP_gsi/2026-09-20/Lunaris-3.12-GSI_treble_arm64-ab-GAPPS-Official-20260920.img.xz": {
+    "name": "Lunaris AOSP",
+    "tag": "2026-09-20",
+    "file": "Lunaris-3.12-GSI_treble_arm64-ab-GAPPS-Official-20260920.img.xz",
+    "src_file": "Lunaris-3.12-GSI_treble_arm64-ab-GAPPS-Official-20260920.img.xz",
+    "android": "16",
+    "size_mb": 1590,
+    "link": "https://drive.google.com/open?id=14tYlcOZWRA54FUM5SAFDcDSzr3s6QKSr",
+    "date": "2026-09-21"
   }
 }

@@ -37,6 +37,7 @@ Catalog with search, filters, live queue and ROM requests<br>
 | **Evolution X** | 16 | `EvoX-11.11-GSI_treble_arm64-ab-GAPPS-20260920.img.xz` | 1.4 GB | 2026-09-21 | [⬇️ Download](https://drive.google.com/open?id=1YHaiKOg9iol__P1mdF4uJmvq0XDafJAu) |
 | **Evolution X** | 16 | `EvoX-11.11-GSI_treble_arm64-ab-MICROG-20260920.img.xz` | 1.1 GB | 2026-09-21 | [⬇️ Download](https://drive.google.com/open?id=1CoPymjxo7umWRw_GE7BXKDsP9sH_fau1) |
 | **Lunaris AOSP** | 16 | `Lunaris-3.12-GSI_treble_arm64-ab-MICROG-Official-20260920.img.xz` | 1.2 GB | 2026-09-21 | [⬇️ Download](https://drive.google.com/open?id=12OD-CQ7huuN6FUt4EduG4wMgnPL7KAhg) |
+| **Lunaris AOSP** | 16 | `Lunaris-3.12-GSI_treble_arm64-ab-GAPPS-Official-20260920.img.xz` | 1.6 GB | 2026-09-21 | [⬇️ Download](https://drive.google.com/open?id=14tYlcOZWRA54FUM5SAFDcDSzr3s6QKSr) |
 | **Infinity X** | 16 | `Infinity-X-3.12-GSI_treble_arm64-ab-GAPPS-Official-20260920.img.xz` | 1.2 GB | 2026-09-20 | [⬇️ Download](https://drive.google.com/open?id=1-jxwyOSCkfppUXc55kpzV0QHkF66lcF-) |
 | **MistOS** | 16 | `MistOS-4.8-GSI_treble_arm64-ab-GAPPS-Official-20260907.img.xz` | 1.7 GB | 2026-09-08 | [⬇️ Download](https://drive.google.com/open?id=1fPEwEN4xI-jn8_CPtjybuWp59iRIzORu) |
 | **DerpFest** | 16 | `Derpfest-16.2-GSI_treble_arm64-ab-GAPPS-Official-20260719.img.xz` | 1.6 GB | 2026-07-19 | [⬇️ Download](https://drive.google.com/open?id=16kk1fVMVOGdViCzJpRdscjhLdWBOw-9M) |
@@ -161,6 +162,7 @@ fastboot reboot
 | **Evolution X** | 16 | `EvoX-11.11-GSI_treble_arm64-ab-GAPPS-20260920.img.xz` | 1.4 GB | 2026-09-21 | [⬇️ Скачать](https://drive.google.com/open?id=1YHaiKOg9iol__P1mdF4uJmvq0XDafJAu) |
 | **Evolution X** | 16 | `EvoX-11.11-GSI_treble_arm64-ab-MICROG-20260920.img.xz` | 1.1 GB | 2026-09-21 | [⬇️ Скачать](https://drive.google.com/open?id=1CoPymjxo7umWRw_GE7BXKDsP9sH_fau1) |
 | **Lunaris AOSP** | 16 | `Lunaris-3.12-GSI_treble_arm64-ab-MICROG-Official-20260920.img.xz` | 1.2 GB | 2026-09-21 | [⬇️ Скачать](https://drive.google.com/open?id=12OD-CQ7huuN6FUt4EduG4wMgnPL7KAhg) |
+| **Lunaris AOSP** | 16 | `Lunaris-3.12-GSI_treble_arm64-ab-GAPPS-Official-20260920.img.xz` | 1.6 GB | 2026-09-21 | [⬇️ Скачать](https://drive.google.com/open?id=14tYlcOZWRA54FUM5SAFDcDSzr3s6QKSr) |
 | **Infinity X** | 16 | `Infinity-X-3.12-GSI_treble_arm64-ab-GAPPS-Official-20260920.img.xz` | 1.2 GB | 2026-09-20 | [⬇️ Скачать](https://drive.google.com/open?id=1-jxwyOSCkfppUXc55kpzV0QHkF66lcF-) |
 | **MistOS** | 16 | `MistOS-4.8-GSI_treble_arm64-ab-GAPPS-Official-20260907.img.xz` | 1.7 GB | 2026-09-08 | [⬇️ Скачать](https://drive.google.com/open?id=1fPEwEN4xI-jn8_CPtjybuWp59iRIzORu) |
 | **DerpFest** | 16 | `Derpfest-16.2-GSI_treble_arm64-ab-GAPPS-Official-20260719.img.xz` | 1.6 GB | 2026-07-19 | [⬇️ Скачать](https://drive.google.com/open?id=16kk1fVMVOGdViCzJpRdscjhLdWBOw-9M) |
