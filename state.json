@@ -1079,5 +1079,17 @@
     "raw_link": "https://drive.google.com/open?id=1DMNcTRg7BON34oZV_51WjJeaqyEuSunG",
     "raw_mb": 3092,
     "date": "2026-09-20"
+  },
+  "Doze-off/YAAP_treble/2026-05-17/YAAP-16.2_GSI_treble_arm64-ab_MICROG-20260517.img.xz": {
+    "name": "YAAP",
+    "tag": "2026-05-17",
+    "file": "YAAP-16.2_GSI_treble_arm64-ab_MICROG-20260517.img.gz",
+    "src_file": "YAAP-16.2_GSI_treble_arm64-ab_MICROG-20260517.img.xz",
+    "android": "16",
+    "size_mb": 1494,
+    "link": "https://drive.google.com/open?id=1tD9f-KgKTQ7tR5DzRmyEmR0n9ghU9yFr",
+    "raw_link": "https://drive.google.com/open?id=1pwonLnpz7vbWWLTwp2ZFaCUGOvm8WcYI",
+    "raw_mb": 3440,
+    "date": "2026-05-18"
   }
 }

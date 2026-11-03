@@ -68,6 +68,7 @@ Catalog with search, filters, live queue and ROM requests<br>
 | **GenesisOS** | 5.0 | 16 | 1.2 GB | 2026-05-29 | [⬇️ .xz](https://drive.google.com/open?id=1nRovOqlr_ZrTtVg2VO9NQygPUaw41mAJ) |
 | **GenesisOS** | 5.0 | 16 | 1.3 GB | 2026-05-29 | [⬇️ .xz](https://drive.google.com/open?id=1HB01TWaQHCQM2aMADcQ2op2MZeVio1Nn) |
 | **YAAP** | 16.2 | 16 | 1.1 GB | 2026-05-18 | [⬇️ .xz](https://drive.google.com/open?id=1J1ppgo8nDrS82aceU9l1p86tU5Al4K7w) |
+| **YAAP** | 16.2 | 16 | 1.5 GB | 2026-05-18 | [⚡ .img](https://drive.google.com/open?id=1pwonLnpz7vbWWLTwp2ZFaCUGOvm8WcYI) · [⬇️ .gz](https://drive.google.com/open?id=1tD9f-KgKTQ7tR5DzRmyEmR0n9ghU9yFr) |
 | **realme UI (RE6030L1)** | realme UI 8 | 17 | 5.4 GB | 2026-03-26 | [⬇️ .xz](https://drive.google.com/open?id=1Akzm0c5AVtC9Yx76bz77dhAFGYJ40qfj) |
 | **ColorOS (OP5E11L1)** | ColorOS 17 | 17 | 4.9 GB | 2026-03-25 | [⬇️ .xz](https://drive.google.com/open?id=1IsAV69gUlmwZNhE2IPCAJvnq6fLqeAYt) |
 | **ColorOS (OP60FFL1)** | ColorOS 17 | 17 | 5.0 GB | 2026-03-25 | [⬇️ .xz](https://drive.google.com/open?id=1cVGyMF-lU7QJ0XakLClhYWmaiT_6th50) |
@@ -209,6 +210,7 @@ fastboot reboot
 | **GenesisOS** | 5.0 | 16 | 1.2 GB | 2026-05-29 | [⬇️ .xz](https://drive.google.com/open?id=1nRovOqlr_ZrTtVg2VO9NQygPUaw41mAJ) |
 | **GenesisOS** | 5.0 | 16 | 1.3 GB | 2026-05-29 | [⬇️ .xz](https://drive.google.com/open?id=1HB01TWaQHCQM2aMADcQ2op2MZeVio1Nn) |
 | **YAAP** | 16.2 | 16 | 1.1 GB | 2026-05-18 | [⬇️ .xz](https://drive.google.com/open?id=1J1ppgo8nDrS82aceU9l1p86tU5Al4K7w) |
+| **YAAP** | 16.2 | 16 | 1.5 GB | 2026-05-18 | [⚡ .img](https://drive.google.com/open?id=1pwonLnpz7vbWWLTwp2ZFaCUGOvm8WcYI) · [⬇️ .gz](https://drive.google.com/open?id=1tD9f-KgKTQ7tR5DzRmyEmR0n9ghU9yFr) |
 | **realme UI (RE6030L1)** | realme UI 8 | 17 | 5.4 GB | 2026-03-26 | [⬇️ .xz](https://drive.google.com/open?id=1Akzm0c5AVtC9Yx76bz77dhAFGYJ40qfj) |
 | **ColorOS (OP5E11L1)** | ColorOS 17 | 17 | 4.9 GB | 2026-03-25 | [⬇️ .xz](https://drive.google.com/open?id=1IsAV69gUlmwZNhE2IPCAJvnq6fLqeAYt) |
 | **ColorOS (OP60FFL1)** | ColorOS 17 | 17 | 5.0 GB | 2026-03-25 | [⬇️ .xz](https://drive.google.com/open?id=1cVGyMF-lU7QJ0XakLClhYWmaiT_6th50) |
