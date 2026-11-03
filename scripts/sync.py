@@ -121,7 +121,7 @@ def releases_for(src):
         return [(f"tg{mid}", date, [(name, f"tg://{src['channel']}/{mid}", size)], "")
                 for mid, name, size, date in files[:max(RELEASES_BACK, 3)]]
     if kind == "url":  # прямые ссылки, добавленные вручную
-        return [(f["tag"], f.get("date", ""), [(f["file"], f["url"], 0)], "") for f in src["files"]]
+        return [(f["tag"], f.get("date", ""), [(f["file"], f["url"], 0)], f.get("title", "")) for f in src["files"]]
     raise ValueError(f"неизвестный type: {kind}")
 
 
@@ -146,7 +146,8 @@ def plan():
                     continue
                 seen.add(aname)
                 items.append({"key": key, "sid": sid, "tag": tag, "date": date, "title": title,
-                              "file": aname, "url": aurl, "name": nice_name(src, aname)})
+                              "file": aname, "url": aurl,
+                              "name": title if src.get("type") == "url" and title else nice_name(src, aname)})
     return items
 
 

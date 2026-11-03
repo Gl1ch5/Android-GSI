@@ -1,0 +1,28 @@
+name: Запросить прошивку / Request a ROM
+description: Ссылка на GSI, которую нужно добавить в зеркало
+title: "[ROM] "
+labels: [rom-request]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Прямая ссылка на файл (.img, .img.xz, .img.gz, .zip, .7z)
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Название, например «HyperOS 3 (Xiaomi 15)»
+    validations:
+      required: true
+  - type: dropdown
+    id: android
+    attributes:
+      label: Android
+      options: ["17", "16", "15", "14", "?"]
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes

@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GSI Mirror</title>
+<meta name="description" content="Свежие GSI-прошивки на быстром зеркале: HyperOS, One UI, OxygenOS, Pixel, LineageOS, crDroid и другие.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='14' fill='%23386a20'/%3E%3Cpath d='M15 30a9 9 0 0 1 18 0z' fill='%23d8f5c4'/%3E%3Ccircle cx='20' cy='26' r='1.6' fill='%23386a20'/%3E%3Ccircle cx='28' cy='26' r='1.6' fill='%23386a20'/%3E%3Cpath d='M17 18l2.5 4M31 18l-2.5 4' stroke='%23d8f5c4' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+:root{
+  --primary:#386a20;--on-primary:#fff;--primary-container:#b8f397;--on-primary-container:#062100;
+  --secondary-container:#d8e7cb;--on-secondary-container:#131f0d;
+  --tertiary-container:#bcebec;--on-tertiary-container:#002021;
+  --error:#ba1a1a;--surface:#f8faf0;--surface-1:#f2f5ea;--surface-2:#ecefe4;--surface-3:#e6e9de;
+  --on-surface:#1a1c18;--on-surface-variant:#43483e;--outline:#74796d;--outline-variant:#c3c8bb;
+  --shadow:0 1px 2px rgba(0,0,0,.12),0 1px 3px 1px rgba(0,0,0,.06);
+  --radius:20px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --primary:#9dd67d;--on-primary:#0c3900;--primary-container:#20510a;--on-primary-container:#b8f397;
+  --secondary-container:#3c4b34;--on-secondary-container:#d8e7cb;
+  --tertiary-container:#1e4e4f;--on-tertiary-container:#bcebec;
+  --error:#ffb4ab;--surface:#11140e;--surface-1:#191d16;--surface-2:#1d211a;--surface-3:#272b24;
+  --on-surface:#e1e4d9;--on-surface-variant:#c3c8bb;--outline:#8d9286;--outline-variant:#43483e;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 1px 3px 1px rgba(0,0,0,.25);
+}}
+:root[data-theme="dark"]{
+  --primary:#9dd67d;--on-primary:#0c3900;--primary-container:#20510a;--on-primary-container:#b8f397;
+  --secondary-container:#3c4b34;--on-secondary-container:#d8e7cb;
+  --tertiary-container:#1e4e4f;--on-tertiary-container:#bcebec;
+  --error:#ffb4ab;--surface:#11140e;--surface-1:#191d16;--surface-2:#1d211a;--surface-3:#272b24;
+  --on-surface:#e1e4d9;--on-surface-variant:#c3c8bb;--outline:#8d9286;--outline-variant:#43483e;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 1px 3px 1px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--surface);color:var(--on-surface);font-family:"Roboto Flex",Roboto,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--primary)}
+svg.i{width:24px;height:24px;fill:currentColor;flex:none}
+button{font:inherit;cursor:pointer}
+.wrap{max-width:1200px;margin:0 auto;padding:0 16px}
+
+/* top app bar */
+header.bar{position:sticky;top:0;z-index:10;background:var(--surface);transition:background .2s}
+header.bar.scrolled{background:var(--surface-2)}
+.bar .row{display:flex;align-items:center;gap:12px;height:64px}
+.logo{display:flex;align-items:center;gap:12px;font-size:22px;font-weight:500;letter-spacing:-.2px;flex:1;min-width:0}
+.logo svg{width:40px;height:40px;flex:none}
+.icon-btn{width:40px;height:40px;border-radius:20px;border:0;background:transparent;color:var(--on-surface-variant);display:grid;place-items:center}
+.icon-btn:hover{background:color-mix(in srgb,var(--on-surface) 8%,transparent)}
+.seg{display:flex;border:1px solid var(--outline);border-radius:20px;overflow:hidden;height:32px}
+.seg button{border:0;background:transparent;color:var(--on-surface);padding:0 12px;font-size:13px;font-weight:500}
+.seg button.on{background:var(--secondary-container);color:var(--on-secondary-container)}
+
+/* tabs */
+nav.tabs{display:flex;gap:4px;overflow-x:auto;border-bottom:1px solid var(--outline-variant);scrollbar-width:none}
+nav.tabs button{border:0;background:none;color:var(--on-surface-variant);padding:14px 16px 12px;font-size:14px;font-weight:500;display:flex;align-items:center;gap:8px;white-space:nowrap;border-bottom:3px solid transparent;border-radius:0}
+nav.tabs button.on{color:var(--primary);border-bottom-color:var(--primary)}
+nav.tabs .badge{background:var(--primary);color:var(--on-primary);border-radius:10px;font-size:11px;padding:1px 6px;min-width:18px;text-align:center}
+
+/* hero */
+.hero{margin:24px 0 8px;padding:28px;border-radius:28px;background:var(--primary-container);color:var(--on-primary-container);display:flex;gap:24px;align-items:center;flex-wrap:wrap}
+.hero h1{margin:0 0 6px;font-size:clamp(26px,4vw,36px);font-weight:500;letter-spacing:-.5px}
+.hero p{margin:0;opacity:.85;max-width:560px;line-height:1.5}
+.hero .stats{display:flex;gap:28px;margin-left:auto}
+.hero .stat b{display:block;font-size:30px;font-weight:500}
+.hero .stat span{font-size:13px;opacity:.8}
+
+/* search & chips */
+.search{display:flex;align-items:center;gap:12px;height:56px;border-radius:28px;background:var(--surface-3);padding:0 16px;margin:20px 0 12px;color:var(--on-surface-variant)}
+.search input{flex:1;border:0;background:none;outline:none;font:inherit;font-size:16px;color:var(--on-surface);min-width:0}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px}
+.chip{height:32px;border-radius:8px;border:1px solid var(--outline-variant);background:transparent;color:var(--on-surface-variant);padding:0 12px;font-size:14px;font-weight:500;display:flex;align-items:center;gap:6px}
+.chip.on{background:var(--secondary-container);border-color:transparent;color:var(--on-secondary-container)}
+.chip.on::before{content:"";width:14px;height:14px;background:currentColor;-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z'/%3E%3C/svg%3E") center/contain no-repeat}
+.label{font-size:12px;font-weight:500;color:var(--on-surface-variant);text-transform:uppercase;letter-spacing:.6px;margin:14px 0 6px}
+
+/* cards */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px;margin:16px 0 40px}
+.card{background:var(--surface-1);border-radius:var(--radius);padding:16px;display:flex;flex-direction:column;gap:12px;border:1px solid var(--outline-variant);transition:box-shadow .2s,transform .2s}
+.card:hover{box-shadow:var(--shadow);transform:translateY(-1px)}
+.card .top{display:flex;gap:12px;align-items:center}
+.avatar{width:48px;height:48px;flex:none}
+.card h3{margin:0;font-size:17px;font-weight:500;line-height:1.25}
+.card .sub{font-size:13px;color:var(--on-surface-variant);margin-top:2px}
+.tags{display:flex;gap:6px;flex-wrap:wrap}
+.tag{font-size:12px;font-weight:500;padding:4px 10px;border-radius:8px;background:var(--surface-3);color:var(--on-surface-variant);display:flex;align-items:center;gap:4px}
+.tag.android{background:var(--tertiary-container);color:var(--on-tertiary-container)}
+.tag svg{width:14px;height:14px;fill:currentColor}
+.specs{display:grid;grid-template-columns:auto 1fr;gap:6px 12px;font-size:13px;margin:0}
+.specs dt{color:var(--on-surface-variant);display:flex;align-items:center;gap:6px}
+.specs dt svg{width:16px;height:16px;fill:currentColor}
+.specs dd{margin:0;overflow-wrap:anywhere}
+.file{font-family:"Roboto Mono",monospace;font-size:11.5px;color:var(--on-surface-variant);overflow-wrap:anywhere;background:var(--surface-2);padding:8px 10px;border-radius:10px}
+.actions{display:flex;gap:8px;margin-top:auto}
+.btn{height:40px;border-radius:20px;border:0;padding:0 20px 0 16px;font-size:14px;font-weight:500;display:inline-flex;align-items:center;justify-content:center;gap:8px;text-decoration:none}
+.btn svg{width:18px;height:18px;fill:currentColor}
+.btn.filled{background:var(--primary);color:var(--on-primary);flex:1}
+.btn.filled:hover{box-shadow:var(--shadow)}
+.btn.tonal{background:var(--secondary-container);color:var(--on-secondary-container)}
+.btn.outlined{background:transparent;border:1px solid var(--outline);color:var(--primary)}
+.empty{text-align:center;padding:60px 16px;color:var(--on-surface-variant)}
+.empty svg{width:96px;height:96px;margin-bottom:12px}
+
+/* queue */
+.qitem{display:flex;align-items:center;gap:14px;padding:14px 16px;border-radius:16px;background:var(--surface-1);border:1px solid var(--outline-variant);margin-bottom:8px}
+.qitem .t{flex:1;min-width:0}
+.qitem .t b{display:block;font-weight:500;font-size:15px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.qitem .t span{font-size:12.5px;color:var(--on-surface-variant)}
+.prog{height:4px;border-radius:2px;background:var(--surface-3);overflow:hidden;margin-top:8px;position:relative}
+.prog i{position:absolute;inset:0;width:40%;background:var(--primary);border-radius:2px;animation:ind 1.6s infinite ease-in-out}
+@keyframes ind{0%{left:-40%}100%{left:100%}}
+.status{font-size:12px;font-weight:500;padding:4px 10px;border-radius:8px;white-space:nowrap}
+.status.run{background:var(--primary-container);color:var(--on-primary-container)}
+.status.wait{background:var(--surface-3);color:var(--on-surface-variant)}
+.status.ok{background:var(--tertiary-container);color:var(--on-tertiary-container)}
+.status.fail{background:color-mix(in srgb,var(--error) 18%,transparent);color:var(--error)}
+.spinner{width:24px;height:24px;flex:none;animation:spin 1.2s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* forms */
+.panel{background:var(--surface-1);border:1px solid var(--outline-variant);border-radius:28px;padding:24px;max-width:720px;margin:24px auto 40px}
+.panel h2{margin:0 0 6px;font-weight:500;font-size:24px}
+.panel p.lead{margin:0 0 20px;color:var(--on-surface-variant);line-height:1.5}
+.field{position:relative;margin:0 0 16px}
+.field input,.field textarea,.field select{width:100%;font:inherit;font-size:16px;color:var(--on-surface);background:transparent;border:1px solid var(--outline);border-radius:8px;padding:16px;outline:none}
+.field textarea{min-height:96px;resize:vertical}
+.field input:focus,.field textarea:focus,.field select:focus{border:2px solid var(--primary);padding:15px}
+.field label{position:absolute;left:12px;top:-9px;padding:0 4px;background:var(--surface-1);font-size:12px;color:var(--on-surface-variant)}
+.field .help{font-size:12px;color:var(--on-surface-variant);margin:4px 16px 0}
+.steps{counter-reset:s;list-style:none;padding:0;margin:0}
+.steps li{counter-increment:s;display:flex;gap:16px;margin-bottom:18px;line-height:1.5}
+.steps li::before{content:counter(s);flex:none;width:32px;height:32px;border-radius:16px;background:var(--primary-container);color:var(--on-primary-container);display:grid;place-items:center;font-weight:500}
+pre{background:var(--surface-3);border-radius:12px;padding:14px;overflow-x:auto;font:13px/1.6 "Roboto Mono",monospace}
+.note{display:flex;gap:12px;padding:14px 16px;border-radius:16px;background:var(--surface-3);color:var(--on-surface-variant);font-size:14px;line-height:1.5}
+.note svg{color:var(--primary)}
+
+/* snackbar */
+#snack{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(120px);background:var(--on-surface);color:var(--surface);padding:14px 20px;border-radius:8px;font-size:14px;transition:transform .25s,visibility .25s;visibility:hidden;z-index:50;max-width:calc(100% - 32px)}
+#snack.show{transform:translateX(-50%) translateY(0);visibility:visible}
+footer{text-align:center;color:var(--on-surface-variant);font-size:13px;padding:24px 16px 40px}
+.hidden{display:none!important}
+@media (max-width:600px){.hero{padding:22px}.hero .stats{margin-left:0;gap:20px}.grid{grid-template-columns:1fr}.panel{padding:18px;border-radius:20px}.seg button{padding:0 9px}}
+</style>
+</head>
+<body>
+
+<!-- Custom Material-style icon set -->
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <symbol id="i-logo" viewBox="0 0 48 48"><rect width="48" height="48" rx="14" fill="var(--primary)"/><path d="M13 31a11 11 0 0 1 22 0z" fill="var(--primary-container)"/><circle cx="19.5" cy="26.5" r="1.8" fill="var(--primary)"/><circle cx="28.5" cy="26.5" r="1.8" fill="var(--primary)"/><path d="M16.5 17.5l3 4.5M31.5 17.5l-3 4.5" stroke="var(--primary-container)" stroke-width="2.2" stroke-linecap="round"/><rect x="13" y="33" width="22" height="3" rx="1.5" fill="var(--primary-container)" opacity=".6"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><path d="M15.5 14h-.8l-.3-.3A6.5 6.5 0 1 0 9.5 16a6.4 6.4 0 0 0 4.2-1.6l.3.3v.8l5 5 1.5-1.5zm-6 0A4.5 4.5 0 1 1 14 9.5 4.5 4.5 0 0 1 9.5 14"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M5 20h14v-2H5zm14-9h-4V3H9v8H5l7 7z"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><path d="M16 1H4a2 2 0 0 0-2 2v14h2V3h12zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2m0 16H8V7h11z"/></symbol>
+    <symbol id="i-chip" viewBox="0 0 24 24"><path d="M15 9H9v6h6zm-2 4h-2v-2h2zm8-2V9h-2V7a2 2 0 0 0-2-2h-2V3h-2v2h-2V3H9v2H7a2 2 0 0 0-2 2v2H3v2h2v2H3v2h2v2a2 2 0 0 0 2 2h2v2h2v-2h2v2h2v-2h2a2 2 0 0 0 2-2v-2h2v-2h-2v-2zm-4 6H7V7h10z"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M17 1H7a2 2 0 0 0-2 2v18a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2m0 18H7V5h10z"/></symbol>
+    <symbol id="i-storage" viewBox="0 0 24 24"><path d="M2 20h20v-4H2zm2-3h2v2H4zM2 4v4h20V4zm4 3H4V5h2zm-4 7h20v-4H2zm2-3h2v2H4z"/></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2m0 16H5V10h14zm0-12H5V6h14z"/></symbol>
+    <symbol id="i-android" viewBox="0 0 24 24"><path d="M17.6 9.48l1.84-3.18a.38.38 0 0 0-.66-.38l-1.86 3.22a11.4 11.4 0 0 0-9.84 0L5.22 5.92a.38.38 0 0 0-.66.38L6.4 9.48A10.8 10.8 0 0 0 1 18h22a10.8 10.8 0 0 0-5.4-8.52M7 15.25a1.25 1.25 0 1 1 1.25-1.25A1.25 1.25 0 0 1 7 15.25m10 0A1.25 1.25 0 1 1 18.25 14 1.25 1.25 0 0 1 17 15.25"/></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24"><path d="M3 3h8v8H3zm2 2v4h4V5zm8-2h8v8h-8zm2 2v4h4V5zM3 13h8v8H3zm2 2v4h4v-4zm8-2h8v8h-8zm2 2v4h4v-4z"/></symbol>
+    <symbol id="i-queue" viewBox="0 0 24 24"><path d="M4 6H2v14a2 2 0 0 0 2 2h14v-2H4zm16-4H8a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2m0 14H8V4h12zm-2-8h-3V5h-2v3h-3v2h3v3h2v-3h3z"/></symbol>
+    <symbol id="i-add" viewBox="0 0 24 24"><path d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4zm-1-5a10 10 0 1 0 10 10A10 10 0 0 0 12 2m0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8"/></symbol>
+    <symbol id="i-help" viewBox="0 0 24 24"><path d="M11 18h2v-2h-2zm1-16a10 10 0 1 0 10 10A10 10 0 0 0 12 2m0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8m0-14a4 4 0 0 0-4 4h2a2 2 0 0 1 4 0c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5a4 4 0 0 0-4-4"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><path d="M12 7a5 5 0 1 0 5 5 5 5 0 0 0-5-5M2 13h2a1 1 0 0 0 0-2H2a1 1 0 0 0 0 2m18 0h2a1 1 0 0 0 0-2h-2a1 1 0 0 0 0 2M11 2v2a1 1 0 0 0 2 0V2a1 1 0 0 0-2 0m0 18v2a1 1 0 0 0 2 0v-2a1 1 0 0 0-2 0M5.99 4.58a1 1 0 0 0-1.41 1.41l1.06 1.06a1 1 0 0 0 1.41-1.41zm12.37 12.37a1 1 0 0 0-1.41 1.41l1.06 1.06a1 1 0 0 0 1.41-1.41zm1.06-10.96a1 1 0 0 0-1.41-1.41l-1.06 1.06a1 1 0 0 0 1.41 1.41zM7.05 18.36a1 1 0 0 0-1.41-1.41l-1.06 1.06a1 1 0 0 0 1.41 1.41z"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><path d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9a10 10 0 1 0 10 10A10 10 0 0 0 12 2m0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2m-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8z"/></symbol>
+    <symbol id="i-err" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2m1 15h-2v-2h2zm0-4h-2V7h2z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2m0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8m.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></symbol>
+    <symbol id="i-empty" viewBox="0 0 96 96"><circle cx="48" cy="48" r="44" fill="var(--surface-3)"/><rect x="30" y="20" width="36" height="56" rx="6" fill="var(--secondary-container)"/><rect x="34" y="28" width="28" height="40" rx="2" fill="var(--surface-1)"/><path d="M40 52a8 8 0 0 1 16 0z" fill="var(--primary)"/><circle cx="45" cy="48.5" r="1.2" fill="var(--surface-1)"/><circle cx="51" cy="48.5" r="1.2" fill="var(--surface-1)"/></symbol>
+  </defs>
+</svg>
+
+<header class="bar" id="bar">
+  <div class="wrap">
+    <div class="row">
+      <div class="logo"><svg><use href="#i-logo"/></svg><span>GSI Mirror</span></div>
+      <div class="seg" role="group" aria-label="Language"><button data-lang="ru">RU</button><button data-lang="en">EN</button></div>
+      <button class="icon-btn" id="theme" aria-label="Theme"><svg class="i"><use href="#i-moon"/></svg></button>
+    </div>
+    <nav class="tabs" role="tablist">
+      <button data-tab="roms" class="on"><svg class="i"><use href="#i-grid"/></svg><span data-t="tab_roms"></span></button>
+      <button data-tab="queue"><svg class="i"><use href="#i-queue"/></svg><span data-t="tab_queue"></span><span class="badge hidden" id="qbadge">0</span></button>
+      <button data-tab="request"><svg class="i"><use href="#i-add"/></svg><span data-t="tab_request"></span></button>
+      <button data-tab="howto"><svg class="i"><use href="#i-help"/></svg><span data-t="tab_howto"></span></button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- ROMs -->
+  <section id="tab-roms">
+    <div class="hero">
+      <div>
+        <h1 data-t="hero_title"></h1>
+        <p data-t="hero_text"></p>
+      </div>
+      <div class="stats">
+        <div class="stat"><b id="s-count">—</b><span data-t="stat_roms"></span></div>
+        <div class="stat"><b id="s-brands">—</b><span data-t="stat_brands"></span></div>
+        <div class="stat"><b id="s-size">—</b><span data-t="stat_size"></span></div>
+      </div>
+    </div>
+
+    <label class="search"><svg class="i"><use href="#i-search"/></svg><input id="q" type="search" autocomplete="off"></label>
+    <div class="label" data-t="f_android"></div>
+    <div class="chips" id="f-android"></div>
+    <div class="label" data-t="f_system"></div>
+    <div class="chips" id="f-brand"></div>
+
+    <div class="grid" id="grid"></div>
+    <div class="empty hidden" id="empty"><svg><use href="#i-empty"/></svg><div data-t="empty"></div></div>
+  </section>
+
+  <!-- Queue -->
+  <section id="tab-queue" class="hidden">
+    <div class="panel" style="max-width:860px">
+      <h2 data-t="q_title"></h2>
+      <p class="lead" data-t="q_lead"></p>
+      <div id="queue"></div>
+      <p style="font-size:12px;color:var(--on-surface-variant);margin:12px 0 0" id="q-upd"></p>
+    </div>
+  </section>
+
+  <!-- Request -->
+  <section id="tab-request" class="hidden">
+    <form class="panel" id="req">
+      <h2 data-t="r_title"></h2>
+      <p class="lead" data-t="r_lead"></p>
+      <div class="field"><label data-t="r_url"></label><input name="url" type="url" required placeholder="https://sourceforge.net/projects/…/file.img.xz"><div class="help" data-t="r_url_help"></div></div>
+      <div class="field"><label data-t="r_name"></label><input name="name" required placeholder="HyperOS 3 (Xiaomi 15)"></div>
+      <div class="field"><label>Android</label><select name="android"><option>17</option><option selected>16</option><option>15</option><option>14</option><option value="?">?</option></select></div>
+      <div class="field"><label data-t="r_notes"></label><textarea name="notes"></textarea></div>
+      <div class="note" style="margin-bottom:16px"><svg class="i"><use href="#i-info"/></svg><span data-t="r_note"></span></div>
+      <button class="btn filled" type="submit" style="width:100%"><svg><use href="#i-add"/></svg><span data-t="r_send"></span></button>
+    </form>
+  </section>
+
+  <!-- How-to -->
+  <section id="tab-howto" class="hidden">
+    <div class="panel">
+      <h2 data-t="h_dsu_title"></h2>
+      <p class="lead" data-t="h_dsu_lead"></p>
+      <ol class="steps">
+        <li data-t="h_dsu_1"></li><li data-t="h_dsu_2"></li><li data-t="h_dsu_3"></li><li data-t="h_dsu_4"></li>
+      </ol>
+      <h2 style="margin-top:28px" data-t="h_fb_title"></h2>
+      <p class="lead" data-t="h_fb_lead"></p>
+<pre>xz -d system.img.xz
+adb reboot fastboot
+fastboot erase system
+fastboot flash system system.img
+fastboot -w
+fastboot reboot</pre>
+      <div class="note"><svg class="i"><use href="#i-info"/></svg><span data-t="h_warn"></span></div>
+    </div>
+  </section>
+</main>
+
+<footer><span data-t="footer"></span> · <a id="repo-link" target="_blank" rel="noopener">GitHub</a></footer>
+<div id="snack"></div>
+
+<script>
+const CFG = { owner: "Gl1ch5", repo: "Android-GSI", branch: "claude/gci-firmware-google-drive-u16ehm" };
+const RAW = `https://raw.githubusercontent.com/${CFG.owner}/${CFG.repo}/${CFG.branch}`;
+const API = `https://api.github.com/repos/${CFG.owner}/${CFG.repo}`;
+
+const T = {
+ ru:{tab_roms:"Прошивки",tab_queue:"Очередь",tab_request:"Запросить",tab_howto:"Как установить",
+  hero_title:"Свежие GSI-прошивки",hero_text:"HyperOS, One UI, OxygenOS, Pixel, LineageOS, crDroid и десятки других — в одном месте, на быстром Google Диске. Список обновляется автоматически.",
+  stat_roms:"прошивок",stat_brands:"систем",stat_size:"всего",search:"Поиск: HyperOS, Pixel, Snapdragon…",
+  f_android:"Версия Android",f_system:"Система",all:"Все",empty:"Ничего не найдено",
+  device:"Устройство",soc:"Процессор",size:"Размер",date:"Дата",download:"Скачать",copied:"Ссылка скопирована",
+  generic:"Универсальная GSI",
+  q_title:"Очередь загрузки",q_lead:"Что сейчас скачивается и загружается на зеркало. Обновляется каждые 30 секунд.",
+  q_run:"Загружается",q_wait:"В очереди",q_ok:"Готово",q_fail:"Ошибка",q_empty:"Сейчас ничего не загружается. Новые прошивки проверяются каждый день.",q_err:"Не удалось получить очередь (лимит GitHub API). Попробуйте позже.",q_upd:"Обновлено",
+  r_title:"Запросить прошивку",r_lead:"Нашли GSI, которой здесь нет? Пришлите ссылку — после проверки она появится в каталоге.",
+  r_url:"Прямая ссылка на файл",r_url_help:"GitHub, SourceForge, Google Drive или прямая ссылка. Форматы: .img, .img.xz, .img.gz, .zip, .7z",
+  r_name:"Название",r_notes:"Комментарий (необязательно)",r_send:"Отправить запрос",
+  r_note:"Откроется GitHub с заполненной заявкой — нужен аккаунт GitHub. Ссылка добавляется после проверки владельцем.",
+  h_dsu_title:"Попробовать без риска — DSU",h_dsu_lead:"GSI запускается рядом с вашей системой. Перезагрузились — и вы снова в своей прошивке, данные на месте.",
+  h_dsu_1:"Разблокируйте загрузчик (один раз сотрёт телефон).",h_dsu_2:"Установите DSU Sideloader (github.com/VegaBobo/DSU-Sideloader).",
+  h_dsu_3:"Выберите скачанный файл — .img.xz открывается как есть, распаковывать не нужно. Размер userdata — 16 ГБ.",h_dsu_4:"Перезагрузитесь в GSI через уведомление «Dynamic System».",
+  h_fb_title:"Установить насовсем — fastboot",h_fb_lead:"Когда проверили через DSU, что всё работает:",
+  h_warn:"Сохраните стоковую прошивку. Камера, Wi-Fi, VoLTE или отпечаток могут работать не на всех устройствах. Всё на свой риск.",
+  footer:"Автоматическое зеркало GSI"},
+ en:{tab_roms:"ROMs",tab_queue:"Queue",tab_request:"Request",tab_howto:"How to install",
+  hero_title:"Fresh GSI builds",hero_text:"HyperOS, One UI, OxygenOS, Pixel, LineageOS, crDroid and dozens more — in one place, on a fast Google Drive mirror. Updated automatically.",
+  stat_roms:"ROMs",stat_brands:"systems",stat_size:"total",search:"Search: HyperOS, Pixel, Snapdragon…",
+  f_android:"Android version",f_system:"System",all:"All",empty:"Nothing found",
+  device:"Device",soc:"Chipset",size:"Size",date:"Date",download:"Download",copied:"Link copied",
+  generic:"Generic GSI",
+  q_title:"Download queue",q_lead:"What is being downloaded and uploaded to the mirror right now. Refreshes every 30 seconds.",
+  q_run:"Uploading",q_wait:"Queued",q_ok:"Done",q_fail:"Failed",q_empty:"Nothing is running right now. New builds are checked daily.",q_err:"Couldn't load the queue (GitHub API limit). Try again later.",q_upd:"Updated",
+  r_title:"Request a ROM",r_lead:"Found a GSI that isn't here? Send the link — once reviewed it will appear in the catalog.",
+  r_url:"Direct link to the file",r_url_help:"GitHub, SourceForge, Google Drive or a direct link. Formats: .img, .img.xz, .img.gz, .zip, .7z",
+  r_name:"Name",r_notes:"Comment (optional)",r_send:"Send request",
+  r_note:"GitHub opens with a pre-filled request — a GitHub account is required. Links are added after the owner reviews them.",
+  h_dsu_title:"Try without risk — DSU",h_dsu_lead:"The GSI boots alongside your system. Reboot and you're back on your firmware, data intact.",
+  h_dsu_1:"Unlock the bootloader (wipes the phone once).",h_dsu_2:"Install DSU Sideloader (github.com/VegaBobo/DSU-Sideloader).",
+  h_dsu_3:"Pick the downloaded file — .img.xz works as is, no unpacking. Userdata size: 16 GB.",h_dsu_4:"Reboot into the GSI from the “Dynamic System” notification.",
+  h_fb_title:"Permanent install — fastboot",h_fb_lead:"Once DSU confirms everything works:",
+  h_warn:"Keep your stock firmware. Camera, Wi-Fi, VoLTE or fingerprint may not work on every device. Flash at your own risk.",
+  footer:"Automatic GSI mirror"}
+};
+const store={get(k){try{return localStorage.getItem(k)}catch{return null}},set(k,v){try{localStorage.setItem(k,v)}catch{}}};
+let lang = store.get("lang") || ((navigator.language || "ru").startsWith("ru") ? "ru" : "en");
+const t = k => T[lang][k] ?? k;
+
+function applyLang(){
+  document.documentElement.lang = lang;
+  document.querySelectorAll("[data-t]").forEach(el => el.textContent = t(el.dataset.t));
+  document.querySelectorAll(".seg button").forEach(b => b.classList.toggle("on", b.dataset.lang === lang));
+  document.getElementById("q").placeholder = t("search");
+  renderFilters(); render(); renderQueue();
+}
+document.querySelectorAll(".seg button").forEach(b => b.onclick = () => { lang = b.dataset.lang; store.set("lang", lang); applyLang(); });
+
+/* theme */
+const themeBtn = document.getElementById("theme");
+function setTheme(m){ if(m) document.documentElement.dataset.theme = m; else delete document.documentElement.dataset.theme;
+  const dark = m ? m==="dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+  themeBtn.querySelector("use").setAttribute("href", dark ? "#i-sun" : "#i-moon"); }
+themeBtn.onclick = () => { const dark = getComputedStyle(document.documentElement).getPropertyValue("--surface").trim() === "#11140e"; const m = dark ? "light":"dark"; store.set("theme", m); setTheme(m); };
+setTheme(store.get("theme"));
+
+/* tabs */
+function showTab(id){
+  document.querySelectorAll("nav.tabs button").forEach(b => b.classList.toggle("on", b.dataset.tab === id));
+  document.querySelectorAll("main > section").forEach(s => s.classList.toggle("hidden", s.id !== "tab-" + id));
+  if (id === "queue") loadQueue();
+  history.replaceState(null, "", "#" + id);
+}
+document.querySelectorAll("nav.tabs button").forEach(b => b.onclick = () => showTab(b.dataset.tab));
+addEventListener("scroll", () => document.getElementById("bar").classList.toggle("scrolled", scrollY > 4));
+
+/* brand avatars — custom Material-style SVG */
+const BRANDS = {
+  "HyperOS":["#ff6900","#fff","H"], "One UI":["#1428a0","#fff","1"], "OriginOS":["#415fff","#fff","O"],
+  "ColorOS":["#0b8a3e","#fff","C"], "OxygenOS":["#eb0028","#fff","O₂"], "MagicOS":["#1f1f1f","#fff","M"],
+  "Pixel":["#4285f4","#fff","G"], "realme UI":["#ffc915","#000","r"], "Flyme":["#00a3ff","#fff","F"],
+  "Nothing OS":["#000","#fff","N"], "ZenUI":["#00205b","#fff","Z"], "HarmonyOS":["#c7000b","#fff","H"],
+  "LineageOS":["#167c80","#fff","L"], "crDroid":["#5a3fd8","#fff","cr"], "Evolution X":["#9c27b0","#fff","EX"],
+  "PixelOS":["#1a73e8","#fff","P"], "Matrixx":["#00c853","#000","Mx"], "AxionOS":["#ff3d71","#fff","Ax"],
+  "AOSP":["#3ddc84","#073042","A"]
+};
+function brandOf(name){
+  for (const k of Object.keys(BRANDS)) if (name.toLowerCase().includes(k.toLowerCase())) return k;
+  return name.split(/[ (·]/)[0];
+}
+function avatar(name){
+  const b = brandOf(name); const [bg, fg, l] = BRANDS[b] || ["var(--primary)", "var(--on-primary)", b.slice(0,2)];
+  const fs = l.length > 1 ? 15 : 20;
+  return `<svg class="avatar" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="16" fill="${bg}"/><path d="M0 34Q24 26 48 34V48H0z" fill="#fff" opacity=".12"/><text x="24" y="30" text-anchor="middle" font-family="Roboto Flex,Roboto,sans-serif" font-weight="700" font-size="${fs}" fill="${fg}">${l}</text></svg>`;
+}
+
+/* data */
+let ROMS = [], DEV = {}, F = { android: "all", brand: "all", q: "" };
+function parseDevice(r){
+  const f = r.src_file || r.file;
+  const m = /-MysticGSI/.test(f) ? f.split("-") : null;
+  let code = m ? m[1] : null;
+  if (!code) { const mm = r.name.match(/\(([^)]+)\)/); code = mm && DEV[mm[1]] ? mm[1] : null; }
+  const d = code && DEV[code];
+  return { code, device: d ? d[0] : (code && m ? code : t("generic")), soc: d ? d[1] : "—" };
+}
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const gb = mb => mb >= 1024 ? (mb/1024).toFixed(1) + " GB" : mb + " MB";
+
+async function load(){
+  try {
+    const [s, d] = await Promise.all([
+      fetch(RAW + "/state.json", {cache: "no-store"}).then(r => r.json()),
+      fetch("devices.json").then(r => r.json()).catch(() => ({}))
+    ]);
+    DEV = d;
+    ROMS = Object.values(s).filter(r => !/-vanilla|VANILLA|_bvN|_vN\b/.test(r.file) || /lineage-24/.test(r.file))
+      .map(r => ({...r, brand: brandOf(r.name), dev: null}))
+      .sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+    ROMS.forEach(r => r.dev = parseDevice(r));
+  } catch (e) { ROMS = []; }
+  const total = ROMS.reduce((a, r) => a + (r.size_mb || 0), 0);
+  document.getElementById("s-count").textContent = ROMS.length;
+  document.getElementById("s-brands").textContent = new Set(ROMS.map(r => r.brand)).size;
+  document.getElementById("s-size").textContent = (total/1024).toFixed(0) + " GB";
+  renderFilters(); render();
+}
+
+function chip(group, val, label){
+  return `<button class="chip ${F[group] === val ? "on" : ""}" data-g="${group}" data-v="${esc(val)}">${esc(label)}</button>`;
+}
+function renderFilters(){
+  const av = [...new Set(ROMS.map(r => r.android).filter(x => x && x !== "?"))].sort((a, b) => b - a);
+  const counts = {}; ROMS.forEach(r => counts[r.brand] = (counts[r.brand] || 0) + 1);
+  const br = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+  document.getElementById("f-android").innerHTML = chip("android", "all", t("all")) + av.map(v => chip("android", v, "Android " + v)).join("");
+  document.getElementById("f-brand").innerHTML = chip("brand", "all", t("all")) + br.map(v => chip("brand", v, `${v} · ${counts[v]}`)).join("");
+  document.querySelectorAll(".chip").forEach(c => c.onclick = () => { F[c.dataset.g] = c.dataset.v; renderFilters(); render(); });
+}
+document.getElementById("q").oninput = e => { F.q = e.target.value.trim().toLowerCase(); render(); };
+
+function render(){
+  const list = ROMS.filter(r =>
+    (F.android === "all" || r.android === F.android) &&
+    (F.brand === "all" || r.brand === F.brand) &&
+    (!F.q || [r.name, r.file, r.dev.device, r.dev.soc, r.tag].join(" ").toLowerCase().includes(F.q)));
+  document.getElementById("empty").classList.toggle("hidden", list.length > 0);
+  document.getElementById("grid").innerHTML = list.map(r => `
+    <article class="card">
+      <div class="top">${avatar(r.name)}<div style="min-width:0"><h3>${esc(r.name.replace(" · Mystic", ""))}</h3><div class="sub">${esc(r.dev.device)}</div></div></div>
+      <div class="tags">
+        <span class="tag android"><svg><use href="#i-android"/></svg>Android ${esc(r.android || "?")}</span>
+        ${/Mystic/i.test(r.name + r.file) ? '<span class="tag">Mystic GSI</span>' : ""}
+        ${/gapps|_bgN|_gN|Pixel|Oneui|Hyperos|Coloros|Oxygenos|Magicos|Originos/i.test(r.file) ? '<span class="tag">Google Play</span>' : ""}
+      </div>
+      <dl class="specs">
+        <dt><svg><use href="#i-phone"/></svg>${t("device")}</dt><dd>${esc(r.dev.device)}</dd>
+        <dt><svg><use href="#i-chip"/></svg>${t("soc")}</dt><dd>${esc(r.dev.soc)}</dd>
+        <dt><svg><use href="#i-storage"/></svg>${t("size")}</dt><dd>${gb(r.size_mb)}</dd>
+        <dt><svg><use href="#i-cal"/></svg>${t("date")}</dt><dd>${esc(r.date || "—")}</dd>
+      </dl>
+      <div class="file">${esc(r.file)}</div>
+      <div class="actions">
+        <a class="btn filled" href="${esc(r.link)}" target="_blank" rel="noopener"><svg><use href="#i-download"/></svg>${t("download")}</a>
+        <button class="btn tonal" data-copy="${esc(r.link)}" aria-label="Copy"><svg><use href="#i-copy"/></svg></button>
+      </div>
+    </article>`).join("");
+  document.querySelectorAll("[data-copy]").forEach(b => b.onclick = () => { navigator.clipboard?.writeText(b.dataset.copy); snack(t("copied")); });
+}
+function snack(msg){ const s = document.getElementById("snack"); s.textContent = msg; s.classList.add("show"); clearTimeout(snack.t); snack.t = setTimeout(() => s.classList.remove("show"), 2200); }
+
+/* queue — live from GitHub Actions */
+let Q = null, qTimer;
+async function loadQueue(){
+  clearTimeout(qTimer);
+  try {
+    const runs = await fetch(`${API}/actions/runs?per_page=5`).then(r => { if (!r.ok) throw 0; return r.json(); });
+    const active = runs.workflow_runs.filter(r => r.status !== "completed" || Date.now() - new Date(r.updated_at) < 3600e3);
+    const jobs = (await Promise.all(active.slice(0, 3).map(r =>
+      fetch(`${API}/actions/runs/${r.id}/jobs?per_page=100`).then(x => x.ok ? x.json() : {jobs: []})))).flatMap(j => j.jobs);
+    Q = jobs.filter(j => j.name !== "plan" && j.name !== "build" && j.name !== "sync");
+  } catch { Q = "err"; }
+  renderQueue();
+  qTimer = setTimeout(loadQueue, 30000);
+}
+function renderQueue(){
+  const el = document.getElementById("queue"); if (!el) return;
+  const badge = document.getElementById("qbadge");
+  if (Q === null) { el.innerHTML = ""; return; }
+  if (Q === "err") { el.innerHTML = `<div class="note"><svg class="i"><use href="#i-err"/></svg>${t("q_err")}</div>`; return; }
+  const order = {in_progress: 0, queued: 1, waiting: 1, pending: 1, completed: 2};
+  const list = [...Q].sort((a, b) => order[a.status] - order[b.status]);
+  const running = list.filter(j => j.status !== "completed").length;
+  badge.textContent = running; badge.classList.toggle("hidden", !running);
+  document.getElementById("q-upd").textContent = `${t("q_upd")}: ${new Date().toLocaleTimeString()}`;
+  if (!list.length) { el.innerHTML = `<div class="empty"><svg><use href="#i-empty"/></svg><div>${t("q_empty")}</div></div>`; return; }
+  el.innerHTML = list.map(j => {
+    const n = j.name.replace(/\.(zip|7z|img(\.xz|\.gz)?|xz|gz)$/, "").replace(/-AB-\d+-MysticGSI$/, "");
+    const brand = brandOf(n.replace(/^(\w+)-.*/, (m, b) => ({hyperos:"HyperOS",oneui:"One UI",originos:"OriginOS",coloros:"ColorOS",oxygenos:"OxygenOS",magicos:"MagicOS",pixel:"Pixel",realmeui:"realme UI",flyme:"Flyme",nothing:"Nothing OS"})[b.toLowerCase()] || b));
+    let st, cls, icon;
+    if (j.status === "in_progress") { st = t("q_run"); cls = "run"; }
+    else if (j.status !== "completed") { st = t("q_wait"); cls = "wait"; icon = "#i-clock"; }
+    else if (j.conclusion === "success") { st = t("q_ok"); cls = "ok"; icon = "#i-check"; }
+    else { st = t("q_fail"); cls = "fail"; icon = "#i-err"; }
+    const lead = cls === "run"
+      ? `<svg class="spinner" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="var(--primary)" stroke-width="3" stroke-dasharray="40 60" stroke-linecap="round"/></svg>`
+      : `<svg class="i" style="color:var(--on-surface-variant)"><use href="${icon}"/></svg>`;
+    return `<div class="qitem">${avatar(brand)}<div class="t"><b>${esc(n)}</b><span>${j.started_at && cls === "run" ? Math.round((Date.now() - new Date(j.started_at)) / 60000) + " min" : ""}</span>${cls === "run" ? '<div class="prog"><i></i></div>' : ""}</div><span class="status ${cls}">${st}</span>${lead}</div>`;
+  }).join("");
+}
+
+/* request → pre-filled GitHub issue */
+document.getElementById("req").onsubmit = e => {
+  e.preventDefault();
+  const f = new FormData(e.target);
+  const body = `### URL\n\n${f.get("url")}\n\n### Name\n\n${f.get("name")}\n\n### Android\n\n${f.get("android")}\n\n### Notes\n\n${f.get("notes") || "-"}\n`;
+  const u = `https://github.com/${CFG.owner}/${CFG.repo}/issues/new?labels=rom-request&title=${encodeURIComponent("[ROM] " + f.get("name"))}&body=${encodeURIComponent(body)}`;
+  window.open(u, "_blank", "noopener");
+};
+
+document.getElementById("repo-link").href = `https://github.com/${CFG.owner}/${CFG.repo}`;
+applyLang();
+load();
+const start = location.hash.slice(1);
+if (["roms", "queue", "request", "howto"].includes(start)) showTab(start);
+else loadQueue();
+</script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+name: Approve ROM request
+
+# Владелец ставит на заявку метку «approved» — ссылка добавляется в sources.json и сразу качается.
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  issues: write
+  actions: write
+
+jobs:
+  add:
+    if: github.event.label.name == 'approved' && github.event.sender.login == github.repository_owner
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Add link to sources.json
+        env:
+          BODY: ${{ github.event.issue.body }}
+          NUM: ${{ github.event.issue.number }}
+        run: |
+          python3 - <<'EOF'
+          import json, os, re, datetime
+          body = os.environ["BODY"]
+          def field(name):
+              m = re.search(rf"### {name}\s*\n+(.+?)(\n###|\Z)", body, re.S)
+              return m.group(1).strip() if m else ""
+          url, name = field("URL"), field("Name")
+          assert url.startswith("https://"), "URL должен начинаться с https://"
+          fname = url.split("?")[0].rstrip("/").removesuffix("/download").rsplit("/", 1)[-1] or f"request-{os.environ['NUM']}.img"
+          s = json.load(open("sources.json"))
+          src = next(x for x in s if x.get("type") == "url")
+          src.setdefault("files", []).insert(0, {"tag": f"request-{os.environ['NUM']}", "file": fname, "url": url,
+                                                  "date": datetime.date.today().isoformat(), "title": name})
+          json.dump(s, open("sources.json", "w"), indent=2, ensure_ascii=False)
+          EOF
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Add requested ROM (#${{ github.event.issue.number }})"
+          git push
+      - name: Start download
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow run sync-gsi.yml --ref "${{ github.ref_name }}"
+          gh issue comment ${{ github.event.issue.number }} --body "✅ Добавлено в очередь. Ссылка появится на сайте после загрузки."
