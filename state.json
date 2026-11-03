@@ -1015,5 +1015,15 @@
     "size_mb": 933,
     "link": "https://drive.google.com/open?id=1Wyfu6m-GoW7AtUR54Dfd-GKbzTVxa07Y",
     "date": "2026-08-16"
+  },
+  "mystic-gsi-updates/Nothing/Nothing-Asteroids-16-2511181551-AB-20260111-MysticGSI.zip": {
+    "name": "Nothing OS (Asteroids) · Mystic",
+    "tag": "Nothing",
+    "file": "Nothing-Asteroids-16-2511181551-AB-20260111-MysticGSI.img.xz",
+    "src_file": "Nothing-Asteroids-16-2511181551-AB-20260111-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 1776,
+    "link": "https://drive.google.com/open?id=1B1vhqjkGGsvEoqjG8suFFpC5OShh-hk-",
+    "date": "2026-01-12"
   }
 }
