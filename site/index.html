@@ -99,6 +99,7 @@ nav.tabs .badge{background:var(--primary);color:var(--on-primary);border-radius:
 .btn.filled{background:var(--primary);color:var(--on-primary);flex:1}
 .btn.filled:hover{box-shadow:var(--shadow)}
 .btn.tonal{background:var(--secondary-container);color:var(--on-secondary-container)}
+.actions .btn.tonal:not([data-copy]){flex:1}
 .btn.outlined{background:transparent;border:1px solid var(--outline);color:var(--primary)}
 .empty{text-align:center;padding:60px 16px;color:var(--on-surface-variant)}
 .empty svg{width:96px;height:96px;margin-bottom:12px}
@@ -176,6 +177,7 @@ footer{text-align:center;color:var(--on-surface-variant);font-size:13px;padding:
     <symbol id="i-logo" viewBox="0 0 48 48"><rect width="48" height="48" rx="14" fill="var(--primary)"/><path d="M13 31a11 11 0 0 1 22 0z" fill="var(--primary-container)"/><circle cx="19.5" cy="26.5" r="1.8" fill="var(--primary)"/><circle cx="28.5" cy="26.5" r="1.8" fill="var(--primary)"/><path d="M16.5 17.5l3 4.5M31.5 17.5l-3 4.5" stroke="var(--primary-container)" stroke-width="2.2" stroke-linecap="round"/><rect x="13" y="33" width="22" height="3" rx="1.5" fill="var(--primary-container)" opacity=".6"/></symbol>
     <symbol id="i-search" viewBox="0 0 24 24"><path d="M15.5 14h-.8l-.3-.3A6.5 6.5 0 1 0 9.5 16a6.4 6.4 0 0 0 4.2-1.6l.3.3v.8l5 5 1.5-1.5zm-6 0A4.5 4.5 0 1 1 14 9.5 4.5 4.5 0 0 1 9.5 14"/></symbol>
     <symbol id="i-download" viewBox="0 0 24 24"><path d="M5 20h14v-2H5zm14-9h-4V3H9v8H5l7 7z"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M11 21h-1l1-7H7.5c-.88 0-.33-.75-.31-.78C8.48 10.94 10.42 7.54 13.01 3h1l-1 7h3.51c.4 0 .62.19.4.66C12.97 17.55 11 21 11 21"/></symbol>
     <symbol id="i-copy" viewBox="0 0 24 24"><path d="M16 1H4a2 2 0 0 0-2 2v14h2V3h12zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2m0 16H8V7h11z"/></symbol>
     <symbol id="i-chip" viewBox="0 0 24 24"><path d="M15 9H9v6h6zm-2 4h-2v-2h2zm8-2V9h-2V7a2 2 0 0 0-2-2h-2V3h-2v2h-2V3H9v2H7a2 2 0 0 0-2 2v2H3v2h2v2H3v2h2v2a2 2 0 0 0 2 2h2v2h2v-2h2v2h2v-2h2a2 2 0 0 0 2-2v-2h2v-2h-2v-2zm-4 6H7V7h10z"/></symbol>
     <symbol id="i-phone" viewBox="0 0 24 24"><path d="M17 1H7a2 2 0 0 0-2 2v18a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2m0 18H7V5h10z"/></symbol>
@@ -301,7 +303,7 @@ const T = {
   hero_title:"Свежие GSI-прошивки",hero_text:"HyperOS, One UI, OxygenOS, Pixel, LineageOS, crDroid и десятки других — в одном месте, на быстром Google Диске. Список обновляется автоматически.",
   stat_roms:"прошивок",stat_brands:"систем",stat_size:"всего",search:"Поиск прошивок…",
   f_android:"Версия Android",f_system:"Система",all:"Все",empty:"Ничего не найдено",
-  device:"Устройство",soc:"Процессор",size:"Размер",date:"Дата",download:"Скачать",copied:"Ссылка скопирована",
+  device:"Устройство",soc:"Процессор",size:"Размер",date:"Дата",download:"Скачать",raw_hint:"Несжатый образ — DSU ставит без распаковки, быстрее всего",gz_hint:"Сжатый архив — меньше качать, DSU распакует сам",copied:"Ссылка скопирована",
   generic:"Универсальная GSI",
   q_title:"Очередь загрузки",q_lead:"Что сейчас скачивается и загружается на зеркало. Обновляется каждые 30 секунд.",
   q_run:"Загружается",q_wait:"В очереди",q_ok:"Готово",q_fail:"Ошибка",q_empty:"Сейчас ничего не загружается. Новые прошивки проверяются каждый день.",q_err:"Не удалось получить очередь (лимит GitHub API). Попробуйте позже.",q_upd:"Обновлено",q_limit:"лимит GitHub API, следующее обновление после",
@@ -319,7 +321,7 @@ const T = {
   hero_title:"Fresh GSI builds",hero_text:"HyperOS, One UI, OxygenOS, Pixel, LineageOS, crDroid and dozens more — in one place, on a fast Google Drive mirror. Updated automatically.",
   stat_roms:"ROMs",stat_brands:"systems",stat_size:"total",search:"Search ROMs…",
   f_android:"Android version",f_system:"System",all:"All",empty:"Nothing found",
-  device:"Device",soc:"Chipset",size:"Size",date:"Date",download:"Download",copied:"Link copied",
+  device:"Device",soc:"Chipset",size:"Size",date:"Date",download:"Download",raw_hint:"Uncompressed image — DSU installs it without unpacking, fastest",gz_hint:"Compressed — smaller download, DSU unpacks it itself",copied:"Link copied",
   generic:"Generic GSI",
   q_title:"Download queue",q_lead:"What is being downloaded and uploaded to the mirror right now. Refreshes every 30 seconds.",
   q_run:"Uploading",q_wait:"Queued",q_ok:"Done",q_fail:"Failed",q_empty:"Nothing is running right now. New builds are checked daily.",q_err:"Couldn't load the queue (GitHub API limit). Try again later.",q_upd:"Updated",q_limit:"GitHub API limit, next refresh after",
@@ -420,6 +422,7 @@ function parseDevice(r){
   return { code, device: d ? d[0] : (code && m ? code : t("generic")), soc: d ? d[1] : "—" };
 }
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt = r => r.file.endsWith(".gz") ? "gz" : r.file.endsWith(".xz") ? "xz" : "img";
 const gb = mb => mb >= 1024 ? (mb/1024).toFixed(1) + " GB" : mb + " MB";
 
 async function load(){
@@ -476,8 +479,11 @@ function render(){
       </dl>
       <div class="file">${esc(r.file)}</div>
       <div class="actions">
-        <a class="btn filled" href="${esc(r.link)}" target="_blank" rel="noopener"><svg><use href="#i-download"/></svg>${t("download")}</a>
-        <button class="btn tonal" data-copy="${esc(r.link)}" aria-label="Copy"><svg><use href="#i-copy"/></svg></button>
+        ${r.raw_link
+          ? `<a class="btn filled" href="${esc(r.raw_link)}" target="_blank" rel="noopener" title="${t("raw_hint")}"><svg><use href="#i-bolt"/></svg>.img · ${gb(r.raw_mb)}</a>
+             <a class="btn tonal" href="${esc(r.link)}" target="_blank" rel="noopener" title="${t("gz_hint")}"><svg><use href="#i-download"/></svg>.${fmt(r)} · ${gb(r.size_mb)}</a>`
+          : `<a class="btn filled" href="${esc(r.link)}" target="_blank" rel="noopener"><svg><use href="#i-download"/></svg>${t("download")} .${fmt(r)}</a>
+             <button class="btn tonal" data-copy="${esc(r.link)}" aria-label="Copy"><svg><use href="#i-copy"/></svg></button>`}
       </div>
     </article>`).join("");
   document.querySelectorAll("[data-copy]").forEach(b => b.onclick = () => { navigator.clipboard?.writeText(b.dataset.copy); snack(t("copied")); });

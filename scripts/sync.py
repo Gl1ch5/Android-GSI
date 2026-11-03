@@ -31,7 +31,7 @@ def run(*cmd):
 
 def gz(img: pathlib.Path) -> pathlib.Path:
     """Сырой .img → .img.gz: DSU Sideloader распаковывает gzip в 3–5 раз быстрее, чем xz."""
-    run("pigz", "-6", str(img))
+    run("pigz", "-6", "-k", "-f", str(img))  # -k: сырой .img оставляем — его тоже выкладываем
     return img.with_name(img.name + ".gz")
 
 
@@ -196,16 +196,28 @@ def process(it):
             __import__("time").sleep(20 * (attempt + 1))
         else:
             raise RuntimeError("сервер отдаёт HTML вместо файла")
-    img = to_img(local)
+    img = to_img(local)                      # .img.gz
+    raw = img.with_suffix("")                # .img — для самой быстрой установки через DSU
+    if not raw.exists():
+        run("pigz", "-d", "-k", str(img))
     dest = f"{REMOTE}/{it['sid'].replace('/', '_')}/{it['tag'].replace('/', '_')}"
     run("rclone", "copy", str(img), dest)
     link = run("rclone", "link", f"{dest}/{img.name}")
     size = img.stat().st_size
     img.unlink()
+    raw_link, raw_size = "", 0
+    try:
+        run("rclone", "copy", str(raw), dest)
+        raw_link = run("rclone", "link", f"{dest}/{raw.name}")
+        raw_size = raw.stat().st_size
+    except Exception as e:
+        print("сырой .img не загрузился:", e)
+    raw.unlink(missing_ok=True)
     state = json.loads(STATE.read_text()) if STATE.exists() else {}
     state[it["key"]] = {"name": it["name"], "tag": it["tag"], "file": img.name, "src_file": it["file"],
                         "android": detect_android(f"{it['tag']} {it['title']} {it['file']}"),
-                        "size_mb": round(size / 2**20), "link": link, "date": it["date"]}
+                        "size_mb": round(size / 2**20), "link": link,
+                        "raw_link": raw_link, "raw_mb": round(raw_size / 2**20), "date": it["date"]}
     render(state)
     publish(f"Add {img.name}")
 
@@ -269,8 +281,12 @@ def render(state):
         rows = [hdr, "|---|---|:---:|---:|---|:---:|"]
         for v in items:
             ver = os_version(v.get("src_file") or v["file"], v.get("android", "?")) or "—"
+            fmt = "gz" if v["file"].endswith(".gz") else "xz" if v["file"].endswith(".xz") else "img"
+            links = f"[⬇️ .{fmt}]({v['link']})"
+            if v.get("raw_link"):
+                links = f"[⚡ .img]({v['raw_link']}) · " + links
             rows.append(f"| **{v['name'].replace(' · Mystic', '')}** | {ver} | {v.get('android', '?')} | "
-                        f"{v['size_mb'] / 1024:.1f} GB | {v['date']} | [⬇️ {dl}]({v['link']}) |")
+                        f"{v['size_mb'] / 1024:.1f} GB | {v['date']} | {links} |")
         if len(rows) == 2:
             rows.append("| — | — | — | — | — | — |")
         st, en = f"<!-- GSI-LIST-{lang}:START -->", f"<!-- GSI-LIST-{lang}:END -->"
