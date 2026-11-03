@@ -1,18 +1,19 @@
 {
  "items": [
   {
-   "file": "YAAP-16.2_GSI_treble_arm64-ab_MICROG-20260517.img.xz",
-   "name": "YAAP",
-   "status": "in_progress",
-   "run": "41631300864",
-   "started": "2026-11-03T12:06:01+00:00"
-  },
-  {
    "file": "Coloros-OP60FFL1-16-1760951010663-AB-20251027-MysticGSI.zip",
    "name": "ColorOS (OP60FFL1) · Mystic",
    "status": "in_progress",
    "run": "41631300864",
    "started": "2026-11-03T12:05:51+00:00"
+  },
+  {
+   "file": "YAAP-16.2_GSI_treble_arm64-ab_MICROG-20260517.img.xz",
+   "name": "YAAP",
+   "status": "success",
+   "run": "41631300864",
+   "started": "2026-11-03T12:06:01+00:00",
+   "finished": "2026-11-03T12:26:56+00:00"
   },
   {
    "file": "Coloros-OP615EL1-16-1765357695451-AB-20251228-MysticGSI.zip",
@@ -301,15 +302,8 @@
    "status": "success",
    "started": "2026-11-03T05:15:55Z",
    "finished": "2026-11-03T05:56:51Z"
-  },
-  {
-   "file": "Magicos-BKQ-AN00-16-eng.root-AB-20260125-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:15:55Z",
-   "finished": "2026-11-03T05:55:46Z"
   }
  ],
- "updated": "2026-11-03T12:16:33+00:00",
+ "updated": "2026-11-03T12:26:56+00:00",
  "run": "41631300864"
 }
