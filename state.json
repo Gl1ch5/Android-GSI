@@ -355,5 +355,15 @@
     "size_mb": 1578,
     "link": "https://drive.google.com/open?id=14wZSRtwAanVskzXTPAeZBLrhQX8FxFL-",
     "date": "2025-12-05"
+  },
+  "mystic-gsi-updates/Honor/Magicos-NDL-W09-16-eng.root-AB-20251214-MysticGSI.zip": {
+    "name": "MagicOS (NDL) · Mystic",
+    "tag": "Honor",
+    "file": "Magicos-NDL-W09-16-eng.root-AB-20251214-MysticGSI.img.xz",
+    "src_file": "Magicos-NDL-W09-16-eng.root-AB-20251214-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 3619,
+    "link": "https://drive.google.com/open?id=1V7oeXHFqOMZgjb7eRmUVJngwYqpb1bva",
+    "date": "2025-12-14"
   }
 }
