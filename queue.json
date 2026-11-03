@@ -15,13 +15,6 @@
    "started": "2026-11-03T12:06:25+00:00"
   },
   {
-   "file": "Pixel-arrow-16-15861848-AB-20260719-MysticGSI.zip",
-   "name": "Pixel (arrow) · Mystic",
-   "status": "in_progress",
-   "run": "41631300864",
-   "started": "2026-11-03T12:05:18+00:00"
-  },
-  {
    "file": "Infinity-X-3.12-GSI_treble_arm64-ab-MICROG-Official-20260920.img.xz",
    "name": "Infinity X",
    "status": "in_progress",
@@ -55,6 +48,14 @@
    "status": "in_progress",
    "run": "41631300864",
    "started": "2026-11-03T12:05:51+00:00"
+  },
+  {
+   "file": "Pixel-arrow-16-15861848-AB-20260719-MysticGSI.zip",
+   "name": "Pixel (arrow) · Mystic",
+   "status": "failure",
+   "run": "41631300864",
+   "started": "2026-11-03T12:05:18+00:00",
+   "finished": "2026-11-03T12:13:29+00:00"
   },
   {
    "file": "Pixel-raven-17-16091614-AB-20260920-MysticGSI.zip",
@@ -337,15 +338,8 @@
    "status": "success",
    "started": "2026-11-03T05:15:55Z",
    "finished": "2026-11-03T05:47:49Z"
-  },
-  {
-   "file": "Realmeui-RE6030L1-CinnamonBun-1773651170858-AB-20260326-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:15:55Z",
-   "finished": "2026-11-03T05:46:49Z"
   }
  ],
- "updated": "2026-11-03T12:13:25+00:00",
+ "updated": "2026-11-03T12:13:29+00:00",
  "run": "41631300864"
 }
