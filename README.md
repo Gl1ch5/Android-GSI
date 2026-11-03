@@ -80,6 +80,7 @@ Catalog with search, filters, live queue and ROM requests<br>
 | **realme UI (RE6018L1) · Mystic** | 16 | `Realmeui-RE6018L1-16-1760189042803-AB-20251020-MysticGSI.img.xz` | 5.3 GB | 2025-10-20 | [⬇️ Download](https://drive.google.com/open?id=1tL2f9IuNtI-PYtzf5W9nR1oov7nnNlfz) |
 | **OriginOS (k6993v1_64) · Mystic** | 16 | `Originos-k6993v1_64-16-compiler250923020245-AB-20251017-MysticGSI.img.xz` | 4.5 GB | 2025-10-17 | [⬇️ Download](https://drive.google.com/open?id=1nosBYGm84OUXa1U6I4zN7p_bMg_NM7AF) |
 | **ColorOS (OP60F5L1) · Mystic** | 16 | `Coloros-OP60F5L1-16-1760244118112-AB-20251017-MysticGSI.img.xz` | 3.5 GB | 2025-10-17 | [⬇️ Download](https://drive.google.com/open?id=16rVu-dveHWsbZPbYFXaPds8HwipmxBeg) |
+| **MagicOS (PPG) · Mystic** | 16 | `Magicos-PPG-AN00-16-eng.root-AB-20251017-MysticGSI.img.xz` | 5.3 GB | 2025-10-17 | [⬇️ Download](https://drive.google.com/open?id=1VorllCRbdHhIcp9_-MTy13DOCxfuRlWk) |
 | **ColorOS (OP5D0DL1) · Mystic** | 16 | `Coloros-OP5D0DL1-16-1760212044539-AB-20251015-MysticGSI.img.xz` | 3.5 GB | 2025-10-15 | [⬇️ Download](https://drive.google.com/open?id=1ZxR68Vp2lfAa9J7xziZrARABcqS_n4Yc) |
 | **ColorOS (OP6542L1) · Mystic** | 16 | `Coloros-OP6542L1-16-1757960617399-AB-20251015-MysticGSI.img.xz` | 4.3 GB | 2025-10-15 | [⬇️ Download](https://drive.google.com/open?id=1DPuDKe3kddrKv96odZMw6YmIcjyguvnr) |
 | **Pixel (cheetah) · Mystic** | 16 | `Pixel-cheetah-16-14089870-AB-20251002-MysticGSI.img.xz` | 1.7 GB | 2025-10-02 | [⬇️ Download](https://drive.google.com/open?id=10kRQCyVCRnrGIo79g2Mpm5jWkJuijqwb) |
@@ -178,6 +179,7 @@ fastboot reboot
 | **realme UI (RE6018L1) · Mystic** | 16 | `Realmeui-RE6018L1-16-1760189042803-AB-20251020-MysticGSI.img.xz` | 5.3 GB | 2025-10-20 | [⬇️ Скачать](https://drive.google.com/open?id=1tL2f9IuNtI-PYtzf5W9nR1oov7nnNlfz) |
 | **OriginOS (k6993v1_64) · Mystic** | 16 | `Originos-k6993v1_64-16-compiler250923020245-AB-20251017-MysticGSI.img.xz` | 4.5 GB | 2025-10-17 | [⬇️ Скачать](https://drive.google.com/open?id=1nosBYGm84OUXa1U6I4zN7p_bMg_NM7AF) |
 | **ColorOS (OP60F5L1) · Mystic** | 16 | `Coloros-OP60F5L1-16-1760244118112-AB-20251017-MysticGSI.img.xz` | 3.5 GB | 2025-10-17 | [⬇️ Скачать](https://drive.google.com/open?id=16rVu-dveHWsbZPbYFXaPds8HwipmxBeg) |
+| **MagicOS (PPG) · Mystic** | 16 | `Magicos-PPG-AN00-16-eng.root-AB-20251017-MysticGSI.img.xz` | 5.3 GB | 2025-10-17 | [⬇️ Скачать](https://drive.google.com/open?id=1VorllCRbdHhIcp9_-MTy13DOCxfuRlWk) |
 | **ColorOS (OP5D0DL1) · Mystic** | 16 | `Coloros-OP5D0DL1-16-1760212044539-AB-20251015-MysticGSI.img.xz` | 3.5 GB | 2025-10-15 | [⬇️ Скачать](https://drive.google.com/open?id=1ZxR68Vp2lfAa9J7xziZrARABcqS_n4Yc) |
 | **ColorOS (OP6542L1) · Mystic** | 16 | `Coloros-OP6542L1-16-1757960617399-AB-20251015-MysticGSI.img.xz` | 4.3 GB | 2025-10-15 | [⬇️ Скачать](https://drive.google.com/open?id=1DPuDKe3kddrKv96odZMw6YmIcjyguvnr) |
 | **Pixel (cheetah) · Mystic** | 16 | `Pixel-cheetah-16-14089870-AB-20251002-MysticGSI.img.xz` | 1.7 GB | 2025-10-02 | [⬇️ Скачать](https://drive.google.com/open?id=10kRQCyVCRnrGIo79g2Mpm5jWkJuijqwb) |

@@ -645,5 +645,15 @@
     "size_mb": 5452,
     "link": "https://drive.google.com/open?id=1tL2f9IuNtI-PYtzf5W9nR1oov7nnNlfz",
     "date": "2025-10-20"
+  },
+  "mystic-gsi-updates/Generic/Magicos-PPG-AN00-16-eng.root-AB-20251017-MysticGSI.zip": {
+    "name": "MagicOS (PPG) · Mystic",
+    "tag": "Generic",
+    "file": "Magicos-PPG-AN00-16-eng.root-AB-20251017-MysticGSI.img.xz",
+    "src_file": "Magicos-PPG-AN00-16-eng.root-AB-20251017-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 5467,
+    "link": "https://drive.google.com/open?id=1VorllCRbdHhIcp9_-MTy13DOCxfuRlWk",
+    "date": "2025-10-17"
   }
 }
