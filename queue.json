@@ -3,8 +3,9 @@
   {
    "file": "Coloros-OP60FFL1-16-1760951010663-AB-20251027-MysticGSI.zip",
    "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T12:04:09Z"
+   "status": "failure",
+   "started": "2026-11-03T12:04:09Z",
+   "finished": "2026-11-03T17:05:30+00:00"
   },
   {
    "file": "YAAP-16.2_GSI_treble_arm64-ab_MICROG-20260517.img.xz",
@@ -119,6 +120,6 @@
    "finished": "2026-11-03T12:05:08Z"
   }
  ],
- "updated": "2026-11-03T14:43:36+00:00",
+ "updated": "2026-11-03T17:05:30+00:00",
  "run": "41631300864"
 }
