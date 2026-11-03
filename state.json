@@ -325,5 +325,15 @@
     "size_mb": 1638,
     "link": "https://drive.google.com/open?id=1wLsL41rgScEQQuFecVrMSnknBO0GTgTt",
     "date": "2025-12-15"
+  },
+  "mystic-gsi-updates/Pixel/Pixel-cheetah-CANARY-14396972-AB-20251205-MysticGSI.zip": {
+    "name": "Pixel (cheetah) · Mystic",
+    "tag": "Pixel",
+    "file": "Pixel-cheetah-CANARY-14396972-AB-20251205-MysticGSI.img.xz",
+    "src_file": "Pixel-cheetah-CANARY-14396972-AB-20251205-MysticGSI.zip",
+    "android": "17",
+    "size_mb": 1661,
+    "link": "https://drive.google.com/open?id=1tsc_EmU89gu-k3n9EHirwLD-0-Ym2XNJ",
+    "date": "2025-12-05"
   }
 }
