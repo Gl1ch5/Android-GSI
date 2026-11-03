@@ -455,5 +455,15 @@
     "size_mb": 3171,
     "link": "https://drive.google.com/open?id=1SlCawEQEJtNvPy4P72v-KqzpjnUxU5nO",
     "date": "2026-01-22"
+  },
+  "mystic-gsi-updates/ColorOS/Coloros-OP6117L1-16-1763138323460-AB-20251127-MysticGSI.zip": {
+    "name": "ColorOS (OP6117L1) · Mystic",
+    "tag": "ColorOS",
+    "file": "Coloros-OP6117L1-16-1763138323460-AB-20251127-MysticGSI.img.xz",
+    "src_file": "Coloros-OP6117L1-16-1763138323460-AB-20251127-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 3440,
+    "link": "https://drive.google.com/open?id=1mIm-kd-V7-KPY9P5_BRnezq4zLg8I3gi",
+    "date": "2025-12-02"
   }
 }
