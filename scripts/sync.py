@@ -29,24 +29,32 @@ def run(*cmd):
     return r.stdout.strip()
 
 
+def gz(img: pathlib.Path) -> pathlib.Path:
+    """Сырой .img → .img.gz: DSU Sideloader распаковывает gzip в 3–5 раз быстрее, чем xz."""
+    run("pigz", "-6", str(img))
+    return img.with_name(img.name + ".gz")
+
+
 def to_img(path: pathlib.Path) -> pathlib.Path:
-    """Приводит файл к виду, который DSU Sideloader открывает напрямую (.img / .img.xz / .img.gz)."""
+    """Приводит файл к .img.gz — формату, который DSU Sideloader быстрее всего ставит."""
     n = path.name
-    if n.endswith(".img"):
+    if n.endswith(".img.gz"):
         return path
-    if n.endswith((".img.xz", ".img.gz")):
-        return path  # DSU Sideloader открывает их сам — оставляем сжатыми
+    if n.endswith(".img"):
+        return gz(path)
+    if n.endswith(".img.xz"):
+        run("xz", "-d", "-T0", str(path))
+        return gz(path.with_suffix(""))
     if n.endswith((".zip", ".7z")):
         out = WORK / "extract"
         shutil.rmtree(out, ignore_errors=True); out.mkdir()
         run("7z", "x", "-y", f"-o{out}", str(path)); path.unlink()
         for p in sorted(out.rglob("*"), key=lambda p: p.stat().st_size if p.is_file() else 0, reverse=True):
             if p.is_file() and p.name.endswith((".img", ".img.xz", ".img.gz")):
-                if p.suffix == ".img":
-                    run("xz", "-T0", "-6", str(p)); p = p.with_name(p.name + ".xz")
-                final = WORK / (path.name.rsplit(".", 1)[0] + "".join(p.suffixes[-2:]))
+                final = WORK / (path.name.rsplit(".", 1)[0] + "".join(p.suffixes[-2:]) if p.name.endswith((".xz", ".gz"))
+                                else path.name.rsplit(".", 1)[0] + ".img")
                 p.rename(final); shutil.rmtree(out, ignore_errors=True)
-                return final
+                return to_img(final)
         raise RuntimeError("в архиве нет .img")
     raise RuntimeError(f"неизвестный формат: {n}")
 

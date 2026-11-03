@@ -12,7 +12,7 @@ Catalog with search, filters, live queue and ROM requests<br>
 
 [🇬🇧 English](#-english) &nbsp;•&nbsp; [🇷🇺 Русский](#-русский)
 
-![Auto-updated](https://img.shields.io/badge/updated-daily-brightgreen) ![Format](https://img.shields.io/badge/format-.img.xz-blue) ![Arch](https://img.shields.io/badge/arch-arm64-orange)
+![Auto-updated](https://img.shields.io/badge/updated-daily-brightgreen) ![Format](https://img.shields.io/badge/format-.img.gz-blue) ![Arch](https://img.shields.io/badge/arch-arm64-orange)
 
 </div>
 
@@ -70,7 +70,7 @@ Catalog with search, filters, live queue and ROM requests<br>
 | **ponces AOSP** | 15 | `aosp-arm64-ab-gapps-15.0-20250513.img.xz` | 1.4 GB | 2025-05-13 | [⬇️ Download](https://drive.google.com/open?id=1_d2pKToblPZTC1_rr-AIQKJBLAy1rX0B) |
 <!-- GSI-LIST-EN:END -->
 
-The list updates automatically every day. Files are compressed `.img.xz` / `.img.gz` — DSU Sideloader opens them directly, nothing to unpack.
+The list updates automatically every day. Files are `.img.gz` — DSU Sideloader opens them directly and unpacks gzip 3–5× faster than xz.
 
 ### 🧪 Try without risk — DSU Sideloader
 
@@ -78,13 +78,13 @@ Boot a GSI **alongside** your current system. Reboot — and you're back, all da
 
 1. Unlock the bootloader *(this wipes the phone once)*.
 2. Install [DSU Sideloader](https://github.com/VegaBobo/DSU-Sideloader).
-3. Pick the downloaded file (`.img.xz` works as is), set userdata to 16 GB, start the install.
+3. Pick the downloaded file (`.img.gz` works as is), set userdata to 16 GB, start the install.
 4. Reboot into the GSI from the *Dynamic System* notification.
 
 ### ⚡ Permanent install — fastboot
 
 ```sh
-xz -d system.img.xz   # fastboot needs a raw .img / нужен распакованный .img
+gzip -d system.img.gz   # fastboot needs a raw .img / нужен распакованный .img
 adb reboot fastboot
 fastboot erase system
 fastboot flash system system.img
@@ -148,7 +148,7 @@ fastboot reboot
 | **ponces AOSP** | 15 | `aosp-arm64-ab-gapps-15.0-20250513.img.xz` | 1.4 GB | 2025-05-13 | [⬇️ Скачать](https://drive.google.com/open?id=1_d2pKToblPZTC1_rr-AIQKJBLAy1rX0B) |
 <!-- GSI-LIST-RU:END -->
 
-Список обновляется автоматически каждый день. Файлы в формате `.img.xz` / `.img.gz` — DSU Sideloader открывает их сам, ничего распаковывать не нужно.
+Список обновляется автоматически каждый день. Файлы в формате `.img.gz` — DSU Sideloader открывает их сам и распаковывает gzip в 3–5 раз быстрее, чем xz.
 
 ### 🧪 Попробовать без риска — DSU Sideloader
 
@@ -156,13 +156,13 @@ GSI запускается **рядом** с вашей системой. Пер
 
 1. Разблокируйте загрузчик *(один раз сотрёт телефон)*.
 2. Установите [DSU Sideloader](https://github.com/VegaBobo/DSU-Sideloader).
-3. Выберите скачанный файл (`.img.xz` — как есть), размер userdata — 16 ГБ, запустите установку.
+3. Выберите скачанный файл (`.img.gz` — как есть), размер userdata — 16 ГБ, запустите установку.
 4. Перезагрузитесь в GSI через уведомление *Dynamic System*.
 
 ### ⚡ Установить насовсем — fastboot
 
 ```sh
-xz -d system.img.xz   # fastboot needs a raw .img / нужен распакованный .img
+gzip -d system.img.gz   # fastboot needs a raw .img / нужен распакованный .img
 adb reboot fastboot
 fastboot erase system
 fastboot flash system system.img

@@ -65,7 +65,7 @@ jobs:
       - name: Install tools
         run: |
           curl -fsSL https://rclone.org/install.sh | sudo bash
-          sudo apt-get install -y p7zip-full xz-utils
+          sudo apt-get install -y p7zip-full xz-utils pigz
           sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc  # больше места на диске
 
       - name: Configure rclone
