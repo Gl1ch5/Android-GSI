@@ -265,5 +265,15 @@
     "size_mb": 1527,
     "link": "https://drive.google.com/open?id=1sxdTC-_7GXWe2rFZ2YCgQMavqV5f4vUL",
     "date": "2025-12-14"
+  },
+  "mystic-gsi-updates/HyperOS/Hyperos-duchamp-16-OS3.0.0.4.WNLCNXM-AB-20251205-MysticGSI.zip": {
+    "name": "HyperOS (duchamp) · Mystic",
+    "tag": "HyperOS",
+    "file": "Hyperos-duchamp-16-OS3.0.0.4.WNLCNXM-AB-20251205-MysticGSI.img.xz",
+    "src_file": "Hyperos-duchamp-16-OS3.0.0.4.WNLCNXM-AB-20251205-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 2877,
+    "link": "https://drive.google.com/open?id=1TDGDRRNBAf6zYyxK_BCXO8kpMERqXiFP",
+    "date": "2025-12-05"
   }
 }
