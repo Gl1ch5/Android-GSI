@@ -255,5 +255,15 @@
     "size_mb": 4148,
     "link": "https://drive.google.com/open?id=1y3nsfx2jyiqNViR3jeHi9VjQVNiJpjn-",
     "date": "2026-01-04"
+  },
+  "mystic-gsi-updates/Pixel/Pixel-menari_lte-16-14500072-AB-20251214-MysticGSI.zip": {
+    "name": "Pixel (menari_lte) · Mystic",
+    "tag": "Pixel",
+    "file": "Pixel-menari_lte-16-14500072-AB-20251214-MysticGSI.img.xz",
+    "src_file": "Pixel-menari_lte-16-14500072-AB-20251214-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 1527,
+    "link": "https://drive.google.com/open?id=1sxdTC-_7GXWe2rFZ2YCgQMavqV5f4vUL",
+    "date": "2025-12-14"
   }
 }
