@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Скачивает свежие GSI из GitHub Releases, приводит к .img.xz (DSU Sideloader открывает сам),
 грузит на Google Drive (rclone) и обновляет таблицу в README."""
-import json, os, re, shutil, subprocess, urllib.request, pathlib
+import json, os, re, shutil, subprocess, sys, urllib.request, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 STATE = ROOT / "state.json"
@@ -125,7 +125,9 @@ def releases_for(src):
 
 
 def main():
-    sources = json.loads((ROOT / "sources.json").read_text())
+    global SOURCES_TEXT
+    SOURCES_TEXT = (ROOT / "sources.json").read_text()
+    sources = json.loads(SOURCES_TEXT)
     state = json.loads(STATE.read_text()) if STATE.exists() else {}
     WORK.mkdir(parents=True, exist_ok=True)
 
@@ -170,6 +172,10 @@ def main():
                               "date": date}
                 render(state)
                 publish(f"Add {img.name}")
+                # если пока шла загрузка в sources.json добавили новые ссылки — начинаем заново с них
+                if (ROOT / "sources.json").read_text() != SOURCES_TEXT:
+                    print("sources.json изменился — перезапуск", flush=True)
+                    os.execv(sys.executable, [sys.executable] + sys.argv)
 
     render(state)
 
