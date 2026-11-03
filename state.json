@@ -935,5 +935,15 @@
     "size_mb": 1290,
     "link": "https://drive.google.com/open?id=1jjelA0nckURfFBfJ9nPUAQVPGijMaeOL",
     "date": "2026-08-12"
+  },
+  "Doze-off/YAAP_treble/2026-05-17/YAAP-16.2_GSI_treble_arm64-ab_GAPPS-20260517.img.xz": {
+    "name": "YAAP",
+    "tag": "2026-05-17",
+    "file": "YAAP-16.2_GSI_treble_arm64-ab_GAPPS-20260517.img.xz",
+    "src_file": "YAAP-16.2_GSI_treble_arm64-ab_GAPPS-20260517.img.xz",
+    "android": "16",
+    "size_mb": 1076,
+    "link": "https://drive.google.com/open?id=1J1ppgo8nDrS82aceU9l1p86tU5Al4K7w",
+    "date": "2026-05-18"
   }
 }
