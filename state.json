@@ -235,5 +235,15 @@
     "size_mb": 5433,
     "link": "https://drive.google.com/open?id=1bil6N1UI3EkD5fG8occ1OYssyeKTYIKi",
     "date": "2026-01-25"
+  },
+  "Мои ссылки (порты и др.)/Generic/Originos-k6993v1_64-16-compiler250923020245-AB-20251017-MysticGSI.zip": {
+    "name": "OriginOS (k6993v1_64) · Mystic",
+    "tag": "Generic",
+    "file": "Originos-k6993v1_64-16-compiler250923020245-AB-20251017-MysticGSI.img.xz",
+    "src_file": "Originos-k6993v1_64-16-compiler250923020245-AB-20251017-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 4597,
+    "link": "https://drive.google.com/open?id=1nosBYGm84OUXa1U6I4zN7p_bMg_NM7AF",
+    "date": "2025-10-17"
   }
 }
