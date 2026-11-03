@@ -41,6 +41,7 @@ Catalog with search, filters, live queue and ROM requests<br>
 | **WitAqua** | 3.2 | 16 | 0.9 GB | 2026-09-21 | [⬇️ .xz](https://drive.google.com/open?id=1Hhb6LwS6AziGJ9HixNH3ELwmdIGFEmAk) |
 | **WitAqua** | 3.2 | 16 | 1.0 GB | 2026-09-21 | [⬇️ .xz](https://drive.google.com/open?id=194Wne6UsloJLBGG07jBl_RU9UhkH_JYN) |
 | **Infinity X** | 3.12 | 16 | 1.2 GB | 2026-09-20 | [⬇️ .xz](https://drive.google.com/open?id=1-jxwyOSCkfppUXc55kpzV0QHkF66lcF-) |
+| **Infinity X** | 3.12 | 16 | 1.4 GB | 2026-09-20 | [⚡ .img](https://drive.google.com/open?id=1DMNcTRg7BON34oZV_51WjJeaqyEuSunG) · [⬇️ .gz](https://drive.google.com/open?id=1Vdd1kZdul61HNI8EQgFp48Vh3L6C5wr5) |
 | **MistOS** | 4.8 | 16 | 1.7 GB | 2026-09-08 | [⬇️ .xz](https://drive.google.com/open?id=1fPEwEN4xI-jn8_CPtjybuWp59iRIzORu) |
 | **MistOS** | 4.8 | 16 | 1.6 GB | 2026-09-08 | [⚡ .img](https://drive.google.com/open?id=1hTVta7w8bK7vs9-h9AzRvyS_rU4-qHgh) · [⬇️ .gz](https://drive.google.com/open?id=1K21YVHRNZy9pfRw08SDrrHaB5YwX2EDh) |
 | **AyakaUI** | 16.2 | 16 | 1.2 GB | 2026-08-17 | [⬇️ .xz](https://drive.google.com/open?id=1aotwL4_R5hq80GRNiV1SD6N6RytvH3aH) |
@@ -181,6 +182,7 @@ fastboot reboot
 | **WitAqua** | 3.2 | 16 | 0.9 GB | 2026-09-21 | [⬇️ .xz](https://drive.google.com/open?id=1Hhb6LwS6AziGJ9HixNH3ELwmdIGFEmAk) |
 | **WitAqua** | 3.2 | 16 | 1.0 GB | 2026-09-21 | [⬇️ .xz](https://drive.google.com/open?id=194Wne6UsloJLBGG07jBl_RU9UhkH_JYN) |
 | **Infinity X** | 3.12 | 16 | 1.2 GB | 2026-09-20 | [⬇️ .xz](https://drive.google.com/open?id=1-jxwyOSCkfppUXc55kpzV0QHkF66lcF-) |
+| **Infinity X** | 3.12 | 16 | 1.4 GB | 2026-09-20 | [⚡ .img](https://drive.google.com/open?id=1DMNcTRg7BON34oZV_51WjJeaqyEuSunG) · [⬇️ .gz](https://drive.google.com/open?id=1Vdd1kZdul61HNI8EQgFp48Vh3L6C5wr5) |
 | **MistOS** | 4.8 | 16 | 1.7 GB | 2026-09-08 | [⬇️ .xz](https://drive.google.com/open?id=1fPEwEN4xI-jn8_CPtjybuWp59iRIzORu) |
 | **MistOS** | 4.8 | 16 | 1.6 GB | 2026-09-08 | [⚡ .img](https://drive.google.com/open?id=1hTVta7w8bK7vs9-h9AzRvyS_rU4-qHgh) · [⬇️ .gz](https://drive.google.com/open?id=1K21YVHRNZy9pfRw08SDrrHaB5YwX2EDh) |
 | **AyakaUI** | 16.2 | 16 | 1.2 GB | 2026-08-17 | [⬇️ .xz](https://drive.google.com/open?id=1aotwL4_R5hq80GRNiV1SD6N6RytvH3aH) |

@@ -1067,5 +1067,17 @@
     "raw_link": "https://drive.google.com/open?id=1hTVta7w8bK7vs9-h9AzRvyS_rU4-qHgh",
     "raw_mb": 3318,
     "date": "2026-09-08"
+  },
+  "Doze-off/ProjectInfinity-X_gsi/2026-09-20/Infinity-X-3.12-GSI_treble_arm64-ab-MICROG-Official-20260920.img.xz": {
+    "name": "Infinity X",
+    "tag": "2026-09-20",
+    "file": "Infinity-X-3.12-GSI_treble_arm64-ab-MICROG-Official-20260920.img.gz",
+    "src_file": "Infinity-X-3.12-GSI_treble_arm64-ab-MICROG-Official-20260920.img.xz",
+    "android": "16",
+    "size_mb": 1484,
+    "link": "https://drive.google.com/open?id=1Vdd1kZdul61HNI8EQgFp48Vh3L6C5wr5",
+    "raw_link": "https://drive.google.com/open?id=1DMNcTRg7BON34oZV_51WjJeaqyEuSunG",
+    "raw_mb": 3092,
+    "date": "2026-09-20"
   }
 }
