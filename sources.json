@@ -31,6 +31,174 @@
     "per_file": true
   },
   {
+    "name": "RestlessOS (A17)",
+    "repo": "cawilliamson/treble_restlessos",
+    "releases": 1,
+    "asset_regex": "^(?!.*(vanilla|VANILLA|bvN|_vN|-vN|x86|a64_|arm32)).*arm64.*\\.(img|img\\.xz|img\\.gz|xz|gz|zip|7z)$"
+  },
+  {
+    "name": "Evolution X",
+    "repo": "Doze-off/EvoX_treble",
+    "releases": 1,
+    "asset_regex": "^(?!.*(vanilla|VANILLA|bvN|_vN|-vN|x86|a64_|arm32)).*arm64.*\\.(img|img\\.xz|img\\.gz|xz|gz|zip|7z)$"
+  },
+  {
+    "name": "crDroid",
+    "repo": "Doze-off/crdroid_gsi_treble",
+    "releases": 1,
+    "asset_regex": "^(?!.*(vanilla|VANILLA|bvN|_vN|-vN|x86|a64_|arm32)).*arm64.*\\.(img|img\\.xz|img\\.gz|xz|gz|zip|7z)$"
+  },
+  {
+    "name": "Matrixx",
+    "repo": "Doze-off/Matrixx_treble",
+    "releases": 1,
+    "asset_regex": "^(?!.*(vanilla|VANILLA|bvN|_vN|-vN|x86|a64_|arm32)).*arm64.*\\.(img|img\\.xz|img\\.gz|xz|gz|zip|7z)$"
+  },
+  {
+    "name": "PixelOS",
+    "repo": "Doze-off/PixelOS_GSI_treble",
+    "releases": 1,
+    "asset_regex": "^(?!.*(vanilla|VANILLA|bvN|_vN|-vN|x86|a64_|arm32)).*arm64.*\\.(img|img\\.xz|img\\.gz|xz|gz|zip|7z)$"
+  },
+  {
+    "name": "AxionOS",
+    "repo": "Doze-off/axion_aosp",
+    "releases": 1,
+    "asset_regex": "^(?!.*(vanilla|VANILLA|bvN|_vN|-vN|x86|a64_|arm32)).*arm64.*\\.(img|img\\.xz|img\\.gz|xz|gz|zip|7z)$"
+  },
+  {
+    "name": "AxionOS (itisFarzin)",
+    "repo": "itisFarzin/AxionOS_GSI",
+    "releases": 1,
+    "asset_regex": "^(?!.*(vanilla|VANILLA|bvN|_vN|-vN|x86|a64_|arm32)).*arm64.*\\.(img|img\\.xz|img\\.gz|xz|gz|zip|7z)$"
+  },
+  {
+    "name": "Infinity X",
+    "repo": "Doze-off/ProjectInfinity-X_gsi",
+    "releases": 1,
+    "asset_regex": "^(?!.*(vanilla|VANILLA|bvN|_vN|-vN|x86|a64_|arm32)).*arm64.*\\.(img|img\\.xz|img\\.gz|xz|gz|zip|7z)$"
+  },
+  {
+    "name": "LineageOS (Doze-off)",
+    "repo": "Doze-off/lineage_treble",
+    "releases": 1,
+    "asset_regex": "^(?!.*(vanilla|VANILLA|bvN|_vN|-vN|x86|a64_|arm32)).*arm64.*\\.(img|img\\.xz|img\\.gz|xz|gz|zip|7z)$"
+  },
+  {
+    "name": "LineageOS 23.2 (MisterZtr)",
+    "repo": "MisterZtr/LineageOS_gsi",
+    "releases": 1,
+    "asset_regex": "^(?!.*(vanilla|VANILLA|bvN|_vN|-vN|x86|a64_|arm32)).*arm64.*\\.(img|img\\.xz|img\\.gz|xz|gz|zip|7z)$"
+  },
+  {
+    "name": "DerpFest",
+    "repo": "Doze-off/Derpfest_treble",
+    "releases": 1,
+    "asset_regex": "^(?!.*(vanilla|VANILLA|bvN|_vN|-vN|x86|a64_|arm32)).*arm64.*\\.(img|img\\.xz|img\\.gz|xz|gz|zip|7z)$"
+  },
+  {
+    "name": "Lunaris AOSP",
+    "repo": "Doze-off/Lunaris-AOSP_gsi",
+    "releases": 1,
+    "asset_regex": "^(?!.*(vanilla|VANILLA|bvN|_vN|-vN|x86|a64_|arm32)).*arm64.*\\.(img|img\\.xz|img\\.gz|xz|gz|zip|7z)$"
+  },
+  {
+    "name": "MistOS",
+    "repo": "Doze-off/Mist-OS_gsi",
+    "releases": 1,
+    "asset_regex": "^(?!.*(vanilla|VANILLA|bvN|_vN|-vN|x86|a64_|arm32)).*arm64.*\\.(img|img\\.xz|img\\.gz|xz|gz|zip|7z)$"
+  },
+  {
+    "name": "RisingOS Revived",
+    "repo": "Doze-off/Rising-revived_treble",
+    "releases": 1,
+    "asset_regex": "^(?!.*(vanilla|VANILLA|bvN|_vN|-vN|x86|a64_|arm32)).*arm64.*\\.(img|img\\.xz|img\\.gz|xz|gz|zip|7z)$"
+  },
+  {
+    "name": "AlphaDroid",
+    "repo": "Doze-off/Alphadroid_gsi",
+    "releases": 1,
+    "asset_regex": "^(?!.*(vanilla|VANILLA|bvN|_vN|-vN|x86|a64_|arm32)).*arm64.*\\.(img|img\\.xz|img\\.gz|xz|gz|zip|7z)$"
+  },
+  {
+    "name": "Project CiRCLE",
+    "repo": "Doze-off/Project-CiRCLE_gsi",
+    "releases": 1,
+    "asset_regex": "^(?!.*(vanilla|VANILLA|bvN|_vN|-vN|x86|a64_|arm32)).*arm64.*\\.(img|img\\.xz|img\\.gz|xz|gz|zip|7z)$"
+  },
+  {
+    "name": "AyakaUI",
+    "repo": "Doze-off/AyakaUI_GSI",
+    "releases": 1,
+    "asset_regex": "^(?!.*(vanilla|VANILLA|bvN|_vN|-vN|x86|a64_|arm32)).*arm64.*\\.(img|img\\.xz|img\\.gz|xz|gz|zip|7z)$"
+  },
+  {
+    "name": "Project Sakura",
+    "repo": "Doze-off/ProjectSakura_gsi",
+    "releases": 1,
+    "asset_regex": "^(?!.*(vanilla|VANILLA|bvN|_vN|-vN|x86|a64_|arm32)).*arm64.*\\.(img|img\\.xz|img\\.gz|xz|gz|zip|7z)$"
+  },
+  {
+    "name": "VoltageOS",
+    "repo": "Doze-off/voltage_a16_treble",
+    "releases": 1,
+    "asset_regex": "^(?!.*(vanilla|VANILLA|bvN|_vN|-vN|x86|a64_|arm32)).*arm64.*\\.(img|img\\.xz|img\\.gz|xz|gz|zip|7z)$"
+  },
+  {
+    "name": "Clover",
+    "repo": "Doze-off/Clover_treble",
+    "releases": 1,
+    "asset_regex": "^(?!.*(vanilla|VANILLA|bvN|_vN|-vN|x86|a64_|arm32)).*arm64.*\\.(img|img\\.xz|img\\.gz|xz|gz|zip|7z)$"
+  },
+  {
+    "name": "YAAP",
+    "repo": "Doze-off/YAAP_treble",
+    "releases": 1,
+    "asset_regex": "^(?!.*(vanilla|VANILLA|bvN|_vN|-vN|x86|a64_|arm32)).*arm64.*\\.(img|img\\.xz|img\\.gz|xz|gz|zip|7z)$"
+  },
+  {
+    "name": "GenesisOS",
+    "repo": "Doze-off/Genesis_treble",
+    "releases": 1,
+    "asset_regex": "^(?!.*(vanilla|VANILLA|bvN|_vN|-vN|x86|a64_|arm32)).*arm64.*\\.(img|img\\.xz|img\\.gz|xz|gz|zip|7z)$"
+  },
+  {
+    "name": "SuperiorOS",
+    "repo": "Doze-off/SuperiorOS_treble",
+    "releases": 1,
+    "asset_regex": "^(?!.*(vanilla|VANILLA|bvN|_vN|-vN|x86|a64_|arm32)).*arm64.*\\.(img|img\\.xz|img\\.gz|xz|gz|zip|7z)$"
+  },
+  {
+    "name": "AICP",
+    "repo": "Doze-off/AICP_treble",
+    "releases": 1,
+    "asset_regex": "^(?!.*(vanilla|VANILLA|bvN|_vN|-vN|x86|a64_|arm32)).*arm64.*\\.(img|img\\.xz|img\\.gz|xz|gz|zip|7z)$"
+  },
+  {
+    "name": "BlissOS",
+    "repo": "Doze-off/blissOS_treble",
+    "releases": 1,
+    "asset_regex": "^(?!.*(vanilla|VANILLA|bvN|_vN|-vN|x86|a64_|arm32)).*arm64.*\\.(img|img\\.xz|img\\.gz|xz|gz|zip|7z)$"
+  },
+  {
+    "name": "WitAqua",
+    "repo": "Doze-off/WitAqua_treble",
+    "releases": 1,
+    "asset_regex": "^(?!.*(vanilla|VANILLA|bvN|_vN|-vN|x86|a64_|arm32)).*arm64.*\\.(img|img\\.xz|img\\.gz|xz|gz|zip|7z)$"
+  },
+  {
+    "name": "BestGSI",
+    "repo": "amintum/BestGSI",
+    "releases": 1,
+    "asset_regex": "^(?!.*(vanilla|VANILLA|bvN|_vN|-vN|x86|a64_|arm32)).*arm64.*\\.(img|img\\.xz|img\\.gz|xz|gz|zip|7z)$"
+  },
+  {
+    "name": "RestlessOS (A16)",
+    "repo": "cawilliamson/treble_grapheneos",
+    "releases": 1,
+    "asset_regex": "^(?!.*(vanilla|VANILLA|bvN|_vN|-vN|x86|a64_|arm32)).*arm64.*\\.(img|img\\.xz|img\\.gz|xz|gz|zip|7z)$"
+  },
+  {
     "name": "Mystic GSI",
     "type": "sourceforge",
     "project": "mystic-gsi-updates",

@@ -82,10 +82,11 @@ def releases_for(src):
     """Возвращает список (tag, published_date, [(name, url, size)]) от новых к старым."""
     kind = src.get("type", "github")
     if kind == "github":
-        rels = gh(f"https://api.github.com/repos/{src['repo']}/releases?per_page={RELEASES_BACK}")
+        n = src.get("releases", RELEASES_BACK)
+        rels = gh(f"https://api.github.com/repos/{src['repo']}/releases?per_page={n}")
         return [(r["tag_name"], (r.get("published_at") or "")[:10],
                  [(a["name"], a["browser_download_url"], a["size"]) for a in r["assets"]],
-                 r.get("name") or "") for r in rels[:RELEASES_BACK]]
+                 r.get("name") or "") for r in rels[:n]]
     if kind == "sourceforge":
         import xml.etree.ElementTree as ET
         from email.utils import parsedate_to_datetime
