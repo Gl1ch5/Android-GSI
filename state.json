@@ -895,5 +895,15 @@
     "size_mb": 1084,
     "link": "https://drive.google.com/open?id=1jS9IKK7kfGx58ofROUa0Qu8OpnitkUPM",
     "date": "2026-11-02"
+  },
+  "Doze-off/Genesis_treble/2026-05-29/Genesis-5.0_GSI_treble_arm64-ab-GAPPS-GL-20260529.img.xz": {
+    "name": "GenesisOS",
+    "tag": "2026-05-29",
+    "file": "Genesis-5.0_GSI_treble_arm64-ab-GAPPS-GL-20260529.img.xz",
+    "src_file": "Genesis-5.0_GSI_treble_arm64-ab-GAPPS-GL-20260529.img.xz",
+    "android": "16",
+    "size_mb": 1199,
+    "link": "https://drive.google.com/open?id=1nRovOqlr_ZrTtVg2VO9NQygPUaw41mAJ",
+    "date": "2026-05-29"
   }
 }
