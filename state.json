@@ -945,5 +945,15 @@
     "size_mb": 1076,
     "link": "https://drive.google.com/open?id=1J1ppgo8nDrS82aceU9l1p86tU5Al4K7w",
     "date": "2026-05-18"
+  },
+  "Doze-off/WitAqua_treble/2026-09-20/WitAqua-3.2-GSI_treble_arm64-ab_GAPPS-Official-20260920.img.xz": {
+    "name": "WitAqua",
+    "tag": "2026-09-20",
+    "file": "WitAqua-3.2-GSI_treble_arm64-ab_GAPPS-Official-20260920.img.xz",
+    "src_file": "WitAqua-3.2-GSI_treble_arm64-ab_GAPPS-Official-20260920.img.xz",
+    "android": "16",
+    "size_mb": 1024,
+    "link": "https://drive.google.com/open?id=194Wne6UsloJLBGG07jBl_RU9UhkH_JYN",
+    "date": "2026-09-21"
   }
 }

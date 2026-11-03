@@ -39,6 +39,7 @@ Catalog with search, filters, live queue and ROM requests<br>
 | **Lunaris AOSP** | 16 | `Lunaris-3.12-GSI_treble_arm64-ab-MICROG-Official-20260920.img.xz` | 1.2 GB | 2026-09-21 | [⬇️ Download](https://drive.google.com/open?id=12OD-CQ7huuN6FUt4EduG4wMgnPL7KAhg) |
 | **Lunaris AOSP** | 16 | `Lunaris-3.12-GSI_treble_arm64-ab-GAPPS-Official-20260920.img.xz` | 1.6 GB | 2026-09-21 | [⬇️ Download](https://drive.google.com/open?id=14tYlcOZWRA54FUM5SAFDcDSzr3s6QKSr) |
 | **WitAqua** | 16 | `WitAqua-3.2-GSI_treble_arm64-ab_MICROG-Official-20260920.img.xz` | 0.9 GB | 2026-09-21 | [⬇️ Download](https://drive.google.com/open?id=1Hhb6LwS6AziGJ9HixNH3ELwmdIGFEmAk) |
+| **WitAqua** | 16 | `WitAqua-3.2-GSI_treble_arm64-ab_GAPPS-Official-20260920.img.xz` | 1.0 GB | 2026-09-21 | [⬇️ Download](https://drive.google.com/open?id=194Wne6UsloJLBGG07jBl_RU9UhkH_JYN) |
 | **Infinity X** | 16 | `Infinity-X-3.12-GSI_treble_arm64-ab-GAPPS-Official-20260920.img.xz` | 1.2 GB | 2026-09-20 | [⬇️ Download](https://drive.google.com/open?id=1-jxwyOSCkfppUXc55kpzV0QHkF66lcF-) |
 | **MistOS** | 16 | `MistOS-4.8-GSI_treble_arm64-ab-GAPPS-Official-20260907.img.xz` | 1.7 GB | 2026-09-08 | [⬇️ Download](https://drive.google.com/open?id=1fPEwEN4xI-jn8_CPtjybuWp59iRIzORu) |
 | **Project Sakura** | 16 | `Sakura-16.3-GSI_treble_arm64-ab-GAPPS-20260812.img.xz` | 1.3 GB | 2026-08-12 | [⬇️ Download](https://drive.google.com/open?id=1jjelA0nckURfFBfJ9nPUAQVPGijMaeOL) |
@@ -167,6 +168,7 @@ fastboot reboot
 | **Lunaris AOSP** | 16 | `Lunaris-3.12-GSI_treble_arm64-ab-MICROG-Official-20260920.img.xz` | 1.2 GB | 2026-09-21 | [⬇️ Скачать](https://drive.google.com/open?id=12OD-CQ7huuN6FUt4EduG4wMgnPL7KAhg) |
 | **Lunaris AOSP** | 16 | `Lunaris-3.12-GSI_treble_arm64-ab-GAPPS-Official-20260920.img.xz` | 1.6 GB | 2026-09-21 | [⬇️ Скачать](https://drive.google.com/open?id=14tYlcOZWRA54FUM5SAFDcDSzr3s6QKSr) |
 | **WitAqua** | 16 | `WitAqua-3.2-GSI_treble_arm64-ab_MICROG-Official-20260920.img.xz` | 0.9 GB | 2026-09-21 | [⬇️ Скачать](https://drive.google.com/open?id=1Hhb6LwS6AziGJ9HixNH3ELwmdIGFEmAk) |
+| **WitAqua** | 16 | `WitAqua-3.2-GSI_treble_arm64-ab_GAPPS-Official-20260920.img.xz` | 1.0 GB | 2026-09-21 | [⬇️ Скачать](https://drive.google.com/open?id=194Wne6UsloJLBGG07jBl_RU9UhkH_JYN) |
 | **Infinity X** | 16 | `Infinity-X-3.12-GSI_treble_arm64-ab-GAPPS-Official-20260920.img.xz` | 1.2 GB | 2026-09-20 | [⬇️ Скачать](https://drive.google.com/open?id=1-jxwyOSCkfppUXc55kpzV0QHkF66lcF-) |
 | **MistOS** | 16 | `MistOS-4.8-GSI_treble_arm64-ab-GAPPS-Official-20260907.img.xz` | 1.7 GB | 2026-09-08 | [⬇️ Скачать](https://drive.google.com/open?id=1fPEwEN4xI-jn8_CPtjybuWp59iRIzORu) |
 | **Project Sakura** | 16 | `Sakura-16.3-GSI_treble_arm64-ab-GAPPS-20260812.img.xz` | 1.3 GB | 2026-08-12 | [⬇️ Скачать](https://drive.google.com/open?id=1jjelA0nckURfFBfJ9nPUAQVPGijMaeOL) |
