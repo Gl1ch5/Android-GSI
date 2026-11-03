@@ -825,5 +825,15 @@
     "size_mb": 1042,
     "link": "https://drive.google.com/open?id=11LOxqM_G7do0j5gwo8-wikq_HX-uz20i",
     "date": "2026-06-03"
+  },
+  "Doze-off/ProjectInfinity-X_gsi/2026-09-20/Infinity-X-3.12-GSI_treble_arm64-ab-GAPPS-Official-20260920.img.xz": {
+    "name": "Infinity X",
+    "tag": "2026-09-20",
+    "file": "Infinity-X-3.12-GSI_treble_arm64-ab-GAPPS-Official-20260920.img.xz",
+    "src_file": "Infinity-X-3.12-GSI_treble_arm64-ab-GAPPS-Official-20260920.img.xz",
+    "android": "16",
+    "size_mb": 1213,
+    "link": "https://drive.google.com/open?id=1-jxwyOSCkfppUXc55kpzV0QHkF66lcF-",
+    "date": "2026-09-20"
   }
 }
