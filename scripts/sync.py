@@ -55,8 +55,46 @@ def to_img(path: pathlib.Path) -> pathlib.Path:
 
 
 def detect_android(text):
+    m = re.search(r"lineage-(\d\d)", text, re.I)
+    if m:
+        return str(int(m.group(1)) - 7)
     m = re.search(r"(?:android|a)[-_ ]?(1[3-9])\b", text, re.I) or re.search(r"\b(1[3-9])(?:\.\d)?\b", text)
     return m.group(1) if m else "?"
+
+
+def releases_for(src):
+    """Возвращает список (tag, published_date, [(name, url, size)]) от новых к старым."""
+    kind = src.get("type", "github")
+    if kind == "github":
+        rels = gh(f"https://api.github.com/repos/{src['repo']}/releases?per_page={RELEASES_BACK}")
+        return [(r["tag_name"], (r.get("published_at") or "")[:10],
+                 [(aname, aurl, a["size"]) for a in r["assets"]],
+                 r.get("name") or "") for r in rels[:RELEASES_BACK]]
+    if kind == "sourceforge":
+        import xml.etree.ElementTree as ET
+        from email.utils import parsedate_to_datetime
+        url = f"https://sourceforge.net/projects/{src['project']}/rss?path={src.get('path', '/')}"
+        with urllib.request.urlopen(url, timeout=60) as r:
+            root = ET.fromstring(r.read())
+        skip = re.compile(src.get("skip_regex", r"/(History|Testing|Old|Archive)/"), re.I)
+        seen, items = set(), []
+        for it in root.iter("item"):
+            path = it.findtext("title")
+            if path in seen or skip.search(path):
+                continue
+            seen.add(path)
+            d = parsedate_to_datetime(it.findtext("pubDate").replace(" UT", " GMT"))
+            items.append((d, path, it.findtext("link")))
+        items.sort(reverse=True)
+        out = {}
+        for d, path, link in items:
+            folder = path.rsplit("/", 1)[0].strip("/") or "root"
+            out.setdefault(folder, (folder, d.strftime("%Y-%m-%d"), [], ""))
+            out[folder][2].append((path.rsplit("/", 1)[1], link, 0))
+        return list(out.values())[:max(RELEASES_BACK, 3)]
+    if kind == "url":  # прямые ссылки, добавленные вручную
+        return [(f["tag"], f.get("date", ""), [(f["file"], f["url"], 0)], "") for f in src["files"]]
+    raise ValueError(f"неизвестный type: {kind}")
 
 
 def main():
@@ -65,25 +103,25 @@ def main():
     WORK.mkdir(parents=True, exist_ok=True)
 
     for src in sources:
+        sid = src.get("repo") or src.get("project") or src["name"]
         try:
-            releases = gh(f"https://api.github.com/repos/{src['repo']}/releases?per_page={RELEASES_BACK}")
+            releases = releases_for(src)
         except Exception as e:
             print(f"[{src['name']}] пропуск, ошибка API: {e}")
             continue
-        rx = re.compile(src["asset_regex"], re.I)
-        for rel in releases[:RELEASES_BACK]:
-            tag = rel["tag_name"]
-            for a in rel["assets"]:
-                if not rx.search(a["name"]):
+        rx = re.compile(src.get("asset_regex", "."), re.I)
+        for tag, date, assets, title in releases:
+            for aname, aurl, _ in assets:
+                if not rx.search(aname):
                     continue
-                key = f"{src['repo']}/{tag}/{a['name']}"
+                key = f"{sid}/{tag}/{aname}"
                 if key in state:
                     print(f"[{src['name']}] {a['name']} уже загружен"); continue
                 try:
-                    local = WORK / a["name"]
-                    run("curl", "-fL", "--retry", "3", "-o", str(local), a["browser_download_url"])
+                    local = WORK / aname
+                    run("curl", "-fL", "--retry", "3", "-o", str(local), aurl)
                     img = to_img(local)
-                    dest = f"{REMOTE}/{src['repo'].replace('/', '_')}/{tag}"
+                    dest = f"{REMOTE}/{sid.replace('/', '_')}/{tag.replace('/', '_')}"
                     run("rclone", "copy", str(img), dest)
                     link = run("rclone", "link", f"{dest}/{img.name}")
                     size = img.stat().st_size
@@ -94,9 +132,9 @@ def main():
                         shutil.rmtree(f, ignore_errors=True) if f.is_dir() else f.unlink()
                     continue
                 state[key] = {"name": src["name"], "tag": tag, "file": img.name,
-                              "android": detect_android(f"{tag} {rel.get('name') or ''} {a['name']}"),
+                              "android": detect_android(f"{tag} {title} {aname}"),
                               "size_mb": round(size / 2**20), "link": link,
-                              "date": (rel.get("published_at") or "")[:10]}
+                              "date": date}
                 STATE.write_text(json.dumps(state, indent=2, ensure_ascii=False) + "\n")
 
     STATE.write_text(json.dumps(state, indent=2, ensure_ascii=False) + "\n")

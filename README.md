@@ -24,8 +24,20 @@ _Пока пусто — запустите workflow **Sync GSI to Google Drive*
 
 ## Добавить другую сборку
 
-Добавьте запись в `sources.json`: `repo` — GitHub-репозиторий с релизами,
-`asset_regex` — регулярка для имени нужного файла (для большинства телефонов — `arm64-ab`).
+В `sources.json` поддерживаются три типа:
+
+```jsonc
+// GitHub Releases
+{"name": "...", "repo": "owner/repo", "asset_regex": "arm64.*\\.img\\.xz$"}
+// SourceForge (имя проекта из адреса sourceforge.net/projects/<project>)
+{"name": "...", "type": "sourceforge", "project": "andyyan-gsi", "asset_regex": "arm64.*\\.img\\.gz$"}
+// Прямые ссылки (любые: порты, файлы с форумов и т.п.)
+{"name": "Мои ссылки", "type": "url", "files": [
+  {"tag": "hyperos-port-v1", "file": "system.img.xz", "url": "https://..."}
+]}
+```
+
+Архивы `.xz/.gz/.zip/.7z` автоматически распаковываются в один `.img`.
 
 ## ⚠️ OnePlus 15R
 

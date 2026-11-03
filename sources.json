@@ -1,10 +1,53 @@
 [
-  {"name": "TrebleDroid AOSP (phh)",  "repo": "TrebleDroid/treble_experimentations", "asset_regex": "arm64-ab-(vanilla|gapps|floss).*\\.img\\.xz$"},
-  {"name": "ponces AOSP",             "repo": "ponces/treble_aosp",                  "asset_regex": "arm64-ab-(vanilla|gapps).*\\.img\\.xz$"},
-  {"name": "ponces LineageOS",        "repo": "ponces/treble_lineage",               "asset_regex": "arm64-ab-(vanilla|gapps).*\\.img\\.xz$"},
-  {"name": "ponces Evolution X",      "repo": "ponces/treble_evolution",             "asset_regex": "arm64-ab.*\\.img\\.xz$"},
-  {"name": "crDroid GSI",             "repo": "Doze-off/crDroid_gsi",                "asset_regex": "arm64.*\\.(img|img\\.xz|img\\.gz|zip|7z)$"},
-  {"name": "naz664 AOSP",             "repo": "naz664/treble_aosp",                  "asset_regex": "arm64.*\\.(img|img\\.xz|img\\.gz|zip|7z)$"},
-  {"name": "Bub-sy AOSP",             "repo": "Bub-sy/treble_aosp",                  "asset_regex": "arm64.*\\.(img|img\\.xz|img\\.gz|zip|7z)$"},
-  {"name": "ChonDoit AOSP",           "repo": "ChonDoit/treble_aosp",                "asset_regex": "arm64.*\\.(img|img\\.xz|img\\.gz|zip|7z)$"}
+  {
+    "name": "TrebleDroid AOSP (phh)",
+    "repo": "TrebleDroid/treble_experimentations",
+    "asset_regex": "arm64-ab-(vanilla|gapps|floss).*\\.img\\.xz$"
+  },
+  {
+    "name": "ponces AOSP",
+    "repo": "ponces/treble_aosp",
+    "asset_regex": "arm64-ab-(vanilla|gapps).*\\.img\\.xz$"
+  },
+  {
+    "name": "ponces LineageOS",
+    "repo": "ponces/treble_lineage",
+    "asset_regex": "arm64-ab-(vanilla|gapps).*\\.img\\.xz$"
+  },
+  {
+    "name": "ponces Evolution X",
+    "repo": "ponces/treble_evolution",
+    "asset_regex": "arm64-ab.*\\.img\\.xz$"
+  },
+  {
+    "name": "crDroid GSI",
+    "repo": "Doze-off/crDroid_gsi",
+    "asset_regex": "arm64.*\\.(img|img\\.xz|img\\.gz|zip|7z)$"
+  },
+  {
+    "name": "naz664 AOSP",
+    "repo": "naz664/treble_aosp",
+    "asset_regex": "arm64.*\\.(img|img\\.xz|img\\.gz|zip|7z)$"
+  },
+  {
+    "name": "Bub-sy AOSP",
+    "repo": "Bub-sy/treble_aosp",
+    "asset_regex": "arm64.*\\.(img|img\\.xz|img\\.gz|zip|7z)$"
+  },
+  {
+    "name": "ChonDoit AOSP",
+    "repo": "ChonDoit/treble_aosp",
+    "asset_regex": "arm64.*\\.(img|img\\.xz|img\\.gz|zip|7z)$"
+  },
+  {
+    "name": "LineageOS GSI (AndyYan)",
+    "type": "sourceforge",
+    "project": "andyyan-gsi",
+    "asset_regex": "arm64.*\\.img(\\.gz|\\.xz)?$"
+  },
+  {
+    "name": "Мои ссылки (порты и др.)",
+    "type": "url",
+    "files": []
+  }
 ]
