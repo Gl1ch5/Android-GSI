@@ -155,5 +155,15 @@
     "size_mb": 3556,
     "link": "https://drive.google.com/open?id=1CNELqzW_oKkQOMsUU67srsJvGEMjS_fK",
     "date": "2026-03-15"
+  },
+  "mystic-gsi-updates/Pixel/Pixel-tangorpro-CANARY-14518957-AB-20251220-MysticGSI.zip": {
+    "name": "Pixel (tangorpro) · Mystic",
+    "tag": "Pixel",
+    "file": "Pixel-tangorpro-CANARY-14518957-AB-20251220-MysticGSI.img.xz",
+    "src_file": "Pixel-tangorpro-CANARY-14518957-AB-20251220-MysticGSI.zip",
+    "android": "17",
+    "size_mb": 1761,
+    "link": "https://drive.google.com/open?id=1rFF7YjypkeOSBZxtgN3ca0p-CNCp3CCA",
+    "date": "2025-12-19"
   }
 }
