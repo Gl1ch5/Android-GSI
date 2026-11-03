@@ -505,5 +505,15 @@
     "size_mb": 3673,
     "link": "https://drive.google.com/open?id=14GqQwOeyEbNnbETvJWdcW3Oo-URbH7_U",
     "date": "2025-10-21"
+  },
+  "mystic-gsi-updates/Generic/Hyperos-myron-16-OS3.0.11.0.WPMCNXM-AB-20251023-MysticGSI.zip": {
+    "name": "HyperOS (myron) · Mystic",
+    "tag": "Generic",
+    "file": "Hyperos-myron-16-OS3.0.11.0.WPMCNXM-AB-20251023-MysticGSI.img.xz",
+    "src_file": "Hyperos-myron-16-OS3.0.11.0.WPMCNXM-AB-20251023-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 4782,
+    "link": "https://drive.google.com/open?id=1LIFnPdjJI-KYZKBvGSmNJB23CNobb4d6",
+    "date": "2025-10-23"
   }
 }
