@@ -21,6 +21,7 @@
 | ROM | Android | Build | Size | Date | Download |
 |---|:---:|---|---:|---|:---:|
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bvN.img` | 2.4 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1KyeNeoioDQlNoRbQ3Mg0h13SS8UTRFE4) |
+| **ponces AOSP** | 16 | `aosp-arm64-ab-gapps-16.0-20250625.img.xz` | 1.4 GB | 2025-06-25 | [⬇️ Download](https://drive.google.com/open?id=1_y2vA2w1mKXPMBsEwweGhH5MMr0LL6pR) |
 | **TrebleDroid AOSP (phh)** | 15 | `system-td-arm64-ab-vanilla.img.xz` | 0.7 GB | 2025-04-15 | [⬇️ Download](https://drive.google.com/open?id=1QTNeSPVGdGHuR1NAas5NV3vLiBHVv3Me) |
 <!-- GSI-LIST-EN:END -->
 
@@ -58,6 +59,7 @@ fastboot reboot
 | Прошивка | Android | Сборка | Размер | Дата | Скачать |
 |---|:---:|---|---:|---|:---:|
 | **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bvN.img` | 2.4 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1KyeNeoioDQlNoRbQ3Mg0h13SS8UTRFE4) |
+| **ponces AOSP** | 16 | `aosp-arm64-ab-gapps-16.0-20250625.img.xz` | 1.4 GB | 2025-06-25 | [⬇️ Скачать](https://drive.google.com/open?id=1_y2vA2w1mKXPMBsEwweGhH5MMr0LL6pR) |
 | **TrebleDroid AOSP (phh)** | 15 | `system-td-arm64-ab-vanilla.img.xz` | 0.7 GB | 2025-04-15 | [⬇️ Скачать](https://drive.google.com/open?id=1QTNeSPVGdGHuR1NAas5NV3vLiBHVv3Me) |
 <!-- GSI-LIST-RU:END -->
 

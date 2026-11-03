@@ -16,5 +16,14 @@
     "size_mb": 718,
     "link": "https://drive.google.com/open?id=1QTNeSPVGdGHuR1NAas5NV3vLiBHVv3Me",
     "date": "2025-04-15"
+  },
+  "ponces/treble_aosp/v2025.06.25/aosp-arm64-ab-gapps-16.0-20250625.img.xz": {
+    "name": "ponces AOSP",
+    "tag": "v2025.06.25",
+    "file": "aosp-arm64-ab-gapps-16.0-20250625.img.xz",
+    "android": "16",
+    "size_mb": 1460,
+    "link": "https://drive.google.com/open?id=1_y2vA2w1mKXPMBsEwweGhH5MMr0LL6pR",
+    "date": "2025-06-25"
   }
 }
