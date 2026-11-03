@@ -523,7 +523,7 @@ async function loadQueue(force){
     } catch {
       // запасной путь — GitHub API (ограничен 60 запросами в час)
       try {
-        const runs = (await gh(`${API}/actions/runs?per_page=10`)).workflow_runs.filter(r => /sync-gsi|build-mystic/.test(r.path));
+        const runs = (await gh(`${API}/actions/workflows/sync-gsi.yml/runs?per_page=3`)).workflow_runs;
         const active = runs.filter(r => r.status !== "completed");
         const jobs = (await Promise.all((active.length ? active.slice(0, 2) : runs.slice(0, 1))
           .map(r => gh(`${API}/actions/runs/${r.id}/jobs?per_page=100`).catch(() => ({jobs: []}))))).flatMap(j => j.jobs);
