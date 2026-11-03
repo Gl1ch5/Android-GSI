@@ -49,6 +49,7 @@ Catalog with search, filters, live queue and ROM requests<br>
 | **One UI (a15x) · Mystic** | 16 | `Oneui-a15x-16-A156BXXS7DYJ1-AB-20251218-MysticGSI.img.xz` | 2.1 GB | 2025-12-18 | [⬇️ Download](https://drive.google.com/open?id=1JRQN0XtR4mudeHg8mOC1lqf5qnSjods4) |
 | **Pixel (stallion) · Mystic** | 16 | `Pixel-stallion-16-14508591-AB-20251216-MysticGSI.img.xz` | 1.6 GB | 2025-12-16 | [⬇️ Download](https://drive.google.com/open?id=1WImZHM6DH3O8r-O_leXG4F59HP4W-CGd) |
 | **Pixel (menari_lte) · Mystic** | 16 | `Pixel-menari_lte-16-14500072-AB-20251214-MysticGSI.img.xz` | 1.5 GB | 2025-12-14 | [⬇️ Download](https://drive.google.com/open?id=1sxdTC-_7GXWe2rFZ2YCgQMavqV5f4vUL) |
+| **Pixel (cheetah) · Mystic** | 17 | `Pixel-cheetah-CANARY-14518957-AB-20251208-MysticGSI.img.xz` | 1.6 GB | 2025-12-08 | [⬇️ Download](https://drive.google.com/open?id=1sUySIVoofPUINsc3dG-fNe1t3xjeToiW) |
 | **HyperOS (duchamp) · Mystic** | 16 | `Hyperos-duchamp-16-OS3.0.0.4.WNLCNXM-AB-20251205-MysticGSI.img.xz` | 2.8 GB | 2025-12-05 | [⬇️ Download](https://drive.google.com/open?id=1TDGDRRNBAf6zYyxK_BCXO8kpMERqXiFP) |
 | **OriginOS (k6993v1_64) · Mystic** | 16 | `Originos-k6993v1_64-16-compiler250923020245-AB-20251017-MysticGSI.img.xz` | 4.5 GB | 2025-10-17 | [⬇️ Download](https://drive.google.com/open?id=1nosBYGm84OUXa1U6I4zN7p_bMg_NM7AF) |
 | **ponces AOSP** | 16 | `aosp-arm64-ab-gapps-16.0-20250625.img.xz` | 1.4 GB | 2025-06-25 | [⬇️ Download](https://drive.google.com/open?id=1_y2vA2w1mKXPMBsEwweGhH5MMr0LL6pR) |
@@ -112,6 +113,7 @@ fastboot reboot
 | **One UI (a15x) · Mystic** | 16 | `Oneui-a15x-16-A156BXXS7DYJ1-AB-20251218-MysticGSI.img.xz` | 2.1 GB | 2025-12-18 | [⬇️ Скачать](https://drive.google.com/open?id=1JRQN0XtR4mudeHg8mOC1lqf5qnSjods4) |
 | **Pixel (stallion) · Mystic** | 16 | `Pixel-stallion-16-14508591-AB-20251216-MysticGSI.img.xz` | 1.6 GB | 2025-12-16 | [⬇️ Скачать](https://drive.google.com/open?id=1WImZHM6DH3O8r-O_leXG4F59HP4W-CGd) |
 | **Pixel (menari_lte) · Mystic** | 16 | `Pixel-menari_lte-16-14500072-AB-20251214-MysticGSI.img.xz` | 1.5 GB | 2025-12-14 | [⬇️ Скачать](https://drive.google.com/open?id=1sxdTC-_7GXWe2rFZ2YCgQMavqV5f4vUL) |
+| **Pixel (cheetah) · Mystic** | 17 | `Pixel-cheetah-CANARY-14518957-AB-20251208-MysticGSI.img.xz` | 1.6 GB | 2025-12-08 | [⬇️ Скачать](https://drive.google.com/open?id=1sUySIVoofPUINsc3dG-fNe1t3xjeToiW) |
 | **HyperOS (duchamp) · Mystic** | 16 | `Hyperos-duchamp-16-OS3.0.0.4.WNLCNXM-AB-20251205-MysticGSI.img.xz` | 2.8 GB | 2025-12-05 | [⬇️ Скачать](https://drive.google.com/open?id=1TDGDRRNBAf6zYyxK_BCXO8kpMERqXiFP) |
 | **OriginOS (k6993v1_64) · Mystic** | 16 | `Originos-k6993v1_64-16-compiler250923020245-AB-20251017-MysticGSI.img.xz` | 4.5 GB | 2025-10-17 | [⬇️ Скачать](https://drive.google.com/open?id=1nosBYGm84OUXa1U6I4zN7p_bMg_NM7AF) |
 | **ponces AOSP** | 16 | `aosp-arm64-ab-gapps-16.0-20250625.img.xz` | 1.4 GB | 2025-06-25 | [⬇️ Скачать](https://drive.google.com/open?id=1_y2vA2w1mKXPMBsEwweGhH5MMr0LL6pR) |
