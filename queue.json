@@ -8,13 +8,6 @@
    "started": "2026-11-03T12:06:06+00:00"
   },
   {
-   "file": "MistOS-4.8-GSI_treble_arm64-ab-MICROG-Official-20260907.img.xz",
-   "name": "MistOS",
-   "status": "in_progress",
-   "run": "41631300864",
-   "started": "2026-11-03T12:05:24+00:00"
-  },
-  {
    "file": "YAAP-16.2_GSI_treble_arm64-ab_MICROG-20260517.img.xz",
    "name": "YAAP",
    "status": "in_progress",
@@ -34,6 +27,14 @@
    "status": "in_progress",
    "run": "41631300864",
    "started": "2026-11-03T12:05:51+00:00"
+  },
+  {
+   "file": "MistOS-4.8-GSI_treble_arm64-ab-MICROG-Official-20260907.img.xz",
+   "name": "MistOS",
+   "status": "success",
+   "run": "41631300864",
+   "started": "2026-11-03T12:05:24+00:00",
+   "finished": "2026-11-03T12:14:47+00:00"
   },
   {
    "file": "Aluminium-quartz-CL2B.260330.037_MysticGSI.img.zip",
@@ -319,15 +320,8 @@
    "status": "failure",
    "started": "2026-11-03T05:15:55Z",
    "finished": "2026-11-03T05:54:56Z"
-  },
-  {
-   "file": "Hyperos-nezha-16-OS3.0.5.0.WPACNDM-AB-20260118-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:15:55Z",
-   "finished": "2026-11-03T05:53:37Z"
   }
  ],
- "updated": "2026-11-03T12:14:38+00:00",
+ "updated": "2026-11-03T12:14:47+00:00",
  "run": "41631300864"
 }
