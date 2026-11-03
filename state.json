@@ -135,5 +135,15 @@
     "size_mb": 2423,
     "link": "https://drive.google.com/open?id=13KqKleyDn8y6drBwZ6rttUWfhjqhrYg_",
     "date": "2026-02-27"
+  },
+  "mystic-gsi-updates/OneUI/Oneui-a15x-16-A156BXXS7DYJ1-AB-20251218-MysticGSI.zip": {
+    "name": "One UI (a15x) · Mystic",
+    "tag": "OneUI",
+    "file": "Oneui-a15x-16-A156BXXS7DYJ1-AB-20251218-MysticGSI.img.xz",
+    "src_file": "Oneui-a15x-16-A156BXXS7DYJ1-AB-20251218-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 2188,
+    "link": "https://drive.google.com/open?id=1JRQN0XtR4mudeHg8mOC1lqf5qnSjods4",
+    "date": "2025-12-18"
   }
 }
