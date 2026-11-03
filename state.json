@@ -625,5 +625,15 @@
     "size_mb": 3739,
     "link": "https://drive.google.com/open?id=1RYfEWe_zvpk_kub-zSU5EZ-JweTCWsch",
     "date": "2025-09-26"
+  },
+  "mystic-gsi-updates/Generic/Realmeui-RE6400L1-16-1760800214076-AB-20251022-MysticGSI.zip": {
+    "name": "realme UI (RE6400L1) · Mystic",
+    "tag": "Generic",
+    "file": "Realmeui-RE6400L1-16-1760800214076-AB-20251022-MysticGSI.img.xz",
+    "src_file": "Realmeui-RE6400L1-16-1760800214076-AB-20251022-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 5476,
+    "link": "https://drive.google.com/open?id=1BvNgsc3pY5TEmz-z5D0SJS1JzsIXsEKe",
+    "date": "2025-10-22"
   }
 }
