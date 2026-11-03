@@ -815,5 +815,15 @@
     "size_mb": 1730,
     "link": "https://drive.google.com/open?id=1fPEwEN4xI-jn8_CPtjybuWp59iRIzORu",
     "date": "2026-09-08"
+  },
+  "Doze-off/lineage_treble/2026-06-03/LineageOS-23.2_GSI_treble_arm64-ab-GAPPS-20260603.img.xz": {
+    "name": "LineageOS (Doze-off)",
+    "tag": "2026-06-03",
+    "file": "LineageOS-23.2_GSI_treble_arm64-ab-GAPPS-20260603.img.xz",
+    "src_file": "LineageOS-23.2_GSI_treble_arm64-ab-GAPPS-20260603.img.xz",
+    "android": "16",
+    "size_mb": 1042,
+    "link": "https://drive.google.com/open?id=11LOxqM_G7do0j5gwo8-wikq_HX-uz20i",
+    "date": "2026-06-03"
   }
 }
