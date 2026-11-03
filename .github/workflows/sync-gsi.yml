@@ -40,6 +40,13 @@ jobs:
           TG_DEBUG: '1'
           MAX_JOBS: '200'
         run: python3 scripts/sync.py --plan
+      - name: Publish queue (status branch)
+        env:
+          ITEMS: ${{ steps.plan.outputs.items }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          python3 scripts/queue_status.py init
 
   download:
     needs: plan
@@ -69,6 +76,7 @@ jobs:
           printf '%s' "$RCLONE_CONF" | sed 's/[«»“”„]/"/g; s/\xc2\xa0/ /g' > ~/.config/rclone/rclone.conf
           git config user.name "github-actions[bot]"
           git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          python3 scripts/queue_status.py set "${{ matrix.item.file }}" in_progress
 
       - name: Download & upload
         env:
@@ -81,3 +89,7 @@ jobs:
         run: |
           [ -n "$TG_SESSION" ] && pip install --quiet telethon cryptg || true
           python3 scripts/sync.py --item
+
+      - name: Update queue status
+        if: always()
+        run: python3 scripts/queue_status.py set "${{ matrix.item.file }}" "${{ job.status == 'success' && 'success' || 'failure' }}"

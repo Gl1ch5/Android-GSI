@@ -303,7 +303,7 @@ const T = {
   f_android:"Версия Android",f_system:"Система",all:"Все",empty:"Ничего не найдено",
   device:"Устройство",soc:"Процессор",size:"Размер",date:"Дата",download:"Скачать",copied:"Ссылка скопирована",
   generic:"Универсальная GSI",
-  q_title:"Очередь загрузки",q_lead:"Что сейчас скачивается и загружается на зеркало. Обновляется каждые 2 минуты.",
+  q_title:"Очередь загрузки",q_lead:"Что сейчас скачивается и загружается на зеркало. Обновляется каждые 30 секунд.",
   q_run:"Загружается",q_wait:"В очереди",q_ok:"Готово",q_fail:"Ошибка",q_empty:"Сейчас ничего не загружается. Новые прошивки проверяются каждый день.",q_err:"Не удалось получить очередь (лимит GitHub API). Попробуйте позже.",q_upd:"Обновлено",q_limit:"лимит GitHub API, следующее обновление после",
   r_title:"Запросить прошивку",r_lead:"Нашли GSI, которой здесь нет? Пришлите ссылку — после проверки она появится в каталоге.",
   r_url:"Прямая ссылка на файл",r_url_help:"GitHub, SourceForge, Google Drive или прямая ссылка. Форматы: .img, .img.xz, .img.gz, .zip, .7z",
@@ -321,7 +321,7 @@ const T = {
   f_android:"Android version",f_system:"System",all:"All",empty:"Nothing found",
   device:"Device",soc:"Chipset",size:"Size",date:"Date",download:"Download",copied:"Link copied",
   generic:"Generic GSI",
-  q_title:"Download queue",q_lead:"What is being downloaded and uploaded to the mirror right now. Refreshes every 2 minutes.",
+  q_title:"Download queue",q_lead:"What is being downloaded and uploaded to the mirror right now. Refreshes every 30 seconds.",
   q_run:"Uploading",q_wait:"Queued",q_ok:"Done",q_fail:"Failed",q_empty:"Nothing is running right now. New builds are checked daily.",q_err:"Couldn't load the queue (GitHub API limit). Try again later.",q_upd:"Updated",q_limit:"GitHub API limit, next refresh after",
   r_title:"Request a ROM",r_lead:"Found a GSI that isn't here? Send the link — once reviewed it will appear in the catalog.",
   r_url:"Direct link to the file",r_url_help:"GitHub, SourceForge, Google Drive or a direct link. Formats: .img, .img.xz, .img.gz, .zip, .7z",
@@ -504,24 +504,32 @@ let qAt = 0, qReset = 0;
 async function loadQueue(force){
   clearTimeout(qTimer);
   const onQueue = !document.getElementById("tab-queue").classList.contains("hidden");
-  if (!document.hidden && (force || onQueue || !qAt)) {
+  if (!document.hidden) {
     try {
-      const runs = (await gh(`${API}/actions/runs?per_page=10`)).workflow_runs
-        .filter(r => /sync-gsi|build-mystic/.test(r.path));
-      const active = runs.filter(r => r.status !== "completed");
-      const pick = active.length ? active.slice(0, 2) : runs.slice(0, 1);
-      const jobs = (await Promise.all(pick.map(r => gh(`${API}/actions/runs/${r.id}/jobs?per_page=100`).catch(() => ({jobs: []}))))).flatMap(j => j.jobs);
-      Q = jobs.filter(j => !["plan", "sync"].includes(j.name)).slice(0, 150);
-      qAt = Date.now(); qReset = 0;
+      // основной источник — queue.json на ветке status (обновляется самими GitHub Actions, без лимитов API)
+      const q = await fetch(`https://raw.githubusercontent.com/${CFG.owner}/${CFG.repo}/status/queue.json?t=${Date.now()}`, {cache: "no-store"})
+        .then(r => { if (!r.ok) throw 0; return r.json(); });
+      const map = {queued: ["queued", null], in_progress: ["in_progress", null], success: ["completed", "success"], failure: ["completed", "failure"]};
+      Q = q.items.map(i => ({name: i.file, status: (map[i.status] || map.queued)[0], conclusion: (map[i.status] || [])[1], started_at: i.started}));
+      qAt = Date.parse(q.updated) || Date.now(); qReset = 0;
       store.set("queue", JSON.stringify({at: qAt, q: Q}));
-    } catch (e) {
-      qReset = e.reset ? e.reset * 1000 : 0;
-      const saved = (() => { try { return JSON.parse(store.get("queue")); } catch { return null; } })();
-      if (saved && saved.q) { Q = saved.q; qAt = saved.at; } else if (!Array.isArray(Q)) Q = "err";
+    } catch {
+      // запасной путь — GitHub API (ограничен 60 запросами в час)
+      try {
+        const runs = (await gh(`${API}/actions/runs?per_page=10`)).workflow_runs.filter(r => /sync-gsi|build-mystic/.test(r.path));
+        const active = runs.filter(r => r.status !== "completed");
+        const jobs = (await Promise.all((active.length ? active.slice(0, 2) : runs.slice(0, 1))
+          .map(r => gh(`${API}/actions/runs/${r.id}/jobs?per_page=100`).catch(() => ({jobs: []}))))).flatMap(j => j.jobs);
+        Q = jobs.filter(j => !["plan", "sync"].includes(j.name)); qAt = Date.now();
+      } catch (e) {
+        qReset = e.reset ? e.reset * 1000 : 0;
+        const saved = (() => { try { return JSON.parse(store.get("queue")); } catch { return null; } })();
+        if (saved && saved.q) { Q = saved.q; qAt = saved.at; } else if (!Array.isArray(Q)) Q = "err";
+      }
     }
     renderQueue();
   }
-  qTimer = setTimeout(loadQueue, onQueue ? 120000 : 300000);
+  qTimer = setTimeout(loadQueue, onQueue ? 30000 : 120000);
 }
 document.addEventListener("visibilitychange", () => { if (!document.hidden) loadQueue(); });
 function renderQueue(){
