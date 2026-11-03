@@ -1,13 +1,6 @@
 {
  "items": [
   {
-   "file": "Aluminium-quartz-CL2B.260330.037_MysticGSI.img.zip",
-   "name": "Aluminium (quartz) · Mystic",
-   "status": "in_progress",
-   "run": "41631300864",
-   "started": "2026-11-03T12:06:25+00:00"
-  },
-  {
    "file": "Infinity-X-3.12-GSI_treble_arm64-ab-MICROG-Official-20260920.img.xz",
    "name": "Infinity X",
    "status": "in_progress",
@@ -41,6 +34,14 @@
    "status": "in_progress",
    "run": "41631300864",
    "started": "2026-11-03T12:05:51+00:00"
+  },
+  {
+   "file": "Aluminium-quartz-CL2B.260330.037_MysticGSI.img.zip",
+   "name": "Aluminium (quartz) · Mystic",
+   "status": "failure",
+   "run": "41631300864",
+   "started": "2026-11-03T12:06:25+00:00",
+   "finished": "2026-11-03T12:14:38+00:00"
   },
   {
    "file": "Magicos-WKL-AN10-17-eng.root-AB-20260919-MysticGSI_rebuild.7z",
@@ -325,15 +326,8 @@
    "status": "success",
    "started": "2026-11-03T05:15:55Z",
    "finished": "2026-11-03T05:53:37Z"
-  },
-  {
-   "file": "Oxygenos-OP556FL1-16-1765350064807-AB-20251227-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:16:44Z",
-   "finished": "2026-11-03T05:51:50Z"
   }
  ],
- "updated": "2026-11-03T12:13:33+00:00",
+ "updated": "2026-11-03T12:14:38+00:00",
  "run": "41631300864"
 }
