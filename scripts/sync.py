@@ -124,60 +124,78 @@ def releases_for(src):
     raise ValueError(f"неизвестный type: {kind}")
 
 
-def main():
-    global SOURCES_TEXT
-    SOURCES_TEXT = (ROOT / "sources.json").read_text()
-    sources = json.loads(SOURCES_TEXT)
+def plan():
+    """Список ещё не загруженных файлов (в порядке приоритета)."""
+    sources = json.loads((ROOT / "sources.json").read_text())
     state = json.loads(STATE.read_text()) if STATE.exists() else {}
-    WORK.mkdir(parents=True, exist_ok=True)
-
+    done = {v.get("src_file") for v in state.values()}
+    items, seen = [], set()
     for src in sources:
         sid = src.get("repo") or src.get("project") or src["name"]
         try:
             releases = releases_for(src)
         except Exception as e:
-            print(f"[{src['name']}] пропуск, ошибка API: {e}")
+            print(f"[{src['name']}] пропуск, ошибка API: {e}", file=sys.stderr)
             continue
         rx = re.compile(src.get("asset_regex", "."), re.I)
         for tag, date, assets, title in releases:
             for aname, aurl, _ in assets:
-                if not rx.search(aname):
-                    continue
                 key = f"{sid}/{tag}/{aname}"
-                if key in state or any(v.get("src_file") == aname for v in state.values()):
-                    print(f"[{src['name']}] {aname} уже загружен"); continue
-                try:
-                    local = WORK / aname
-                    if aurl.startswith("tg://"):
-                        import tg_fetch
-                        ch, mid = aurl[5:].rsplit("/", 1)
-                        print(f"+ telegram {ch}/{mid}", flush=True)
-                        tg_fetch.download(ch, int(mid), local)
-                    else:
-                        run("curl", "-fL", "--retry", "3", "-o", str(local), aurl)
-                    img = to_img(local)
-                    dest = f"{REMOTE}/{sid.replace('/', '_')}/{tag.replace('/', '_')}"
-                    run("rclone", "copy", str(img), dest)
-                    link = run("rclone", "link", f"{dest}/{img.name}")
-                    size = img.stat().st_size
-                    img.unlink()
-                except Exception as e:
-                    print(f"[{src['name']}] {aname}: {e}")
-                    for f in WORK.iterdir():
-                        shutil.rmtree(f, ignore_errors=True) if f.is_dir() else f.unlink()
+                if not rx.search(aname) or key in state or aname in done or aname in seen:
                     continue
-                state[key] = {"name": nice_name(src, aname), "tag": tag, "file": img.name, "src_file": aname,
-                              "android": detect_android(f"{tag} {title} {aname}"),
-                              "size_mb": round(size / 2**20), "link": link,
-                              "date": date}
-                render(state)
-                publish(f"Add {img.name}")
-                # если пока шла загрузка в sources.json добавили новые ссылки — начинаем заново с них
-                if (ROOT / "sources.json").read_text() != SOURCES_TEXT:
-                    print("sources.json изменился — перезапуск", flush=True)
-                    os.execv(sys.executable, [sys.executable] + sys.argv)
+                seen.add(aname)
+                items.append({"key": key, "sid": sid, "tag": tag, "date": date, "title": title,
+                              "file": aname, "url": aurl, "name": nice_name(src, aname)})
+    return items
 
+
+def process(it):
+    """Скачивает один файл, грузит на Диск, добавляет ссылку в README."""
+    WORK.mkdir(parents=True, exist_ok=True)
+    local = WORK / it["file"]
+    if it["url"].startswith("tg://"):
+        import tg_fetch
+        ch, mid = it["url"][5:].rsplit("/", 1)
+        print(f"+ telegram {ch}/{mid}", flush=True)
+        tg_fetch.download(ch, int(mid), local)
+    else:
+        run("curl", "-fL", "--retry", "3", "-o", str(local), it["url"])
+    img = to_img(local)
+    dest = f"{REMOTE}/{it['sid'].replace('/', '_')}/{it['tag'].replace('/', '_')}"
+    run("rclone", "copy", str(img), dest)
+    link = run("rclone", "link", f"{dest}/{img.name}")
+    size = img.stat().st_size
+    img.unlink()
+    state = json.loads(STATE.read_text()) if STATE.exists() else {}
+    state[it["key"]] = {"name": it["name"], "tag": it["tag"], "file": img.name, "src_file": it["file"],
+                        "android": detect_android(f"{it['tag']} {it['title']} {it['file']}"),
+                        "size_mb": round(size / 2**20), "link": link, "date": it["date"]}
     render(state)
+    publish(f"Add {img.name}")
+
+
+def main():
+    if len(sys.argv) > 1 and sys.argv[1] == "--plan":
+        items = plan()[:int(os.environ.get("MAX_JOBS", "40"))]
+        print(f"В очереди: {len(items)}", file=sys.stderr)
+        for i in items:
+            print(" -", i["file"], file=sys.stderr)
+        out = json.dumps(items, ensure_ascii=False)
+        if os.environ.get("GITHUB_OUTPUT"):
+            with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+                f.write(f"items={out}\ncount={len(items)}\n")
+        else:
+            print(out)
+        return
+    if len(sys.argv) > 1 and sys.argv[1] == "--item":
+        process(json.loads(os.environ["ITEM"]))
+        return
+    for it in plan():  # локально — по очереди
+        try:
+            process(it)
+        except Exception as e:
+            print(f"{it['file']}: {e}")
+    render(json.loads(STATE.read_text()) if STATE.exists() else {})
 
 
 def publish(msg):

@@ -3,29 +3,60 @@ name: Sync GSI to Google Drive
 on:
   schedule:
     - cron: "17 4 * * *"   # каждый день
+  push:
+    branches: [claude/gci-firmware-google-drive-u16ehm]
+    paths: [sources.json]  # добавили ссылку — сразу качаем
   workflow_dispatch:
     inputs:
       releases_back:
         description: 'Сколько последних релизов каждой сборки брать'
-        default: '1'
+        default: '2'
+      parallel:
+        description: 'Сколько файлов качать одновременно'
+        default: '20'
 
 permissions:
   contents: write
 
-concurrency: sync-gsi
+concurrency:
+  group: sync-gsi
+  cancel-in-progress: false
+
+env:
+  RELEASES_BACK: ${{ inputs.releases_back || '2' }}
 
 jobs:
-  sync:
+  plan:
     runs-on: ubuntu-latest
-    timeout-minutes: 350
+    outputs:
+      items: ${{ steps.plan.outputs.items }}
+      count: ${{ steps.plan.outputs.count }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: plan
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MAX_JOBS: '200'
+        run: python3 scripts/sync.py --plan
+
+  download:
+    needs: plan
+    if: needs.plan.outputs.count != '0'
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      max-parallel: ${{ fromJSON(inputs.parallel || '20') }}
+      matrix:
+        item: ${{ fromJSON(needs.plan.outputs.items) }}
+    name: ${{ matrix.item.file }}
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install rclone
+      - name: Install tools
         run: |
           curl -fsSL https://rclone.org/install.sh | sudo bash
           sudo apt-get install -y p7zip-full xz-utils
-          pip install --quiet telethon cryptg
           sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc  # больше места на диске
 
       - name: Configure rclone
@@ -34,18 +65,16 @@ jobs:
         run: |
           mkdir -p ~/.config/rclone
           printf '%s' "$RCLONE_CONF" | sed 's/[«»“”„]/"/g; s/\xc2\xa0/ /g' > ~/.config/rclone/rclone.conf
-
-      - name: Git identity
-        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
 
       - name: Download & upload
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ITEM: ${{ toJSON(matrix.item) }}
           RCLONE_REMOTE: ${{ vars.RCLONE_REMOTE || 'gdrive:GSI' }}
           TG_API_ID: ${{ secrets.TG_API_ID }}
           TG_API_HASH: ${{ secrets.TG_API_HASH }}
           TG_SESSION: ${{ secrets.TG_SESSION }}
-          RELEASES_BACK: ${{ inputs.releases_back || '1' }}
-        run: python3 scripts/sync.py
+        run: |
+          [ -n "$TG_SESSION" ] && pip install --quiet telethon cryptg || true
+          python3 scripts/sync.py --item
