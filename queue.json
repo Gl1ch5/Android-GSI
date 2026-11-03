@@ -10,8 +10,9 @@
   {
    "file": "Magicos-WKL-AN10-17-eng.root-AB-20260919-MysticGSI_rebuild.7z",
    "name": "MagicOS (WKL) · Mystic",
-   "status": "queued",
-   "run": "41631300864"
+   "status": "in_progress",
+   "run": "41631300864",
+   "started": "2026-11-03T12:05:22+00:00"
   },
   {
    "file": "Aluminium-quartz-CL2B.260330.037_MysticGSI.img.zip",
@@ -360,6 +361,6 @@
    "finished": "2026-11-03T05:38:59Z"
   }
  ],
- "updated": "2026-11-03T12:05:18+00:00",
+ "updated": "2026-11-03T12:05:22+00:00",
  "run": "41631300864"
 }
