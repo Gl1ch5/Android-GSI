@@ -172,7 +172,9 @@ def publish(msg):
 
 def render(state):
     STATE.write_text(json.dumps(state, indent=2, ensure_ascii=False) + "\n")
-    items = sorted(state.values(), key=lambda v: v["date"], reverse=True)
+    # голые AOSP-сборки (vanilla) в таблицу не выводим
+    items = sorted((v for v in state.values() if "-vanilla" not in v["file"]),
+                   key=lambda v: v["date"], reverse=True)
     text = README.read_text()
     for lang, hdr, dl in (("EN", "| ROM | Android | Build | Size | Date | Download |", "Download"),
                           ("RU", "| Прошивка | Android | Сборка | Размер | Дата | Скачать |", "Скачать")):
