@@ -57,18 +57,19 @@
    "started": "2026-11-03T12:05:29+00:00"
   },
   {
-   "file": "Coloros-OP60EDL1-16-1763036366485-AB-20251123-MysticGSI.zip",
-   "name": "ColorOS (OP60EDL1) · Mystic",
-   "status": "in_progress",
-   "run": "41631300864",
-   "started": "2026-11-03T12:05:46+00:00"
-  },
-  {
    "file": "Coloros-OP60FFL1-16-1760951010663-AB-20251027-MysticGSI.zip",
    "name": "ColorOS (OP60FFL1) · Mystic",
    "status": "in_progress",
    "run": "41631300864",
    "started": "2026-11-03T12:05:51+00:00"
+  },
+  {
+   "file": "Coloros-OP60EDL1-16-1763036366485-AB-20251123-MysticGSI.zip",
+   "name": "ColorOS (OP60EDL1) · Mystic",
+   "status": "failure",
+   "run": "41631300864",
+   "started": "2026-11-03T12:05:46+00:00",
+   "finished": "2026-11-03T12:12:56+00:00"
   },
   {
    "file": "Hyperos-popsicle-16-OS3.0.7.0.WPBCNXM-AB-20250926-MysticGSI.zip",
@@ -349,15 +350,8 @@
    "status": "success",
    "started": "2026-11-03T05:15:55Z",
    "finished": "2026-11-03T05:42:44Z"
-  },
-  {
-   "file": "Pixel-tangorpro-CANARY-14518957-AB-20251220-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:20:41Z",
-   "finished": "2026-11-03T05:41:38Z"
   }
  ],
- "updated": "2026-11-03T12:09:00+00:00",
+ "updated": "2026-11-03T12:12:56+00:00",
  "run": "41631300864"
 }
