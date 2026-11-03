@@ -965,5 +965,15 @@
     "size_mb": 1326,
     "link": "https://drive.google.com/open?id=1HB01TWaQHCQM2aMADcQ2op2MZeVio1Nn",
     "date": "2026-05-29"
+  },
+  "Doze-off/AyakaUI_GSI/2026-08-16/AyakaUI-16.2-GSI_treble_arm64-ab-GAPPS-20260816.img.xz": {
+    "name": "AyakaUI",
+    "tag": "2026-08-16",
+    "file": "AyakaUI-16.2-GSI_treble_arm64-ab-GAPPS-20260816.img.xz",
+    "src_file": "AyakaUI-16.2-GSI_treble_arm64-ab-GAPPS-20260816.img.xz",
+    "android": "16",
+    "size_mb": 1219,
+    "link": "https://drive.google.com/open?id=1aotwL4_R5hq80GRNiV1SD6N6RytvH3aH",
+    "date": "2026-08-17"
   }
 }
