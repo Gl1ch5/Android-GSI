@@ -78,10 +78,10 @@ nav.tabs .badge{background:var(--primary);color:var(--on-primary);border-radius:
 
 /* cards */
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px;margin:16px 0 40px}
-.card{background:var(--surface-1);border-radius:var(--radius);padding:16px;display:flex;flex-direction:column;gap:12px;border:1px solid var(--outline-variant);transition:box-shadow .2s,transform .2s}
-.card:hover{box-shadow:var(--shadow);transform:translateY(-1px)}
+.card{background:var(--surface-2);border-radius:var(--radius);padding:18px;display:flex;flex-direction:column;gap:14px;transition:background .2s}
+.card:hover{background:var(--surface-3)}
 .card .top{display:flex;gap:12px;align-items:center}
-.avatar{width:48px;height:48px;flex:none}
+.avatar{width:48px;height:48px;flex:none;display:block}
 .card h3{margin:0;font-size:17px;font-weight:500;line-height:1.25}
 .card .sub{font-size:13px;color:var(--on-surface-variant);margin-top:2px}
 .tags{display:flex;gap:6px;flex-wrap:wrap}
@@ -92,7 +92,7 @@ nav.tabs .badge{background:var(--primary);color:var(--on-primary);border-radius:
 .specs dt{color:var(--on-surface-variant);display:flex;align-items:center;gap:6px}
 .specs dt svg{width:16px;height:16px;fill:currentColor}
 .specs dd{margin:0;overflow-wrap:anywhere}
-.file{font-family:"Roboto Mono",monospace;font-size:11.5px;color:var(--on-surface-variant);overflow-wrap:anywhere;background:var(--surface-2);padding:8px 10px;border-radius:10px}
+.file{font-family:"Roboto Mono",monospace;font-size:11px;color:var(--on-surface-variant);overflow-wrap:anywhere;opacity:.8}
 .actions{display:flex;gap:8px;margin-top:auto}
 .btn{height:40px;border-radius:20px;border:0;padding:0 20px 0 16px;font-size:14px;font-weight:500;display:inline-flex;align-items:center;justify-content:center;gap:8px;text-decoration:none}
 .btn svg{width:18px;height:18px;fill:currentColor}
@@ -104,14 +104,20 @@ nav.tabs .badge{background:var(--primary);color:var(--on-primary);border-radius:
 .empty svg{width:96px;height:96px;margin-bottom:12px}
 
 /* queue */
-.qitem{display:flex;align-items:center;gap:14px;padding:14px 16px;border-radius:16px;background:var(--surface-1);border:1px solid var(--outline-variant);margin-bottom:8px}
+.qlist{background:var(--surface-2);border-radius:20px;overflow:hidden}
+.qhead{font-size:13px;font-weight:500;color:var(--on-surface-variant);margin:18px 4px 8px;display:flex;justify-content:space-between}
+.qitem{display:flex;align-items:center;gap:14px;padding:12px 16px;min-height:72px}
+.qitem+.qitem{border-top:1px solid var(--outline-variant)}
+.qitem .avatar{width:40px;height:40px}
 .qitem .t{flex:1;min-width:0}
 .qitem .t b{display:block;font-weight:500;font-size:15px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.qitem .t span{font-size:12.5px;color:var(--on-surface-variant)}
+.qitem .t span{display:block;font-size:13px;color:var(--on-surface-variant);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .prog{height:4px;border-radius:2px;background:var(--surface-3);overflow:hidden;margin-top:8px;position:relative}
 .prog i{position:absolute;inset:0;width:40%;background:var(--primary);border-radius:2px;animation:ind 1.6s infinite ease-in-out}
 @keyframes ind{0%{left:-40%}100%{left:100%}}
-.status{font-size:12px;font-weight:500;padding:4px 10px;border-radius:8px;white-space:nowrap}
+.status{font-size:12px;font-weight:500;height:28px;padding:0 10px 0 8px;border-radius:8px;white-space:nowrap;display:inline-flex;align-items:center;gap:6px;flex:none}
+.status svg{width:16px;height:16px;fill:currentColor}
+.status .spinner{width:16px;height:16px}
 .status.run{background:var(--primary-container);color:var(--on-primary-container)}
 .status.wait{background:var(--surface-3);color:var(--on-surface-variant)}
 .status.ok{background:var(--tertiary-container);color:var(--on-tertiary-container)}
@@ -141,7 +147,7 @@ pre{background:var(--surface-3);border-radius:12px;padding:14px;overflow-x:auto;
 #snack.show{transform:translateX(-50%) translateY(0);visibility:visible}
 footer{text-align:center;color:var(--on-surface-variant);font-size:13px;padding:24px 16px 40px}
 .hidden{display:none!important}
-@media (max-width:600px){.bar .row{height:56px}.logo{font-size:18px}.logo svg{width:34px;height:34px}nav.tabs button{padding:12px 10px 10px;font-size:13px}nav.tabs button svg{width:20px;height:20px}.hero h1{font-size:26px}.hero p{font-size:14px}.hero .stat b{font-size:24px}.card{padding:14px}.specs{font-size:13.5px}.hero{padding:22px}.hero .stats{margin-left:0;gap:20px}.grid{grid-template-columns:1fr}.panel{padding:18px;border-radius:20px}.seg button{padding:0 9px}}
+@media (max-width:600px){.status .st{display:none}.status{padding:0 6px;height:32px;width:32px;justify-content:center;border-radius:16px}.status svg,.status .spinner{width:18px;height:18px}#tab-queue .panel,#tab-request .panel,#tab-howto .panel{border:0;background:none;padding:8px 0;margin-top:8px}.bar .row{height:56px}.logo{font-size:18px}.logo svg{width:34px;height:34px}nav.tabs button{padding:12px 10px 10px;font-size:13px}nav.tabs button svg{width:20px;height:20px}.hero h1{font-size:26px}.hero p{font-size:14px}.hero .stat b{font-size:24px}.card{padding:14px}.specs{font-size:13.5px}.hero{padding:22px}.hero .stats{margin-left:0;gap:20px}.grid{grid-template-columns:1fr}.panel{padding:18px;border-radius:20px}.seg button{padding:0 9px}}
 </style>
 </head>
 <body>
@@ -352,8 +358,8 @@ function brandOf(name){
 }
 function avatar(name){
   const b = brandOf(name); const [bg, fg, l] = BRANDS[b] || ["var(--primary)", "var(--on-primary)", b.slice(0,2)];
-  const fs = l.length > 1 ? 15 : 20;
-  return `<svg class="avatar" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="16" fill="${bg}"/><path d="M0 34Q24 26 48 34V48H0z" fill="#fff" opacity=".12"/><text x="24" y="30" text-anchor="middle" font-family="Roboto Flex,Roboto,sans-serif" font-weight="700" font-size="${fs}" fill="${fg}">${l}</text></svg>`;
+  const fs = l.length > 1 ? 16 : 21;
+  return `<svg class="avatar" viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="14" fill="${bg}"/><text x="24" y="24.5" text-anchor="middle" dominant-baseline="central" font-family="Roboto Flex,Roboto,sans-serif" font-weight="600" font-size="${fs}" fill="${fg}">${l}</text></svg>`;
 }
 
 /* data */
@@ -416,8 +422,8 @@ function render(){
         ${/gapps|_bgN|_gN|Pixel|Oneui|Hyperos|Coloros|Oxygenos|Magicos|Originos/i.test(r.file) ? '<span class="tag">Google Play</span>' : ""}
       </div>
       <dl class="specs">
-        <dt><svg><use href="#i-phone"/></svg>${t("device")}</dt><dd>${esc(r.dev.device)}</dd>
-        <dt><svg><use href="#i-chip"/></svg>${t("soc")}</dt><dd>${esc(r.dev.soc)}</dd>
+        ${r.dev.soc !== "—" ? `<dt><svg><use href="#i-phone"/></svg>${t("device")}</dt><dd>${esc(r.dev.device)}</dd>
+        <dt><svg><use href="#i-chip"/></svg>${t("soc")}</dt><dd>${esc(r.dev.soc)}</dd>` : ""}
         <dt><svg><use href="#i-storage"/></svg>${t("size")}</dt><dd>${gb(r.size_mb)}</dd>
         <dt><svg><use href="#i-cal"/></svg>${t("date")}</dt><dd>${esc(r.date || "—")}</dd>
       </dl>
@@ -458,19 +464,29 @@ function renderQueue(){
   badge.textContent = running; badge.classList.toggle("hidden", !running);
   document.getElementById("q-upd").textContent = `${t("q_upd")}: ${new Date().toLocaleTimeString()}`;
   if (!list.length) { el.innerHTML = `<div class="empty"><svg><use href="#i-empty"/></svg><div>${t("q_empty")}</div></div>`; return; }
-  el.innerHTML = list.map(j => {
-    const n = j.name.replace(/\.(zip|7z|img(\.xz|\.gz)?|xz|gz)$/, "").replace(/-AB-\d+-MysticGSI$/, "");
-    const brand = brandOf(n.replace(/^(\w+)-.*/, (m, b) => ({hyperos:"HyperOS",oneui:"One UI",originos:"OriginOS",coloros:"ColorOS",oxygenos:"OxygenOS",magicos:"MagicOS",pixel:"Pixel",realmeui:"realme UI",flyme:"Flyme",nothing:"Nothing OS"})[b.toLowerCase()] || b));
-    let st, cls, icon;
-    if (j.status === "in_progress") { st = t("q_run"); cls = "run"; }
-    else if (j.status !== "completed") { st = t("q_wait"); cls = "wait"; icon = "#i-clock"; }
-    else if (j.conclusion === "success") { st = t("q_ok"); cls = "ok"; icon = "#i-check"; }
-    else { st = t("q_fail"); cls = "fail"; icon = "#i-err"; }
-    const lead = cls === "run"
-      ? `<svg class="spinner" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="var(--primary)" stroke-width="3" stroke-dasharray="40 60" stroke-linecap="round"/></svg>`
-      : `<svg class="i" style="color:var(--on-surface-variant)"><use href="${icon}"/></svg>`;
-    return `<div class="qitem">${avatar(brand)}<div class="t"><b>${esc(n)}</b><span>${j.started_at && cls === "run" ? Math.round((Date.now() - new Date(j.started_at)) / 60000) + " min" : ""}</span>${cls === "run" ? '<div class="prog"><i></i></div>' : ""}</div><span class="status ${cls}">${st}</span>${lead}</div>`;
-  }).join("");
+  const CODES = {hyperos:"HyperOS",oneui:"One UI",originos:"OriginOS",coloros:"ColorOS",oxygenos:"OxygenOS",magicos:"MagicOS",pixel:"Pixel",realmeui:"realme UI",flyme:"Flyme",nothing:"Nothing OS",zuxos:"ZUXOS",zenui:"ZenUI"};
+  const row = j => {
+    const raw = j.name.replace(/\.(zip|7z|img(\.xz|\.gz)?|xz|gz)$/, "");
+    const p = raw.split("-");
+    let title = raw, sub = "";
+    if (/MysticGSI$/.test(raw) && CODES[p[0].toLowerCase()]) {
+      const d = DEV[p[1]];
+      const av = /CinnamonBun|CANARY/.test(p[2]) ? "17" : /Baklava/.test(p[2]) ? "16" : p[2];
+      title = `${CODES[p[0].toLowerCase()]} · ${d ? d[0] : p[1]}`;
+      sub = `Android ${av}${d ? " · " + d[1] : ""}`;
+    } else sub = raw;
+    let st, cls, ic;
+    if (j.status === "in_progress") { st = t("q_run"); cls = "run"; ic = `<svg class="spinner" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="3.5" stroke-dasharray="40 60" stroke-linecap="round"/></svg>`; }
+    else if (j.status !== "completed") { st = t("q_wait"); cls = "wait"; ic = '<svg><use href="#i-clock"/></svg>'; }
+    else if (j.conclusion === "success") { st = t("q_ok"); cls = "ok"; ic = '<svg><use href="#i-check"/></svg>'; }
+    else { st = t("q_fail"); cls = "fail"; ic = '<svg><use href="#i-err"/></svg>'; }
+    if (cls === "run" && j.started_at) sub += ` · ${Math.max(1, Math.round((Date.now() - new Date(j.started_at)) / 60000))} min`;
+    return `<div class="qitem">${avatar(title)}<div class="t"><b>${esc(title)}</b><span>${esc(sub)}</span>${cls === "run" ? '<div class="prog"><i></i></div>' : ""}</div><span class="status ${cls}" title="${st}">${ic}<span class="st">${st}</span></span></div>`;
+  };
+  const groups = [["run", list.filter(j => j.status === "in_progress")], ["wait", list.filter(j => j.status !== "in_progress" && j.status !== "completed")], ["done", list.filter(j => j.status === "completed").slice(0, 20)]];
+  const label = {run: t("q_run"), wait: t("q_wait"), done: t("q_ok") + " / " + t("q_fail")};
+  el.innerHTML = groups.filter(g => g[1].length).map(([k, js]) =>
+    `<div class="qhead"><span>${label[k]}</span><span>${js.length}</span></div><div class="qlist">${js.map(row).join("")}</div>`).join("");
 }
 
 /* request → pre-filled GitHub issue */
