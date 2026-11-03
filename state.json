@@ -52,5 +52,14 @@
     "size_mb": 819,
     "link": "https://drive.google.com/open?id=1r2XBMyohLMvVmXjM-xRbB1EHGVj2QFI9",
     "date": "2025-05-13"
+  },
+  "andyyan-gsi/lineage-21-pre-qpr2-td/lineage-21.0-20260614-UNOFFICIAL-arm64_bvN-vndklite.img.gz": {
+    "name": "LineageOS GSI (AndyYan)",
+    "tag": "lineage-21-pre-qpr2-td",
+    "file": "lineage-21.0-20260614-UNOFFICIAL-arm64_bvN-vndklite.img.gz",
+    "android": "14",
+    "size_mb": 1087,
+    "link": "https://drive.google.com/open?id=1HEntlfen63Ie7T8N8zA3BwKiLWov-Bdz",
+    "date": "2026-06-19"
   }
 }
