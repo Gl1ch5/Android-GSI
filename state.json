@@ -985,5 +985,15 @@
     "size_mb": 855,
     "link": "https://drive.google.com/open?id=1cayPmHsrauf-5t3NH7NTyFlNGHcY9D7Z",
     "date": "2026-07-12"
+  },
+  "Doze-off/Project-CiRCLE_gsi/2026-08-16/ProjectCiRCLE-1.2-GSI_treble_arm64-ab-GAPPS-20260816.img.xz": {
+    "name": "Project CiRCLE",
+    "tag": "2026-08-16",
+    "file": "ProjectCiRCLE-1.2-GSI_treble_arm64-ab-GAPPS-20260816.img.xz",
+    "src_file": "ProjectCiRCLE-1.2-GSI_treble_arm64-ab-GAPPS-20260816.img.xz",
+    "android": "16",
+    "size_mb": 1215,
+    "link": "https://drive.google.com/open?id=1v6rF_RXHEAsMSODxOcG1HYzObSNrzZj8",
+    "date": "2026-08-16"
   }
 }
