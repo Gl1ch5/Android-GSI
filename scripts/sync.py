@@ -51,7 +51,23 @@ def to_img(path: pathlib.Path) -> pathlib.Path:
     raise RuntimeError(f"неизвестный формат: {n}")
 
 
+BRANDS = {"hyperos": "HyperOS", "oneui": "One UI", "originos": "OriginOS", "coloros": "ColorOS",
+          "oxygenos": "OxygenOS", "magicos": "MagicOS", "pixel": "Pixel", "realmeui": "realme UI",
+          "flyme": "Flyme", "nothing": "Nothing OS", "zenui": "ZenUI", "harmonyos": "HarmonyOS"}
+
+
+def nice_name(src, fname):
+    if not src.get("per_file"):
+        return src["name"]
+    parts = fname.split("-")
+    return f"{BRANDS.get(parts[0].lower(), parts[0])} ({parts[1]}) · Mystic"
+
+
 def detect_android(text):
+    if re.search(r"CinnamonBun|CANARY", text):
+        return "17"
+    if "Baklava" in text:
+        return "16"
     m = re.search(r"-(1[3-9])\.0-", text)
     if m:
         return m.group(1)
@@ -86,6 +102,11 @@ def releases_for(src):
             d = parsedate_to_datetime(it.findtext("pubDate").replace(" UT", " GMT"))
             items.append((d, path, it.findtext("link")))
         items.sort(reverse=True)
+        if src.get("per_file"):  # каждый файл — отдельная «сборка»
+            rx = re.compile(src.get("asset_regex", "."), re.I)
+            return [(path.rsplit("/", 1)[0].strip("/") or "root", d.strftime("%Y-%m-%d"),
+                     [(path.rsplit("/", 1)[1], link, 0)], "")
+                    for d, path, link in items if rx.search(path)][:src.get("max_files", 500)]
         out = {}
         for d, path, link in items:
             folder = path.rsplit("/", 1)[0].strip("/") or "root"
@@ -121,7 +142,7 @@ def main():
                 if not rx.search(aname):
                     continue
                 key = f"{sid}/{tag}/{aname}"
-                if key in state:
+                if key in state or any(v.get("src_file") == aname for v in state.values()):
                     print(f"[{src['name']}] {aname} уже загружен"); continue
                 try:
                     local = WORK / aname
@@ -143,7 +164,7 @@ def main():
                     for f in WORK.iterdir():
                         shutil.rmtree(f, ignore_errors=True) if f.is_dir() else f.unlink()
                     continue
-                state[key] = {"name": src["name"], "tag": tag, "file": img.name,
+                state[key] = {"name": nice_name(src, aname), "tag": tag, "file": img.name, "src_file": aname,
                               "android": detect_android(f"{tag} {title} {aname}"),
                               "size_mb": round(size / 2**20), "link": link,
                               "date": date}

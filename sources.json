@@ -1,5 +1,24 @@
 [
   {
+    "name": "Мои ссылки (порты и др.)",
+    "type": "url",
+    "files": [
+      {
+        "tag": "Generic",
+        "date": "2026-03-25",
+        "file": "Coloros-OP5E11L1-CinnamonBun-1773378663794-AB-20260325-MysticGSI.zip",
+        "url": "https://sourceforge.net/projects/mystic-gsi-updates/files/Generic/Coloros-OP5E11L1-CinnamonBun-1773378663794-AB-20260325-MysticGSI.zip/download"
+      }
+    ]
+  },
+  {
+    "name": "Mystic GSI",
+    "type": "sourceforge",
+    "project": "mystic-gsi-updates",
+    "per_file": true,
+    "asset_regex": "-(16|17|CinnamonBun|CANARY)-.*MysticGSI\\.zip$"
+  },
+  {
     "name": "LineageOS 24 (eyzner)",
     "repo": "eyzner/LineageOS-GSI",
     "asset_regex": "arm64.*\\.(img|img\\.xz|img\\.gz|zip|7z)$"
@@ -19,10 +38,5 @@
     "type": "sourceforge",
     "project": "andyyan-gsi",
     "asset_regex": "arm64_bgN.*\\.img(\\.gz|\\.xz)?$"
-  },
-  {
-    "name": "Мои ссылки (порты и др.)",
-    "type": "url",
-    "files": []
   }
 ]
