@@ -225,5 +225,15 @@
     "size_mb": 1676,
     "link": "https://drive.google.com/open?id=1WImZHM6DH3O8r-O_leXG4F59HP4W-CGd",
     "date": "2025-12-16"
+  },
+  "mystic-gsi-updates/Honor/Magicos-BKQ-AN00-16-eng.root-AB-20260125-MysticGSI.zip": {
+    "name": "MagicOS (BKQ) · Mystic",
+    "tag": "Honor",
+    "file": "Magicos-BKQ-AN00-16-eng.root-AB-20260125-MysticGSI.img.xz",
+    "src_file": "Magicos-BKQ-AN00-16-eng.root-AB-20260125-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 5433,
+    "link": "https://drive.google.com/open?id=1bil6N1UI3EkD5fG8occ1OYssyeKTYIKi",
+    "date": "2026-01-25"
   }
 }
