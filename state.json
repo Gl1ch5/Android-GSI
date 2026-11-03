@@ -515,5 +515,15 @@
     "size_mb": 4782,
     "link": "https://drive.google.com/open?id=1LIFnPdjJI-KYZKBvGSmNJB23CNobb4d6",
     "date": "2025-10-23"
+  },
+  "mystic-gsi-updates/Generic/Oxygenos-OP5D55L1-16-1761160957356-AB-20251030-MysticGSI.zip": {
+    "name": "OxygenOS (OP5D55L1) · Mystic",
+    "tag": "Generic",
+    "file": "Oxygenos-OP5D55L1-16-1761160957356-AB-20251030-MysticGSI.img.xz",
+    "src_file": "Oxygenos-OP5D55L1-16-1761160957356-AB-20251030-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 4814,
+    "link": "https://drive.google.com/open?id=1ZSqB6XgaedA08Sm8xyAXlDDPHuEu9m8L",
+    "date": "2025-10-30"
   }
 }
