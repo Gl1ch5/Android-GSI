@@ -1,64 +1,10 @@
 {
  "items": [
   {
-   "file": "Pixel-raven-CinnamonBun-14876943-AB-20260213-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T05:15:55Z"
-  },
-  {
-   "file": "Hyperos-pudding-16-OS3.0.50.2.W-AB-20260122-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T05:15:55Z"
-  },
-  {
-   "file": "Hyperos-dada-16-OS3.0.5.0.WOCCNXM-AB-20251205-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T05:15:55Z"
-  },
-  {
-   "file": "Hyperos-goya-16-OS3.0.5.0.WOEMIXM-AB-20251207-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T05:44:04Z"
-  },
-  {
-   "file": "Coloros-OP6117L1-16-1763138323460-AB-20251127-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T05:55:07Z"
-  },
-  {
    "file": "Oneui-gts9-16-X716BXXS5DYJ2-AB-20251124-MysticGSI.zip",
    "name": "",
    "status": "in_progress",
    "started": "2026-11-03T05:56:53Z"
-  },
-  {
-   "file": "Coloros-OP5D77L1-16-1761878977752-AB-20251123-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T05:58:36Z"
-  },
-  {
-   "file": "Hyperos-houji-16-OS3.0.2.0.WNCMIXM-AB-20251122-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T06:02:54Z"
-  },
-  {
-   "file": "Pixel-bluejay-16-14330257-AB-20251113-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T06:04:43Z"
-  },
-  {
-   "file": "Coloros-OP61B3L1-16-1763048533957-AB-20251117-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T06:03:56Z"
   },
   {
    "file": "Oxygenos-OP5D55L1-16-1761160957356-AB-20251030-MysticGSI.zip",
@@ -71,12 +17,6 @@
    "name": "",
    "status": "in_progress",
    "started": "2026-11-03T06:06:35Z"
-  },
-  {
-   "file": "Coloros-OP60FFL1-16-1760951010663-AB-20251027-MysticGSI.zip",
-   "name": "",
-   "status": "in_progress",
-   "started": "2026-11-03T06:06:48Z"
   },
   {
    "file": "Realmeui-RE5C4FL1-16-1760953953092-AB-20251024-MysticGSI.zip",
@@ -123,71 +63,65 @@
   {
    "file": "Realmeui-RE6018L1-16-1760189042803-AB-20251020-MysticGSI.zip",
    "name": "",
-   "status": "queued",
-   "started": "2026-11-03T05:15:54Z"
+   "status": "in_progress",
+   "started": "2026-11-03T06:24:00Z"
   },
   {
    "file": "Magicos-PPG-AN00-16-eng.root-AB-20251017-MysticGSI.zip",
    "name": "",
-   "status": "queued",
-   "started": "2026-11-03T05:15:54Z"
+   "status": "in_progress",
+   "started": "2026-11-03T06:25:00Z"
   },
   {
    "file": "Coloros-OP60F5L1-16-1760244118112-AB-20251017-MysticGSI.zip",
    "name": "",
-   "status": "queued",
-   "started": "2026-11-03T05:15:54Z"
+   "status": "in_progress",
+   "started": "2026-11-03T06:29:53Z"
   },
   {
    "file": "Coloros-OP6542L1-16-1757960617399-AB-20251015-MysticGSI.zip",
    "name": "",
-   "status": "queued",
-   "started": "2026-11-03T05:15:54Z"
+   "status": "in_progress",
+   "started": "2026-11-03T06:30:59Z"
   },
   {
    "file": "Coloros-OP5D0DL1-16-1760212044539-AB-20251015-MysticGSI.zip",
    "name": "",
-   "status": "queued",
-   "started": "2026-11-03T05:15:54Z"
+   "status": "in_progress",
+   "started": "2026-11-03T06:32:46Z"
   },
   {
    "file": "Pixel-cheetah-16-14089870-AB-20251002-MysticGSI.zip",
    "name": "",
-   "status": "queued",
-   "started": "2026-11-03T05:15:54Z"
-  },
-  {
-   "file": "Hyperos-popsicle-16-OS3.0.7.0.WPBCNXM-AB-20250926-MysticGSI.zip",
-   "name": "",
-   "status": "queued",
-   "started": "2026-11-03T05:15:54Z"
+   "status": "in_progress",
+   "started": "2026-11-03T06:36:05Z"
   },
   {
    "file": "Hyperos-pandora-16-OS3.0.7.0.WBLCNXM-AB-20250926-MysticGSI.zip",
    "name": "",
-   "status": "queued",
-   "started": "2026-11-03T05:15:54Z"
+   "status": "in_progress",
+   "started": "2026-11-03T06:40:32Z"
   },
   {
    "file": "Hyperos-yupei-16-OS3.0.4.0.WPZCNXM-AB-20250925-MysticGSI.zip",
    "name": "",
-   "status": "queued",
-   "started": "2026-11-03T05:15:54Z"
+   "status": "in_progress",
+   "started": "2026-11-03T06:51:43Z"
   },
   {
    "file": "Hyperos-piano-16-OS3.0.4.0.WPYCNXM-AB-20250925-MysticGSI.zip",
    "name": "",
-   "status": "queued",
-   "started": "2026-11-03T05:15:54Z"
-  },
-  {
-   "file": "Originos-k6993v1_64-16-compiler250921224452-AB-20250923-MysticGSI.zip",
-   "name": "",
-   "status": "queued",
-   "started": "2026-11-03T05:15:54Z"
+   "status": "in_progress",
+   "started": "2026-11-03T06:44:49Z"
   },
   {
    "file": "Hyperos-pudding-16-OS3.0.7.0.WPCCNXM-AB-20250926-MysticGSI.zip",
+   "name": "",
+   "status": "in_progress",
+   "started": "2026-11-03T06:41:46Z"
+  },
+  {
+   "file": "Originos-k6993v1_64-16-compiler250921224452-AB-20250923-MysticGSI.zip",
    "name": "",
    "status": "queued",
    "started": "2026-11-03T05:15:54Z"
@@ -211,221 +145,285 @@
    "started": "2026-11-03T05:15:54Z"
   },
   {
-   "file": "Realmeui-RE6030L1-CinnamonBun-1773651170858-AB-20260326-MysticGSI.zip",
+   "file": "Hyperos-houji-16-OS3.0.2.0.WNCMIXM-AB-20251122-MysticGSI.zip",
    "name": "",
    "status": "success",
-   "started": "2026-11-03T05:15:55Z"
+   "started": "2026-11-03T06:02:54Z",
+   "finished": "2026-11-03T06:51:41Z"
   },
   {
-   "file": "Coloros-OP5E11L1-CinnamonBun-1773378663794-AB-20260325-MysticGSI.zip",
+   "file": "Coloros-OP6117L1-16-1763138323460-AB-20251127-MysticGSI.zip",
    "name": "",
    "status": "success",
-   "started": "2026-11-03T05:15:54Z"
+   "started": "2026-11-03T05:55:07Z",
+   "finished": "2026-11-03T06:44:36Z"
   },
   {
-   "file": "Pixel-raven-17-15063635-AB-20260327-MysticGSI.zip",
+   "file": "Hyperos-pudding-16-OS3.0.50.2.W-AB-20260122-MysticGSI.zip",
+   "name": "",
+   "status": "success",
+   "started": "2026-11-03T05:15:55Z",
+   "finished": "2026-11-03T06:41:34Z"
+  },
+  {
+   "file": "Hyperos-popsicle-16-OS3.0.7.0.WPBCNXM-AB-20250926-MysticGSI.zip",
    "name": "",
    "status": "failure",
-   "started": "2026-11-03T05:15:55Z"
+   "started": "2026-11-03T06:36:37Z",
+   "finished": "2026-11-03T06:40:29Z"
   },
   {
-   "file": "Zuxos-TB322FC-16-TB322FC_CN_OPEN_USER_Q00041.1_W_ZUXOS_1.5.10.063_ST_260111-AB-20260114-MysticGSI.zip",
+   "file": "Coloros-OP61B3L1-16-1763048533957-AB-20251117-MysticGSI.zip",
+   "name": "",
+   "status": "success",
+   "started": "2026-11-03T06:03:56Z",
+   "finished": "2026-11-03T06:36:35Z"
+  },
+  {
+   "file": "Coloros-OP5D77L1-16-1761878977752-AB-20251123-MysticGSI.zip",
+   "name": "",
+   "status": "success",
+   "started": "2026-11-03T05:58:36Z",
+   "finished": "2026-11-03T06:35:58Z"
+  },
+  {
+   "file": "Coloros-OP60FFL1-16-1760951010663-AB-20251027-MysticGSI.zip",
    "name": "",
    "status": "failure",
-   "started": "2026-11-03T05:15:55Z"
+   "started": "2026-11-03T06:06:48Z",
+   "finished": "2026-11-03T06:32:45Z"
   },
   {
-   "file": "Coloros-OP60FFL1-CinnamonBun-1773378796435-AB-20260325-MysticGSI.zip",
+   "file": "Hyperos-dada-16-OS3.0.5.0.WOCCNXM-AB-20251205-MysticGSI.zip",
    "name": "",
    "status": "success",
-   "started": "2026-11-03T05:15:55Z"
+   "started": "2026-11-03T05:15:55Z",
+   "finished": "2026-11-03T06:30:58Z"
   },
   {
-   "file": "Hyperos-nezha-16-OS3.0.5.0.WPACNDM-AB-20260118-MysticGSI.zip",
+   "file": "Pixel-raven-CinnamonBun-14876943-AB-20260213-MysticGSI.zip",
    "name": "",
    "status": "success",
-   "started": "2026-11-03T05:15:55Z"
+   "started": "2026-11-03T05:15:55Z",
+   "finished": "2026-11-03T06:29:52Z"
   },
   {
-   "file": "Pixel-stallion-16-14508591-AB-20251216-MysticGSI.zip",
+   "file": "Hyperos-goya-16-OS3.0.5.0.WOEMIXM-AB-20251207-MysticGSI.zip",
    "name": "",
    "status": "success",
-   "started": "2026-11-03T05:34:01Z"
+   "started": "2026-11-03T05:44:04Z",
+   "finished": "2026-11-03T06:24:58Z"
   },
   {
-   "file": "Pixel-cheetah-CinnamonBun-14911996-AB-20260227-MysticGSI.zip",
+   "file": "Pixel-bluejay-16-14330257-AB-20251113-MysticGSI.zip",
    "name": "",
    "status": "success",
-   "started": "2026-11-03T05:15:55Z"
-  },
-  {
-   "file": "Originos-k6993v1_64-16-compiler250923020245-AB-20251017-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:15:55Z"
-  },
-  {
-   "file": "Flyme-meizu20Pro-16-1766690413-AB-20251227-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:15:55Z"
-  },
-  {
-   "file": "Oneui-gts9wifi-16-X710ZCS5DZA1-AB-20260211-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:15:55Z"
-  },
-  {
-   "file": "Oneui-a15x-16-A156BXXS7DYJ1-AB-20251218-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:21:02Z"
-  },
-  {
-   "file": "Hyperos-dijun-16-OS3.0.9.0.WODCNXM-AB-20260114-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:15:55Z"
-  },
-  {
-   "file": "Magicos-NDL-W09-16-eng.root-AB-20251214-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:40:33Z"
-  },
-  {
-   "file": "Coloros-RE5C94L1-16-1765293415996-AB-20260105-MysticGSI.zip",
-   "name": "",
-   "status": "failure",
-   "started": "2026-11-03T05:15:55Z"
-  },
-  {
-   "file": "Pixel-blazer-16-14560987-AB-20251215-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:39:01Z"
-  },
-  {
-   "file": "Nothing-Asteroids-16-2511181551-AB-20260111-MysticGSI.zip",
-   "name": "",
-   "status": "failure",
-   "started": "2026-11-03T05:15:55Z"
-  },
-  {
-   "file": "Coloros-OP615EL1-16-1765357695451-AB-20251228-MysticGSI.zip",
-   "name": "",
-   "status": "failure",
-   "started": "2026-11-03T05:15:55Z"
-  },
-  {
-   "file": "Coloros-OP64DDL1-16-1769698117230-AB-20260315-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:15:55Z"
-  },
-  {
-   "file": "Oxygenos-OP556FL1-16-1765350064807-AB-20251227-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:16:44Z"
-  },
-  {
-   "file": "Oxygenos-OP595DL1-16-1763388908922-AB-20260104-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:15:55Z"
-  },
-  {
-   "file": "Pixel-cheetah-16-14401865-AB-20251221-MysticGSI.zip",
-   "name": "",
-   "status": "failure",
-   "started": "2026-11-03T05:17:50Z"
-  },
-  {
-   "file": "Pixel-tangorpro-CANARY-14518957-AB-20251220-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:20:41Z"
-  },
-  {
-   "file": "Pixel-menari_lte-16-14500072-AB-20251214-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:41:06Z"
-  },
-  {
-   "file": "Pixel-bluejay-16-14560987-AB-20251215-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:37:42Z"
-  },
-  {
-   "file": "Magicos-BKQ-AN00-16-eng.root-AB-20260125-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:15:55Z"
-  },
-  {
-   "file": "Pixel-cheetah-16-14401865-AB-20251220-MysticGSI.zip",
-   "name": "",
-   "status": "failure",
-   "started": "2026-11-03T05:18:31Z"
-  },
-  {
-   "file": "Hyperos-fuxi-16-OS3.0.2.0.WMCCNXM-AB-20251210-MysticGSI.zip",
-   "name": "",
-   "status": "failure",
-   "started": "2026-11-03T05:41:39Z"
-  },
-  {
-   "file": "Pixel-tokay-16-14402117-AB-20251205-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:46:51Z"
-  },
-  {
-   "file": "Pixel-cheetah-CANARY-14518957-AB-20251208-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:42:46Z"
-  },
-  {
-   "file": "Pixel-komodo-16-14483051-AB-20251205-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:51:52Z"
-  },
-  {
-   "file": "Pixel-cheetah-CANARY-14396972-AB-20251205-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:53:38Z"
-  },
-  {
-   "file": "Hyperos-duchamp-16-OS3.0.0.4.WNLCNXM-AB-20251205-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:47:50Z"
-  },
-  {
-   "file": "Pixel-raven-16-14401865-AB-20251202-MysticGSI.zip",
-   "name": "",
-   "status": "success",
-   "started": "2026-11-03T05:54:58Z"
+   "started": "2026-11-03T06:04:43Z",
+   "finished": "2026-11-03T06:23:58Z"
   },
   {
    "file": "Oneui-pa3q-16-S938BXXU7ZYKR-AB-20251201-MysticGSI.zip",
    "name": "",
    "status": "success",
-   "started": "2026-11-03T05:55:47Z"
+   "started": "2026-11-03T05:55:47Z",
+   "finished": "2026-11-03T06:20:34Z"
+  },
+  {
+   "file": "Pixel-raven-16-14401865-AB-20251202-MysticGSI.zip",
+   "name": "",
+   "status": "success",
+   "started": "2026-11-03T05:54:58Z",
+   "finished": "2026-11-03T06:17:33Z"
+  },
+  {
+   "file": "Magicos-NDL-W09-16-eng.root-AB-20251214-MysticGSI.zip",
+   "name": "",
+   "status": "success",
+   "started": "2026-11-03T05:40:33Z",
+   "finished": "2026-11-03T06:16:45Z"
+  },
+  {
+   "file": "Pixel-tokay-16-14402117-AB-20251205-MysticGSI.zip",
+   "name": "",
+   "status": "success",
+   "started": "2026-11-03T05:46:51Z",
+   "finished": "2026-11-03T06:16:41Z"
+  },
+  {
+   "file": "Pixel-komodo-16-14483051-AB-20251205-MysticGSI.zip",
+   "name": "",
+   "status": "success",
+   "started": "2026-11-03T05:51:52Z",
+   "finished": "2026-11-03T06:12:36Z"
+  },
+  {
+   "file": "Pixel-cheetah-CANARY-14396972-AB-20251205-MysticGSI.zip",
+   "name": "",
+   "status": "success",
+   "started": "2026-11-03T05:53:38Z",
+   "finished": "2026-11-03T06:11:38Z"
+  },
+  {
+   "file": "Pixel-bluejay-16-14560987-AB-20251215-MysticGSI.zip",
+   "name": "",
+   "status": "success",
+   "started": "2026-11-03T05:37:42Z",
+   "finished": "2026-11-03T06:10:47Z"
+  },
+  {
+   "file": "Pixel-blazer-16-14560987-AB-20251215-MysticGSI.zip",
+   "name": "",
+   "status": "success",
+   "started": "2026-11-03T05:39:01Z",
+   "finished": "2026-11-03T06:06:44Z"
+  },
+  {
+   "file": "Pixel-cheetah-CANARY-14518957-AB-20251208-MysticGSI.zip",
+   "name": "",
+   "status": "success",
+   "started": "2026-11-03T05:42:46Z",
+   "finished": "2026-11-03T06:06:33Z"
   },
   {
    "file": "Coloros-OP60EDL1-16-1763036366485-AB-20251123-MysticGSI.zip",
    "name": "",
    "status": "failure",
-   "started": "2026-11-03T05:58:34Z"
+   "started": "2026-11-03T05:58:34Z",
+   "finished": "2026-11-03T06:05:44Z"
+  },
+  {
+   "file": "Coloros-OP60FFL1-CinnamonBun-1773378796435-AB-20260325-MysticGSI.zip",
+   "name": "",
+   "status": "success",
+   "started": "2026-11-03T05:15:55Z",
+   "finished": "2026-11-03T06:04:41Z"
+  },
+  {
+   "file": "Coloros-OP5E11L1-CinnamonBun-1773378663794-AB-20260325-MysticGSI.zip",
+   "name": "",
+   "status": "success",
+   "started": "2026-11-03T05:15:54Z",
+   "finished": "2026-11-03T06:03:54Z"
+  },
+  {
+   "file": "Hyperos-duchamp-16-OS3.0.0.4.WNLCNXM-AB-20251205-MysticGSI.zip",
+   "name": "",
+   "status": "success",
+   "started": "2026-11-03T05:47:50Z",
+   "finished": "2026-11-03T06:02:51Z"
+  },
+  {
+   "file": "Pixel-menari_lte-16-14500072-AB-20251214-MysticGSI.zip",
+   "name": "",
+   "status": "success",
+   "started": "2026-11-03T05:41:06Z",
+   "finished": "2026-11-03T05:58:34Z"
+  },
+  {
+   "file": "Oxygenos-OP595DL1-16-1763388908922-AB-20260104-MysticGSI.zip",
+   "name": "",
+   "status": "success",
+   "started": "2026-11-03T05:15:55Z",
+   "finished": "2026-11-03T05:58:32Z"
+  },
+  {
+   "file": "Originos-k6993v1_64-16-compiler250923020245-AB-20251017-MysticGSI.zip",
+   "name": "",
+   "status": "success",
+   "started": "2026-11-03T05:15:55Z",
+   "finished": "2026-11-03T05:56:51Z"
+  },
+  {
+   "file": "Magicos-BKQ-AN00-16-eng.root-AB-20260125-MysticGSI.zip",
+   "name": "",
+   "status": "success",
+   "started": "2026-11-03T05:15:55Z",
+   "finished": "2026-11-03T05:55:46Z"
+  },
+  {
+   "file": "Pixel-stallion-16-14508591-AB-20251216-MysticGSI.zip",
+   "name": "",
+   "status": "success",
+   "started": "2026-11-03T05:34:01Z",
+   "finished": "2026-11-03T05:55:00Z"
+  },
+  {
+   "file": "Coloros-RE5C94L1-16-1765293415996-AB-20260105-MysticGSI.zip",
+   "name": "",
+   "status": "failure",
+   "started": "2026-11-03T05:15:55Z",
+   "finished": "2026-11-03T05:54:56Z"
+  },
+  {
+   "file": "Hyperos-nezha-16-OS3.0.5.0.WPACNDM-AB-20260118-MysticGSI.zip",
+   "name": "",
+   "status": "success",
+   "started": "2026-11-03T05:15:55Z",
+   "finished": "2026-11-03T05:53:37Z"
+  },
+  {
+   "file": "Oxygenos-OP556FL1-16-1765350064807-AB-20251227-MysticGSI.zip",
+   "name": "",
+   "status": "success",
+   "started": "2026-11-03T05:16:44Z",
+   "finished": "2026-11-03T05:51:50Z"
+  },
+  {
+   "file": "Flyme-meizu20Pro-16-1766690413-AB-20251227-MysticGSI.zip",
+   "name": "",
+   "status": "success",
+   "started": "2026-11-03T05:15:55Z",
+   "finished": "2026-11-03T05:47:49Z"
+  },
+  {
+   "file": "Realmeui-RE6030L1-CinnamonBun-1773651170858-AB-20260326-MysticGSI.zip",
+   "name": "",
+   "status": "success",
+   "started": "2026-11-03T05:15:55Z",
+   "finished": "2026-11-03T05:46:49Z"
+  },
+  {
+   "file": "Hyperos-fuxi-16-OS3.0.2.0.WMCCNXM-AB-20251210-MysticGSI.zip",
+   "name": "",
+   "status": "failure",
+   "started": "2026-11-03T05:41:39Z",
+   "finished": "2026-11-03T05:44:03Z"
+  },
+  {
+   "file": "Hyperos-dijun-16-OS3.0.9.0.WODCNXM-AB-20260114-MysticGSI.zip",
+   "name": "",
+   "status": "success",
+   "started": "2026-11-03T05:15:55Z",
+   "finished": "2026-11-03T05:42:44Z"
+  },
+  {
+   "file": "Pixel-tangorpro-CANARY-14518957-AB-20251220-MysticGSI.zip",
+   "name": "",
+   "status": "success",
+   "started": "2026-11-03T05:20:41Z",
+   "finished": "2026-11-03T05:41:38Z"
+  },
+  {
+   "file": "Coloros-OP64DDL1-16-1769698117230-AB-20260315-MysticGSI.zip",
+   "name": "",
+   "status": "success",
+   "started": "2026-11-03T05:15:55Z",
+   "finished": "2026-11-03T05:40:54Z"
+  },
+  {
+   "file": "Nothing-Asteroids-16-2511181551-AB-20260111-MysticGSI.zip",
+   "name": "",
+   "status": "failure",
+   "started": "2026-11-03T05:15:55Z",
+   "finished": "2026-11-03T05:40:31Z"
+  },
+  {
+   "file": "Oneui-a15x-16-A156BXXS7DYJ1-AB-20251218-MysticGSI.zip",
+   "name": "",
+   "status": "success",
+   "started": "2026-11-03T05:21:02Z",
+   "finished": "2026-11-03T05:38:59Z"
   }
  ],
- "updated": "2026-11-03T06:21:55+00:00"
+ "updated": "2026-11-03T06:53:23+00:00"
 }
