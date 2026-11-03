@@ -125,5 +125,15 @@
     "size_mb": 2405,
     "link": "https://drive.google.com/open?id=1MI5jZzpcDPPHAu6-00bvf8U6mpWIBuWV",
     "date": "2026-02-11"
+  },
+  "mystic-gsi-updates/Generic/Pixel-cheetah-CinnamonBun-14911996-AB-20260227-MysticGSI.zip": {
+    "name": "Pixel (cheetah) · Mystic",
+    "tag": "Generic",
+    "file": "Pixel-cheetah-CinnamonBun-14911996-AB-20260227-MysticGSI.img.xz",
+    "src_file": "Pixel-cheetah-CinnamonBun-14911996-AB-20260227-MysticGSI.zip",
+    "android": "17",
+    "size_mb": 2423,
+    "link": "https://drive.google.com/open?id=13KqKleyDn8y6drBwZ6rttUWfhjqhrYg_",
+    "date": "2026-02-27"
   }
 }
