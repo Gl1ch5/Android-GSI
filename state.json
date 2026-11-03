@@ -925,5 +925,15 @@
     "size_mb": 920,
     "link": "https://drive.google.com/open?id=1Hhb6LwS6AziGJ9HixNH3ELwmdIGFEmAk",
     "date": "2026-09-21"
+  },
+  "Doze-off/ProjectSakura_gsi/2026-08-12/Sakura-16.3-GSI_treble_arm64-ab-GAPPS-20260812.img.xz": {
+    "name": "Project Sakura",
+    "tag": "2026-08-12",
+    "file": "Sakura-16.3-GSI_treble_arm64-ab-GAPPS-20260812.img.xz",
+    "src_file": "Sakura-16.3-GSI_treble_arm64-ab-GAPPS-20260812.img.xz",
+    "android": "16",
+    "size_mb": 1290,
+    "link": "https://drive.google.com/open?id=1jjelA0nckURfFBfJ9nPUAQVPGijMaeOL",
+    "date": "2026-08-12"
   }
 }
