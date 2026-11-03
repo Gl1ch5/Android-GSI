@@ -205,5 +205,15 @@
     "size_mb": 4058,
     "link": "https://drive.google.com/open?id=1PEAtRvPXSvM1CpkfIi4Yi2n7nXkyfDDp",
     "date": "2025-12-26"
+  },
+  "mystic-gsi-updates/HyperOS/Hyperos-nezha-16-OS3.0.5.0.WPACNDM-AB-20260118-MysticGSI.zip": {
+    "name": "HyperOS (nezha) · Mystic",
+    "tag": "HyperOS",
+    "file": "Hyperos-nezha-16-OS3.0.5.0.WPACNDM-AB-20260118-MysticGSI.img.xz",
+    "src_file": "Hyperos-nezha-16-OS3.0.5.0.WPACNDM-AB-20260118-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 3075,
+    "link": "https://drive.google.com/open?id=17eFYqOKo398keWxyjhxP87BmaBrm_TSq",
+    "date": "2026-01-18"
   }
 }
