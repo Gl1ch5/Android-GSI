@@ -387,10 +387,34 @@ function avatar(name){
 
 /* data */
 let ROMS = [], DEV = {}, F = { android: "all", brand: "all", q: "" };
+/* версия оболочки — та же логика, что в scripts/osver.py */
+const BY_ANDROID = {
+  oneui: ["One UI", {14:"6",15:"7",16:"8",17:"9"}], oxygenos: ["OxygenOS", {14:"14",15:"15",16:"16",17:"17"}],
+  coloros: ["ColorOS", {14:"14",15:"15",16:"16",17:"17"}], realmeui: ["realme UI", {14:"5",15:"6",16:"7",17:"8"}],
+  originos: ["OriginOS", {14:"4",15:"5",16:"6",17:"7"}], magicos: ["MagicOS", {14:"8",15:"9",16:"10",17:"11"}],
+  nothing: ["Nothing OS", {14:"2.5",15:"3",16:"4",17:"5"}]
+};
+function osVersion(f, android){
+  f = f || ""; const p = f.split("-"), b = (p[0] || "").toLowerCase();
+  if (/MysticGSI\.(zip|img|img\.xz)$/.test(f) && p.length > 3) {
+    if (b === "hyperos") { const m = p[3].match(/OS(\d+)\.(\d+)\.(\d+)/); return m ? `HyperOS ${m[1]}.${m[2]}.${m[3]}` : "HyperOS"; }
+    if (b === "pixel") return `Pixel · Android ${android}${({CANARY:" Canary",CinnamonBun:" Beta",Baklava:" Beta"})[p[2]] || ""}`;
+    if (BY_ANDROID[b]) { const [n, tb] = BY_ANDROID[b]; return tb[android] ? `${n} ${tb[android]}` : n; }
+    return b === "flyme" ? "Flyme" : p[0];
+  }
+  let m = f.match(/lineage-?(\d+\.\d+)/i); if (m) return `LineageOS ${m[1]}`;
+  m = f.match(/aosp-arm64-ab-\w+-(\d+\.\d+)/); if (m) return `AOSP ${m[1]}`;
+  m = f.match(/(?:^|[-_])v?(\d{1,2}\.\d{1,2}(?:\.\d{1,2})?)(?=[-_.])/i); return m ? m[1] : "";
+}
+function title(r){
+  const v = osVersion(r.src_file || r.file, r.android), base = r.name.replace(" · Mystic", "").replace(/\s*\([^)]*\)\s*$/, "");
+  if (!v) return r.name.replace(" · Mystic", "");
+  return /^[\d.]+$/.test(v) ? `${base} ${v}` : v;
+}
 function parseDevice(r){
   const f = r.src_file || r.file;
   const m = /-MysticGSI/.test(f) ? f.split("-") : null;
-  let code = m ? m[1] : null;
+  let code = m ? (/^[A-Z]{2}\d{2}$/.test(m[2]) ? m[1] + "-" + m[2] : m[1]) : null;
   if (!code) { const mm = r.name.match(/\(([^)]+)\)/); code = mm && DEV[mm[1]] ? mm[1] : null; }
   const d = code && DEV[code];
   return { code, device: d ? d[0] : (code && m ? code : t("generic")), soc: d ? d[1] : "—" };
@@ -414,7 +438,7 @@ async function load(){
   document.getElementById("s-count").textContent = ROMS.length;
   document.getElementById("s-brands").textContent = new Set(ROMS.map(r => r.brand)).size;
   document.getElementById("s-size").textContent = (total/1024).toFixed(0) + " GB";
-  renderFilters(); render();
+  renderFilters(); render(); renderQueue();
 }
 
 function chip(group, val, label){
@@ -434,11 +458,11 @@ function render(){
   const list = ROMS.filter(r =>
     (F.android === "all" || r.android === F.android) &&
     (F.brand === "all" || r.brand === F.brand) &&
-    (!F.q || [r.name, r.file, r.dev.device, r.dev.soc, r.tag].join(" ").toLowerCase().includes(F.q)));
+    (!F.q || [r.name, title(r), r.file, r.dev.device, r.dev.soc, r.tag].join(" ").toLowerCase().includes(F.q)));
   document.getElementById("empty").classList.toggle("hidden", list.length > 0);
   document.getElementById("grid").innerHTML = list.map(r => `
     <article class="card">
-      <div class="top">${avatar(r.name)}<div style="min-width:0"><h3>${esc(r.name.replace(" · Mystic", ""))}</h3><div class="sub">${esc(r.dev.device)}</div></div></div>
+      <div class="top">${avatar(r.name)}<div style="min-width:0"><h3>${esc(title(r))}</h3><div class="sub">${esc(r.dev.soc !== "—" ? r.dev.device : r.name.replace(" · Mystic", ""))}</div></div></div>
       <div class="tags">
         <span class="tag android"><svg><use href="#i-android"/></svg>Android ${esc(r.android || "?")}</span>
         ${/Mystic/i.test(r.name + r.file) ? '<span class="tag">Mystic GSI</span>' : ""}
@@ -493,9 +517,9 @@ function renderQueue(){
     const p = raw.split("-");
     let title = raw, sub = "";
     if (/MysticGSI$/.test(raw) && CODES[p[0].toLowerCase()]) {
-      const d = DEV[p[1]];
-      const av = /CinnamonBun|CANARY/.test(p[2]) ? "17" : /Baklava/.test(p[2]) ? "16" : p[2];
-      title = `${CODES[p[0].toLowerCase()]} · ${d ? d[0] : p[1]}`;
+      const code = /^[A-Z]{2}\d{2}$/.test(p[2]) ? p[1] + "-" + p[2] : p[1], d = DEV[code];
+      const av = /CinnamonBun|CANARY/.test(p[2]) ? "17" : /Baklava/.test(p[2]) ? "16" : (/^\d+$/.test(p[2]) ? p[2] : p[3]);
+      title = `${osVersion(j.name, av) || CODES[p[0].toLowerCase()]} · ${d ? d[0] : code}`;
       sub = `Android ${av}${d ? " · " + d[1] : ""}`;
     } else sub = raw;
     let st, cls, ic;

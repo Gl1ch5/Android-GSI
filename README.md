@@ -23,34 +23,34 @@ Catalog with search, filters, live queue and ROM requests<br>
 ### ⬇️ Downloads
 
 <!-- GSI-LIST-EN:START -->
-| ROM | Android | Build | Size | Date | Download |
-|---|:---:|---|---:|---|:---:|
-| **Pixel 17 (MysticGSI)** | 17 | `Pixel-frankel-17-16271449-AB-20261103-MysticGSI.img` | 3.9 GB | 2026-11-03 | [⬇️ Download](https://drive.google.com/open?id=1V3HzCxgyifPeCM5eIQi_o6KxqiwoFEVR) |
-| **LineageOS 24 (eyzner)** | 17 | `lineage-24.0-20261029-UNOFFICIAL-arm64_bvN-erofs.img.xz` | 1.0 GB | 2026-10-29 | [⬇️ Download](https://drive.google.com/open?id=1vPVuCMaOQJ9Xz9o8NcKVSpskYFZMzpZw) |
-| **LineageOS 24 (eyzner)** | 17 | `lineage-24.0-20261029-UNOFFICIAL-arm64_bvN.img.xz` | 0.9 GB | 2026-10-29 | [⬇️ Download](https://drive.google.com/open?id=1kjUNOoR2IayKzmg_Zah67reRX3b1TdbY) |
-| **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bvN.img` | 2.4 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1KyeNeoioDQlNoRbQ3Mg0h13SS8UTRFE4) |
-| **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bvN-vndklite.img.gz` | 1.1 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1HEntlfen63Ie7T8N8zA3BwKiLWov-Bdz) |
-| **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bgN-vndklite-signed.img.gz` | 1.3 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1SA6ZRxgUdysQENEy7yo0cei21KuEItAV) |
-| **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bgN-signed.img.gz` | 1.3 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1XIZpt4vr4UU95vMa9U4rkEyE9_OUMHoR) |
-| **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260613-UNOFFICIAL-gsi_arm64_vN.img.gz` | 1.3 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1gCjtpLJrTL2WOyKQOwmBcabeBubgVgy6) |
-| **realme UI (RE6030L1) · Mystic** | 17 | `Realmeui-RE6030L1-CinnamonBun-1773651170858-AB-20260326-MysticGSI.img.xz` | 5.4 GB | 2026-03-26 | [⬇️ Download](https://drive.google.com/open?id=1Akzm0c5AVtC9Yx76bz77dhAFGYJ40qfj) |
-| **ColorOS (OP64DDL1) · Mystic** | 16 | `Coloros-OP64DDL1-16-1769698117230-AB-20260315-MysticGSI.img.xz` | 3.5 GB | 2026-03-15 | [⬇️ Download](https://drive.google.com/open?id=1CNELqzW_oKkQOMsUU67srsJvGEMjS_fK) |
-| **Pixel (cheetah) · Mystic** | 17 | `Pixel-cheetah-CinnamonBun-14911996-AB-20260227-MysticGSI.img.xz` | 2.4 GB | 2026-02-27 | [⬇️ Download](https://drive.google.com/open?id=13KqKleyDn8y6drBwZ6rttUWfhjqhrYg_) |
-| **One UI (gts9wifi) · Mystic** | 16 | `Oneui-gts9wifi-16-X710ZCS5DZA1-AB-20260211-MysticGSI.img.xz` | 2.3 GB | 2026-02-11 | [⬇️ Download](https://drive.google.com/open?id=1MI5jZzpcDPPHAu6-00bvf8U6mpWIBuWV) |
-| **MagicOS (BKQ) · Mystic** | 16 | `Magicos-BKQ-AN00-16-eng.root-AB-20260125-MysticGSI.img.xz` | 5.3 GB | 2026-01-25 | [⬇️ Download](https://drive.google.com/open?id=1bil6N1UI3EkD5fG8occ1OYssyeKTYIKi) |
-| **HyperOS (nezha) · Mystic** | 16 | `Hyperos-nezha-16-OS3.0.5.0.WPACNDM-AB-20260118-MysticGSI.img.xz` | 3.0 GB | 2026-01-18 | [⬇️ Download](https://drive.google.com/open?id=17eFYqOKo398keWxyjhxP87BmaBrm_TSq) |
-| **HyperOS (dijun) · Mystic** | 16 | `Hyperos-dijun-16-OS3.0.9.0.WODCNXM-AB-20260114-MysticGSI.img.xz` | 2.8 GB | 2026-01-14 | [⬇️ Download](https://drive.google.com/open?id=16P2r3miOmz1yWmMCNpYWqFkqVBrxep9i) |
-| **OxygenOS (OP595DL1) · Mystic** | 16 | `Oxygenos-OP595DL1-16-1763388908922-AB-20260104-MysticGSI.img.xz` | 4.1 GB | 2026-01-04 | [⬇️ Download](https://drive.google.com/open?id=1y3nsfx2jyiqNViR3jeHi9VjQVNiJpjn-) |
-| **Flyme (meizu20Pro) · Mystic** | 16 | `Flyme-meizu20Pro-16-1766690413-AB-20251227-MysticGSI.img.xz` | 4.5 GB | 2025-12-26 | [⬇️ Download](https://drive.google.com/open?id=1uEq8FvI-SMPudMJ0ZIJnjRNqtzJSnFHt) |
-| **OxygenOS (OP556FL1) · Mystic** | 16 | `Oxygenos-OP556FL1-16-1765350064807-AB-20251227-MysticGSI.img.xz` | 4.0 GB | 2025-12-26 | [⬇️ Download](https://drive.google.com/open?id=1PEAtRvPXSvM1CpkfIi4Yi2n7nXkyfDDp) |
-| **Pixel (tangorpro) · Mystic** | 17 | `Pixel-tangorpro-CANARY-14518957-AB-20251220-MysticGSI.img.xz` | 1.7 GB | 2025-12-19 | [⬇️ Download](https://drive.google.com/open?id=1rFF7YjypkeOSBZxtgN3ca0p-CNCp3CCA) |
-| **One UI (a15x) · Mystic** | 16 | `Oneui-a15x-16-A156BXXS7DYJ1-AB-20251218-MysticGSI.img.xz` | 2.1 GB | 2025-12-18 | [⬇️ Download](https://drive.google.com/open?id=1JRQN0XtR4mudeHg8mOC1lqf5qnSjods4) |
-| **Pixel (stallion) · Mystic** | 16 | `Pixel-stallion-16-14508591-AB-20251216-MysticGSI.img.xz` | 1.6 GB | 2025-12-16 | [⬇️ Download](https://drive.google.com/open?id=1WImZHM6DH3O8r-O_leXG4F59HP4W-CGd) |
-| **Pixel (menari_lte) · Mystic** | 16 | `Pixel-menari_lte-16-14500072-AB-20251214-MysticGSI.img.xz` | 1.5 GB | 2025-12-14 | [⬇️ Download](https://drive.google.com/open?id=1sxdTC-_7GXWe2rFZ2YCgQMavqV5f4vUL) |
-| **HyperOS (duchamp) · Mystic** | 16 | `Hyperos-duchamp-16-OS3.0.0.4.WNLCNXM-AB-20251205-MysticGSI.img.xz` | 2.8 GB | 2025-12-05 | [⬇️ Download](https://drive.google.com/open?id=1TDGDRRNBAf6zYyxK_BCXO8kpMERqXiFP) |
-| **OriginOS (k6993v1_64) · Mystic** | 16 | `Originos-k6993v1_64-16-compiler250923020245-AB-20251017-MysticGSI.img.xz` | 4.5 GB | 2025-10-17 | [⬇️ Download](https://drive.google.com/open?id=1nosBYGm84OUXa1U6I4zN7p_bMg_NM7AF) |
-| **ponces AOSP** | 16 | `aosp-arm64-ab-gapps-16.0-20250625.img.xz` | 1.4 GB | 2025-06-25 | [⬇️ Download](https://drive.google.com/open?id=1_y2vA2w1mKXPMBsEwweGhH5MMr0LL6pR) |
-| **ponces AOSP** | 15 | `aosp-arm64-ab-gapps-15.0-20250513.img.xz` | 1.4 GB | 2025-05-13 | [⬇️ Download](https://drive.google.com/open?id=1_d2pKToblPZTC1_rr-AIQKJBLAy1rX0B) |
+| ROM | Version | Android | Size | Date | Download |
+|---|---|:---:|---:|---|:---:|
+| **Pixel 17 (MysticGSI)** | Pixel · Android 17 | 17 | 3.9 GB | 2026-11-03 | [⬇️ Download](https://drive.google.com/open?id=1V3HzCxgyifPeCM5eIQi_o6KxqiwoFEVR) |
+| **LineageOS 24 (eyzner)** | LineageOS 24.0 | 17 | 1.0 GB | 2026-10-29 | [⬇️ Download](https://drive.google.com/open?id=1vPVuCMaOQJ9Xz9o8NcKVSpskYFZMzpZw) |
+| **LineageOS 24 (eyzner)** | LineageOS 24.0 | 17 | 0.9 GB | 2026-10-29 | [⬇️ Download](https://drive.google.com/open?id=1kjUNOoR2IayKzmg_Zah67reRX3b1TdbY) |
+| **LineageOS GSI (AndyYan)** | LineageOS 21.0 | 14 | 2.4 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1KyeNeoioDQlNoRbQ3Mg0h13SS8UTRFE4) |
+| **LineageOS GSI (AndyYan)** | LineageOS 21.0 | 14 | 1.1 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1HEntlfen63Ie7T8N8zA3BwKiLWov-Bdz) |
+| **LineageOS GSI (AndyYan)** | LineageOS 21.0 | 14 | 1.3 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1SA6ZRxgUdysQENEy7yo0cei21KuEItAV) |
+| **LineageOS GSI (AndyYan)** | LineageOS 21.0 | 14 | 1.3 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1XIZpt4vr4UU95vMa9U4rkEyE9_OUMHoR) |
+| **LineageOS GSI (AndyYan)** | LineageOS 21.0 | 14 | 1.3 GB | 2026-06-19 | [⬇️ Download](https://drive.google.com/open?id=1gCjtpLJrTL2WOyKQOwmBcabeBubgVgy6) |
+| **realme UI (RE6030L1)** | realme UI 8 | 17 | 5.4 GB | 2026-03-26 | [⬇️ Download](https://drive.google.com/open?id=1Akzm0c5AVtC9Yx76bz77dhAFGYJ40qfj) |
+| **ColorOS (OP64DDL1)** | ColorOS 16 | 16 | 3.5 GB | 2026-03-15 | [⬇️ Download](https://drive.google.com/open?id=1CNELqzW_oKkQOMsUU67srsJvGEMjS_fK) |
+| **Pixel (cheetah)** | Pixel · Android 17 Beta | 17 | 2.4 GB | 2026-02-27 | [⬇️ Download](https://drive.google.com/open?id=13KqKleyDn8y6drBwZ6rttUWfhjqhrYg_) |
+| **One UI (gts9wifi)** | One UI 8 | 16 | 2.3 GB | 2026-02-11 | [⬇️ Download](https://drive.google.com/open?id=1MI5jZzpcDPPHAu6-00bvf8U6mpWIBuWV) |
+| **MagicOS (BKQ)** | MagicOS 10 | 16 | 5.3 GB | 2026-01-25 | [⬇️ Download](https://drive.google.com/open?id=1bil6N1UI3EkD5fG8occ1OYssyeKTYIKi) |
+| **HyperOS (nezha)** | HyperOS 3.0.5 | 16 | 3.0 GB | 2026-01-18 | [⬇️ Download](https://drive.google.com/open?id=17eFYqOKo398keWxyjhxP87BmaBrm_TSq) |
+| **HyperOS (dijun)** | HyperOS 3.0.9 | 16 | 2.8 GB | 2026-01-14 | [⬇️ Download](https://drive.google.com/open?id=16P2r3miOmz1yWmMCNpYWqFkqVBrxep9i) |
+| **OxygenOS (OP595DL1)** | OxygenOS 16 | 16 | 4.1 GB | 2026-01-04 | [⬇️ Download](https://drive.google.com/open?id=1y3nsfx2jyiqNViR3jeHi9VjQVNiJpjn-) |
+| **Flyme (meizu20Pro)** | Flyme | 16 | 4.5 GB | 2025-12-26 | [⬇️ Download](https://drive.google.com/open?id=1uEq8FvI-SMPudMJ0ZIJnjRNqtzJSnFHt) |
+| **OxygenOS (OP556FL1)** | OxygenOS 16 | 16 | 4.0 GB | 2025-12-26 | [⬇️ Download](https://drive.google.com/open?id=1PEAtRvPXSvM1CpkfIi4Yi2n7nXkyfDDp) |
+| **Pixel (tangorpro)** | Pixel · Android 17 Canary | 17 | 1.7 GB | 2025-12-19 | [⬇️ Download](https://drive.google.com/open?id=1rFF7YjypkeOSBZxtgN3ca0p-CNCp3CCA) |
+| **One UI (a15x)** | One UI 8 | 16 | 2.1 GB | 2025-12-18 | [⬇️ Download](https://drive.google.com/open?id=1JRQN0XtR4mudeHg8mOC1lqf5qnSjods4) |
+| **Pixel (stallion)** | Pixel · Android 16 | 16 | 1.6 GB | 2025-12-16 | [⬇️ Download](https://drive.google.com/open?id=1WImZHM6DH3O8r-O_leXG4F59HP4W-CGd) |
+| **Pixel (menari_lte)** | Pixel · Android 16 | 16 | 1.5 GB | 2025-12-14 | [⬇️ Download](https://drive.google.com/open?id=1sxdTC-_7GXWe2rFZ2YCgQMavqV5f4vUL) |
+| **HyperOS (duchamp)** | HyperOS 3.0.0 | 16 | 2.8 GB | 2025-12-05 | [⬇️ Download](https://drive.google.com/open?id=1TDGDRRNBAf6zYyxK_BCXO8kpMERqXiFP) |
+| **OriginOS (k6993v1_64)** | OriginOS 6 | 16 | 4.5 GB | 2025-10-17 | [⬇️ Download](https://drive.google.com/open?id=1nosBYGm84OUXa1U6I4zN7p_bMg_NM7AF) |
+| **ponces AOSP** | AOSP 16.0 | 16 | 1.4 GB | 2025-06-25 | [⬇️ Download](https://drive.google.com/open?id=1_y2vA2w1mKXPMBsEwweGhH5MMr0LL6pR) |
+| **ponces AOSP** | AOSP 15.0 | 15 | 1.4 GB | 2025-05-13 | [⬇️ Download](https://drive.google.com/open?id=1_d2pKToblPZTC1_rr-AIQKJBLAy1rX0B) |
 <!-- GSI-LIST-EN:END -->
 
 The list updates automatically every day. Files are compressed `.img.xz` / `.img.gz` — DSU Sideloader opens them directly, nothing to unpack.
@@ -84,34 +84,34 @@ fastboot reboot
 ### ⬇️ Скачать
 
 <!-- GSI-LIST-RU:START -->
-| Прошивка | Android | Сборка | Размер | Дата | Скачать |
-|---|:---:|---|---:|---|:---:|
-| **Pixel 17 (MysticGSI)** | 17 | `Pixel-frankel-17-16271449-AB-20261103-MysticGSI.img` | 3.9 GB | 2026-11-03 | [⬇️ Скачать](https://drive.google.com/open?id=1V3HzCxgyifPeCM5eIQi_o6KxqiwoFEVR) |
-| **LineageOS 24 (eyzner)** | 17 | `lineage-24.0-20261029-UNOFFICIAL-arm64_bvN-erofs.img.xz` | 1.0 GB | 2026-10-29 | [⬇️ Скачать](https://drive.google.com/open?id=1vPVuCMaOQJ9Xz9o8NcKVSpskYFZMzpZw) |
-| **LineageOS 24 (eyzner)** | 17 | `lineage-24.0-20261029-UNOFFICIAL-arm64_bvN.img.xz` | 0.9 GB | 2026-10-29 | [⬇️ Скачать](https://drive.google.com/open?id=1kjUNOoR2IayKzmg_Zah67reRX3b1TdbY) |
-| **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bvN.img` | 2.4 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1KyeNeoioDQlNoRbQ3Mg0h13SS8UTRFE4) |
-| **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bvN-vndklite.img.gz` | 1.1 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1HEntlfen63Ie7T8N8zA3BwKiLWov-Bdz) |
-| **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bgN-vndklite-signed.img.gz` | 1.3 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1SA6ZRxgUdysQENEy7yo0cei21KuEItAV) |
-| **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260614-UNOFFICIAL-arm64_bgN-signed.img.gz` | 1.3 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1XIZpt4vr4UU95vMa9U4rkEyE9_OUMHoR) |
-| **LineageOS GSI (AndyYan)** | 14 | `lineage-21.0-20260613-UNOFFICIAL-gsi_arm64_vN.img.gz` | 1.3 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1gCjtpLJrTL2WOyKQOwmBcabeBubgVgy6) |
-| **realme UI (RE6030L1) · Mystic** | 17 | `Realmeui-RE6030L1-CinnamonBun-1773651170858-AB-20260326-MysticGSI.img.xz` | 5.4 GB | 2026-03-26 | [⬇️ Скачать](https://drive.google.com/open?id=1Akzm0c5AVtC9Yx76bz77dhAFGYJ40qfj) |
-| **ColorOS (OP64DDL1) · Mystic** | 16 | `Coloros-OP64DDL1-16-1769698117230-AB-20260315-MysticGSI.img.xz` | 3.5 GB | 2026-03-15 | [⬇️ Скачать](https://drive.google.com/open?id=1CNELqzW_oKkQOMsUU67srsJvGEMjS_fK) |
-| **Pixel (cheetah) · Mystic** | 17 | `Pixel-cheetah-CinnamonBun-14911996-AB-20260227-MysticGSI.img.xz` | 2.4 GB | 2026-02-27 | [⬇️ Скачать](https://drive.google.com/open?id=13KqKleyDn8y6drBwZ6rttUWfhjqhrYg_) |
-| **One UI (gts9wifi) · Mystic** | 16 | `Oneui-gts9wifi-16-X710ZCS5DZA1-AB-20260211-MysticGSI.img.xz` | 2.3 GB | 2026-02-11 | [⬇️ Скачать](https://drive.google.com/open?id=1MI5jZzpcDPPHAu6-00bvf8U6mpWIBuWV) |
-| **MagicOS (BKQ) · Mystic** | 16 | `Magicos-BKQ-AN00-16-eng.root-AB-20260125-MysticGSI.img.xz` | 5.3 GB | 2026-01-25 | [⬇️ Скачать](https://drive.google.com/open?id=1bil6N1UI3EkD5fG8occ1OYssyeKTYIKi) |
-| **HyperOS (nezha) · Mystic** | 16 | `Hyperos-nezha-16-OS3.0.5.0.WPACNDM-AB-20260118-MysticGSI.img.xz` | 3.0 GB | 2026-01-18 | [⬇️ Скачать](https://drive.google.com/open?id=17eFYqOKo398keWxyjhxP87BmaBrm_TSq) |
-| **HyperOS (dijun) · Mystic** | 16 | `Hyperos-dijun-16-OS3.0.9.0.WODCNXM-AB-20260114-MysticGSI.img.xz` | 2.8 GB | 2026-01-14 | [⬇️ Скачать](https://drive.google.com/open?id=16P2r3miOmz1yWmMCNpYWqFkqVBrxep9i) |
-| **OxygenOS (OP595DL1) · Mystic** | 16 | `Oxygenos-OP595DL1-16-1763388908922-AB-20260104-MysticGSI.img.xz` | 4.1 GB | 2026-01-04 | [⬇️ Скачать](https://drive.google.com/open?id=1y3nsfx2jyiqNViR3jeHi9VjQVNiJpjn-) |
-| **Flyme (meizu20Pro) · Mystic** | 16 | `Flyme-meizu20Pro-16-1766690413-AB-20251227-MysticGSI.img.xz` | 4.5 GB | 2025-12-26 | [⬇️ Скачать](https://drive.google.com/open?id=1uEq8FvI-SMPudMJ0ZIJnjRNqtzJSnFHt) |
-| **OxygenOS (OP556FL1) · Mystic** | 16 | `Oxygenos-OP556FL1-16-1765350064807-AB-20251227-MysticGSI.img.xz` | 4.0 GB | 2025-12-26 | [⬇️ Скачать](https://drive.google.com/open?id=1PEAtRvPXSvM1CpkfIi4Yi2n7nXkyfDDp) |
-| **Pixel (tangorpro) · Mystic** | 17 | `Pixel-tangorpro-CANARY-14518957-AB-20251220-MysticGSI.img.xz` | 1.7 GB | 2025-12-19 | [⬇️ Скачать](https://drive.google.com/open?id=1rFF7YjypkeOSBZxtgN3ca0p-CNCp3CCA) |
-| **One UI (a15x) · Mystic** | 16 | `Oneui-a15x-16-A156BXXS7DYJ1-AB-20251218-MysticGSI.img.xz` | 2.1 GB | 2025-12-18 | [⬇️ Скачать](https://drive.google.com/open?id=1JRQN0XtR4mudeHg8mOC1lqf5qnSjods4) |
-| **Pixel (stallion) · Mystic** | 16 | `Pixel-stallion-16-14508591-AB-20251216-MysticGSI.img.xz` | 1.6 GB | 2025-12-16 | [⬇️ Скачать](https://drive.google.com/open?id=1WImZHM6DH3O8r-O_leXG4F59HP4W-CGd) |
-| **Pixel (menari_lte) · Mystic** | 16 | `Pixel-menari_lte-16-14500072-AB-20251214-MysticGSI.img.xz` | 1.5 GB | 2025-12-14 | [⬇️ Скачать](https://drive.google.com/open?id=1sxdTC-_7GXWe2rFZ2YCgQMavqV5f4vUL) |
-| **HyperOS (duchamp) · Mystic** | 16 | `Hyperos-duchamp-16-OS3.0.0.4.WNLCNXM-AB-20251205-MysticGSI.img.xz` | 2.8 GB | 2025-12-05 | [⬇️ Скачать](https://drive.google.com/open?id=1TDGDRRNBAf6zYyxK_BCXO8kpMERqXiFP) |
-| **OriginOS (k6993v1_64) · Mystic** | 16 | `Originos-k6993v1_64-16-compiler250923020245-AB-20251017-MysticGSI.img.xz` | 4.5 GB | 2025-10-17 | [⬇️ Скачать](https://drive.google.com/open?id=1nosBYGm84OUXa1U6I4zN7p_bMg_NM7AF) |
-| **ponces AOSP** | 16 | `aosp-arm64-ab-gapps-16.0-20250625.img.xz` | 1.4 GB | 2025-06-25 | [⬇️ Скачать](https://drive.google.com/open?id=1_y2vA2w1mKXPMBsEwweGhH5MMr0LL6pR) |
-| **ponces AOSP** | 15 | `aosp-arm64-ab-gapps-15.0-20250513.img.xz` | 1.4 GB | 2025-05-13 | [⬇️ Скачать](https://drive.google.com/open?id=1_d2pKToblPZTC1_rr-AIQKJBLAy1rX0B) |
+| Прошивка | Версия | Android | Размер | Дата | Скачать |
+|---|---|:---:|---:|---|:---:|
+| **Pixel 17 (MysticGSI)** | Pixel · Android 17 | 17 | 3.9 GB | 2026-11-03 | [⬇️ Скачать](https://drive.google.com/open?id=1V3HzCxgyifPeCM5eIQi_o6KxqiwoFEVR) |
+| **LineageOS 24 (eyzner)** | LineageOS 24.0 | 17 | 1.0 GB | 2026-10-29 | [⬇️ Скачать](https://drive.google.com/open?id=1vPVuCMaOQJ9Xz9o8NcKVSpskYFZMzpZw) |
+| **LineageOS 24 (eyzner)** | LineageOS 24.0 | 17 | 0.9 GB | 2026-10-29 | [⬇️ Скачать](https://drive.google.com/open?id=1kjUNOoR2IayKzmg_Zah67reRX3b1TdbY) |
+| **LineageOS GSI (AndyYan)** | LineageOS 21.0 | 14 | 2.4 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1KyeNeoioDQlNoRbQ3Mg0h13SS8UTRFE4) |
+| **LineageOS GSI (AndyYan)** | LineageOS 21.0 | 14 | 1.1 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1HEntlfen63Ie7T8N8zA3BwKiLWov-Bdz) |
+| **LineageOS GSI (AndyYan)** | LineageOS 21.0 | 14 | 1.3 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1SA6ZRxgUdysQENEy7yo0cei21KuEItAV) |
+| **LineageOS GSI (AndyYan)** | LineageOS 21.0 | 14 | 1.3 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1XIZpt4vr4UU95vMa9U4rkEyE9_OUMHoR) |
+| **LineageOS GSI (AndyYan)** | LineageOS 21.0 | 14 | 1.3 GB | 2026-06-19 | [⬇️ Скачать](https://drive.google.com/open?id=1gCjtpLJrTL2WOyKQOwmBcabeBubgVgy6) |
+| **realme UI (RE6030L1)** | realme UI 8 | 17 | 5.4 GB | 2026-03-26 | [⬇️ Скачать](https://drive.google.com/open?id=1Akzm0c5AVtC9Yx76bz77dhAFGYJ40qfj) |
+| **ColorOS (OP64DDL1)** | ColorOS 16 | 16 | 3.5 GB | 2026-03-15 | [⬇️ Скачать](https://drive.google.com/open?id=1CNELqzW_oKkQOMsUU67srsJvGEMjS_fK) |
+| **Pixel (cheetah)** | Pixel · Android 17 Beta | 17 | 2.4 GB | 2026-02-27 | [⬇️ Скачать](https://drive.google.com/open?id=13KqKleyDn8y6drBwZ6rttUWfhjqhrYg_) |
+| **One UI (gts9wifi)** | One UI 8 | 16 | 2.3 GB | 2026-02-11 | [⬇️ Скачать](https://drive.google.com/open?id=1MI5jZzpcDPPHAu6-00bvf8U6mpWIBuWV) |
+| **MagicOS (BKQ)** | MagicOS 10 | 16 | 5.3 GB | 2026-01-25 | [⬇️ Скачать](https://drive.google.com/open?id=1bil6N1UI3EkD5fG8occ1OYssyeKTYIKi) |
+| **HyperOS (nezha)** | HyperOS 3.0.5 | 16 | 3.0 GB | 2026-01-18 | [⬇️ Скачать](https://drive.google.com/open?id=17eFYqOKo398keWxyjhxP87BmaBrm_TSq) |
+| **HyperOS (dijun)** | HyperOS 3.0.9 | 16 | 2.8 GB | 2026-01-14 | [⬇️ Скачать](https://drive.google.com/open?id=16P2r3miOmz1yWmMCNpYWqFkqVBrxep9i) |
+| **OxygenOS (OP595DL1)** | OxygenOS 16 | 16 | 4.1 GB | 2026-01-04 | [⬇️ Скачать](https://drive.google.com/open?id=1y3nsfx2jyiqNViR3jeHi9VjQVNiJpjn-) |
+| **Flyme (meizu20Pro)** | Flyme | 16 | 4.5 GB | 2025-12-26 | [⬇️ Скачать](https://drive.google.com/open?id=1uEq8FvI-SMPudMJ0ZIJnjRNqtzJSnFHt) |
+| **OxygenOS (OP556FL1)** | OxygenOS 16 | 16 | 4.0 GB | 2025-12-26 | [⬇️ Скачать](https://drive.google.com/open?id=1PEAtRvPXSvM1CpkfIi4Yi2n7nXkyfDDp) |
+| **Pixel (tangorpro)** | Pixel · Android 17 Canary | 17 | 1.7 GB | 2025-12-19 | [⬇️ Скачать](https://drive.google.com/open?id=1rFF7YjypkeOSBZxtgN3ca0p-CNCp3CCA) |
+| **One UI (a15x)** | One UI 8 | 16 | 2.1 GB | 2025-12-18 | [⬇️ Скачать](https://drive.google.com/open?id=1JRQN0XtR4mudeHg8mOC1lqf5qnSjods4) |
+| **Pixel (stallion)** | Pixel · Android 16 | 16 | 1.6 GB | 2025-12-16 | [⬇️ Скачать](https://drive.google.com/open?id=1WImZHM6DH3O8r-O_leXG4F59HP4W-CGd) |
+| **Pixel (menari_lte)** | Pixel · Android 16 | 16 | 1.5 GB | 2025-12-14 | [⬇️ Скачать](https://drive.google.com/open?id=1sxdTC-_7GXWe2rFZ2YCgQMavqV5f4vUL) |
+| **HyperOS (duchamp)** | HyperOS 3.0.0 | 16 | 2.8 GB | 2025-12-05 | [⬇️ Скачать](https://drive.google.com/open?id=1TDGDRRNBAf6zYyxK_BCXO8kpMERqXiFP) |
+| **OriginOS (k6993v1_64)** | OriginOS 6 | 16 | 4.5 GB | 2025-10-17 | [⬇️ Скачать](https://drive.google.com/open?id=1nosBYGm84OUXa1U6I4zN7p_bMg_NM7AF) |
+| **ponces AOSP** | AOSP 16.0 | 16 | 1.4 GB | 2025-06-25 | [⬇️ Скачать](https://drive.google.com/open?id=1_y2vA2w1mKXPMBsEwweGhH5MMr0LL6pR) |
+| **ponces AOSP** | AOSP 15.0 | 15 | 1.4 GB | 2025-05-13 | [⬇️ Скачать](https://drive.google.com/open?id=1_d2pKToblPZTC1_rr-AIQKJBLAy1rX0B) |
 <!-- GSI-LIST-RU:END -->
 
 Список обновляется автоматически каждый день. Файлы в формате `.img.xz` / `.img.gz` — DSU Sideloader открывает их сам, ничего распаковывать не нужно.

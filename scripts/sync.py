@@ -255,11 +255,13 @@ def render(state):
     items = sorted((v for v in state.values() if "-vanilla" not in v["file"]),
                    key=lambda v: v["date"], reverse=True)
     text = README.read_text()
-    for lang, hdr, dl in (("EN", "| ROM | Android | Build | Size | Date | Download |", "Download"),
-                          ("RU", "| Прошивка | Android | Сборка | Размер | Дата | Скачать |", "Скачать")):
-        rows = [hdr, "|---|:---:|---|---:|---|:---:|"]
+    from osver import os_version
+    for lang, hdr, dl in (("EN", "| ROM | Version | Android | Size | Date | Download |", "Download"),
+                          ("RU", "| Прошивка | Версия | Android | Размер | Дата | Скачать |", "Скачать")):
+        rows = [hdr, "|---|---|:---:|---:|---|:---:|"]
         for v in items:
-            rows.append(f"| **{v['name']}** | {v.get('android', '?')} | `{v['file']}` | "
+            ver = os_version(v.get("src_file") or v["file"], v.get("android", "?")) or "—"
+            rows.append(f"| **{v['name'].replace(' · Mystic', '')}** | {ver} | {v.get('android', '?')} | "
                         f"{v['size_mb'] / 1024:.1f} GB | {v['date']} | [⬇️ {dl}]({v['link']}) |")
         if len(rows) == 2:
             rows.append("| — | — | — | — | — | — |")
