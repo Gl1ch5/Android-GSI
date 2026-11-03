@@ -765,5 +765,15 @@
     "size_mb": 1159,
     "link": "https://drive.google.com/open?id=1MxcVpH8UgSHw7qy1H1IZJ3bG8qQtiEgo",
     "date": "2026-10-17"
+  },
+  "Doze-off/crdroid_gsi_treble/2026-09-22/crDroid-12.12-GSI_treble_arm64-ab-MICROG-20260922.img.xz": {
+    "name": "crDroid",
+    "tag": "2026-09-22",
+    "file": "crDroid-12.12-GSI_treble_arm64-ab-MICROG-20260922.img.xz",
+    "src_file": "crDroid-12.12-GSI_treble_arm64-ab-MICROG-20260922.img.xz",
+    "android": "16",
+    "size_mb": 1013,
+    "link": "https://drive.google.com/open?id=1kiht9beOFvRMq4jM4vbeElnYxVYP7LUR",
+    "date": "2026-09-22"
   }
 }
