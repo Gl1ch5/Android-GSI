@@ -315,5 +315,15 @@
     "size_mb": 1678,
     "link": "https://drive.google.com/open?id=1zDz2CqDE4ETgvkpnf3nJKccOYTLsvGbv",
     "date": "2025-12-15"
+  },
+  "mystic-gsi-updates/Pixel/Pixel-bluejay-16-14560987-AB-20251215-MysticGSI.zip": {
+    "name": "Pixel (bluejay) · Mystic",
+    "tag": "Pixel",
+    "file": "Pixel-bluejay-16-14560987-AB-20251215-MysticGSI.img.xz",
+    "src_file": "Pixel-bluejay-16-14560987-AB-20251215-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 1638,
+    "link": "https://drive.google.com/open?id=1wLsL41rgScEQQuFecVrMSnknBO0GTgTt",
+    "date": "2025-12-15"
   }
 }
