@@ -345,5 +345,15 @@
     "size_mb": 1584,
     "link": "https://drive.google.com/open?id=1v3ydrqKCD3nxZUG5VI1RY8xICXhUipQZ",
     "date": "2025-12-05"
+  },
+  "mystic-gsi-updates/Pixel/Pixel-tokay-16-14402117-AB-20251205-MysticGSI.zip": {
+    "name": "Pixel (tokay) · Mystic",
+    "tag": "Pixel",
+    "file": "Pixel-tokay-16-14402117-AB-20251205-MysticGSI.img.xz",
+    "src_file": "Pixel-tokay-16-14402117-AB-20251205-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 1578,
+    "link": "https://drive.google.com/open?id=14wZSRtwAanVskzXTPAeZBLrhQX8FxFL-",
+    "date": "2025-12-05"
   }
 }
