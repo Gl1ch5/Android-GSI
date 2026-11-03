@@ -595,5 +595,15 @@
     "size_mb": 3609,
     "link": "https://drive.google.com/open?id=16rVu-dveHWsbZPbYFXaPds8HwipmxBeg",
     "date": "2025-10-17"
+  },
+  "mystic-gsi-updates/Generic/Realmeui-RE5C4FL1-16-1760953953092-AB-20251024-MysticGSI.zip": {
+    "name": "realme UI (RE5C4FL1) · Mystic",
+    "tag": "Generic",
+    "file": "Realmeui-RE5C4FL1-16-1760953953092-AB-20251024-MysticGSI.img.xz",
+    "src_file": "Realmeui-RE5C4FL1-16-1760953953092-AB-20251024-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 5464,
+    "link": "https://drive.google.com/open?id=1_VyJ0y6hHpTTnNQCP6nHezaNTW3h903p",
+    "date": "2025-10-24"
   }
 }

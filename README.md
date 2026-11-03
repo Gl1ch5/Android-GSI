@@ -70,6 +70,7 @@ Catalog with search, filters, live queue and ROM requests<br>
 | **Pixel (bluejay) · Mystic** | 16 | `Pixel-bluejay-16-14330257-AB-20251113-MysticGSI.img.xz` | 1.6 GB | 2025-11-13 | [⬇️ Download](https://drive.google.com/open?id=14XkUabowIR8axgFlFNQ-iy12od9w1e1Y) |
 | **OxygenOS (OP5D55L1) · Mystic** | 16 | `Oxygenos-OP5D55L1-16-1761160957356-AB-20251030-MysticGSI.img.xz` | 4.7 GB | 2025-10-30 | [⬇️ Download](https://drive.google.com/open?id=1ZSqB6XgaedA08Sm8xyAXlDDPHuEu9m8L) |
 | **ColorOS (OP5D06L1) · Mystic** | 16 | `Coloros-OP5D06L1-16-1760327042399-AB-20251029-MysticGSI.img.xz` | 3.5 GB | 2025-10-29 | [⬇️ Download](https://drive.google.com/open?id=1Zw7oryk8iSY9jqNcU3Ran0kulr-9bN9d) |
+| **realme UI (RE5C4FL1) · Mystic** | 16 | `Realmeui-RE5C4FL1-16-1760953953092-AB-20251024-MysticGSI.img.xz` | 5.3 GB | 2025-10-24 | [⬇️ Download](https://drive.google.com/open?id=1_VyJ0y6hHpTTnNQCP6nHezaNTW3h903p) |
 | **HyperOS (myron) · Mystic** | 16 | `Hyperos-myron-16-OS3.0.11.0.WPMCNXM-AB-20251023-MysticGSI.img.xz` | 4.7 GB | 2025-10-23 | [⬇️ Download](https://drive.google.com/open?id=1LIFnPdjJI-KYZKBvGSmNJB23CNobb4d6) |
 | **HyperOS (annibale) · Mystic** | 16 | `Hyperos-annibale-16-OS3.0.9.0.WPKCNXM-AB-20251023-MysticGSI.img.xz` | 4.4 GB | 2025-10-23 | [⬇️ Download](https://drive.google.com/open?id=1uOPqfiw28owxgXxtenRVX5zBuP4W66wV) |
 | **realme UI (RE6030L1) · Mystic** | 16 | `Realmeui-RE6030L1-16-1760755079080-AB-20251022-MysticGSI.img.xz` | 5.4 GB | 2025-10-22 | [⬇️ Download](https://drive.google.com/open?id=1gORFhQDorn94cSbQDIK-B7RAFHRjXQer) |
@@ -163,6 +164,7 @@ fastboot reboot
 | **Pixel (bluejay) · Mystic** | 16 | `Pixel-bluejay-16-14330257-AB-20251113-MysticGSI.img.xz` | 1.6 GB | 2025-11-13 | [⬇️ Скачать](https://drive.google.com/open?id=14XkUabowIR8axgFlFNQ-iy12od9w1e1Y) |
 | **OxygenOS (OP5D55L1) · Mystic** | 16 | `Oxygenos-OP5D55L1-16-1761160957356-AB-20251030-MysticGSI.img.xz` | 4.7 GB | 2025-10-30 | [⬇️ Скачать](https://drive.google.com/open?id=1ZSqB6XgaedA08Sm8xyAXlDDPHuEu9m8L) |
 | **ColorOS (OP5D06L1) · Mystic** | 16 | `Coloros-OP5D06L1-16-1760327042399-AB-20251029-MysticGSI.img.xz` | 3.5 GB | 2025-10-29 | [⬇️ Скачать](https://drive.google.com/open?id=1Zw7oryk8iSY9jqNcU3Ran0kulr-9bN9d) |
+| **realme UI (RE5C4FL1) · Mystic** | 16 | `Realmeui-RE5C4FL1-16-1760953953092-AB-20251024-MysticGSI.img.xz` | 5.3 GB | 2025-10-24 | [⬇️ Скачать](https://drive.google.com/open?id=1_VyJ0y6hHpTTnNQCP6nHezaNTW3h903p) |
 | **HyperOS (myron) · Mystic** | 16 | `Hyperos-myron-16-OS3.0.11.0.WPMCNXM-AB-20251023-MysticGSI.img.xz` | 4.7 GB | 2025-10-23 | [⬇️ Скачать](https://drive.google.com/open?id=1LIFnPdjJI-KYZKBvGSmNJB23CNobb4d6) |
 | **HyperOS (annibale) · Mystic** | 16 | `Hyperos-annibale-16-OS3.0.9.0.WPKCNXM-AB-20251023-MysticGSI.img.xz` | 4.4 GB | 2025-10-23 | [⬇️ Скачать](https://drive.google.com/open?id=1uOPqfiw28owxgXxtenRVX5zBuP4W66wV) |
 | **realme UI (RE6030L1) · Mystic** | 16 | `Realmeui-RE6030L1-16-1760755079080-AB-20251022-MysticGSI.img.xz` | 5.4 GB | 2025-10-22 | [⬇️ Скачать](https://drive.google.com/open?id=1gORFhQDorn94cSbQDIK-B7RAFHRjXQer) |
