@@ -12,7 +12,7 @@
     "name": "TrebleDroid AOSP (phh)",
     "tag": "ci-20250415",
     "file": "system-td-arm64-ab-vanilla.img.xz",
-    "android": "15",
+    "android": "?",
     "size_mb": 718,
     "link": "https://drive.google.com/open?id=1QTNeSPVGdGHuR1NAas5NV3vLiBHVv3Me",
     "date": "2025-04-15"
@@ -39,7 +39,7 @@
     "name": "ponces AOSP",
     "tag": "v2025.05.13",
     "file": "aosp-arm64-ab-gapps-15.0-20250513.img.xz",
-    "android": "13",
+    "android": "15",
     "size_mb": 1420,
     "link": "https://drive.google.com/open?id=1_d2pKToblPZTC1_rr-AIQKJBLAy1rX0B",
     "date": "2025-05-13"

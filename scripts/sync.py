@@ -52,6 +52,9 @@ def to_img(path: pathlib.Path) -> pathlib.Path:
 
 
 def detect_android(text):
+    m = re.search(r"-(1[3-9])\.0-", text)
+    if m:
+        return m.group(1)
     m = re.search(r"lineage-(\d\d)", text, re.I)
     if m:
         return str(int(m.group(1)) - 7)

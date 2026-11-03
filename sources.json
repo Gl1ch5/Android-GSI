@@ -1,5 +1,10 @@
 [
   {
+    "name": "LineageOS 24 (eyzner)",
+    "repo": "eyzner/LineageOS-GSI",
+    "asset_regex": "arm64.*\\.(img|img\\.xz|img\\.gz|zip|7z)$"
+  },
+  {
     "name": "Google GSI + Google apps (official)",
     "type": "url",
     "files": [
@@ -10,11 +15,6 @@
         "url": "https://dl.google.com/developers/android/cinnamonbun/images/gsi/gsi_gms_arm64-exp-CP41.260831.007.A3-16450490-9087c172.zip"
       }
     ]
-  },
-  {
-    "name": "LineageOS 24 (eyzner)",
-    "repo": "eyzner/LineageOS-GSI",
-    "asset_regex": "arm64.*\\.(img|img\\.xz|img\\.gz|zip|7z)$"
   },
   {
     "name": "TrebleDroid AOSP (phh)",
