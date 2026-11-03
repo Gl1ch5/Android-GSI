@@ -245,5 +245,15 @@
     "size_mb": 4597,
     "link": "https://drive.google.com/open?id=1nosBYGm84OUXa1U6I4zN7p_bMg_NM7AF",
     "date": "2025-10-17"
+  },
+  "mystic-gsi-updates/Oxygen/Oxygenos-OP595DL1-16-1763388908922-AB-20260104-MysticGSI.zip": {
+    "name": "OxygenOS (OP595DL1) · Mystic",
+    "tag": "Oxygen",
+    "file": "Oxygenos-OP595DL1-16-1763388908922-AB-20260104-MysticGSI.img.xz",
+    "src_file": "Oxygenos-OP595DL1-16-1763388908922-AB-20260104-MysticGSI.zip",
+    "android": "16",
+    "size_mb": 4148,
+    "link": "https://drive.google.com/open?id=1y3nsfx2jyiqNViR3jeHi9VjQVNiJpjn-",
+    "date": "2026-01-04"
   }
 }
