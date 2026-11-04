@@ -8,18 +8,19 @@
    "started": "2026-11-04T12:05:57+00:00"
   },
   {
-   "file": "Coloros-OP60EDL1-16-1763036366485-AB-20251123-MysticGSI.zip",
-   "name": "ColorOS (OP60EDL1) · Mystic",
-   "status": "in_progress",
-   "run": "41826132627",
-   "started": "2026-11-04T12:06:43+00:00"
-  },
-  {
    "file": "Coloros-OP60FFL1-16-1760951010663-AB-20251027-MysticGSI.zip",
    "name": "ColorOS (OP60FFL1) · Mystic",
    "status": "in_progress",
    "run": "41826132627",
    "started": "2026-11-04T12:06:07+00:00"
+  },
+  {
+   "file": "Coloros-OP60EDL1-16-1763036366485-AB-20251123-MysticGSI.zip",
+   "name": "ColorOS (OP60EDL1) · Mystic",
+   "status": "failure",
+   "run": "41826132627",
+   "started": "2026-11-04T12:06:43+00:00",
+   "finished": "2026-11-04T12:15:39+00:00"
   },
   {
    "file": "Pixel-arrow-16-15861848-AB-20260719-MysticGSI.zip",
@@ -131,6 +132,6 @@
    "finished": "2026-11-03T12:14:49Z"
   }
  ],
- "updated": "2026-11-04T12:15:01+00:00",
+ "updated": "2026-11-04T12:15:39+00:00",
  "run": "41826132627"
 }
