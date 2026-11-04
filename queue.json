@@ -1,13 +1,6 @@
 {
  "items": [
   {
-   "file": "Pixel-raven-17-16091614-AB-20260920-MysticGSI.zip",
-   "name": "Pixel (raven) · Mystic",
-   "status": "in_progress",
-   "run": "41826132627",
-   "started": "2026-11-04T12:06:35+00:00"
-  },
-  {
    "file": "Pixel-arrow-16-15861848-AB-20260719-MysticGSI.zip",
    "name": "Pixel (arrow) · Mystic",
    "status": "in_progress",
@@ -34,6 +27,14 @@
    "status": "in_progress",
    "run": "41826132627",
    "started": "2026-11-04T12:06:07+00:00"
+  },
+  {
+   "file": "Pixel-raven-17-16091614-AB-20260920-MysticGSI.zip",
+   "name": "Pixel (raven) · Mystic",
+   "status": "failure",
+   "run": "41826132627",
+   "started": "2026-11-04T12:06:35+00:00",
+   "finished": "2026-11-04T12:14:46+00:00"
   },
   {
    "file": "Magicos-WKL-AN10-17-eng.root-AB-20260919-MysticGSI_rebuild.7z",
@@ -129,6 +130,6 @@
    "finished": "2026-11-03T12:14:49Z"
   }
  ],
- "updated": "2026-11-04T12:14:15+00:00",
+ "updated": "2026-11-04T12:14:46+00:00",
  "run": "41826132627"
 }
