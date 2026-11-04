@@ -24,8 +24,9 @@
   {
    "file": "Pixel-arrow-16-15861848-AB-20260719-MysticGSI.zip",
    "name": "Pixel (arrow) · Mystic",
-   "status": "queued",
-   "run": "41826132627"
+   "status": "in_progress",
+   "run": "41826132627",
+   "started": "2026-11-04T12:06:49+00:00"
   },
   {
    "file": "Pixel-raven-17-15063635-AB-20260327-MysticGSI.zip",
@@ -117,6 +118,6 @@
    "finished": "2026-11-03T12:14:49Z"
   }
  ],
- "updated": "2026-11-04T12:06:46+00:00",
+ "updated": "2026-11-04T12:06:49+00:00",
  "run": "41826132627"
 }
