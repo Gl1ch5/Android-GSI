@@ -3,8 +3,9 @@
   {
    "file": "Pixel-raven-17-15063635-AB-20260327-MysticGSI.zip",
    "name": "Pixel (raven) · Mystic",
-   "status": "queued",
-   "run": "42025676183"
+   "status": "in_progress",
+   "run": "42025676183",
+   "started": "2026-11-05T12:18:40+00:00"
   },
   {
    "file": "Coloros-OP615EL1-16-1765357695451-AB-20251228-MysticGSI.zip",
@@ -99,6 +100,6 @@
    "finished": "2026-11-04T12:14:10Z"
   }
  ],
- "updated": "2026-11-05T12:18:34+00:00",
+ "updated": "2026-11-05T12:18:40+00:00",
  "run": "42025676183"
 }
