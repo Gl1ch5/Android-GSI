@@ -3,9 +3,10 @@
   {
    "file": "Coloros-OP60FFL1-16-1760951010663-AB-20251027-MysticGSI.zip",
    "name": "ColorOS (OP60FFL1) · Mystic",
-   "status": "in_progress",
+   "status": "failure",
    "run": "42025676183",
-   "started": "2026-11-05T12:18:17+00:00"
+   "started": "2026-11-05T12:18:17+00:00",
+   "finished": "2026-11-05T13:05:49+00:00"
   },
   {
    "file": "Coloros-OP60EDL1-16-1763036366485-AB-20251123-MysticGSI.zip",
@@ -108,6 +109,6 @@
    "finished": "2026-11-04T12:14:10Z"
   }
  ],
- "updated": "2026-11-05T12:23:46+00:00",
+ "updated": "2026-11-05T13:05:49+00:00",
  "run": "42025676183"
 }
