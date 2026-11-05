@@ -53,8 +53,9 @@
   {
    "file": "Hyperos-popsicle-16-OS3.0.7.0.WPBCNXM-AB-20250926-MysticGSI.zip",
    "name": "HyperOS (popsicle) · Mystic",
-   "status": "queued",
-   "run": "42025676183"
+   "status": "in_progress",
+   "run": "42025676183",
+   "started": "2026-11-05T12:17:59+00:00"
   },
   {
    "file": "Oxygenos-OP5D55L1-16-1744797430944-AB-20250915-MysticGSI.zip",
@@ -92,6 +93,6 @@
    "finished": "2026-11-04T12:14:10Z"
   }
  ],
- "updated": "2026-11-05T12:17:33+00:00",
+ "updated": "2026-11-05T12:17:59+00:00",
  "run": "42025676183"
 }
