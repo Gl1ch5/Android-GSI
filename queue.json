@@ -2,113 +2,75 @@
  "items": [
   {
    "file": "Coloros-OP60FFL1-16-1760951010663-AB-20251027-MysticGSI.zip",
-   "name": "ColorOS (OP60FFL1) · Mystic",
+   "name": "",
    "status": "failure",
-   "run": "42025676183",
-   "started": "2026-11-05T12:18:17+00:00",
-   "finished": "2026-11-05T13:05:49+00:00"
+   "started": "2026-11-05T12:16:28Z",
+   "finished": "2026-11-05T13:05:52Z"
   },
   {
    "file": "Coloros-OP60EDL1-16-1763036366485-AB-20251123-MysticGSI.zip",
-   "name": "ColorOS (OP60EDL1) · Mystic",
+   "name": "",
    "status": "failure",
-   "run": "42025676183",
-   "started": "2026-11-05T12:17:18+00:00",
-   "finished": "2026-11-05T12:23:46+00:00"
+   "started": "2026-11-05T12:16:28Z",
+   "finished": "2026-11-05T12:23:49Z"
   },
   {
    "file": "Hyperos-popsicle-16-OS3.0.7.0.WPBCNXM-AB-20250926-MysticGSI.zip",
-   "name": "HyperOS (popsicle) · Mystic",
+   "name": "",
    "status": "failure",
-   "run": "42025676183",
-   "started": "2026-11-05T12:17:59+00:00",
-   "finished": "2026-11-05T12:22:25+00:00"
+   "started": "2026-11-05T12:16:29Z",
+   "finished": "2026-11-05T12:22:29Z"
   },
   {
    "file": "Coloros-OP615EL1-16-1765357695451-AB-20251228-MysticGSI.zip",
-   "name": "ColorOS (OP615EL1) · Mystic",
+   "name": "",
    "status": "failure",
-   "run": "42025676183",
-   "started": "2026-11-05T12:18:04+00:00",
-   "finished": "2026-11-05T12:22:21+00:00"
+   "started": "2026-11-05T12:16:28Z",
+   "finished": "2026-11-05T12:22:23Z"
   },
   {
    "file": "Pixel-cheetah-16-14401865-AB-20251221-MysticGSI.zip",
-   "name": "Pixel (cheetah) · Mystic",
+   "name": "",
    "status": "failure",
-   "run": "42025676183",
-   "started": "2026-11-05T12:18:55+00:00",
-   "finished": "2026-11-05T12:21:28+00:00"
+   "started": "2026-11-05T12:16:28Z",
+   "finished": "2026-11-05T12:21:32Z"
   },
   {
    "file": "Pixel-cheetah-16-14401865-AB-20251220-MysticGSI.zip",
-   "name": "Pixel (cheetah) · Mystic",
+   "name": "",
    "status": "failure",
-   "run": "42025676183",
-   "started": "2026-11-05T12:17:25+00:00",
-   "finished": "2026-11-05T12:21:18+00:00"
+   "started": "2026-11-05T12:16:28Z",
+   "finished": "2026-11-05T12:21:22Z"
   },
   {
    "file": "Pixel-raven-17-15063635-AB-20260327-MysticGSI.zip",
-   "name": "Pixel (raven) · Mystic",
+   "name": "",
    "status": "failure",
-   "run": "42025676183",
-   "started": "2026-11-05T12:18:40+00:00",
-   "finished": "2026-11-05T12:19:48+00:00"
+   "started": "2026-11-05T12:16:28Z",
+   "finished": "2026-11-05T12:19:51Z"
   },
   {
    "file": "Hyperos-fuxi-16-OS3.0.2.0.WMCCNXM-AB-20251210-MysticGSI.zip",
-   "name": "HyperOS (fuxi) · Mystic",
+   "name": "",
    "status": "failure",
-   "run": "42025676183",
-   "started": "2026-11-05T12:18:24+00:00",
-   "finished": "2026-11-05T12:18:47+00:00"
+   "started": "2026-11-05T12:16:28Z",
+   "finished": "2026-11-05T12:18:54Z"
   },
   {
    "file": "Zuxos-TB322FC-16-TB322FC_CN_OPEN_USER_Q00041.1_W_ZUXOS_1.5.10.063_ST_260111-AB-20260114-MysticGSI.zip",
-   "name": "Zuxos (TB322FC) · Mystic",
+   "name": "",
    "status": "failure",
-   "run": "42025676183",
-   "started": "2026-11-05T12:18:01+00:00",
-   "finished": "2026-11-05T12:18:34+00:00"
+   "started": "2026-11-05T12:16:28Z",
+   "finished": "2026-11-05T12:18:38Z"
   },
   {
    "file": "Oxygenos-OP5D55L1-16-1744797430944-AB-20250915-MysticGSI.zip",
-   "name": "OxygenOS (OP5D55L1) · Mystic",
-   "status": "failure",
-   "run": "42025676183",
-   "started": "2026-11-05T12:17:33+00:00",
-   "finished": "2026-11-05T12:18:09+00:00"
-  },
-  {
-   "file": "Pixel-arrow-16-15861848-AB-20260719-MysticGSI.zip",
    "name": "",
    "status": "failure",
-   "started": "2026-11-04T12:04:56Z",
-   "finished": "2026-11-04T12:15:05Z"
-  },
-  {
-   "file": "Pixel-raven-17-16091614-AB-20260920-MysticGSI.zip",
-   "name": "",
-   "status": "failure",
-   "started": "2026-11-04T12:04:56Z",
-   "finished": "2026-11-04T12:14:49Z"
-  },
-  {
-   "file": "Magicos-WKL-AN10-17-eng.root-AB-20260919-MysticGSI_rebuild.7z",
-   "name": "",
-   "status": "failure",
-   "started": "2026-11-04T12:04:56Z",
-   "finished": "2026-11-04T12:14:19Z"
-  },
-  {
-   "file": "Aluminium-quartz-CL2B.260330.037_MysticGSI.img.zip",
-   "name": "",
-   "status": "failure",
-   "started": "2026-11-04T12:04:56Z",
-   "finished": "2026-11-04T12:14:10Z"
+   "started": "2026-11-05T12:16:28Z",
+   "finished": "2026-11-05T12:18:12Z"
   }
  ],
- "updated": "2026-11-05T13:05:49+00:00",
+ "updated": "2026-11-05T16:37:38+00:00",
  "run": "42025676183"
 }
