@@ -1,13 +1,6 @@
 {
  "items": [
   {
-   "file": "Pixel-raven-17-15063635-AB-20260327-MysticGSI.zip",
-   "name": "Pixel (raven) · Mystic",
-   "status": "in_progress",
-   "run": "42025676183",
-   "started": "2026-11-05T12:18:40+00:00"
-  },
-  {
    "file": "Coloros-OP615EL1-16-1765357695451-AB-20251228-MysticGSI.zip",
    "name": "ColorOS (OP615EL1) · Mystic",
    "status": "in_progress",
@@ -48,6 +41,14 @@
    "status": "in_progress",
    "run": "42025676183",
    "started": "2026-11-05T12:17:59+00:00"
+  },
+  {
+   "file": "Pixel-raven-17-15063635-AB-20260327-MysticGSI.zip",
+   "name": "Pixel (raven) · Mystic",
+   "status": "failure",
+   "run": "42025676183",
+   "started": "2026-11-05T12:18:40+00:00",
+   "finished": "2026-11-05T12:19:48+00:00"
   },
   {
    "file": "Hyperos-fuxi-16-OS3.0.2.0.WMCCNXM-AB-20251210-MysticGSI.zip",
@@ -102,6 +103,6 @@
    "finished": "2026-11-04T12:14:10Z"
   }
  ],
- "updated": "2026-11-05T12:18:55+00:00",
+ "updated": "2026-11-05T12:19:48+00:00",
  "run": "42025676183"
 }
