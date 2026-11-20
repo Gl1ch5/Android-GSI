@@ -91,8 +91,9 @@
   {
    "file": "lineage-21.0-20261109-UNOFFICIAL-arm64_bgN-vndklite-signed.img.gz",
    "name": "LineageOS GSI (AndyYan)",
-   "status": "queued",
-   "run": "44739129528"
+   "status": "in_progress",
+   "run": "44739129528",
+   "started": "2026-11-20T12:53:04+00:00"
   },
   {
    "file": "lineage-21.0-20261109-UNOFFICIAL-arm64_bgN-signed.img.gz",
@@ -110,6 +111,6 @@
    "finished": "2026-11-20T12:52:36+00:00"
   }
  ],
- "updated": "2026-11-20T12:52:59+00:00",
+ "updated": "2026-11-20T12:53:04+00:00",
  "run": "44739129528"
 }
