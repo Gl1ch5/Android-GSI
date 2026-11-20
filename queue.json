@@ -1,13 +1,6 @@
 {
  "items": [
   {
-   "file": "Aluminium-quartz-CL2B.260330.037_MysticGSI.img.zip",
-   "name": "Aluminium (quartz) · Mystic",
-   "status": "in_progress",
-   "run": "44739129528",
-   "started": "2026-11-20T12:52:21+00:00"
-  },
-  {
    "file": "Pixel-cheetah-16-14401865-AB-20251221-MysticGSI.zip",
    "name": "Pixel (cheetah) · Mystic",
    "status": "in_progress",
@@ -48,6 +41,14 @@
    "status": "in_progress",
    "run": "44739129528",
    "started": "2026-11-20T12:51:57+00:00"
+  },
+  {
+   "file": "Aluminium-quartz-CL2B.260330.037_MysticGSI.img.zip",
+   "name": "Aluminium (quartz) · Mystic",
+   "status": "failure",
+   "run": "44739129528",
+   "started": "2026-11-20T12:52:21+00:00",
+   "finished": "2026-11-20T13:00:33+00:00"
   },
   {
    "file": "Magicos-WKL-AN10-17-eng.root-AB-20260919-MysticGSI_rebuild.7z",
@@ -122,6 +123,6 @@
    "finished": "2026-11-20T12:52:36+00:00"
   }
  ],
- "updated": "2026-11-20T13:00:04+00:00",
+ "updated": "2026-11-20T13:00:33+00:00",
  "run": "44739129528"
 }
