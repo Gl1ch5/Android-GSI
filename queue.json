@@ -58,8 +58,9 @@
   {
    "file": "Hyperos-fuxi-16-OS3.0.2.0.WMCCNXM-AB-20251210-MysticGSI.zip",
    "name": "HyperOS (fuxi) · Mystic",
-   "status": "queued",
-   "run": "44739129528"
+   "status": "in_progress",
+   "run": "44739129528",
+   "started": "2026-11-20T12:53:18+00:00"
   },
   {
    "file": "Coloros-OP60EDL1-16-1763036366485-AB-20251123-MysticGSI.zip",
@@ -112,6 +113,6 @@
    "finished": "2026-11-20T12:52:36+00:00"
   }
  ],
- "updated": "2026-11-20T12:53:11+00:00",
+ "updated": "2026-11-20T12:53:18+00:00",
  "run": "44739129528"
 }
