@@ -38,9 +38,10 @@
   {
    "file": "lineage-21.0-20261109-UNOFFICIAL-arm64_bgN-signed.img.gz",
    "name": "LineageOS GSI (AndyYan)",
-   "status": "in_progress",
+   "status": "success",
    "run": "44739129528",
-   "started": "2026-11-20T12:51:57+00:00"
+   "started": "2026-11-20T12:51:57+00:00",
+   "finished": "2026-11-20T13:02:54+00:00"
   },
   {
    "file": "Aluminium-quartz-CL2B.260330.037_MysticGSI.img.zip",
@@ -123,6 +124,6 @@
    "finished": "2026-11-20T12:52:36+00:00"
   }
  ],
- "updated": "2026-11-20T13:00:33+00:00",
+ "updated": "2026-11-20T13:02:54+00:00",
  "run": "44739129528"
 }
