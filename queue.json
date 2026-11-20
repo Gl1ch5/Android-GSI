@@ -3,9 +3,10 @@
   {
    "file": "Coloros-OP60EDL1-16-1763036366485-AB-20251123-MysticGSI.zip",
    "name": "ColorOS (OP60EDL1) · Mystic",
-   "status": "in_progress",
+   "status": "failure",
    "run": "44739129528",
-   "started": "2026-11-20T12:52:40+00:00"
+   "started": "2026-11-20T12:52:40+00:00",
+   "finished": "2026-11-20T13:38:24+00:00"
   },
   {
    "file": "Hyperos-popsicle-16-OS3.0.7.0.WPBCNXM-AB-20250926-MysticGSI.zip",
@@ -128,6 +129,6 @@
    "finished": "2026-11-20T12:52:36+00:00"
   }
  ],
- "updated": "2026-11-20T13:15:57+00:00",
+ "updated": "2026-11-20T13:38:24+00:00",
  "run": "44739129528"
 }
