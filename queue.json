@@ -10,9 +10,10 @@
   {
    "file": "Hyperos-popsicle-16-OS3.0.7.0.WPBCNXM-AB-20250926-MysticGSI.zip",
    "name": "HyperOS (popsicle) · Mystic",
-   "status": "in_progress",
+   "status": "failure",
    "run": "44739129528",
-   "started": "2026-11-20T12:53:11+00:00"
+   "started": "2026-11-20T12:53:11+00:00",
+   "finished": "2026-11-20T13:15:57+00:00"
   },
   {
    "file": "lineage-21.0-20261109-UNOFFICIAL-arm64_bgN-vndklite-signed.img.gz",
@@ -127,6 +128,6 @@
    "finished": "2026-11-20T12:52:36+00:00"
   }
  ],
- "updated": "2026-11-20T13:12:50+00:00",
+ "updated": "2026-11-20T13:15:57+00:00",
  "run": "44739129528"
 }
