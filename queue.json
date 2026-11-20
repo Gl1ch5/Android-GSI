@@ -3,8 +3,9 @@
   {
    "file": "Pixel-raven-17-16091614-AB-20260920-MysticGSI.zip",
    "name": "Pixel (raven) · Mystic",
-   "status": "queued",
-   "run": "44739129528"
+   "status": "in_progress",
+   "run": "44739129528",
+   "started": "2026-11-20T12:51:48+00:00"
   },
   {
    "file": "Magicos-WKL-AN10-17-eng.root-AB-20260919-MysticGSI_rebuild.7z",
@@ -98,6 +99,6 @@
    "run": "44739129528"
   }
  ],
- "updated": "2026-11-20T12:51:45+00:00",
+ "updated": "2026-11-20T12:51:48+00:00",
  "run": "44739129528"
 }
