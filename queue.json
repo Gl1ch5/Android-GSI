@@ -71,18 +71,19 @@
    "started": "2026-11-21T12:37:31+00:00"
   },
   {
-   "file": "Oxygenos-OP5D55L1-16-1744797430944-AB-20250915-MysticGSI.zip",
-   "name": "OxygenOS (OP5D55L1) · Mystic",
-   "status": "in_progress",
-   "run": "44904692602",
-   "started": "2026-11-21T12:37:56+00:00"
-  },
-  {
    "file": "lineage-21.0-20261109-UNOFFICIAL-arm64_bgN-vndklite-signed.img.gz",
    "name": "LineageOS GSI (AndyYan)",
    "status": "in_progress",
    "run": "44904692602",
    "started": "2026-11-21T12:37:34+00:00"
+  },
+  {
+   "file": "Oxygenos-OP5D55L1-16-1744797430944-AB-20250915-MysticGSI.zip",
+   "name": "OxygenOS (OP5D55L1) · Mystic",
+   "status": "failure",
+   "run": "44904692602",
+   "started": "2026-11-21T12:37:56+00:00",
+   "finished": "2026-11-21T12:42:15+00:00"
   },
   {
    "file": "Coloros-OP60FFL1-16-1760951010663-AB-20251027-MysticGSI.zip",
@@ -125,6 +126,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-21T12:40:35+00:00",
+ "updated": "2026-11-21T12:42:15+00:00",
  "run": "44904692602"
 }
