@@ -32,13 +32,6 @@
    "run": "44904692602"
   },
   {
-   "file": "Pixel-raven-17-15063635-AB-20260327-MysticGSI.zip",
-   "name": "Pixel (raven) · Mystic",
-   "status": "in_progress",
-   "run": "44904692602",
-   "started": "2026-11-21T12:37:11+00:00"
-  },
-  {
    "file": "Zuxos-TB322FC-16-TB322FC_CN_OPEN_USER_Q00041.1_W_ZUXOS_1.5.10.063_ST_260111-AB-20260114-MysticGSI.zip",
    "name": "Zuxos (TB322FC) · Mystic",
    "status": "queued",
@@ -99,6 +92,14 @@
    "run": "44904692602"
   },
   {
+   "file": "Pixel-raven-17-15063635-AB-20260327-MysticGSI.zip",
+   "name": "Pixel (raven) · Mystic",
+   "status": "failure",
+   "run": "44904692602",
+   "started": "2026-11-21T12:37:11+00:00",
+   "finished": "2026-11-21T12:37:16+00:00"
+  },
+  {
    "file": "lineage-21.0-20261109-UNOFFICIAL-arm64_bgN-signed.img.gz",
    "name": "LineageOS GSI (AndyYan)",
    "status": "success",
@@ -107,6 +108,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-21T12:37:11+00:00",
+ "updated": "2026-11-21T12:37:16+00:00",
  "run": "44904692602"
 }
