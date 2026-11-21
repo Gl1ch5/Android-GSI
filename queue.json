@@ -90,8 +90,9 @@
   {
    "file": "lineage-21.0-20261109-UNOFFICIAL-arm64_bgN-vndklite-signed.img.gz",
    "name": "LineageOS GSI (AndyYan)",
-   "status": "queued",
-   "run": "44904692602"
+   "status": "in_progress",
+   "run": "44904692602",
+   "started": "2026-11-21T12:37:34+00:00"
   },
   {
    "file": "Pixel-raven-17-15063635-AB-20260327-MysticGSI.zip",
@@ -110,6 +111,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-21T12:37:31+00:00",
+ "updated": "2026-11-21T12:37:34+00:00",
  "run": "44904692602"
 }
