@@ -24,9 +24,10 @@
   {
    "file": "lineage-21.0-20261109-UNOFFICIAL-arm64_bgN-vndklite-signed.img.gz",
    "name": "LineageOS GSI (AndyYan)",
-   "status": "in_progress",
+   "status": "success",
    "run": "44904692602",
-   "started": "2026-11-21T12:37:34+00:00"
+   "started": "2026-11-21T12:37:34+00:00",
+   "finished": "2026-11-21T12:58:43+00:00"
   },
   {
    "file": "Pixel-cheetah-16-14401865-AB-20251220-MysticGSI.zip",
@@ -133,6 +134,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-21T12:57:45+00:00",
+ "updated": "2026-11-21T12:58:43+00:00",
  "run": "44904692602"
 }
