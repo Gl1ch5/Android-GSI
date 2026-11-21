@@ -26,6 +26,7 @@ Catalog with search, filters, live queue and ROM requests<br>
 | ROM | Version | Android | Size | Date | Download |
 |---|---|:---:|---:|---|:---:|
 | **LineageOS GSI (AndyYan)** | LineageOS 21.0 | 14 | 1.3 GB | 2026-11-09 | [⚡ .img](https://drive.google.com/open?id=1MV5-PQqJJoindtAdSAEeh5bxs7WAnZPW) · [⬇️ .gz](https://drive.google.com/open?id=1w9KTJJ7svUfY3YpmOf9cQ03HnB7kHcsl) |
+| **LineageOS GSI (AndyYan)** | LineageOS 21.0 | 14 | 1.3 GB | 2026-11-09 | [⚡ .img](https://drive.google.com/open?id=1JEj0YAmqcYcDNafh3f_9QfnC_67OcCcs) · [⬇️ .gz](https://drive.google.com/open?id=11D7yKd1uVMQQMC79He0oiGI77VbzyOdV) |
 | **Pixel 17 (MysticGSI)** | Pixel · Android 17 | 17 | 3.9 GB | 2026-11-03 | [⬇️ .img](https://drive.google.com/open?id=1V3HzCxgyifPeCM5eIQi_o6KxqiwoFEVR) |
 | **RestlessOS (A17)** | 17.0.0 | 17 | 0.9 GB | 2026-11-02 | [⬇️ .xz](https://drive.google.com/open?id=1r2S3xgX7Z3qEG1L2-nxRDFT01MUOAB40) |
 | **RestlessOS (A17)** | 17.0.0 | 17 | 1.1 GB | 2026-11-02 | [⬇️ .xz](https://drive.google.com/open?id=1jS9IKK7kfGx58ofROUa0Qu8OpnitkUPM) |
@@ -169,6 +170,7 @@ fastboot reboot
 | Прошивка | Версия | Android | Размер | Дата | Скачать |
 |---|---|:---:|---:|---|:---:|
 | **LineageOS GSI (AndyYan)** | LineageOS 21.0 | 14 | 1.3 GB | 2026-11-09 | [⚡ .img](https://drive.google.com/open?id=1MV5-PQqJJoindtAdSAEeh5bxs7WAnZPW) · [⬇️ .gz](https://drive.google.com/open?id=1w9KTJJ7svUfY3YpmOf9cQ03HnB7kHcsl) |
+| **LineageOS GSI (AndyYan)** | LineageOS 21.0 | 14 | 1.3 GB | 2026-11-09 | [⚡ .img](https://drive.google.com/open?id=1JEj0YAmqcYcDNafh3f_9QfnC_67OcCcs) · [⬇️ .gz](https://drive.google.com/open?id=11D7yKd1uVMQQMC79He0oiGI77VbzyOdV) |
 | **Pixel 17 (MysticGSI)** | Pixel · Android 17 | 17 | 3.9 GB | 2026-11-03 | [⬇️ .img](https://drive.google.com/open?id=1V3HzCxgyifPeCM5eIQi_o6KxqiwoFEVR) |
 | **RestlessOS (A17)** | 17.0.0 | 17 | 0.9 GB | 2026-11-02 | [⬇️ .xz](https://drive.google.com/open?id=1r2S3xgX7Z3qEG1L2-nxRDFT01MUOAB40) |
 | **RestlessOS (A17)** | 17.0.0 | 17 | 1.1 GB | 2026-11-02 | [⬇️ .xz](https://drive.google.com/open?id=1jS9IKK7kfGx58ofROUa0Qu8OpnitkUPM) |
