@@ -70,13 +70,6 @@
    "started": "2026-11-22T12:35:16+00:00"
   },
   {
-   "file": "Hyperos-fuxi-16-OS3.0.2.0.WMCCNXM-AB-20251210-MysticGSI.zip",
-   "name": "HyperOS (fuxi) · Mystic",
-   "status": "in_progress",
-   "run": "45022845419",
-   "started": "2026-11-22T12:35:32+00:00"
-  },
-  {
    "file": "Coloros-OP60EDL1-16-1763036366485-AB-20251123-MysticGSI.zip",
    "name": "ColorOS (OP60EDL1) · Mystic",
    "status": "in_progress",
@@ -104,6 +97,14 @@
    "run": "45022845419"
   },
   {
+   "file": "Hyperos-fuxi-16-OS3.0.2.0.WMCCNXM-AB-20251210-MysticGSI.zip",
+   "name": "HyperOS (fuxi) · Mystic",
+   "status": "failure",
+   "run": "45022845419",
+   "started": "2026-11-22T12:35:32+00:00",
+   "finished": "2026-11-22T12:35:35+00:00"
+  },
+  {
    "file": "Infinity-X-4.2-GSI_treble_arm64-ab-GAPPS-Official-20261120.img.xz",
    "name": "Infinity X",
    "status": "success",
@@ -128,6 +129,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-22T12:35:32+00:00",
+ "updated": "2026-11-22T12:35:35+00:00",
  "run": "45022845419"
 }
