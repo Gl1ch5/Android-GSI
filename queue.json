@@ -36,13 +36,6 @@
    "started": "2026-11-22T12:34:25+00:00"
   },
   {
-   "file": "Pixel-raven-17-15063635-AB-20260327-MysticGSI.zip",
-   "name": "Pixel (raven) · Mystic",
-   "status": "in_progress",
-   "run": "45022845419",
-   "started": "2026-11-22T12:35:51+00:00"
-  },
-  {
    "file": "Zuxos-TB322FC-16-TB322FC_CN_OPEN_USER_Q00041.1_W_ZUXOS_1.5.10.063_ST_260111-AB-20260114-MysticGSI.zip",
    "name": "Zuxos (TB322FC) · Mystic",
    "status": "in_progress",
@@ -99,6 +92,14 @@
    "started": "2026-11-22T12:35:39+00:00"
   },
   {
+   "file": "Pixel-raven-17-15063635-AB-20260327-MysticGSI.zip",
+   "name": "Pixel (raven) · Mystic",
+   "status": "failure",
+   "run": "45022845419",
+   "started": "2026-11-22T12:35:51+00:00",
+   "finished": "2026-11-22T12:35:55+00:00"
+  },
+  {
    "file": "Hyperos-fuxi-16-OS3.0.2.0.WMCCNXM-AB-20251210-MysticGSI.zip",
    "name": "HyperOS (fuxi) · Mystic",
    "status": "failure",
@@ -131,6 +132,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-22T12:35:51+00:00",
+ "updated": "2026-11-22T12:35:55+00:00",
  "run": "45022845419"
 }
