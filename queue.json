@@ -1,18 +1,19 @@
 {
  "items": [
   {
-   "file": "Magicos-WKL-AN10-17-eng.root-AB-20260919-MysticGSI_rebuild.7z",
-   "name": "MagicOS (WKL) · Mystic",
-   "status": "in_progress",
-   "run": "45022845419",
-   "started": "2026-11-22T12:35:03+00:00"
-  },
-  {
    "file": "Coloros-OP60EDL1-16-1763036366485-AB-20251123-MysticGSI.zip",
    "name": "ColorOS (OP60EDL1) · Mystic",
    "status": "in_progress",
    "run": "45022845419",
    "started": "2026-11-22T12:34:56+00:00"
+  },
+  {
+   "file": "Magicos-WKL-AN10-17-eng.root-AB-20260919-MysticGSI_rebuild.7z",
+   "name": "MagicOS (WKL) · Mystic",
+   "status": "failure",
+   "run": "45022845419",
+   "started": "2026-11-22T12:35:03+00:00",
+   "finished": "2026-11-22T12:43:16+00:00"
   },
   {
    "file": "Pixel-arrow-16-15861848-AB-20260719-MysticGSI.zip",
@@ -143,6 +144,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-22T12:43:04+00:00",
+ "updated": "2026-11-22T12:43:16+00:00",
  "run": "45022845419"
 }
