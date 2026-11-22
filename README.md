@@ -26,6 +26,7 @@ Catalog with search, filters, live queue and ROM requests<br>
 | ROM | Version | Android | Size | Date | Download |
 |---|---|:---:|---:|---|:---:|
 | **Infinity X** | 4.2 | 17 | 2.1 GB | 2026-11-21 | [⚡ .img](https://drive.google.com/open?id=1tIwTjwLSrF69TFzbpegZQtgb2b6I2Y-Z) · [⬇️ .gz](https://drive.google.com/open?id=1BgGm6COPNKU6McYqNzFUUPbdbntUesNf) |
+| **BestGSI** | — | 17 | 0.9 GB | 2026-11-21 | [⚡ .img](https://drive.google.com/open?id=1BFNP0yNyiTJqk6YPmhBaq1eFOXmjDk7S) · [⬇️ .gz](https://drive.google.com/open?id=1091jKZ7Fxm_ABxQ0xkdwVs6icTpZQDBk) |
 | **LineageOS GSI (AndyYan)** | LineageOS 21.0 | 14 | 1.3 GB | 2026-11-09 | [⚡ .img](https://drive.google.com/open?id=1MV5-PQqJJoindtAdSAEeh5bxs7WAnZPW) · [⬇️ .gz](https://drive.google.com/open?id=1w9KTJJ7svUfY3YpmOf9cQ03HnB7kHcsl) |
 | **LineageOS GSI (AndyYan)** | LineageOS 21.0 | 14 | 1.3 GB | 2026-11-09 | [⚡ .img](https://drive.google.com/open?id=1JEj0YAmqcYcDNafh3f_9QfnC_67OcCcs) · [⬇️ .gz](https://drive.google.com/open?id=11D7yKd1uVMQQMC79He0oiGI77VbzyOdV) |
 | **Pixel 17 (MysticGSI)** | Pixel · Android 17 | 17 | 3.9 GB | 2026-11-03 | [⬇️ .img](https://drive.google.com/open?id=1V3HzCxgyifPeCM5eIQi_o6KxqiwoFEVR) |
@@ -171,6 +172,7 @@ fastboot reboot
 | Прошивка | Версия | Android | Размер | Дата | Скачать |
 |---|---|:---:|---:|---|:---:|
 | **Infinity X** | 4.2 | 17 | 2.1 GB | 2026-11-21 | [⚡ .img](https://drive.google.com/open?id=1tIwTjwLSrF69TFzbpegZQtgb2b6I2Y-Z) · [⬇️ .gz](https://drive.google.com/open?id=1BgGm6COPNKU6McYqNzFUUPbdbntUesNf) |
+| **BestGSI** | — | 17 | 0.9 GB | 2026-11-21 | [⚡ .img](https://drive.google.com/open?id=1BFNP0yNyiTJqk6YPmhBaq1eFOXmjDk7S) · [⬇️ .gz](https://drive.google.com/open?id=1091jKZ7Fxm_ABxQ0xkdwVs6icTpZQDBk) |
 | **LineageOS GSI (AndyYan)** | LineageOS 21.0 | 14 | 1.3 GB | 2026-11-09 | [⚡ .img](https://drive.google.com/open?id=1MV5-PQqJJoindtAdSAEeh5bxs7WAnZPW) · [⬇️ .gz](https://drive.google.com/open?id=1w9KTJJ7svUfY3YpmOf9cQ03HnB7kHcsl) |
 | **LineageOS GSI (AndyYan)** | LineageOS 21.0 | 14 | 1.3 GB | 2026-11-09 | [⚡ .img](https://drive.google.com/open?id=1JEj0YAmqcYcDNafh3f_9QfnC_67OcCcs) · [⬇️ .gz](https://drive.google.com/open?id=11D7yKd1uVMQQMC79He0oiGI77VbzyOdV) |
 | **Pixel 17 (MysticGSI)** | Pixel · Android 17 | 17 | 3.9 GB | 2026-11-03 | [⬇️ .img](https://drive.google.com/open?id=1V3HzCxgyifPeCM5eIQi_o6KxqiwoFEVR) |

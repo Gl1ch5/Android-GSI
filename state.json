@@ -1127,5 +1127,17 @@
     "raw_link": "https://drive.google.com/open?id=1tIwTjwLSrF69TFzbpegZQtgb2b6I2Y-Z",
     "raw_mb": 4374,
     "date": "2026-11-21"
+  },
+  "amintum/BestGSI/17QPR0/BestGSI_Arm64_AB.img.xz": {
+    "name": "BestGSI",
+    "tag": "17QPR0",
+    "file": "BestGSI_Arm64_AB.img.gz",
+    "src_file": "BestGSI_Arm64_AB.img.xz",
+    "android": "17",
+    "size_mb": 969,
+    "link": "https://drive.google.com/open?id=1091jKZ7Fxm_ABxQ0xkdwVs6icTpZQDBk",
+    "raw_link": "https://drive.google.com/open?id=1BFNP0yNyiTJqk6YPmhBaq1eFOXmjDk7S",
+    "raw_mb": 2272,
+    "date": "2026-11-21"
   }
 }
