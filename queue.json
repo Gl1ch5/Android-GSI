@@ -64,18 +64,19 @@
    "started": "2026-11-22T12:34:56+00:00"
   },
   {
-   "file": "Coloros-OP60FFL1-16-1760951010663-AB-20251027-MysticGSI.zip",
-   "name": "ColorOS (OP60FFL1) · Mystic",
-   "status": "in_progress",
-   "run": "45022845419",
-   "started": "2026-11-22T12:35:13+00:00"
-  },
-  {
    "file": "Hyperos-popsicle-16-OS3.0.7.0.WPBCNXM-AB-20250926-MysticGSI.zip",
    "name": "HyperOS (popsicle) · Mystic",
    "status": "in_progress",
    "run": "45022845419",
    "started": "2026-11-22T12:35:21+00:00"
+  },
+  {
+   "file": "Coloros-OP60FFL1-16-1760951010663-AB-20251027-MysticGSI.zip",
+   "name": "ColorOS (OP60FFL1) · Mystic",
+   "status": "failure",
+   "run": "45022845419",
+   "started": "2026-11-22T12:35:13+00:00",
+   "finished": "2026-11-22T12:37:25+00:00"
   },
   {
    "file": "Oxygenos-OP5D55L1-16-1744797430944-AB-20250915-MysticGSI.zip",
@@ -134,6 +135,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-22T12:36:37+00:00",
+ "updated": "2026-11-22T12:37:25+00:00",
  "run": "45022845419"
 }
