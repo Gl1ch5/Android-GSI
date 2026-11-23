@@ -45,8 +45,9 @@
   {
    "file": "Pixel-cheetah-16-14401865-AB-20251221-MysticGSI.zip",
    "name": "Pixel (cheetah) · Mystic",
-   "status": "queued",
-   "run": "45195349300"
+   "status": "in_progress",
+   "run": "45195349300",
+   "started": "2026-11-23T14:34:19+00:00"
   },
   {
    "file": "Pixel-cheetah-16-14401865-AB-20251220-MysticGSI.zip",
@@ -118,6 +119,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-23T14:34:09+00:00",
+ "updated": "2026-11-23T14:34:19+00:00",
  "run": "45195349300"
 }
