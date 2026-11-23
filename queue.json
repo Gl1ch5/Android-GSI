@@ -50,13 +50,6 @@
    "started": "2026-11-23T14:35:35+00:00"
   },
   {
-   "file": "Hyperos-fuxi-16-OS3.0.2.0.WMCCNXM-AB-20251210-MysticGSI.zip",
-   "name": "HyperOS (fuxi) · Mystic",
-   "status": "in_progress",
-   "run": "45195349300",
-   "started": "2026-11-23T14:35:58+00:00"
-  },
-  {
    "file": "Coloros-OP60EDL1-16-1763036366485-AB-20251123-MysticGSI.zip",
    "name": "ColorOS (OP60EDL1) · Mystic",
    "status": "in_progress",
@@ -83,6 +76,14 @@
    "status": "in_progress",
    "run": "45195349300",
    "started": "2026-11-23T14:34:57+00:00"
+  },
+  {
+   "file": "Hyperos-fuxi-16-OS3.0.2.0.WMCCNXM-AB-20251210-MysticGSI.zip",
+   "name": "HyperOS (fuxi) · Mystic",
+   "status": "failure",
+   "run": "45195349300",
+   "started": "2026-11-23T14:35:58+00:00",
+   "finished": "2026-11-23T14:36:03+00:00"
   },
   {
    "file": "Zuxos-TB322FC-16-TB322FC_CN_OPEN_USER_Q00041.1_W_ZUXOS_1.5.10.063_ST_260111-AB-20260114-MysticGSI.zip",
@@ -133,6 +134,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-23T14:35:58+00:00",
+ "updated": "2026-11-23T14:36:03+00:00",
  "run": "45195349300"
 }
