@@ -40,8 +40,9 @@
   {
    "file": "Coloros-OP615EL1-16-1765357695451-AB-20251228-MysticGSI.zip",
    "name": "ColorOS (OP615EL1) · Mystic",
-   "status": "queued",
-   "run": "45195349300"
+   "status": "in_progress",
+   "run": "45195349300",
+   "started": "2026-11-23T14:34:25+00:00"
   },
   {
    "file": "Pixel-cheetah-16-14401865-AB-20251221-MysticGSI.zip",
@@ -120,6 +121,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-23T14:34:23+00:00",
+ "updated": "2026-11-23T14:34:25+00:00",
  "run": "45195349300"
 }
