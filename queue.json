@@ -57,13 +57,6 @@
    "started": "2026-11-24T14:50:40+00:00"
   },
   {
-   "file": "Hyperos-fuxi-16-OS3.0.2.0.WMCCNXM-AB-20251210-MysticGSI.zip",
-   "name": "HyperOS (fuxi) · Mystic",
-   "status": "in_progress",
-   "run": "45418332212",
-   "started": "2026-11-24T14:50:46+00:00"
-  },
-  {
    "file": "Coloros-OP60EDL1-16-1763036366485-AB-20251123-MysticGSI.zip",
    "name": "ColorOS (OP60EDL1) · Mystic",
    "status": "queued",
@@ -87,6 +80,14 @@
    "name": "OxygenOS (OP5D55L1) · Mystic",
    "status": "queued",
    "run": "45418332212"
+  },
+  {
+   "file": "Hyperos-fuxi-16-OS3.0.2.0.WMCCNXM-AB-20251210-MysticGSI.zip",
+   "name": "HyperOS (fuxi) · Mystic",
+   "status": "failure",
+   "run": "45418332212",
+   "started": "2026-11-24T14:50:46+00:00",
+   "finished": "2026-11-24T14:50:50+00:00"
   },
   {
    "file": "BestGSI_Arm64_AB.img.xz",
@@ -121,6 +122,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-24T14:50:46+00:00",
+ "updated": "2026-11-24T14:50:50+00:00",
  "run": "45418332212"
 }
