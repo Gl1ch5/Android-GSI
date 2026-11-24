@@ -51,8 +51,9 @@
   {
    "file": "Pixel-cheetah-16-14401865-AB-20251220-MysticGSI.zip",
    "name": "Pixel (cheetah) · Mystic",
-   "status": "queued",
-   "run": "45418332212"
+   "status": "in_progress",
+   "run": "45418332212",
+   "started": "2026-11-24T14:50:40+00:00"
   },
   {
    "file": "Hyperos-fuxi-16-OS3.0.2.0.WMCCNXM-AB-20251210-MysticGSI.zip",
@@ -118,6 +119,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-24T14:50:37+00:00",
+ "updated": "2026-11-24T14:50:40+00:00",
  "run": "45418332212"
 }
