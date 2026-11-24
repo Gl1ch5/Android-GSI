@@ -29,13 +29,6 @@
    "started": "2026-11-24T14:51:27+00:00"
   },
   {
-   "file": "Zuxos-TB322FC-16-TB322FC_CN_OPEN_USER_Q00041.1_W_ZUXOS_1.5.10.063_ST_260111-AB-20260114-MysticGSI.zip",
-   "name": "Zuxos (TB322FC) · Mystic",
-   "status": "in_progress",
-   "run": "45418332212",
-   "started": "2026-11-24T14:51:19+00:00"
-  },
-  {
    "file": "Pixel-cheetah-16-14401865-AB-20251221-MysticGSI.zip",
    "name": "Pixel (cheetah) · Mystic",
    "status": "in_progress",
@@ -75,6 +68,14 @@
    "name": "OxygenOS (OP5D55L1) · Mystic",
    "status": "queued",
    "run": "45418332212"
+  },
+  {
+   "file": "Zuxos-TB322FC-16-TB322FC_CN_OPEN_USER_Q00041.1_W_ZUXOS_1.5.10.063_ST_260111-AB-20260114-MysticGSI.zip",
+   "name": "Zuxos (TB322FC) · Mystic",
+   "status": "failure",
+   "run": "45418332212",
+   "started": "2026-11-24T14:51:19+00:00",
+   "finished": "2026-11-24T14:51:54+00:00"
   },
   {
    "file": "Coloros-OP615EL1-16-1765357695451-AB-20251228-MysticGSI.zip",
@@ -133,6 +134,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-24T14:51:48+00:00",
+ "updated": "2026-11-24T14:51:54+00:00",
  "run": "45418332212"
 }
