@@ -81,8 +81,9 @@
   {
    "file": "Oxygenos-OP5D55L1-16-1744797430944-AB-20250915-MysticGSI.zip",
    "name": "OxygenOS (OP5D55L1) · Mystic",
-   "status": "queued",
-   "run": "45632218852"
+   "status": "in_progress",
+   "run": "45632218852",
+   "started": "2026-11-25T14:17:41+00:00"
   },
   {
    "file": "BestGSI_Arm64_AB.img.xz",
@@ -117,6 +118,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-25T14:16:37+00:00",
+ "updated": "2026-11-25T14:17:41+00:00",
  "run": "45632218852"
 }
