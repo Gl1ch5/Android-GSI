@@ -1,13 +1,6 @@
 {
  "items": [
   {
-   "file": "Pixel-raven-17-16091614-AB-20260920-MysticGSI.zip",
-   "name": "Pixel (raven) · Mystic",
-   "status": "in_progress",
-   "run": "45632218852",
-   "started": "2026-11-25T14:17:45+00:00"
-  },
-  {
    "file": "Magicos-WKL-AN10-17-eng.root-AB-20260919-MysticGSI_rebuild.7z",
    "name": "MagicOS (WKL) · Mystic",
    "status": "in_progress",
@@ -62,6 +55,14 @@
    "status": "in_progress",
    "run": "45632218852",
    "started": "2026-11-25T14:19:50+00:00"
+  },
+  {
+   "file": "Pixel-raven-17-16091614-AB-20260920-MysticGSI.zip",
+   "name": "Pixel (raven) · Mystic",
+   "status": "failure",
+   "run": "45632218852",
+   "started": "2026-11-25T14:17:45+00:00",
+   "finished": "2026-11-25T14:25:56+00:00"
   },
   {
    "file": "Oxygenos-OP5D55L1-16-1744797430944-AB-20250915-MysticGSI.zip",
@@ -136,6 +137,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-25T14:25:19+00:00",
+ "updated": "2026-11-25T14:25:56+00:00",
  "run": "45632218852"
 }
