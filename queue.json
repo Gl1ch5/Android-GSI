@@ -34,8 +34,9 @@
   {
    "file": "Zuxos-TB322FC-16-TB322FC_CN_OPEN_USER_Q00041.1_W_ZUXOS_1.5.10.063_ST_260111-AB-20260114-MysticGSI.zip",
    "name": "Zuxos (TB322FC) · Mystic",
-   "status": "queued",
-   "run": "45833208830"
+   "status": "in_progress",
+   "run": "45833208830",
+   "started": "2026-11-26T13:53:11+00:00"
   },
   {
    "file": "Coloros-OP615EL1-16-1765357695451-AB-20251228-MysticGSI.zip",
@@ -123,6 +124,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-26T13:53:09+00:00",
+ "updated": "2026-11-26T13:53:11+00:00",
  "run": "45833208830"
 }
