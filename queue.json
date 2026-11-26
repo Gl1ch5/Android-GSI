@@ -38,8 +38,9 @@
   {
    "file": "Pixel-cheetah-16-14401865-AB-20251220-MysticGSI.zip",
    "name": "Pixel (cheetah) · Mystic",
-   "status": "queued",
-   "run": "45833208830"
+   "status": "in_progress",
+   "run": "45833208830",
+   "started": "2026-11-26T13:54:08+00:00"
   },
   {
    "file": "Coloros-OP60EDL1-16-1763036366485-AB-20251123-MysticGSI.zip",
@@ -134,6 +135,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-26T13:54:04+00:00",
+ "updated": "2026-11-26T13:54:08+00:00",
  "run": "45833208830"
 }
