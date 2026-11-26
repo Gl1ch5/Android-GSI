@@ -40,13 +40,6 @@
    "started": "2026-11-26T13:53:11+00:00"
   },
   {
-   "file": "Coloros-OP615EL1-16-1765357695451-AB-20251228-MysticGSI.zip",
-   "name": "ColorOS (OP615EL1) · Mystic",
-   "status": "in_progress",
-   "run": "45833208830",
-   "started": "2026-11-26T13:52:55+00:00"
-  },
-  {
    "file": "Pixel-cheetah-16-14401865-AB-20251221-MysticGSI.zip",
    "name": "Pixel (cheetah) · Mystic",
    "status": "queued",
@@ -83,6 +76,14 @@
    "status": "in_progress",
    "run": "45833208830",
    "started": "2026-11-26T13:53:03+00:00"
+  },
+  {
+   "file": "Coloros-OP615EL1-16-1765357695451-AB-20251228-MysticGSI.zip",
+   "name": "ColorOS (OP615EL1) · Mystic",
+   "status": "failure",
+   "run": "45833208830",
+   "started": "2026-11-26T13:52:55+00:00",
+   "finished": "2026-11-26T13:53:27+00:00"
   },
   {
    "file": "Hyperos-fuxi-16-OS3.0.2.0.WMCCNXM-AB-20251210-MysticGSI.zip",
@@ -125,6 +126,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-26T13:53:23+00:00",
+ "updated": "2026-11-26T13:53:27+00:00",
  "run": "45833208830"
 }
