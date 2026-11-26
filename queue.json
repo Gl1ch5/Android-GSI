@@ -29,13 +29,6 @@
    "started": "2026-11-26T13:53:38+00:00"
   },
   {
-   "file": "Pixel-raven-17-15063635-AB-20260327-MysticGSI.zip",
-   "name": "Pixel (raven) · Mystic",
-   "status": "in_progress",
-   "run": "45833208830",
-   "started": "2026-11-26T13:53:58+00:00"
-  },
-  {
    "file": "Pixel-cheetah-16-14401865-AB-20251221-MysticGSI.zip",
    "name": "Pixel (cheetah) · Mystic",
    "status": "in_progress",
@@ -75,6 +68,14 @@
    "status": "in_progress",
    "run": "45833208830",
    "started": "2026-11-26T13:53:03+00:00"
+  },
+  {
+   "file": "Pixel-raven-17-15063635-AB-20260327-MysticGSI.zip",
+   "name": "Pixel (raven) · Mystic",
+   "status": "failure",
+   "run": "45833208830",
+   "started": "2026-11-26T13:53:58+00:00",
+   "finished": "2026-11-26T13:54:04+00:00"
   },
   {
    "file": "Zuxos-TB322FC-16-TB322FC_CN_OPEN_USER_Q00041.1_W_ZUXOS_1.5.10.063_ST_260111-AB-20260114-MysticGSI.zip",
@@ -133,6 +134,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-26T13:54:00+00:00",
+ "updated": "2026-11-26T13:54:04+00:00",
  "run": "45833208830"
 }
