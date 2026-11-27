@@ -8,13 +8,6 @@
    "started": "2026-11-27T13:51:40+00:00"
   },
   {
-   "file": "Aluminium-quartz-CL2B.260330.037_MysticGSI.img.zip",
-   "name": "Aluminium (quartz) · Mystic",
-   "status": "in_progress",
-   "run": "46010319937",
-   "started": "2026-11-27T13:50:52+00:00"
-  },
-  {
    "file": "Pixel-cheetah-16-14401865-AB-20251221-MysticGSI.zip",
    "name": "Pixel (cheetah) · Mystic",
    "status": "in_progress",
@@ -34,6 +27,14 @@
    "status": "in_progress",
    "run": "46010319937",
    "started": "2026-11-27T13:50:27+00:00"
+  },
+  {
+   "file": "Aluminium-quartz-CL2B.260330.037_MysticGSI.img.zip",
+   "name": "Aluminium (quartz) · Mystic",
+   "status": "failure",
+   "run": "46010319937",
+   "started": "2026-11-27T13:50:52+00:00",
+   "finished": "2026-11-27T13:59:04+00:00"
   },
   {
    "file": "Pixel-arrow-16-15861848-AB-20260719-MysticGSI.zip",
@@ -140,6 +141,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-27T13:58:58+00:00",
+ "updated": "2026-11-27T13:59:04+00:00",
  "run": "46010319937"
 }
