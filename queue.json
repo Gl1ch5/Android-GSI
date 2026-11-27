@@ -22,8 +22,9 @@
   {
    "file": "Pixel-arrow-16-15861848-AB-20260719-MysticGSI.zip",
    "name": "Pixel (arrow) · Mystic",
-   "status": "queued",
-   "run": "46010319937"
+   "status": "in_progress",
+   "run": "46010319937",
+   "started": "2026-11-27T13:50:45+00:00"
   },
   {
    "file": "Zuxos-TB322FC-16-TB322FC_CN_OPEN_USER_Q00041.1_W_ZUXOS_1.5.10.063_ST_260111-AB-20260114-MysticGSI.zip",
@@ -125,6 +126,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-27T13:50:38+00:00",
+ "updated": "2026-11-27T13:50:45+00:00",
  "run": "46010319937"
 }
