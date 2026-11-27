@@ -15,13 +15,6 @@
    "started": "2026-11-27T13:50:52+00:00"
   },
   {
-   "file": "Pixel-arrow-16-15861848-AB-20260719-MysticGSI.zip",
-   "name": "Pixel (arrow) · Mystic",
-   "status": "in_progress",
-   "run": "46010319937",
-   "started": "2026-11-27T13:50:45+00:00"
-  },
-  {
    "file": "Pixel-cheetah-16-14401865-AB-20251221-MysticGSI.zip",
    "name": "Pixel (cheetah) · Mystic",
    "status": "in_progress",
@@ -41,6 +34,14 @@
    "status": "in_progress",
    "run": "46010319937",
    "started": "2026-11-27T13:50:27+00:00"
+  },
+  {
+   "file": "Pixel-arrow-16-15861848-AB-20260719-MysticGSI.zip",
+   "name": "Pixel (arrow) · Mystic",
+   "status": "failure",
+   "run": "46010319937",
+   "started": "2026-11-27T13:50:45+00:00",
+   "finished": "2026-11-27T13:58:58+00:00"
   },
   {
    "file": "Magicos-WKL-AN10-17-eng.root-AB-20260919-MysticGSI_rebuild.7z",
@@ -139,6 +140,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-27T13:58:41+00:00",
+ "updated": "2026-11-27T13:58:58+00:00",
  "run": "46010319937"
 }
