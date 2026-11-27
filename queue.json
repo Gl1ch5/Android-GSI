@@ -1,13 +1,6 @@
 {
  "items": [
   {
-   "file": "Pixel-cheetah-16-14401865-AB-20251221-MysticGSI.zip",
-   "name": "Pixel (cheetah) · Mystic",
-   "status": "in_progress",
-   "run": "46010319937",
-   "started": "2026-11-27T13:51:32+00:00"
-  },
-  {
    "file": "Pixel-cheetah-16-14401865-AB-20251220-MysticGSI.zip",
    "name": "Pixel (cheetah) · Mystic",
    "status": "in_progress",
@@ -20,6 +13,14 @@
    "status": "in_progress",
    "run": "46010319937",
    "started": "2026-11-27T13:50:27+00:00"
+  },
+  {
+   "file": "Pixel-cheetah-16-14401865-AB-20251221-MysticGSI.zip",
+   "name": "Pixel (cheetah) · Mystic",
+   "status": "failure",
+   "run": "46010319937",
+   "started": "2026-11-27T13:51:32+00:00",
+   "finished": "2026-11-27T14:08:11+00:00"
   },
   {
    "file": "Pixel-raven-17-16091614-AB-20260920-MysticGSI.zip",
@@ -142,6 +143,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-27T13:59:52+00:00",
+ "updated": "2026-11-27T14:08:11+00:00",
  "run": "46010319937"
 }
