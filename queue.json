@@ -17,8 +17,9 @@
   {
    "file": "Aluminium-quartz-CL2B.260330.037_MysticGSI.img.zip",
    "name": "Aluminium (quartz) · Mystic",
-   "status": "queued",
-   "run": "46147110737"
+   "status": "in_progress",
+   "run": "46147110737",
+   "started": "2026-11-28T12:58:27+00:00"
   },
   {
    "file": "Pixel-arrow-16-15861848-AB-20260719-MysticGSI.zip",
@@ -131,6 +132,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-28T12:58:24+00:00",
+ "updated": "2026-11-28T12:58:27+00:00",
  "run": "46147110737"
 }
