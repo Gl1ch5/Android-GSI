@@ -22,8 +22,9 @@
   {
    "file": "Pixel-arrow-16-15861848-AB-20260719-MysticGSI.zip",
    "name": "Pixel (arrow) · Mystic",
-   "status": "queued",
-   "run": "46147110737"
+   "status": "in_progress",
+   "run": "46147110737",
+   "started": "2026-11-28T12:58:01+00:00"
   },
   {
    "file": "Infinity-X-4.2-GSI_treble_arm64-ab-GAPPS-Official-20261127.img.xz",
@@ -127,6 +128,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-28T12:57:59+00:00",
+ "updated": "2026-11-28T12:58:01+00:00",
  "run": "46147110737"
 }
