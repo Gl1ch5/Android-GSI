@@ -25,6 +25,7 @@ Catalog with search, filters, live queue and ROM requests<br>
 <!-- GSI-LIST-EN:START -->
 | ROM | Version | Android | Size | Date | Download |
 |---|---|:---:|---:|---|:---:|
+| **Infinity X** | 4.2 | 17 | 2.1 GB | 2026-11-27 | [⚡ .img](https://drive.google.com/open?id=1UPtRnNYOKnkdRhgcv0YmHGDdSJ1e3VaJ) · [⬇️ .gz](https://drive.google.com/open?id=1mBzkzhfS-j2Qq92164zQt_BVoPZNwmKs) |
 | **Infinity X** | 4.2 | 17 | 2.1 GB | 2026-11-21 | [⚡ .img](https://drive.google.com/open?id=1tIwTjwLSrF69TFzbpegZQtgb2b6I2Y-Z) · [⬇️ .gz](https://drive.google.com/open?id=1BgGm6COPNKU6McYqNzFUUPbdbntUesNf) |
 | **BestGSI** | — | 17 | 0.9 GB | 2026-11-21 | [⚡ .img](https://drive.google.com/open?id=1BFNP0yNyiTJqk6YPmhBaq1eFOXmjDk7S) · [⬇️ .gz](https://drive.google.com/open?id=1091jKZ7Fxm_ABxQ0xkdwVs6icTpZQDBk) |
 | **LineageOS GSI (AndyYan)** | LineageOS 21.0 | 14 | 1.3 GB | 2026-11-09 | [⚡ .img](https://drive.google.com/open?id=1MV5-PQqJJoindtAdSAEeh5bxs7WAnZPW) · [⬇️ .gz](https://drive.google.com/open?id=1w9KTJJ7svUfY3YpmOf9cQ03HnB7kHcsl) |
@@ -171,6 +172,7 @@ fastboot reboot
 <!-- GSI-LIST-RU:START -->
 | Прошивка | Версия | Android | Размер | Дата | Скачать |
 |---|---|:---:|---:|---|:---:|
+| **Infinity X** | 4.2 | 17 | 2.1 GB | 2026-11-27 | [⚡ .img](https://drive.google.com/open?id=1UPtRnNYOKnkdRhgcv0YmHGDdSJ1e3VaJ) · [⬇️ .gz](https://drive.google.com/open?id=1mBzkzhfS-j2Qq92164zQt_BVoPZNwmKs) |
 | **Infinity X** | 4.2 | 17 | 2.1 GB | 2026-11-21 | [⚡ .img](https://drive.google.com/open?id=1tIwTjwLSrF69TFzbpegZQtgb2b6I2Y-Z) · [⬇️ .gz](https://drive.google.com/open?id=1BgGm6COPNKU6McYqNzFUUPbdbntUesNf) |
 | **BestGSI** | — | 17 | 0.9 GB | 2026-11-21 | [⚡ .img](https://drive.google.com/open?id=1BFNP0yNyiTJqk6YPmhBaq1eFOXmjDk7S) · [⬇️ .gz](https://drive.google.com/open?id=1091jKZ7Fxm_ABxQ0xkdwVs6icTpZQDBk) |
 | **LineageOS GSI (AndyYan)** | LineageOS 21.0 | 14 | 1.3 GB | 2026-11-09 | [⚡ .img](https://drive.google.com/open?id=1MV5-PQqJJoindtAdSAEeh5bxs7WAnZPW) · [⬇️ .gz](https://drive.google.com/open?id=1w9KTJJ7svUfY3YpmOf9cQ03HnB7kHcsl) |
