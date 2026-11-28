@@ -36,13 +36,6 @@
    "started": "2026-11-28T12:58:39+00:00"
   },
   {
-   "file": "Zuxos-TB322FC-16-TB322FC_CN_OPEN_USER_Q00041.1_W_ZUXOS_1.5.10.063_ST_260111-AB-20260114-MysticGSI.zip",
-   "name": "Zuxos (TB322FC) · Mystic",
-   "status": "in_progress",
-   "run": "46147110737",
-   "started": "2026-11-28T12:58:51+00:00"
-  },
-  {
    "file": "Coloros-OP615EL1-16-1765357695451-AB-20251228-MysticGSI.zip",
    "name": "ColorOS (OP615EL1) · Mystic",
    "status": "in_progress",
@@ -83,6 +76,14 @@
    "status": "in_progress",
    "run": "46147110737",
    "started": "2026-11-28T12:59:11+00:00"
+  },
+  {
+   "file": "Zuxos-TB322FC-16-TB322FC_CN_OPEN_USER_Q00041.1_W_ZUXOS_1.5.10.063_ST_260111-AB-20260114-MysticGSI.zip",
+   "name": "Zuxos (TB322FC) · Mystic",
+   "status": "failure",
+   "run": "46147110737",
+   "started": "2026-11-28T12:58:51+00:00",
+   "finished": "2026-11-28T12:59:24+00:00"
   },
   {
    "file": "Coloros-OP60EDL1-16-1763036366485-AB-20251123-MysticGSI.zip",
@@ -141,6 +142,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-28T12:59:11+00:00",
+ "updated": "2026-11-28T12:59:24+00:00",
  "run": "46147110737"
 }
