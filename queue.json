@@ -1,18 +1,19 @@
 {
  "items": [
   {
-   "file": "Pixel-cheetah-16-14401865-AB-20251220-MysticGSI.zip",
-   "name": "Pixel (cheetah) · Mystic",
-   "status": "in_progress",
-   "run": "46147110737",
-   "started": "2026-11-28T12:57:57+00:00"
-  },
-  {
    "file": "Coloros-OP60FFL1-16-1760951010663-AB-20251027-MysticGSI.zip",
    "name": "ColorOS (OP60FFL1) · Mystic",
    "status": "in_progress",
    "run": "46147110737",
    "started": "2026-11-28T12:59:07+00:00"
+  },
+  {
+   "file": "Pixel-cheetah-16-14401865-AB-20251220-MysticGSI.zip",
+   "name": "Pixel (cheetah) · Mystic",
+   "status": "failure",
+   "run": "46147110737",
+   "started": "2026-11-28T12:57:57+00:00",
+   "finished": "2026-11-28T14:28:36+00:00"
   },
   {
    "file": "Hyperos-popsicle-16-OS3.0.7.0.WPBCNXM-AB-20250926-MysticGSI.zip",
@@ -151,6 +152,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-28T14:06:42+00:00",
+ "updated": "2026-11-28T14:28:36+00:00",
  "run": "46147110737"
 }
