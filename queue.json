@@ -29,13 +29,6 @@
    "started": "2026-11-28T12:58:01+00:00"
   },
   {
-   "file": "Infinity-X-4.2-GSI_treble_arm64-ab-GAPPS-Official-20261127.img.xz",
-   "name": "Infinity X",
-   "status": "in_progress",
-   "run": "46147110737",
-   "started": "2026-11-28T12:58:39+00:00"
-  },
-  {
    "file": "Pixel-cheetah-16-14401865-AB-20251221-MysticGSI.zip",
    "name": "Pixel (cheetah) · Mystic",
    "status": "in_progress",
@@ -62,6 +55,14 @@
    "status": "in_progress",
    "run": "46147110737",
    "started": "2026-11-28T12:59:01+00:00"
+  },
+  {
+   "file": "Infinity-X-4.2-GSI_treble_arm64-ab-GAPPS-Official-20261127.img.xz",
+   "name": "Infinity X",
+   "status": "success",
+   "run": "46147110737",
+   "started": "2026-11-28T12:58:39+00:00",
+   "finished": "2026-11-28T13:04:49+00:00"
   },
   {
    "file": "Oxygenos-OP5D55L1-16-1744797430944-AB-20250915-MysticGSI.zip",
@@ -144,6 +145,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-28T13:03:29+00:00",
+ "updated": "2026-11-28T13:04:49+00:00",
  "run": "46147110737"
 }
