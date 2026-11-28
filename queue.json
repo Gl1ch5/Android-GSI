@@ -1,13 +1,6 @@
 {
  "items": [
   {
-   "file": "Pixel-cheetah-16-14401865-AB-20251221-MysticGSI.zip",
-   "name": "Pixel (cheetah) · Mystic",
-   "status": "in_progress",
-   "run": "46147110737",
-   "started": "2026-11-28T12:58:46+00:00"
-  },
-  {
    "file": "Pixel-cheetah-16-14401865-AB-20251220-MysticGSI.zip",
    "name": "Pixel (cheetah) · Mystic",
    "status": "in_progress",
@@ -27,6 +20,14 @@
    "status": "in_progress",
    "run": "46147110737",
    "started": "2026-11-28T12:59:01+00:00"
+  },
+  {
+   "file": "Pixel-cheetah-16-14401865-AB-20251221-MysticGSI.zip",
+   "name": "Pixel (cheetah) · Mystic",
+   "status": "failure",
+   "run": "46147110737",
+   "started": "2026-11-28T12:58:46+00:00",
+   "finished": "2026-11-28T13:49:33+00:00"
   },
   {
    "file": "Aluminium-quartz-CL2B.260330.037_MysticGSI.img.zip",
@@ -149,6 +150,6 @@
    "finished": "2026-11-20T13:02:54+00:00"
   }
  ],
- "updated": "2026-11-28T13:06:38+00:00",
+ "updated": "2026-11-28T13:49:33+00:00",
  "run": "46147110737"
 }
